@@ -1,5 +1,3 @@
 <?php
 
-require __DIR__.'/vendor/autoload.php';
-
-var_dump($__DIR__);
+var_dump(__DIR__);

@@ -1,3 +1,3 @@
 <?php
 
-var_dump(__DIR__);
+include 'resources/templates/index.phtml';

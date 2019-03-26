@@ -130,28 +130,41 @@ header img {
 #menu a {
   color: #24292E;
 }
-header section > div:nth-child(2) {
+#embarquez {
   display: none;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Tablet */
-@media SCREEN and (min-width: 1024px) {
+@media SCREEN and (min-width: 768px) {
 
+  #b_menu {
+    display: none;
+  }
+
+  #educapcity {
+    margin: 0;
+  }
+  #educapcity a > div {
+    border-right: 1px solid #1c96c5;
+    padding: 40px 20px 0 20px;
+
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Desktop */
 @media SCREEN and (min-width: 1024px) {
@@ -174,10 +187,10 @@ header section > div:nth-child(2) {
     flex-direction: row;
   }
 
-  /* header section > div:nth-child(2) {
+  #embarquez {
     display: flex;
     flex-direction: row;
-  } */
+  }
   header section > div:last-child {
     position: absolute;
     top: -20px;

@@ -15,7 +15,7 @@
         <img src="resources/images/logo_capsaaa_date.jpg" alt="logo_capsaaa"/>
       </div>
     </div>
-    <div>
+    <div id="embarquez">
       <a href="">
         <p>Embarquez-vous dans la citoyenneté !</p>
       </a>

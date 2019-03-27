@@ -1,0 +1,26 @@
+#accueil_area {
+  background-image: url("../images/photo_accueil.png");
+  background-position: center;
+  text-align: center;
+  color: #FFF;
+  padding: 50px 70px;
+}
+
+#accueil_area h2 {
+  margin-bottom: 15px;
+}
+#accueil_area p {
+  font-size: 1.5em;
+}
+
+.flexslider {
+	background: inherit;
+	border: none;
+}
+.flexslider img {
+  max-width: 100%;
+}
+
+iframe {
+  max-width: 100%;
+}

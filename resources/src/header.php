@@ -17,7 +17,7 @@
     </div>
     <div id="embarquez">
       <a href="">
-        <p>Embarquez-vous dans la citoyenneté !</p>
+        <p>Embarquez-vous dans la citoyenneté!</p>
       </a>
     </div>
     <div id="partenaires">

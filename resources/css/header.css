@@ -156,13 +156,14 @@ header img {
   }
   #educapcity a div {
     border-right: 1px solid #1c96c5;
-    padding: 5px 20px 0 15px;
+    padding: 0 20px 0 15px;
     margin: 25px 0 15px 0;
   }
 
   #partenaires {
     margin: 0;
     width: 250px;
+    padding-top: 25px;
   }
   #partenaires div {
     justify-content: space-between;

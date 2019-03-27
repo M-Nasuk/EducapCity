@@ -68,7 +68,7 @@
             <a href="#">De Capsaaa</a>
           </li>
           <li>
-            <a href="#">De pacte de fraternité</a>
+            <a href="#">Du pacte de fraternité</a>
           </li>
         </ul>
       </li>

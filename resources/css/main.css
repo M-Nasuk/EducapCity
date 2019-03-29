@@ -1,15 +1,16 @@
-#accueil_area {
-  background-image: url("../images/photo_accueil.png");
+#sec_accueil {
+  background: no-repeat url("../images/photo_accueil.png");
   background-position: center;
   text-align: center;
   color: #FFF;
-  padding: 50px 70px;
-}
-
-#accueil_area h2 {
+  padding: 50px 60px;
   margin-bottom: 15px;
 }
-#accueil_area p {
+
+#sec_accueil h2 {
+  margin-bottom: 15px;
+}
+#sec_accueil p {
   font-size: 1.5em;
 }
 
@@ -21,6 +22,131 @@
   max-width: 100%;
 }
 
-iframe {
+.flexslider video {
   max-width: 100%;
+}
+#accueil > h4 {
+  font-weight: normal;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  font-size: 1.4em;
+}
+#accueil > h4 .fas {
+  font-size: 2em;
+  float: left;
+  margin: -9px 15px 0;
+}
+#i_educap {
+  color: #ffcf01;
+}
+#i_citoyen {
+  color: #1c96c5;
+}
+#accueil > h4:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#sec_info_nbres {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#sec_info_nbres div {
+  max-width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+}
+#sec_info_nbres div img {
+  max-width: 65%;
+  margin: auto;
+}
+#sec_info_nbres div span {
+  font-size: 2.5em;
+}
+#sec_info_nbres div p {
+  color: #aeacaa;
+  font-size: 2em;
+}
+#sec_info_nbres #div_info_ecoles {
+  display: none;
+}
+
+#sec_piliers {
+  background-color: rgba(54,173,128,0.2 );
+  text-align: center;
+}
+#sec_piliers h4 {
+  margin-bottom: 20px;
+  color: #308f36;
+  font-size: 2em;
+}
+#div_piliers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#div_piliers div {
+  background-color: #fff;
+  /* border-radius: 50%; */
+  margin: 0 auto 10px;
+  /* display: table; */
+}
+#div_piliers div:first-child {
+  color: #1c96c5;
+}
+#div_piliers div:nth-child(2) {
+  color: #e30d14;
+}
+#div_piliers div:last-child {
+  color: #ffcf01;
+}
+#div_piliers div p {
+  font-size: 1.6em;
+  font-weight: 600;
+  max-width: 340px;
+  padding: 10px;
+  /* white-space: pre-line;
+  vertical-align: middle;
+  display: table-cell; */
+  /* width: 200px;
+  height: 200px; */
+}
+
+#sec_citoyen div h5 {
+  text-align: center;
+}
+#sec_citoyen div {
+  margin-bottom: 30px;
+}
+#a_savoir {
+  text-align: center;
+}
+#a_savoir a {
+  background: #1c96c5;
+  color: #fff;
+  padding: 10px;
+}
+
+#sec_phrase {
+  background-color: #f3f3f3;
+  font-style: italic;
+}
+#sec_phrase img {
+  display: block;
+  margin: auto;
+}
+/* #sec_phrase div {
+  font-style: italic;
+  font-size: 0.8em;
+  padding: 20px;
+} */
+#div_phrase p:first-child {
+  margin-bottom: 10px;
+}
+#div_phrase p img {
+  max-width: 15%;
+  margin: 5px;
 }

@@ -92,9 +92,10 @@ l'engagement
       </p>
     </div>
     <div class="div_cap">
-      <h4>CAP Rallye</h4>
+      <h4 class="green">CAP Rallye</h4>
       <img src="resources/images/Graph/tribenfants_min.jpg" alt="tribenfants_min">
-      <h5>Du CM1 à la 5e</h5>
+      <img src="resources/images/Graph/triangle_vert.png" alt="triangle_vert">
+      <h5 class="green">Du CM1 à la 5e</h5>
       <p>
         Une chasse aux trésors lors de laquelle les enfants partent à la découverte
         de leur ville, de son histoire, de ses monuments, curiosités, institutions,

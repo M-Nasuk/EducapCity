@@ -1,0 +1,12 @@
+#sec_embarquez {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+}
+/* #sec_embarquez a img {
+  max-width: 20%;
+} */
+#sec_embarquez a:first-child div {
+  background-image: url("../../resources/images/Photos/embarquez_organisez.jpg");
+}

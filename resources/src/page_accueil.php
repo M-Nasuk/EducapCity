@@ -41,7 +41,7 @@
       <p>enfants</p>
     </div>
     <div id="div_info_ecoles">
-      <img src="" alt="">
+      <img src="resources/images/Piktos/pikto_school.png" alt="pikto_school">
       <span class="count">250</span>
       <p>écoles</p>
     </div>

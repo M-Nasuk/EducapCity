@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     };
   });
 
-  $.get('resources/src/main.php')
+  $.get('resources/src/page_accueil.php')
   .done(function(response) {
 
     $('body').append(response);

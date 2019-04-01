@@ -83,7 +83,7 @@ l'engagement
     <div class="div_cap">
       <h4 class="yellow">CAP Classe</h4>
       <img src="resources/images/Graph/groupe_cap_classe.png" alt="groupe_cap_classe">
-      <img src="resources/images/Graph/triangleJaune.png" alt="triangle_jaune">
+      <img src="resources/images/Graph/triangle_jaune.png" alt="triangle_jaune">
       <h5 class="yellow">Du CM1 à la 3e</h5>
       <p>
         Une action de prévention des comportements à risque, de lutte contre toutes

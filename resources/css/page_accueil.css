@@ -46,6 +46,7 @@
   display: block;
   clear: both;
 }
+/* Section Nombres  */
 #sec_info_nbres {
   display: flex;
   flex-direction: row;
@@ -73,6 +74,7 @@
   display: none;
 }
 
+/* Section Pilliers  */
 #sec_piliers {
   background-color: rgba(54,173,128,0.2 );
   text-align: center;
@@ -107,7 +109,7 @@
   padding: 10px;
 }
 
-
+/* Section Citoyenneté tout au long de l'année */
 .div_cap {
   margin-bottom: 30px;
 }
@@ -139,6 +141,7 @@
   padding: 10px;
 }
 
+/* Section Phrase */
 #sec_phrase {
   background-color: #f3f3f3;
 }
@@ -168,10 +171,6 @@
   z-index: 1;
   position: relative;
 }
-/* #div_phrase > div {
-  margin-bottom: 10px;
-} */
-
 .phrase img {
   max-width: 10%;
   margin: 5px;

@@ -81,9 +81,10 @@ l'engagement
   </h4>
   <section id="sec_citoyen" class="pad_mob mar_bot_mob">
     <div class="div_cap">
-      <h5>CAP Classe</h5>
-      <img src="" alt="">
-      <h5>Du CM1 à la 3e</h5>
+      <h4 class="yellow">CAP Classe</h4>
+      <img src="resources/images/Graph/groupe_cap_classe.png" alt="groupe_cap_classe">
+      <img src="resources/images/Graph/triangleJaune.png" alt="triangle_jaune">
+      <h5 class="yellow">Du CM1 à la 3e</h5>
       <p>
         Une action de prévention des comportements à risque, de lutte contre toutes
         les formes de discrimination, d'auto-exclusion et de sensibilisation au
@@ -91,8 +92,8 @@ l'engagement
       </p>
     </div>
     <div class="div_cap">
-      <h5>CAP Rallye</h5>
-      <img src="" alt="">
+      <h4>CAP Rallye</h4>
+      <img src="resources/images/Graph/tribenfants_min.jpg" alt="tribenfants_min">
       <h5>Du CM1 à la 5e</h5>
       <p>
         Une chasse aux trésors lors de laquelle les enfants partent à la découverte
@@ -105,17 +106,21 @@ l'engagement
   <section id="sec_phrase" class="mar_bot_mob">
     <img src="resources/images/Photos/RyadhSallemBlanc.jpg" alt="ryad_sallem_blanc">
     <div id="div_phrase">
-      <p>
+      <div class="phrase">
         <img src="resources/images/quote-icon-up.jpg" alt="quote_up" class="float_left">
-        Quand on créé la rencontre, on dissout les préjugés, on dissout les peurs
-        et on peut être de plus en plus citoyen. On peut devenir un consom'acteur et
-        s'engager!
-      </p>
-      <p class="clear">
-        Quand on créé la rencontre, on ouvre les esprits, on ouvre les coeurs et on comprend.
-        Et comprendre, c'est offrir une intelligence à ces enfants.
-        <img src="resources/images/quote-icon-down.jpg" alt="quote_down" class="float_right">
-      </p>
+        <p>
+          Quand on créé la rencontre, on dissout les préjugés, on dissout les peurs
+          et on peut être de plus en plus citoyen. On peut devenir un consom'acteur et
+          s'engager!
+        </p>
+      </div>
+      <div class="phrase">
+        <img src="resources/images/quote-icon-down.jpg" alt="quote_down" class="float_right" />
+        <p>
+          Quand on créé la rencontre, on ouvre les esprits, on ouvre les coeurs et on comprend.
+          Et comprendre, c'est offrir une intelligence à ces enfants.
+        </p>
+      </div>
       <p class="clear pre">
         Ryadh SALLEM
         Fondateur de l'association CAP SAAA

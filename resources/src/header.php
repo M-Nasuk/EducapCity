@@ -62,7 +62,7 @@
         <a href="http://educapcity.org"><h3>ACCUEIL</h3> </a>
       </li>
       <li>
-        <a href="#"><h3>A PROPOS</h3> </a>
+        <a href="a_propos"><h3>A PROPOS</h3> </a>
         <ul>
           <li>
             <a href="#">De Capsaaa</a>

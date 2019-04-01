@@ -1,3 +1,16 @@
 <?php
 
-include 'resources/templates/index.phtml';
+// var_dump($_GET);
+if (empty($_GET)){
+  include 'resources/templates/index.phtml';
+} else {
+  switch ($_GET['page']) {
+    case 'a_propos':
+      include 'resources/templates/a_propos.phtml';
+      break;
+
+    default:
+      // code...
+      break;
+  }
+}

@@ -20,10 +20,11 @@ document.addEventListener('DOMContentLoaded', ()=> {
   $.get('resources/src/page_accueil.php')
   .done(function(response) {
 
-    $('body').append(response);
+    $('#body_accueil').append(response);
 
     $('#sec_accueil').addClass('jah_font');
     $('#sec_info_nbres div').addClass('jah_font');
+    $('.div_cap h4').addClass('jah_font');
 
     $('.flexslider').flexslider({
       animation: "slide",
@@ -35,9 +36,14 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
     $(window).scroll(startCounter);
 
-    let r = document.querySelector('#div_info_regions').getBoundingClientRect();
-    console.log(r);
+    // let r = document.querySelector('#div_info_regions').getBoundingClientRect();
+    // console.log(r);
 
+  });
+
+  $.get('resources/src/embarquez.php')
+  .done(function(response) {
+    $('main').append(response);
   });
 
 

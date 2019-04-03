@@ -1,7 +1,8 @@
 <main id="accueil">
   <section id="sec_accueil">
     <h2>EDUCAP CITY, C'EST QUOI ?</h2>
-    <p>Un tour de France de la citoyenneté, du civisme et de la fraternité pour les jeunes de 9 à 14ans</p>
+    <p>Un tour de France de la citoyenneté, du civisme et de la fraternité
+pour les jeunes de 9 à 14 ans</p>
   </section>
   <section>
     <div class="flexslider">
@@ -19,9 +20,9 @@
     </div>
   </section>
 
-  <h4>
-    <i id="i_educap" class="fas fa-caret-right"></i>
-    Educap City depuis 2016 c'est :
+  <h4 class="jah_font">
+    <i class="fas fa-caret-right yellow"></i>
+    Educap City depuis 2016 :
   </h4>
   <section id="sec_info_nbres" class="pad_mob mar_bot_mob">
     <div id="div_info_regions" >
@@ -54,20 +55,20 @@
   <section id="sec_piliers" class="pad_mob mar_bot_mob">
     <h4 class="jah_font">LES 3 PILIERS DU PROGRAMME</h4>
     <div id="div_piliers">
-      <div>
+      <div class="rec_pilier circle_pilier">
         <p>L'éducation
 à la
 citoyenneté
         </p>
       </div>
-      <div>
+      <div class="rec_pilier circle_pilier">
         <p>La promotion
 du vivre
 ensemble en
 paix
       </p>
       </div>
-      <div>
+      <div class="rec_pilier circle_pilier">
         <p>La culture
 de
 l'engagement
@@ -75,7 +76,7 @@ l'engagement
       </div>
     </div>
   </section>
-  <h4>
+  <h4 class="jah_font">
     <i id="i_citoyen" class="fas fa-caret-right"></i>
     La citoyenneté tout au long de l'année
   </h4>
@@ -102,7 +103,7 @@ l'engagement
         associations, entreprises...
       </p>
     </div>
-    <div id="a_savoir"><a href="#" >En savoir plus sur le programme</a></div>
+    <div id="a_savoir" ><a href="#" class="round-border">En savoir plus sur le programme</a></div>
   </section>
   <section id="sec_phrase" class="mar_bot_mob">
     <img src="resources/images/Photos/RyadhSallemBlanc.jpg" alt="ryad_sallem_blanc">

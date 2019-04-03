@@ -101,11 +101,6 @@ header img {
   display: none;
   visibility: inherit;
 }
-/* #menu > ul > li a h3, #menu > ul > li ul li {
-  font-family: 'Just another hand';
-  letter-spacing: 1.5px;
-} */
-
 #menu a {
   color: #24292E;
 }

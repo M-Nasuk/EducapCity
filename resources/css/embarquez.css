@@ -2,11 +2,116 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* justify-content: space-evenly; */
 }
-/* #sec_embarquez a img {
-  max-width: 20%;
-} */
-#sec_embarquez a:first-child div {
-  background-image: url("../../resources/images/Photos/embarquez_organisez.jpg");
+#sec_embarquez a {
+  color: #FFF;
+  margin-bottom: 10px;
+}
+#sec_embarquez a div {
+  position: relative;
+  text-align: center;
+}
+#sec_embarquez a div p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.1em;
+  font-weight: bold;
+  width: 100%;
+}
+
+.form {
+  padding: 10px;
+  background-color: #f3f3f3;
+}
+.form h4 {
+  margin-bottom: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+}
+.form h4 .fas {
+  font-size: 2em;
+  float: left;
+  margin: -11px 15px 0;
+}
+.form form {
+  padding: 10px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(5, calc(100% / 5));
+}
+.item-a {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.item-b {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.item-c {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+.item-d {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+.item-e {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 5;
+  justify-self: center;
+}
+
+.form textarea {
+  max-width: 100%;
+}
+.form form ul li {
+  margin-bottom: 10px;
+}
+.form label {
+  margin-bottom: 5px;
+}
+.form input, .form textarea {
+  border: none;
+}
+
+.grid-li {
+  display: grid;
+  grid-template-rows: 0.5FR 0.5FR;
+}
+.grid-ta {
+  display: grid;
+  grid-template-rows: 0.1FR 0.9FR;
+}
+
+.form button {
+  background-color: #308f36;
+  color: #FFF;
+  border: none;
+  padding: 10px;
+}
+
+
+@media SCREEN and (min-width: 768px) {
+  #sec_embarquez a {
+    max-width: 50%;
+    padding: 5px;
+  }
+
+  #sec_embarquez a div p {
+    font-size: 1.3em;
+  }
 }

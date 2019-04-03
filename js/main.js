@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
   let body = document.querySelector('body');
 
+
   $.get('resources/src/header.php')
   .done(function(response) {
     $('body').prepend(response);
@@ -35,16 +36,47 @@ document.addEventListener('DOMContentLoaded', ()=> {
     });
 
     $(window).scroll(startCounter);
-
-    // let r = document.querySelector('#div_info_regions').getBoundingClientRect();
-    // console.log(r);
-
   });
 
   $.get('resources/src/embarquez.php')
   .done(function(response) {
     $('main').append(response);
+
   });
 
+  // $(document).on('click', '#form_button', function(e) {
+  //   let form_name = document.querySelector('[name=contact_nom]');
+  //   let form_email = document.querySelector('[name=contact_email]');
+  //   let form_subject = document.querySelector('[name=contact_sujet]');
+  //   let form_content = document.querySelector('[name=contact_message]');
+  //
+  //   e.preventDefault();
+  //
+  //   fetch("resources/src/send_form.php", {
+  //     method: "POST",
+  //     mode: "same-origin",
+  //     credentials: "same-origin",
+  //     headers: {
+  //       "Content-type": "application/json"
+  //     },
+  //     body: JSON.stringify({
+  //       name: form_name.value,
+  //       email: form_email.value,
+  //       subject: form_subject.value,
+  //       content: form_content.value
+  //     })
+  //   })
+  //   .then(res => res.json())
+  //   .then(response => {
+  //     console.log(response);
+  //   })
+  //   .catch(error => console.error(error));
+  //
+  // });
+
+  $.get('resources/src/footer.php')
+  .done(function(response) {
+    $('body').append(response);
+  });
 
 })

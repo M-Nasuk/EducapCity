@@ -3,7 +3,7 @@
   background-position: center;
   text-align: center;
   color: #FFF;
-  padding: 50px 60px;
+  padding: 50px 54px;
   margin-bottom: 15px;
 }
 
@@ -29,11 +29,12 @@
   font-weight: normal;
   margin-bottom: 15px;
   padding-left: 10px;
+  font-size: 1.4em;
 }
 #accueil > h4 .fas {
   font-size: 2em;
   float: left;
-  margin: -8px 15px 0;
+  margin: -11px 15px 0;
 }
 #i_educap {
   color: #ffcf01;
@@ -90,7 +91,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-#div_piliers div {
+.rec_pilier {
   background-color: #fff;
   margin: 0 auto 10px;
 }
@@ -111,8 +112,12 @@
 }
 
 /* Section Citoyenneté tout au long de l'année */
+#sec_citoyen {
+  display: flex;
+  flex-direction: column;
+}
 .div_cap {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .div_cap h4, .div_cap h5 {
   text-align: center;
@@ -159,6 +164,7 @@
   font-style: italic;
   text-align: center;
   margin-top: 20px;
+  padding-bottom: 20px;
 }
 .phrase p {
   padding: 15px 30px 0;
@@ -168,7 +174,7 @@
   position: relative;
 }
 .phrase:nth-child(2) img {
-  bottom: -10px;
+  bottom: -20px;
   position: absolute;
   right: 0;
   z-index: 0;
@@ -180,4 +186,94 @@
 .phrase img {
   max-width: 10%;
   margin: 5px;
+}
+
+
+/* Tablet */
+@media SCREEN and (min-width: 768px) {
+  #sec_accueil p {
+    white-space: pre-line;
+    font-size: 1.7em;
+  }
+  #accueil > h4 {
+    font-size: 2em;
+    color: rgba(36, 41, 46, 0.8);
+  }
+  #accueil > h4 .fas {
+    margin: -15px 15px 0;
+  }
+
+  #sec_info_nbres {
+    flex-wrap: nowrap;
+  }
+  #sec_info_nbres div {
+    max-width: 25%;
+  }
+  #div_piliers {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .rec_pilier {
+    display: none;
+  }
+  .circle_pilier {
+    display: block;
+    margin: 0;
+    border-radius: 50%;
+    width: 30%;
+    height: auto;
+    padding: 5% 0 3%;
+    white-space: pre-line;
+  }
+  #div_piliers div p {
+    padding: 0;
+  }
+
+  #sec_citoyen {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .div_cap {
+    max-width: 50%;
+    padding: 20px;
+  }
+  .div_cap:first-child img:nth-child(2) {
+    max-width: 65%;
+  }
+  .div_cap img:nth-child(2) {
+    margin: 39px auto;
+  }
+  #a_savoir {
+    width: 100%;
+  }
+
+  #sec_phrase {
+    display: flex;
+    flex-direction: row;
+  }
+  #div_phrase {
+    margin: auto;
+  padding-bottom: 15px;
+  }
+  .phrase img {
+    max-width: 6%;
+  }
+  .phrase p {
+    padding: 15px 45px 0;
+  }
+}
+
+@media SCREEN and (min-width: 1024px) {
+  #sec_accueil {
+    background-size: cover;
+  }
+  .circle_pilier {
+    padding: 6% 0 4%;
+    white-space: pre-line;
+  }
+  #div_piliers div p {
+    font-size: 2em;
+  }
+
+
 }

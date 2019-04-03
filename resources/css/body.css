@@ -57,3 +57,6 @@ li {
 .red {
   color: #e30d14;
 }
+.round-border {
+  border-radius: 5px;
+}

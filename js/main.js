@@ -44,35 +44,35 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
   });
 
-  // $(document).on('click', '#form_button', function(e) {
-  //   let form_name = document.querySelector('[name=contact_nom]');
-  //   let form_email = document.querySelector('[name=contact_email]');
-  //   let form_subject = document.querySelector('[name=contact_sujet]');
-  //   let form_content = document.querySelector('[name=contact_message]');
-  //
-  //   e.preventDefault();
-  //
-  //   fetch("resources/src/send_form.php", {
-  //     method: "POST",
-  //     mode: "same-origin",
-  //     credentials: "same-origin",
-  //     headers: {
-  //       "Content-type": "application/json"
-  //     },
-  //     body: JSON.stringify({
-  //       name: form_name.value,
-  //       email: form_email.value,
-  //       subject: form_subject.value,
-  //       content: form_content.value
-  //     })
-  //   })
-  //   .then(res => res.json())
-  //   .then(response => {
-  //     console.log(response);
-  //   })
-  //   .catch(error => console.error(error));
-  //
-  // });
+  $(document).on('click', '#form_button', function(e) {
+    let form_name = document.querySelector('[name=contact_nom]');
+    let form_email = document.querySelector('[name=contact_email]');
+    let form_subject = document.querySelector('[name=contact_sujet]');
+    let form_content = document.querySelector('[name=contact_message]');
+
+    e.preventDefault();
+
+    fetch("resources/src/send_form.php", {
+      method: "POST",
+      mode: "same-origin",
+      credentials: "same-origin",
+      headers: {
+        "Content-type": "application/json"
+      },
+      body: JSON.stringify({
+        name: form_name.value,
+        email: form_email.value,
+        subject: form_subject.value,
+        content: form_content.value
+      })
+    })
+    .then(res => res.json())
+    .then(response => {
+      console.log(response);
+    })
+    .catch(error => console.error(error));
+
+  });
 
   $.get('resources/src/footer.php')
   .done(function(response) {

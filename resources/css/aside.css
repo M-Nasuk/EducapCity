@@ -6,7 +6,7 @@ aside {
 
 }
 
-@media SCREEN and (min-width: 1024px) {
+@media SCREEN and (min-width: 1025px) {
   aside {
     display: block;
     position: absolute;

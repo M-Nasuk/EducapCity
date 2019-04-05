@@ -1,7 +1,7 @@
 <header>
   <section>
     <div id="educapcity">
-      <a href="educapcity.org">
+      <a href="http://educapcity.org">
         <img src="resources/images/logo_educapcity.png" alt="logo_educapcity"/>
         <div>
           <h2>EDUCAP CITY</h2>

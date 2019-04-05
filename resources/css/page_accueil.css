@@ -1,6 +1,7 @@
 #sec_accueil {
   background: no-repeat url("../images/photo_accueil.png");
   background-position: center;
+  background-size: cover;
   text-align: center;
   color: #FFF;
   padding: 50px 54px;
@@ -263,10 +264,8 @@
   }
 }
 
-@media SCREEN and (min-width: 1024px) {
-  #sec_accueil {
-    background-size: cover;
-  }
+@media SCREEN and (min-width: 1025px) {
+
   .circle_pilier {
     padding: 6% 0 4%;
     white-space: pre-line;

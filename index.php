@@ -1,7 +1,7 @@
 <?php
 
-require __DIR__ . '/vendor/autoload.php';
-// var_dump($_GET);
+require __DIR__.'/vendor/autoload.php';
+
 if (empty($_GET)){
   include 'resources/templates/index.phtml';
 } else {

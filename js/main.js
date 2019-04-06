@@ -38,9 +38,22 @@ document.addEventListener('DOMContentLoaded', ()=> {
     $(window).scroll(startCounter);
   });
 
+  $.get('resources/src/page_programme.php')
+  .done(function(response) {
+    $('#body_programme').append(response);
+
+    $('.flexslider').flexslider({
+      animation: "slide",
+      touch: true,
+      controlNav: false,
+      video: true,
+      before: function(){ $('video').each( function() { $(this).get(0).load(); }); }
+    });
+  });
+
   $.get('resources/src/aside.php')
   .done(function(response) {
-    $('body').append(response);
+    $('#body_accueil').append(response);
   });
 
   $.get('resources/src/embarquez.php')

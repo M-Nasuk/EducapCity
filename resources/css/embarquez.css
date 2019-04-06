@@ -115,3 +115,16 @@
     font-size: 1.3em;
   }
 }
+
+@media SCREEN and (min-width: 1025px) {
+  #sec_embarquez a div p {
+    z-index: 1;
+  }
+  #sec_embarquez a div img {
+    filter: brightness(100%);
+  }
+  #sec_embarquez a div img:hover, #sec_embarquez a div p:hover + img {
+    filter: brightness(50%);
+    transition: filter .7s ease;
+  }
+}

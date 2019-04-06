@@ -1,71 +1,65 @@
 <?php
 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+require_once '../../vendor/autoload.php';
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+$mail = new PHPMailer(true);
+
 $fetch = json_decode(file_get_contents('php://input'), true);
 
-$text = wordwrap($fetch['content'], 70, "\r\n");
-$message = str_replace("\n.", "\n..", $text);
+try {
+  /* Set the mail sender. */
+  $mail->setFrom('educapcity@capsaaa.net', 'EducapCity');
 
-$sender_name = $fetch['name'];
-$sender_mail = $fetch['email'];
-$headers = [
-  "From" => "$sender_name <$sender_mail>",
-  "Reply-To" => "pc@example.com",
-  "Content-type" => "text/plain; charset=iso-8859-1",
-  "MIME-Version" => "1.0"
-];
+  /* Add a recipient. */
+  $mail->addAddress('educapcity@capsaaa.net', 'EducapCity');
+
+  $mail->addReplyTo('educapcity@capsaaa.net', 'EducapCity');
+
+  /* Set the subject. */
+  $mail->Subject = $fetch['subject'];
+
+  /* Tells PHPMailer to use SMTP. */
+  $mail->isSMTP();
+
+  /* SMTP server address. */
+  $mail->Host = '';
+
+  /* Use SMTP authentication. */
+  $mail->SMTPAuth = TRUE;
+
+  /* Set the encryption system. */
+  $mail->SMTPSecure = 'tls';
+
+  /* SMTP authentication username. */
+  $mail->Username = 'educapcity@capsaaa.net';
+
+  /* SMTP authentication password. */
+  $mail->Password = 'password';
+
+  /* Set the SMTP port. */
+  $mail->Port = 587;
+
+  /* Set the mail message body. */
+  $mail->isHTML(TRUE);
+  $mail->Body = "
+    <html>
+      <h3>From : ".$fetch['name']."</h3>".
+      "<p>Mail : ".$fetch['email']."</p>".
+      "<p>Message : ".$fetch['content']."</p>
+    </html>";
 
 
-$send = mail('jo@example.net', $fetch['subject'], $message, $headers);
+  /* Finally send the mail. */
+  $mail->send();
 
-echo json_encode($send);
-
-// use PHPMailer\PHPMailer\PHPMailer;
-// use PHPMailer\PHPMailer\Exception;
-//
-// $mail = new PHPMailer(true);
-//
-// try {
-//   /* Set the mail sender. */
-//   $mail->setFrom('de', 'Me');
-//
-//   /* Add a recipient. */
-//   $mail->addAddress('a', 'Me');
-//
-//   $mail->addReplyTo('repond a', 'Me');
-//
-//   /* Set the subject. */
-//   $mail->Subject = 'Force';
-//
-//   /* Tells PHPMailer to use SMTP. */
-//   $mail->isSMTP();
-//
-//   /* SMTP server address. */
-//   $mail->Host = 'any smtp config';
-//
-//   /* Use SMTP authentication. */
-//   $mail->SMTPAuth = TRUE;
-//
-//   /* Set the encryption system. */
-//   $mail->SMTPSecure = 'tls';
-//
-//   /* SMTP authentication username. */
-//   $mail->Username = 'mail@mail.com';
-//
-//   /* SMTP authentication password. */
-//   $mail->Password = 'password';
-//
-//   /* Set the SMTP port. */
-//   $mail->Port = 587;
-//
-//   /* Set the mail message body. */
-//   $mail->isHTML(TRUE);
-//   $mail->Body = '<html>There is a great disturbance in the <strong>Force</strong>.</html>';
-//   $mail->AltBody = 'There is a great disturbance in the Force.';
-//
-//   /* Finally send the mail. */
-//   $mail->send();
-//
-//   echo 'Message has been sent';
-// } catch (Exception $e) {
-//   echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-// }
+  echo json_encode('Message has been sent');
+} catch (Exception $e) {
+  echo json_encode("Message could not be sent. Mailer Error: {$mail->ErrorInfo}");
+}

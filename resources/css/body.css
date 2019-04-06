@@ -4,7 +4,7 @@
   outline: none;
 }
 body {
-  max-width: 1100px;
+  max-width: 1400px;
   margin: 0 auto;
   font-family: 'Roboto';
   color: #24292E;
@@ -59,4 +59,13 @@ li {
 }
 .round-border {
   border-radius: 5px;
+}
+.container {
+  max-width: 1100px;
+}
+
+@media SCREEN and (min-width: 1025px) {
+ body {
+   position: relative;
+ }
 }

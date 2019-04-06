@@ -213,7 +213,7 @@ header img {
 }
 /* Desktop */
 @media SCREEN and (min-width: 1025px) {
-  body {
+  header {
     position: relative;
   }
   header section > div:first-child, header section > div:first-child a {

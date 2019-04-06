@@ -119,6 +119,7 @@
 }
 .div_cap {
   margin-bottom: 40px;
+  line-height: 1.5;
 }
 .div_cap h4, .div_cap h5 {
   text-align: center;
@@ -136,7 +137,7 @@
   margin: auto;
 }
 .div_cap img:nth-child(2){
-  max-width: 90%;
+  max-width: 100%;
   display: block;
   margin: auto;
 }
@@ -169,7 +170,7 @@
 }
 .phrase p {
   padding: 15px 30px 0;
-  line-height: normal;
+  line-height: 1.5;
 }
 .phrase {
   position: relative;
@@ -192,9 +193,11 @@
 
 /* Tablet */
 @media SCREEN and (min-width: 768px) {
+  #sec_accueil p, #sec_accueil h2 {
+    font-size: 2em;
+  }
   #sec_accueil p {
     white-space: pre-line;
-    font-size: 1.7em;
   }
   #accueil > h4 {
     font-size: 2em;
@@ -242,7 +245,7 @@
     max-width: 65%;
   }
   .div_cap img:nth-child(2) {
-    margin: 39px auto;
+    margin: 30px auto;
   }
   #a_savoir {
     width: 100%;
@@ -263,9 +266,35 @@
     padding: 15px 45px 0;
   }
 }
+@media SCREEN and (min-width: 800px) {
+  .div_cap img:nth-child(2) {
+    margin: 32px auto;
+  }
+  #div_piliers div p {
+    font-size: 1.7em;
+  }
+}
+@media SCREEN and (min-width: 866px) {
+  .div_cap img:nth-child(2) {
+    margin: 35px auto;
+  }
+  #div_piliers div p {
+    font-size: 1.8em;
+  }
+}
+@media SCREEN and (min-width: 980px) {
+  .div_cap img:nth-child(2) {
+    margin: 37px auto;
+  }
+  #div_piliers div p {
+    font-size: 2em;
+  }
+}
 
 @media SCREEN and (min-width: 1025px) {
-
+  #sec_accueil {
+    width: 1400px;
+  }
   .circle_pilier {
     padding: 6% 0 4%;
     white-space: pre-line;
@@ -274,5 +303,13 @@
     font-size: 2em;
   }
 
+  #sec_info_nbres #div_info_ecoles {
+    display: flex;
+  }
 
+}
+@media SCREEN and (min-width: 1100px) {
+  .div_cap img:nth-child(2) {
+    margin: 40px auto;
+  }
 }

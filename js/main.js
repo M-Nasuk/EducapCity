@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     $('body').prepend(response);
     $('#menu > ul > li a h3').addClass('jah_font');
     $('#menu > ul > li ul li').addClass('jah_font');
+    // $('header').addClass('container');
   });
 
   $(document).on('click', '#b_menu', function() {
@@ -20,9 +21,8 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
   $.get('resources/src/page_accueil.php')
   .done(function(response) {
-
     $('#body_accueil').append(response);
-
+    $('main').addClass('container');
     $('#sec_accueil').addClass('jah_font');
     $('#sec_info_nbres div').addClass('jah_font');
     $('.div_cap h4').addClass('jah_font');
@@ -36,6 +36,11 @@ document.addEventListener('DOMContentLoaded', ()=> {
     });
 
     $(window).scroll(startCounter);
+  });
+
+  $.get('resources/src/aside.php')
+  .done(function(response) {
+    $('body').append(response);
   });
 
   $.get('resources/src/embarquez.php')
@@ -77,6 +82,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
   $.get('resources/src/footer.php')
   .done(function(response) {
     $('body').append(response);
+    $('footer').addClass('container');
   });
 
 })

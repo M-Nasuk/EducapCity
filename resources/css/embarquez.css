@@ -27,13 +27,13 @@
 }
 .form h4 {
   margin-bottom: 20px;
-  font-size: 1.4em;
+  font-size: 2em;
   font-weight: normal;
 }
 .form h4 .fas {
   font-size: 2em;
   float: left;
-  margin: -11px 15px 0;
+  margin: -15px 15px 0;
 }
 .form form {
   padding: 10px;

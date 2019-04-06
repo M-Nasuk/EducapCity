@@ -9,8 +9,10 @@ aside {
 @media SCREEN and (min-width: 1025px) {
   aside {
     display: block;
+    width: 300px;
     position: absolute;
-    top: 0;
+    top: 514px;
     right: 0;
   }
+
 }

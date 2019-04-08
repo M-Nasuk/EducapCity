@@ -57,11 +57,46 @@ li {
 .red {
   color: #e30d14;
 }
+.bg-yellow {
+  background-color: #ffcf01;
+  color: #FFF;
+}
+.bg-green {
+  background-color: #308f36;
+  color: #FFF;
+}
+.bg-blue {
+  background-color: #1c96c5;
+  color: #FFF;
+}
+.bg-red {
+  background-color: #e30d14;
+  color: #FFF;
+}
 .round-border {
   border-radius: 5px;
 }
 .container {
   max-width: 1100px;
+}
+.strong {
+  font-weight: 600;
+}
+
+main > h4 {
+  font-weight: normal;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  font-size: 1.4em;
+}
+main > h4 .fas {
+  font-size: 2em;
+  float: left;
+  margin: -11px 15px 0;
+}
+
+main > section:not(:last-child) {
+  margin-bottom: 60px;
 }
 
 @media SCREEN and (min-width: 1025px) {

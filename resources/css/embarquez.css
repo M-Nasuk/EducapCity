@@ -27,47 +27,47 @@
 }
 .form h4 {
   margin-bottom: 20px;
-  font-size: 2em;
+  font-size: 1.4em;
   font-weight: normal;
 }
 .form h4 .fas {
   font-size: 2em;
   float: left;
-  margin: -15px 15px 0;
+  margin: -11px 15px 0;
 }
 .form form {
   padding: 10px;
 }
-.grid {
+ul.grid {
   display: grid;
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(5, calc(100% / 5));
 }
-.item-a {
+li.item-a {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 1;
 }
-.item-b {
+li.item-b {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 2;
 }
-.item-c {
+li.item-c {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 3;
 }
-.item-d {
+li.item-d {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 4;
   grid-row-end: 4;
 }
-.item-e {
+li.item-e {
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 5;
@@ -126,5 +126,15 @@
   #sec_embarquez a div img:hover, #sec_embarquez a div p:hover + img {
     filter: brightness(50%);
     transition: filter .7s ease;
+  }
+  .form h4 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: normal;
+  }
+  .form h4 .fas {
+    font-size: 2em;
+    float: left;
+    margin: -17px 15px 0;
   }
 }

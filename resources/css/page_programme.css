@@ -1,3 +1,174 @@
 #programme {
-  
+
+}
+
+#sec_presentation {
+  text-align: center;
+  padding: 10px;
+}
+#sec_presentation > p {
+  margin-bottom: 10px;
+}
+#div_caps {
+  display: flex;
+  flex-direction: column;
+}
+#div_caps div {
+  width: 50%;
+  margin: auto;
+}
+#div_caps div h3 {
+  padding: 10px;
+}
+#div_caps div p {
+  padding: 10px 0;
+}
+
+#sec_cap_rallye {
+
+}
+#sec_cap_rallye h2 {
+  padding: 20px;
+}
+#sec_cap_rallye > p {
+  padding: 10px;
+}
+#div_objectifs button {
+  width: 50%;
+  text-align: center;
+  border: none;
+  padding: 5px;
+  display: block;
+  margin: auto;
+}
+#div_objectifs button .fas {
+  font-size: 1.5em;
+  vertical-align: sub;
+  margin-left: 10px;
+
+}
+#div_objectifs ul {
+  padding: 10px;
+}
+#div_objectifs ul li {
+  margin-bottom: 5px;
+}
+.div_cap_infos {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.div_cap_infos div {
+  width: 45%;
+}
+#sec_journee_cap_rallye {
+  text-align: center;
+  display: grid;
+  grid-template:
+  [row1-start] "z z" [row1-end]
+  [row2-start] "a b" [row2-end]
+  [row3-start] "a c" [row3-end]
+  [row4-start] "a d" [row4-end]
+  [row5-start] "a e" [row5-end]
+  [row6-start] "a f" [row6-end]
+  [row7-start] "a g" [row7-end]
+  [row8-start] "a h" [row8-end]
+  / 20% 10% 70%;
+}
+#sec_journee_cap_rallye .item-z {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+#sec_journee_cap_rallye .item-a {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 9;
+}
+#sec_journee_cap_rallye .item-b {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+#sec_journee_cap_rallye .item-c {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+#sec_journee_cap_rallye .item-d {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+#sec_journee_cap_rallye .item-e {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+#sec_journee_cap_rallye .item-f {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+#sec_journee_cap_rallye .item-g {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 7;
+  grid-row-end: 7;
+}
+#sec_journee_cap_rallye .item-h {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 8;
+  grid-row-end: 8;
+}
+#sec_journee_cap_rallye > div:not(.div_fil) {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid grey;
+}
+#sec_journee_cap_rallye img {
+  padding: 10px;
+}
+.div_fil {
+  position: relative;
+}
+.div_fil .fa {
+  font-size: 1.5em;
+  margin-bottom: 15%;
+}
+.div_fil:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  display: inline-block;
+  height: 100%;
+  border-right: 1px solid #308f36;
+  top: 1%;
+}
+.div_fil p {
+  background-color: #fff;
+  padding: 5px;
+  position: relative;
+  margin-bottom: 100%;
+  color: #308f36;
+  font-weight: 600;
+}
+/* .div_tram {
+  padding: 10px;
+}
+.div_tram div {
+  border: 1px solid grey;
+  padding: 10px;
+} */
+[alt="Carnet de Route"] {
+  display: none;
 }

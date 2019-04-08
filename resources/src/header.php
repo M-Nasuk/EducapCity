@@ -2,7 +2,7 @@
   <section>
     <div id="educapcity">
       <a href="/EducapCity/">
-        <img src="resources/images/logo_educapcity.png" alt="logo_educapcity"/>
+        <img src="resources/images/Logos/logo_educapcity.png" alt="logo_educapcity"/>
         <div>
           <h2>EDUCAP CITY</h2>
           <h4>UN PACTE DE</h4>
@@ -12,7 +12,7 @@
       </a>
       <div>
         <p>PORTÉ PAR</p>
-        <img src="resources/images/logo_capsaaa_date.jpg" alt="logo_capsaaa"/>
+        <img src="resources/images/Logos/logo_capsaaa_date.jpg" alt="logo_capsaaa"/>
       </div>
     </div>
     <div id="embarquez">
@@ -26,13 +26,13 @@
       </a>
       <div>
         <a href="www.stmichel.fr">
-          <img src="resources/images/logo_stmichel.jpg" alt="logo_stmichel">
+          <img src="resources/images/Logos/logo_stmichel.jpg" alt="logo_stmichel">
         </a>
         <a href="https://www.sncf.com/fr">
-          <img src="resources/images/logo_sncf.png" alt="logo_sncf">
+          <img src="resources/images/Logos/logo_sncf.png" alt="logo_sncf">
         </a>
         <a href="http://www.sports.gouv.fr/">
-          <img src="resources/images/logo_mariannesports_bleu.jpg" alt="logo_ministere_des_sports">
+          <img src="resources/images/Logos/logo_mariannesports_bleu.jpg" alt="logo_ministere_des_sports">
         </a>
       </div>
 

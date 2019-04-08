@@ -11,10 +11,10 @@ pour les jeunes de 9 à 14 ans</p>
           <video src="resources/videos/video_issy.mp4" onplay=pauseslider() onpause=playslider() onended=resumeslider() controls></video>
         </li>
         <li>
-          <img src="resources/images/sliders/slide1_tournee.png" alt="slide1_tournee" />
+          <img src="resources/images/PageAccueil/sliders/slide1_tournee.png" alt="slide1_tournee" />
         </li>
         <li>
-          <img src="resources/images/sliders/slide2_inscriptionCapitale.jpg" alt="slides1_inscriptionCapitale" />
+          <img src="resources/images/PageAccueil/sliders/slide2_inscriptionCapitale.jpg" alt="slides1_inscriptionCapitale" />
         </li>
       </ul>
     </div>
@@ -26,28 +26,28 @@ pour les jeunes de 9 à 14 ans</p>
   </h4>
   <section id="sec_info_nbres" class="pad_mob mar_bot_mob">
     <div id="div_info_regions" >
-      <img src="resources/images/Piktos/pikto_france.png" alt="pikto_france">
+      <img src="resources/images/PageAccueil/Piktos/pikto_france.png" alt="pikto_france">
       <span class="count">9</span>
       <p>régions</p>
 
     </div>
     <div>
-      <img src="resources/images/Piktos/pikto_map.png" alt="pikto_map">
+      <img src="resources/images/PageAccueil/Piktos/pikto_map.png" alt="pikto_map">
       <span class="count">30</span>
       <p>villes</p>
     </div>
     <div>
-      <img src="resources/images/Piktos/pikto_child.png" alt="pikto_child">
+      <img src="resources/images/PageAccueil/Piktos/pikto_child.png" alt="pikto_child">
       <span class="count">35000</span>
       <p>enfants</p>
     </div>
     <div id="div_info_ecoles">
-      <img src="resources/images/Piktos/pikto_school.png" alt="pikto_school">
+      <img src="resources/images/PageAccueil/Piktos/pikto_school.png" alt="pikto_school">
       <span class="count">250</span>
       <p>écoles</p>
     </div>
     <div>
-      <img src="resources/images/Piktos/pikto_institutions.png" alt="pikto_institutions">
+      <img src="resources/images/PageAccueil/Piktos/pikto_institutions.png" alt="pikto_institutions">
       <span class="count">600</span>
       <p>partenaires</p>
     </div>
@@ -83,8 +83,8 @@ l'engagement
   <section id="sec_citoyen" class="pad_mob mar_bot_mob">
     <div class="div_cap">
       <h4 class="yellow">CAP Classe</h4>
-      <img src="resources/images/Graph/groupe_cap_classe.png" alt="groupe_cap_classe">
-      <img src="resources/images/Graph/triangle_jaune.png" alt="triangle_jaune">
+      <img src="resources/images/PageAccueil/Graph/groupe_cap_classe.png" alt="groupe_cap_classe">
+      <img src="resources/images/PageAccueil/Graph/triangle_jaune.png" alt="triangle_jaune">
       <h5 class="yellow">Du CM1 à la 3e</h5>
       <p>
         Une action de prévention des comportements à risque, de lutte contre toutes
@@ -94,8 +94,8 @@ l'engagement
     </div>
     <div class="div_cap">
       <h4 class="green">CAP Rallye</h4>
-      <img src="resources/images/Graph/tribenfants_min.jpg" alt="tribenfants_min">
-      <img src="resources/images/Graph/triangle_vert.png" alt="triangle_vert">
+      <img src="resources/images/PageAccueil/Graph/tribenfants_min.jpg" alt="tribenfants_min">
+      <img src="resources/images/PageAccueil/Graph/triangle_vert.png" alt="triangle_vert">
       <h5 class="green">Du CM1 à la 5e</h5>
       <p>
         Une chasse aux trésors lors de laquelle les enfants partent à la découverte
@@ -106,10 +106,10 @@ l'engagement
     <div id="a_savoir" ><a href="#" class="round-border">En savoir plus sur le programme</a></div>
   </section>
   <section id="sec_phrase" class="mar_bot_mob">
-    <img src="resources/images/Photos/RyadhSallemBlanc.jpg" alt="ryad_sallem_blanc">
+    <img src="resources/images/PageAccueil/RyadhSallemBlanc.jpg" alt="ryad_sallem_blanc">
     <div id="div_phrase">
       <div class="phrase">
-        <img src="resources/images/quote-icon-up.jpg" alt="quote_up" class="float_left">
+        <img src="resources/images/PageAccueil/quote-icon-up.jpg" alt="quote_up" class="float_left">
         <p>
           Quand on créé la rencontre, on dissout les préjugés, on dissout les peurs
           et on peut être de plus en plus citoyen. On peut devenir un consom'acteur et
@@ -117,7 +117,7 @@ l'engagement
         </p>
       </div>
       <div class="phrase">
-        <img src="resources/images/quote-icon-down.jpg" alt="quote_down" class="float_right" />
+        <img src="resources/images/PageAccueil/quote-icon-down.jpg" alt="quote_down" class="float_right" />
         <p>
           Quand on créé la rencontre, on ouvre les esprits, on ouvre les coeurs et on comprend.
           Et comprendre, c'est offrir une intelligence à ces enfants.

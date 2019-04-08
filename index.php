@@ -10,6 +10,9 @@ if (empty($_GET)){
   include 'resources/templates/index.phtml';
 } else {
   switch ($_GET['page']) {
+    case 'programme':
+      include 'resources/templates/programme.phtml';
+      break;
     case 'a_propos':
       include 'resources/templates/a_propos.phtml';
       break;

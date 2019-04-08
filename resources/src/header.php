@@ -1,7 +1,7 @@
 <header>
   <section>
     <div id="educapcity">
-      <a href="http://educapcity.org">
+      <a href="/EducapCity/">
         <img src="resources/images/logo_educapcity.png" alt="logo_educapcity"/>
         <div>
           <h2>EDUCAP CITY</h2>
@@ -59,7 +59,7 @@
   <nav id="menu">
     <ul>
       <li>
-        <a href="http://educapcity.org"><h3>ACCUEIL</h3> </a>
+        <a href="/EducapCity/"><h3>ACCUEIL</h3> </a>
       </li>
       <li>
         <a href="a_propos"><h3>A PROPOS</h3> </a>
@@ -73,7 +73,7 @@
         </ul>
       </li>
       <li>
-        <a href="#"><h3>LE PROGRAMME</h3> </a>
+        <a href="programme"><h3>LE PROGRAMME</h3> </a>
         <ul>
           <li>
             <a href="#">Cap Classes</a>

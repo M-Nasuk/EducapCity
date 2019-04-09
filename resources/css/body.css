@@ -95,7 +95,7 @@ main > h4 .fas {
   margin: -11px 15px 0;
 }
 
-main > section:not(:last-child) {
+#accueil > section:not(:last-child) {
   margin-bottom: 60px;
 }
 

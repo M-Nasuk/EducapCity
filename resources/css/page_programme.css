@@ -7,7 +7,10 @@
   padding: 10px;
 }
 #sec_presentation > p {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+}
+#sec_presentation > p:nth-child(3) {
+  margin-bottom: 25px;
 }
 #div_caps {
   display: flex;
@@ -15,7 +18,7 @@
 }
 #div_caps div {
   width: 50%;
-  margin: auto;
+  margin: auto auto 25px;
 }
 #div_caps div h3 {
   padding: 10px;
@@ -28,7 +31,7 @@
 
 }
 #sec_cap_rallye h2 {
-  padding: 20px;
+  padding-left: 20px;
 }
 #sec_cap_rallye > p {
   padding: 10px;
@@ -49,6 +52,7 @@
 }
 #div_objectifs ul {
   padding: 10px;
+  display: none;
 }
 #div_objectifs ul li {
   margin-bottom: 5px;
@@ -74,6 +78,8 @@
   [row6-start] "a f" [row6-end]
   [row7-start] "a g" [row7-end]
   [row8-start] "a h" [row8-end]
+  [row9-start] "a i" [row9-end]
+  [row10-start] "y y" [row10-end]
   / 20% 10% 70%;
 }
 #sec_journee_cap_rallye .item-z {
@@ -86,7 +92,7 @@
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 2;
-  grid-row-end: 9;
+  grid-row-end: 10;
 }
 #sec_journee_cap_rallye .item-b {
   grid-column-start: 3;
@@ -130,27 +136,46 @@
   grid-row-start: 8;
   grid-row-end: 8;
 }
-#sec_journee_cap_rallye > div:not(.div_fil) {
+#sec_journee_cap_rallye .item-i {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 9;
+  grid-row-end: 9;
+}
+#sec_journee_cap_rallye .item-y {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 10;
+  grid-row-end: 10;
+}
+/* #sec_journee_cap_rallye .item-y img {
+  border-radius: 50%;
+} */
+
+#sec_journee_cap_rallye > div:not(.div_fil):not(.item-y) {
   padding: 10px;
   margin: 10px;
   border: 1px solid grey;
 }
-#sec_journee_cap_rallye img {
+#sec_journee_cap_rallye > img {
   padding: 10px;
 }
 .div_fil {
   position: relative;
+  display: grid;
+  grid-template-columns: 1FR;
+  grid-template-rows: repeat(18, 0.1FR);
 }
 .div_fil .fa {
   font-size: 1.5em;
-  margin-bottom: 15%;
+  /* margin-bottom: 100%; */
 }
 .div_fil:before {
   content: "";
   position: absolute;
   left: 50%;
   display: inline-block;
-  height: 100%;
+  height: 95%;
   border-right: 1px solid #308f36;
   top: 1%;
 }
@@ -158,17 +183,130 @@
   background-color: #fff;
   padding: 5px;
   position: relative;
-  margin-bottom: 100%;
   color: #308f36;
   font-weight: 600;
+  align-self: center;
 }
-/* .div_tram {
-  padding: 10px;
+.div_fil .p-item-a {
+  grid-row-start: 4;
+  grid-row-end: 4;
 }
-.div_tram div {
-  border: 1px solid grey;
-  padding: 10px;
-} */
+.div_fil .p-item-b {
+  grid-row-start: 7;
+  grid-row-end: 7;
+}
+.div_fil .p-item-c {
+  grid-row-start: 15;
+  grid-row-end: 15;
+}
+.div_fil .p-item-d {
+  grid-row-start: 17;
+  grid-row-end: 17;
+}
+.div_fil .p-item-e {
+  grid-row-start: 18;
+  grid-row-end: 18;
+  margin-top: 15px;
+}
 [alt="Carnet de Route"] {
   display: none;
+}
+/* .ul-a  {
+  visibility: visible;
+  display: block;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+}
+.ul-a > li {
+  width: 400px;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+  transform-style: flat;
+  z-index: 100;
+  visibility: inherit;
+  opacity: 1;
+  transform-origin: 50% 50% 0px;
+  left: 489px;
+  transform: translate3d(0px, 0px, 0px);
+} */
+/* .ul-a > li > div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+} */
+.ul-a > li {
+  height: 130px;
+}
+.ul-a > li div {
+  height: inherit;
+  border-radius: 50%;
+}
+.li-a {
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye1.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.li-b {
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye2.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.li-c {
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye3.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.li-d {
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye4.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.li-e {
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye5.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.li-f {
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye6.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.li-g {
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye7.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.li-h {
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye8.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.li-i {
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye9.jpg");
+  background-size: cover;
+  background-position: center center;
 }

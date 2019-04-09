@@ -1,5 +1,5 @@
 <main id="programme">
-  <section id="sec_presentation" class="mar_bot_mob">
+  <section id="sec_presentation">
     <p class="strong">Depuis plus de 20 ans, à CAP SAAA, nous investissons dans l'avenir, encourageons l'engagement
     des jeunes et les aidons à développer leur potentiel !</p>
     <p>Initier des rencontres, établir un dialogue entre les nouvelles générations et les acteurs de leur ville,
@@ -8,16 +8,16 @@
     âgés de 9 à 15 ans :</p>
     <div id="div_caps">
       <div>
-        <h3 class="bg-green">CAP RALLYE</h3>
+        <a href="#sec_cap_rallye"><h3 class="bg-green round-border">CAP RALLYE</h3></a>
         <p>Un parcours d'éducation civique grandeur nature dans la ville</p>
       </div>
       <div>
-        <h3 class="bg-yellow">CAP CLASSE</h3>
+        <a href=""><h3 class="bg-yellow round-border">CAP CLASSE</h3></a>
         <p>Des interventions en milieu scolaire où le sport est au service de l'éducation</p>
       </div>
     </div>
   </section>
-  <section id="sec_cap_rallye" class="mar_bot_mob">
+  <section id="sec_cap_rallye">
     <h2 class="green">
       <span class="fa-stack fa-1x">
         <i class="fa fa-circle fa-stack-2x green"></i>
@@ -64,7 +64,7 @@
     <div class="div_cap_infos">
       <div>
         <img src="resources/images/PageProgramme/piktos/piktoVert_qui.png" alt="Icone de personnes">
-        <p>Les enfants de 9 à 13 ans des établissements scolaires et centres de loisirs</p>
+        <p>Les enfants de 9 à 13 ans</p>
       </div>
       <div>
         <img src="resources/images/PageProgramme/piktos/piktoVert_combien.png" alt="Icone deux enfants jouant à la balle">
@@ -87,10 +87,11 @@
       <h3 class="item-z">Le déroulé type d'une journée</h3>
       <div class="div_fil item-a">
         <i class="fa fa-circle green"></i>
-        <p>A partir de 8h</p>
-        <p>9H30 / 10H</p>
-        <p>15h</p>
-        <p>16h45</p>
+        <p class="p-item-a">A partir de 8h</p>
+        <p class="p-item-b">9H30 / 10H</p>
+        <p class="p-item-c">15h</p>
+        <p class="p-item-d">15h45</p>
+        <p class="p-item-e">16h15</p>
       </div>
       <img src="resources/images/PageProgramme/graph/graph_elevesRallye.png" alt="Equipe de 6 enfants pr class="item-"êt à débuter l'évenement." class="item-b">
       <div class="item-c">
@@ -119,15 +120,73 @@
           Pendant la correction, des activités sont proposées sur le village et un goûter est distribué.</p>
       </div>
       <div class="item-h">
-        <p>Annonce des gagnantes et remises des prix. 3 à 5 équipes finaliste sont séléctionnées pour participer à l'étape Capitale en juin à Paris.</p>
+        <p>Annonce des équipes gagnantes et remises des prix. 3 à 5 équipes finaliste sont séléctionnées pour participer à l'étape Capitale en juin à Paris.</p>
       </div>
-      <!-- <div class="div_tram">
+      <div class="item-i">
+        <p>Départ des équipes.</p>
+      </div>
+      <div class="flexslider carousel item-y">
+        <ul class="slides ul-a">
+          <li >
+            <div class="li-a">
 
-      </div> -->
+            </div>
+            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye1.jpg" alt="Equipe gagnante soulevant une coupe." /> -->
+          </li>
+          <li >
+            <div class="li-b">
+
+            </div>
+            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye2.jpg" alt="Arrivée des équipes au village." /> -->
+          </li>
+          <li>
+            <div class="li-c">
+
+            </div>
+            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye3.jpg" alt="Homme présentant le parcours aux enfants." /> -->
+          </li>
+          <li>
+            <div class="li-d">
+
+            </div>
+            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye4.jpg" alt="Enfants lors d'un parcours dans une institution." /> -->
+          </li>
+          <li>
+            <div class="li-e">
+
+            </div>
+            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye5.jpg" alt="Enfants sous une tente apprenant les gestes de sauveteur." /> -->
+          </li>
+          <li>
+            <div class="li-f">
+
+            </div>
+            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye6.jpg" alt="Un enfant sur une moto d'un agent des CRS." /> -->
+          </li>
+          <li>
+            <div class="li-g">
+
+            </div>
+            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye7.jpg" alt="Enfants à l'écoute lors d'une explication." /> -->
+          </li>
+          <li>
+            <div class="li-h">
+
+            </div>
+            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye8.jpg" alt="Une équipe préparant son parcours pour la journée." /> -->
+          </li>
+          <li>
+            <div class="li-i">
+
+            </div>
+            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye9.jpg" alt="Une équipe sur un stand de la CAF." /> -->
+          </li>
+        </ul>
+      </div>
     </section>
 
   </section>
-  <section id="sec_cap_classe" class="mar_bot_mob">
+  <section id="sec_cap_classe">
 
   </section>
   <section id="sec_etape_capitale">

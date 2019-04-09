@@ -44,11 +44,19 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
     $('.flexslider').flexslider({
       animation: "slide",
-      touch: true,
-      controlNav: false,
-      video: true,
-      before: function(){ $('video').each( function() { $(this).get(0).load(); }); }
+      animationLoop: false,
+      itemWidth: 130,
+      maxItems: 3,
+      itemMargin: 5
     });
+  });
+
+  $(document).on('click', '#div_objectifs button', function() {
+    if($('#div_objectifs ul').css('display') == 'none') {
+      $('#div_objectifs ul').css('display', 'block');
+    } else {
+      $('#div_objectifs ul').css('display', 'none');
+    };
   });
 
   $.get('resources/src/aside.php')

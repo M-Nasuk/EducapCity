@@ -8,11 +8,11 @@ aside {
 
 @media SCREEN and (min-width: 1025px) {
   aside {
-    display: block;
+    display: inline-block;
     width: 300px;
     position: absolute;
-    top: 514px;
-    right: 0;
+    top: 614px;
+    float: right;
   }
 
 }

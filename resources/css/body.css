@@ -8,6 +8,7 @@ body {
   margin: 0 auto;
   font-family: 'Roboto';
   color: #24292E;
+
 }
 
 img {
@@ -16,7 +17,7 @@ img {
 
 .jah_font {
   font-family: 'Just another hand';
-  letter-spacing: 1.5px;
+  letter-spacing: 1.7px;
 }
 a {
   text-decoration: none;
@@ -103,4 +104,11 @@ main > h4 .fas {
  body {
    position: relative;
  }
+}
+
+@media SCREEN and (min-width: 1100px) {
+  main {
+    display: inline-block;
+    max-width: 1100px;
+  }
 }

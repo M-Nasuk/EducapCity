@@ -8,22 +8,24 @@ document.addEventListener('DOMContentLoaded', ()=> {
     $('body').prepend(response);
     $('#menu > ul > li a h3').addClass('jah_font');
     $('#menu > ul > li ul li').addClass('jah_font');
+
+    // BUTTON DISPLAY MENU MOBILE
+    $('#b_menu').click(function() {
+      if($('nav').css('display') == 'none') {
+        $('nav').css('display', 'flex');
+      } else {
+        $('nav').css('display', 'none');
+      };
+    });
   });
 
-  // BUTTON DISPLAY MENU MOBILE
-  $(document).on('click', '#b_menu', function() {
-    if($('nav').css('display') == 'none') {
-      $('nav').css('display', 'flex');
-    } else {
-      $('nav').css('display', 'none');
-    };
-  });
+
 
   // LOAD PAGE ACCUEIL
   $.get('resources/src/page_accueil.php')
   .done(function(response) {
     $('#body_accueil').append(response);
-    $('main').addClass('container');
+    // $('main').addClass('container');
     $('#sec_accueil').addClass('jah_font');
     $('#sec_info_nbres div').addClass('jah_font');
     $('.div_cap h4').addClass('jah_font');
@@ -50,9 +52,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
         location.hash = "Cap Rallye";
       } else if (location.hash == "#sec_cap_classe") {
         location.hash = "Cap Classe";
-      } else if (location.hash == "#Cap Rallye") {
-        console.log(location.hash);
-        location.href = "#sec_cap_rallye";
       }
     }
 
@@ -76,11 +75,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
     });
   });
 
-  // $(document).on('click', '#div_caps > div:first-child a', function(e) {
-  //   scrollToAnchor('sec_cap_rallye');
-  //   window.location.hash = "Cap Rallye";
-  //   e.preventDefault();
-  // });
 
   // BUTTON DISPLAY OBJECTIVES
   $(document).on('click', '.div_objectifs button', function() {
@@ -98,7 +92,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
   // LOAD ASIDE
   $.get('resources/src/aside.php')
   .done(function(response) {
-    $('#body_accueil').append(response);
+    $('body').append(response);
   });
 
   // LOAD EMBARQUEZ SCRIPT

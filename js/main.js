@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
   let body = document.querySelector('body');
 
-
+  // LOAD HEADER EVERY PAGE
   $.get('resources/src/header.php')
   .done(function(response) {
     $('body').prepend(response);
@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     // $('header').addClass('container');
   });
 
+  // BUTTON DISPLAY MENU MOBILE
   $(document).on('click', '#b_menu', function() {
     if($('nav').css('display') == 'none') {
       $('nav').css('display', 'flex');
@@ -19,6 +20,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     };
   });
 
+  // LOAD PAGE ACCUEIL
   $.get('resources/src/page_accueil.php')
   .done(function(response) {
     $('#body_accueil').append(response);
@@ -38,6 +40,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     $(window).scroll(startCounter);
   });
 
+  // LOAD PAGE PROGRAMME
   $.get('resources/src/page_programme.php')
   .done(function(response) {
     $('#body_programme').append(response);
@@ -51,25 +54,33 @@ document.addEventListener('DOMContentLoaded', ()=> {
     });
   });
 
-  $(document).on('click', '#div_objectifs button', function() {
-    if($('#div_objectifs ul').css('display') == 'none') {
-      $('#div_objectifs ul').css('display', 'block');
+  // BUTTON DISPLAY OBJECTIVES
+  $(document).on('click', '.div_objectifs button', function() {
+    if($(this).next().css('display') == 'none') {
+      $(this).next().css('display', 'block');
+      $(this).children().removeClass('fa-rotate-90');
+      $(this).children().addClass('fa-rotate-270');
     } else {
-      $('#div_objectifs ul').css('display', 'none');
+      $(this).next().css('display', 'none');
+      $(this).children().removeClass('fa-rotate-270');
+      $(this).children().addClass('fa-rotate-90');
     };
   });
 
+  // LOAD ASIDE
   $.get('resources/src/aside.php')
   .done(function(response) {
     $('#body_accueil').append(response);
   });
 
+  // LOAD EMBARQUEZ SCRIPT
   $.get('resources/src/embarquez.php')
   .done(function(response) {
     $('main').append(response);
 
   });
 
+  // SEND MAIL FORM
   $(document).on('click', '#form_button', function(e) {
     let form_name = document.querySelector('[name=contact_nom]');
     let form_email = document.querySelector('[name=contact_email]');
@@ -100,6 +111,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
   });
 
+  // LOAD FOOTER
   $.get('resources/src/footer.php')
   .done(function(response) {
     $('body').append(response);

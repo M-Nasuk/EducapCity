@@ -186,8 +186,8 @@
   margin: 10px;
   border: 1px solid #f3f3f3;
 }
-#sec_journee_cap_rallye > img {
-  padding: 10px;
+#sec_journee_cap_rallye > img, #sec_journee_cap_classe > img {
+  padding: 15px;
 }
 #sec_journee_cap_rallye .div_fil p {
   color: #308f36;
@@ -521,4 +521,62 @@
 }
 #sec_etape_capitale .div_cap_infos {
   margin-bottom: 0;
+}
+
+@media SCREEN and (min-width: 767px) {
+  header {
+    margin-bottom: 30px;
+  }
+  #sec_presentation {
+    padding: 0 40px;
+  }
+  .div_objectifs ul {
+    display: block;
+  }
+  /* .div_objectifs {
+    width: 40%;
+    display: inline-block;
+  }
+  .div_objectifs ul {
+    display: block;
+  }
+  .div_cap_infos, #sec_cap_rallye > p {
+    width: 60%;
+    display: inline-block;
+  } */
+  #sec_cap_rallye h2, #sec_cap_rallye > p, .div_objectifs, .div_cap_infos, .div_cap_infos div {
+    margin: 0;
+    padding: 0;
+  }
+  #sec_cap_rallye {
+    display: grid;
+    grid-template-columns: 0.6FR 0.4FR;
+    grid-template-rows: repeat(5);
+  }
+  .cr-a {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .cr-b {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  .cr-c {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  .cr-d {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+  .cr-e {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+  }
+  .cr-f {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
 }

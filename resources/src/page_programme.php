@@ -22,14 +22,14 @@
 
   <!-- SECTION CAP RALLYE -->
   <section id="sec_cap_rallye">
-    <h2 class="green jah_font">
+    <h2 class="green jah_font cr-a">
       <span class="fa-stack fa-1x">
         <i class="fa fa-circle fa-stack-2x green"></i>
         <span class="fa fa-stack-1x jah_font" style="color: #fff;">1</span>
       </span>
       CAP RALLYE
     </h2>
-    <div class="div_objectifs">
+    <div class="div_objectifs cr-b">
       <button type="button" name="button_objectif" class="bg-blue round-border">Les objectifs
         <i class="fas fa-caret-right fa-rotate-90"></i>
       </button>
@@ -60,12 +60,12 @@
         </li>
       </ul>
     </div>
-    <p>Le CAP Rallye est un parcours d'orientation lors duquel
+    <p class="cr-c">Le CAP Rallye est un parcours d'orientation lors duquel
       les enfants partent à la découverte des acteurs
       instituinnels, associatifs, économiques de la ville où
       ils grandissent et se construisent.
     </p>
-    <div class="div_cap_infos">
+    <div class="div_cap_infos cr-d">
       <div>
         <i class="fas fa-child green"></i>
         <p class="green">Qui est concerné ?</p>
@@ -89,7 +89,7 @@
         <p>Organisé dans plus de 20 villes en France</p>
       </div>
     </div>
-    <section id="sec_journee_cap_rallye">
+    <section id="sec_journee_cap_rallye" class="cr-e">
       <h3 class="item-z green jah_font">Le déroulé type d'une journée</h3>
       <div class="div_fil item-a jah_font">
         <i class="fa fa-circle green"></i>
@@ -190,7 +190,7 @@
         </ul>
       </div>
     </section>
-    <div class="div_dl">
+    <div class="div_dl cr-f">
       <a href="resources/images/PageProgramme/compass.png" download>
         <button class="but_plaquette bg-green round-border" type="button" name="plaquette_1">
           La plaquette

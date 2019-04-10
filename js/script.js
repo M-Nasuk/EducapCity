@@ -24,3 +24,8 @@ function startCounter() {
     });
   }
 }
+
+function scrollToAnchor(sid){
+  let sTag = $("#"+ sid + "");
+  $('html,body').animate({scrollTop: sTag.offset().top},'slow');
+}

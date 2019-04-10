@@ -10,11 +10,11 @@
     âgés de 9 à 14 ans :</p>
     <div id="div_caps">
       <div>
-        <a href="#sec_cap_rallye"><h3 class="bg-green round-border">CAP RALLYE</h3></a>
+        <a href=""><h3 class="bg-green round-border">CAP RALLYE</h3></a>
         <p>Un parcours d'éducation civique grandeur nature dans la ville</p>
       </div>
       <div>
-        <a href="#sec_cap_classe"><h3 class="bg-yellow round-border">CAP CLASSE</h3></a>
+        <a href=""><h3 class="bg-yellow round-border">CAP CLASSE</h3></a>
         <p>Des interventions en milieu scolaire où le sport est au service de l'éducation</p>
       </div>
     </div>

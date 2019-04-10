@@ -226,6 +226,11 @@ header img {
     max-width: 240px;
     padding-top: 45px;
   }
+  #embarquez p:hover {
+    background-color: #fff;
+    color:#ffcf01;
+    transition: 0.5s;
+  }
 
   #menu li:hover a + ul {
     display: block;

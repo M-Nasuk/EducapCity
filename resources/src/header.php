@@ -17,7 +17,7 @@
     </div>
     <div id="embarquez">
       <a href="">
-        <p>Embarquez-vous dans la citoyenneté!</p>
+        <p class="round-border">Embarquez-vous dans la citoyenneté!</p>
       </a>
     </div>
     <div id="partenaires">
@@ -73,13 +73,13 @@
         </ul>
       </li>
       <li>
-        <a href="programme"><h3>LE PROGRAMME</h3> </a>
+        <a href="Programme"><h3>LE PROGRAMME</h3> </a>
         <ul>
           <li>
-            <a href="#">Cap Classes</a>
+            <a href="Programme#sec_cap_rallye">Cap Rallye</a>
           </li>
           <li>
-            <a href="#">Cap Rallyes</a>
+            <a href="Programme#sec_cap_classe">Cap Classe</a>
           </li>
         </ul>
       </li>

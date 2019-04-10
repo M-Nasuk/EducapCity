@@ -1,5 +1,6 @@
 Options +FollowSymLinks
 RewriteEngine on
 
-RewriteRule ^programme$ index.php?page=programme [L]
+RewriteRule ^Programme$ index.php?page=programme [L]
+
 RewriteRule ^a_propos$ index.php?page=a_propos [L]

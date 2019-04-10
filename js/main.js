@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
     $('body').prepend(response);
     $('#menu > ul > li a h3').addClass('jah_font');
     $('#menu > ul > li ul li').addClass('jah_font');
-    // $('header').addClass('container');
   });
 
   // BUTTON DISPLAY MENU MOBILE
@@ -45,6 +44,18 @@ document.addEventListener('DOMContentLoaded', ()=> {
   .done(function(response) {
     $('#body_programme').append(response);
 
+    if (location.hash) {
+      location.href = location.hash;
+      if (location.hash == "#sec_cap_rallye") {
+        location.hash = "Cap Rallye";
+      } else if (location.hash == "#sec_cap_classe") {
+        location.hash = "Cap Classe";
+      } else if (location.hash == "#Cap Rallye") {
+        console.log(location.hash);
+        location.href = "#sec_cap_rallye";
+      }
+    }
+
     $('.flexslider').flexslider({
       animation: "slide",
       animationLoop: false,
@@ -52,7 +63,24 @@ document.addEventListener('DOMContentLoaded', ()=> {
       maxItems: 3,
       itemMargin: 5
     });
+
+    $('#div_caps > div:first-child a, #menu > ul > li:nth-child(3) > ul > li:first-child a').click(function(e) {
+      scrollToAnchor('sec_cap_rallye');
+      window.location.hash = "Cap Rallye";
+      e.preventDefault();
+    });
+    $('#div_caps > div:nth-child(2) a, #menu > ul > li:nth-child(3) > ul > li:last-child a').click(function(e) {
+      scrollToAnchor('sec_cap_classe');
+      window.location.hash = "Cap Classe";
+      e.preventDefault();
+    });
   });
+
+  // $(document).on('click', '#div_caps > div:first-child a', function(e) {
+  //   scrollToAnchor('sec_cap_rallye');
+  //   window.location.hash = "Cap Rallye";
+  //   e.preventDefault();
+  // });
 
   // BUTTON DISPLAY OBJECTIVES
   $(document).on('click', '.div_objectifs button', function() {
@@ -117,5 +145,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
     $('body').append(response);
     $('footer').addClass('container');
   });
+
 
 })

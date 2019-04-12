@@ -12,13 +12,14 @@ aside {
     width: 300px;
     position: absolute;
     top: 614px;
+    right: 0;
     float: right;
   }
 
   .eui-widget-title {
     font-family: "Just another hand";
     font-size: 3em !important;
-    color: blue;
+    color: #1c96c5;
     font-weight: normal !important;
   }
 

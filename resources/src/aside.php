@@ -1,6 +1,6 @@
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.2"></script>
-<script src="https://apps.elfsight.com/p/platform.js"></script>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
 
 <aside>
   <!-- TWITTER FEED -->

@@ -29,3 +29,9 @@ function scrollToAnchor(sid){
   let sTag = $("#"+ sid + "");
   $('html,body').animate({scrollTop: sTag.offset().top},'slow');
 }
+
+function alterAside() {
+  $('aside:not(#body_accueil aside)').css({
+    "top": "300px"
+  })
+}

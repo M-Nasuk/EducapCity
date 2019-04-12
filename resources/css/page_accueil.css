@@ -308,4 +308,13 @@
   .div_cap img:nth-child(2) {
     margin: 40px auto;
   }
+  .rec_pilier {
+    display: grid;
+    width: 280px;
+    height: 280px;
+    padding: 0;
+  }
+  .rec_pilier > p {
+    align-self: center;
+  }
 }

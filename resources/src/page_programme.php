@@ -30,6 +30,7 @@
       CAP RALLYE
     </h2>
     <div class="div_objectifs cr-b">
+      <h3 class="blue">Les objectifs</h3>
       <button type="button" name="button_objectif" class="bg-blue round-border">Les objectifs
         <i class="fas fa-caret-right fa-rotate-90"></i>
       </button>
@@ -80,8 +81,8 @@
       <div>
         <i class="far fa-clock green"></i>
         <p class="green">Quand ?</p>
-        <p>Sur une journée</p>
-        <p>Entre septembre et juin</p>
+        <p class="pre">Sur une journée
+        Entre septembre et juin</p>
       </div>
       <div>
         <i class="far fa-compass green"></i>
@@ -203,14 +204,14 @@
 
   <!-- SECTION CAP CLASSE -->
   <section id="sec_cap_classe">
-    <h2 class="yellow jah_font">
+    <h2 class="yellow jah_font cc-a">
       <span class="fa-stack fa-1x">
         <i class="fa fa-circle fa-stack-2x yellow"></i>
         <span class="fa fa-stack-1x jah_font" style="color: #fff;">2</span>
       </span>
       CAP CLASSE
     </h2>
-    <div class="div_objectifs">
+    <div class="div_objectifs cc-b">
       <button type="button" name="button_objectif" class="bg-blue round-border">Les objectifs
         <i class="fas fa-caret-right fa-rotate-90"></i>
       </button>
@@ -241,11 +242,11 @@
         </li>
       </ul>
     </div>
-    <p>Le CAP Classe est une action de prévention des comportements à risque, de lutte contre toutes formes de discrimination et qui promeut l’inclusion scolaire.
+    <p class="cc-c">Le CAP Classe est une action de prévention des comportements à risque, de lutte contre toutes formes de discrimination et qui promeut l’inclusion scolaire.
       Le dispositif a été conçu et est animé par des personnes handicapées.
       Le handicap est utilisé comme un vecteur d’échanges sur les différences et la singularité de chacun.
     </p>
-    <div class="div_cap_infos">
+    <div class="div_cap_infos cc-d">
       <div>
         <i class="fas fa-child yellow"></i>
         <p class="yellow">Qui est concerné ?</p>
@@ -269,7 +270,7 @@
         <p>Organisé dans plus de 100 établissements scolaires et centres loisirs en France</p>
       </div>
     </div>
-    <section id="sec_journee_cap_classe">
+    <section id="sec_journee_cap_classe" class="cc-e">
       <h3 class="item-z yellow jah_font">Le déroulé type d'une session (2h30 - 3h)</h3>
       <div class="div_fil item-a jah_font">
         <i class="fa fa-circle yellow"></i>
@@ -340,7 +341,7 @@
         </ul>
       </div>
     </section>
-    <div class="div_dl">
+    <div class="div_dl cc-f">
       <a href="resources/images/PageProgramme/compass.png" download>
         <button class="but_plaquette bg-yellow round-border" type="button" name="plaquette_2">
           La plaquette

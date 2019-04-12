@@ -19,13 +19,10 @@ document.addEventListener('DOMContentLoaded', ()=> {
     });
   });
 
-
-
   // LOAD PAGE ACCUEIL
   $.get('resources/src/page_accueil.php')
   .done(function(response) {
     $('#body_accueil').append(response);
-    // $('main').addClass('container');
     $('#sec_accueil').addClass('jah_font');
     $('#sec_info_nbres div').addClass('jah_font');
     $('.div_cap h4').addClass('jah_font');

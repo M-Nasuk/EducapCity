@@ -68,11 +68,11 @@
 
 /* Section Pilliers  */
 #sec_piliers {
-  background-color: rgba(54,173,128,0.2 );
+  /* background-color: rgba(54,173,128,0.2 ); */
   text-align: center;
 }
 #sec_piliers h4 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: #308f36;
   font-size: 2em;
 }
@@ -87,12 +87,15 @@
 }
 #div_piliers div:first-child {
   color: #1c96c5;
+  border: 1px solid #1c96c5;
 }
 #div_piliers div:nth-child(2) {
   color: #e30d14;
+  border: 1px solid #e30d14;
 }
 #div_piliers div:last-child {
   color: #ffcf01;
+  border: 1px solid #ffcf01;
 }
 #div_piliers div p {
   font-size: 1.6em;

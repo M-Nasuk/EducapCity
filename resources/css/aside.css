@@ -15,4 +15,25 @@ aside {
     float: right;
   }
 
+  .eui-widget-title {
+    font-family: "Just another hand";
+    font-size: 3em !important;
+    color: blue;
+    font-weight: normal !important;
+  }
+
+  #kill {
+    position: relative;
+  }
+  .kill {
+    position: absolute;
+    top: -50px;
+    display: block;
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    z-index: 100000 !important;
+  }
+
+
 }

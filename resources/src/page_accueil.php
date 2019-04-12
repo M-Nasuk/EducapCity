@@ -2,7 +2,7 @@
   <section id="sec_accueil">
     <h2>EDUCAP CITY, C'EST QUOI ?</h2>
     <p>Un tour de France de la citoyenneté, du civisme et de la fraternité
-pour les jeunes de 9 à 14 ans</p>
+      pour les jeunes de 9 à 14 ans</p>
   </section>
   <section>
     <div class="flexslider">
@@ -57,21 +57,21 @@ pour les jeunes de 9 à 14 ans</p>
     <div id="div_piliers">
       <div class="rec_pilier circle_pilier">
         <p>L'éducation
-à la
-citoyenneté
+          à la
+          citoyenneté
         </p>
       </div>
       <div class="rec_pilier circle_pilier">
         <p>La promotion
-du vivre
-ensemble en
-paix
+          du vivre
+          ensemble en
+          paix
       </p>
       </div>
       <div class="rec_pilier circle_pilier">
         <p>La culture
-de
-l'engagement
+          de
+          l'engagement
         </p>
       </div>
     </div>

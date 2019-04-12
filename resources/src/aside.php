@@ -17,7 +17,16 @@
   <!-- INSTAGRAM FEED -->
   <div class="elfsight-app-fec72549-1442-45ba-b448-6addeb7cdfe1"></div>
 
-  <div id="kill">
+  <div class="d_kill">
+    <div class="kill">
+
+    </div>
+  </div>
+
+  <!-- YOUTUBE FEED -->
+  <div class="elfsight-app-234b2f60-f476-4489-ad2c-4e8cb5d6f950"></div>
+
+  <div class="d_kill">
     <div class="kill">
 
     </div>

@@ -23,7 +23,7 @@ aside {
     font-weight: normal !important;
   }
 
-  #kill {
+  .d_kill {
     position: relative;
   }
   .kill {
@@ -36,5 +36,12 @@ aside {
     z-index: 100000 !important;
   }
 
-
+  .eapps-widget-toolbar {
+    display: none !important;
+  }
+  .yottie-widget-header-channel-title > a {
+    font-family: "Just another hand";
+    font-size: 1.5em !important;
+    color: #e30d14 !important;
+  }
 }

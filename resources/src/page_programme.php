@@ -107,6 +107,12 @@
         </p>
         <p>Les équipes préalablement constituées reçoivent leur carnet de route pour la journée.</p>
         <p>Les équipes sont composées de 6 jeunes et d'un accompagnant et sont, dans la mesure du possible, mixtes (filles - garçons - handicap).</p>
+        <div class="triangle">
+
+        </div>
+        <div class="triangle-1">
+
+        </div>
       </div>
       <div class="item-d">
         <p>Départ du rallye ! Les équipes ont un premier point de passage imposé puis elles déterminent en équipe leur parcours

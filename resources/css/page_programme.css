@@ -526,30 +526,28 @@
   margin-bottom: 0;
 }
 
-@media SCREEN and (min-width: 767px) {
+@media SCREEN and (min-width: 768px) {
   header {
     margin-bottom: 30px;
   }
   #sec_presentation {
     padding: 0 40px;
   }
+
+  #div_caps {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #div_caps div {
+    width: 25%;
+    margin: 0;
+  }
   .div_objectifs ul {
     display: block;
   }
-  /* .div_objectifs {
-    width: 40%;
-    display: inline-block;
-  }
-  .div_objectifs ul {
-    display: block;
-  }
-  .div_cap_infos, #sec_cap_rallye > p {
-    width: 60%;
-    display: inline-block;
-  } */
 
   #sec_cap_rallye h2, #sec_cap_classe h2, #sec_etape_capitale h2 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
   #sec_cap_rallye h2, #sec_cap_rallye > p, #sec_cap_classe h2, #sec_cap_classe > p, .div_objectifs, .div_cap_infos, .div_cap_infos div {
     margin: 0;
@@ -562,7 +560,7 @@
     grid-template-rows: 0fr 0.1fr 0.1fr 1fr;
   }
   #sec_cap_rallye h2, #sec_cap_classe h2 {
-    padding: 20px 0 25px 80px;
+    padding: 0 0 25px 80px;
   }
   .cr-a, .cc-a {
     grid-column-start: 1;
@@ -622,12 +620,87 @@
   .div_fil p {
     align-self: first baseline;
   }
+
+  #sec_journee_cap_rallye {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 0.43fr 0.14fr 0.43fr;
+  }
+  #sec_journee_cap_rallye > h3, #sec_journee_cap_classe > h3 {
+    margin-bottom: 30px;
+  }
+  #sec_journee_cap_rallye .item-z {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+  }
+  #sec_journee_cap_rallye .item-a {
+    grid-column: 2 / 3;
+    grid-row: 2 / 8;
+  }
+  #sec_journee_cap_rallye .item-b {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    margin-bottom: 20px;
+  }
+  #sec_journee_cap_rallye .item-c {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #sec_journee_cap_rallye .item-d {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+  }
+  #sec_journee_cap_rallye .item-d p:first-child, #sec_journee_cap_rallye .item-e p:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  #sec_journee_cap_rallye .item-e {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+  #sec_journee_cap_rallye .item-f {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+  }
+  #sec_journee_cap_rallye .item-g {
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+  }
+  #sec_journee_cap_rallye .item-h {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+  }
+  #sec_journee_cap_rallye .item-i {
+    grid-column: 3 / 4;
+    grid-row: 7 / 8;
+  }
+  #sec_journee_cap_rallye .item-y {
+    grid-column: 1 / 4;
+    grid-row: 8 / 9;
+  }
+
+
+  #sec_journee_cap_rallye .div_fil .p-item-a {
+    grid-row: 2 / 3;
+  }
   #sec_journee_cap_rallye .div_fil .p-item-b {
-    grid-row: 8 / 8;
+    grid-row: 3 / 6;
+  }
+  #sec_journee_cap_rallye .div_fil .p-item-c {
+    grid-row: 14 / 15;
+  }
+  #sec_journee_cap_rallye .div_fil .p-item-d {
+    grid-row: 16 / 17;
+  }
+  #sec_journee_cap_rallye .div_fil .p-item-e {
+    grid-row: 18 / 19;
+    margin-top: 0;
   }
   [alt="Carnet de Route"] {
     display: block;
-    max-width: 50%;
+    max-width: 100%;
   }
   .cr-e, .cc-e {
     grid-column: 1 / 3;
@@ -666,13 +739,42 @@
 
   #sec_etape_capitale h2 {
     margin-bottom: 50px;
+    padding-left: 81px;
   }
   #sec_etape_capitale h2 img {
     margin-top: -20px;
-    max-width: 11%;
+    width: 80px;
+    height: 80px;
   }
   #sec_etape_capitale .div_cap_infos {
     flex-wrap: nowrap;
     padding: 20px;
+  }
+  #sec_journee_cap_rallye > div:not(.div_fil):not(.carousel) {
+    position: relative;
+  }
+  .triangle {
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    border: 1px solid #aaa;
+    background: linear-gradient(to top right, #fff calc(50% - 1px), #f3f3f3, #fff calc(50% + 1px) );
+    top: 45px;
+    right: -20px;
+  }
+  .triangle-1 {
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    border: 1px solid #aaa;
+    background: linear-gradient(to bottom right, #fff calc(50% - 1px), #f3f3f3, #fff calc(50% + 1px) );
+    top: 60px;
+    right: -20px;
+  }
+  .triangle, .triangle-1 {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: 1px solid #fff;
   }
 }

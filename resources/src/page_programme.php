@@ -100,17 +100,18 @@
         <p class="p-item-d">15h45</p>
         <p class="p-item-e">16h15</p>
       </div>
-      <img src="resources/images/PageProgramme/graph/graph_elevesRallye.png" alt="Equipe de 6 enfants pr class="item-"êt à débuter l'évenement." class="item-b">
+      <img src="resources/images/PageAccueil/Graph/groupe_cap_classe.png" alt="groupe_cap_classe" class="item-b">
+      <!-- <img src="resources/images/PageProgramme/graph/graph_elevesRallye.png" alt="Equipe de 6 enfants prêt à débuter l'évenement." class="item-b"> -->
       <div class="item-c">
         <p>Accueil des participants sur le « village EDUCAP CITY » situé sur une place centrale de la ville.
         (Remise d'une collation et un T-shirt).
         </p>
         <p>Les équipes préalablement constituées reçoivent leur carnet de route pour la journée.</p>
         <p>Les équipes sont composées de 6 jeunes et d'un accompagnant et sont, dans la mesure du possible, mixtes (filles - garçons - handicap).</p>
-        <div class="triangle">
+        <div class="triangle-a">
 
         </div>
-        <div class="triangle-1">
+        <div class="triangle-a-1">
 
         </div>
       </div>
@@ -118,6 +119,12 @@
         <p>Départ du rallye ! Les équipes ont un premier point de passage imposé puis elles déterminent en équipe leur parcours
         afin de rejoindre le plus grand nombre de sites.</p>
         <p>Les équipes se déplacent à pied ou en transports en commun.</p>
+        <div class="triangle-b">
+
+        </div>
+        <div class="triangle-b-1">
+
+        </div>
       </div>
       <div class="item-e">
         <p>Les équipes sont acceuillies par les institutions, associations, entreprises de la ville pendant 10 à 15 minutes.
@@ -126,17 +133,41 @@
         <p>Des défis sportifs sont également proposés.</p>
         <p>Chaque point de passage évalue le comportement des équipes (civisme, respect / intérêt porté / fair-play...).</p>
         <p>Une pause-déjeuner de 45 minutes est prévue sur un point central du parcours.</p>
+        <div class="triangle-a">
+
+        </div>
+        <div class="triangle-a-1">
+
+        </div>
       </div>
       <img src="resources/images/PageProgramme/graph/carnetRoute.png" alt="Carnet de Route" class="item-f">
       <div class="item-g">
         <p>Retour des équipes sur le village et remise des carnets de route.
           Pendant la correction, des activités sont proposées sur le village et un goûter est distribué.</p>
+          <div class="triangle-b">
+
+          </div>
+          <div class="triangle-b-1">
+
+          </div>
       </div>
       <div class="item-h">
         <p>Annonce des équipes gagnantes et remises des prix. 3 à 5 équipes finaliste sont séléctionnées pour participer à l'étape Capitale en juin à Paris.</p>
+        <div class="triangle-a">
+
+        </div>
+        <div class="triangle-a-1">
+
+        </div>
       </div>
       <div class="item-i">
         <p>Départ des équipes.</p>
+        <div class="triangle-b">
+
+        </div>
+        <div class="triangle-b-1">
+
+        </div>
       </div>
       <div class="flexslider carousel item-y">
         <ul class="slides ul-a">
@@ -218,6 +249,7 @@
       CAP CLASSE
     </h2>
     <div class="div_objectifs cc-b">
+      <h3 class="blue">Les objectifs</h3>
       <button type="button" name="button_objectif" class="bg-blue round-border">Les objectifs
         <i class="fas fa-caret-right fa-rotate-90"></i>
       </button>
@@ -286,25 +318,56 @@
         <p class="p-item-d">20 - 30 minutes</p>
         <p class="p-item-e">20 - 30 minutes</p>
       </div>
-      <img src="resources/images/PageProgramme/graph/graph_elevesRallye.png" alt="Equipe de 6 enfants pr class="item-"êt à débuter l'évenement." class="item-b">
+      <!-- <img src="resources/images/PageProgramme/graph/graph_elevesRallye.png" alt="Equipe de 6 enfants prêt à débuter l'évenement." class="item-b"> -->
+      <img src="resources/images/PageAccueil/Graph/tribenfants_min.jpg" alt="tribenfants_min" class="item-b">
       <div class="item-c">
         <p>Intervention / Echanges avec l’ensemble du groupe.</p>
         <p>Projection d’une vidéo sur les Jeux Paralympiques pour susciter une prise de conscience
           et la discussion avec les jeunes (origines et conséquences du handicap, attitude pour prévenir la survenance,
           acceptation de la différence de chacun, résilience face aux situations compliquées de la vie...)</p>
         <p>Répartition des enfants en trois groupes pour les activités des mises en situation.</p>
+        <div class="triangle-a">
+
+        </div>
+        <div class="triangle-a-1">
+
+        </div>
       </div>
       <div class="item-d">
         <p>Atelier d’initiation au basket en fauteuil avec des sportifs handicapés</p>
+        <div class="triangle-b">
+
+        </div>
+        <div class="triangle-b-1">
+
+        </div>
       </div>
       <div class="item-e">
         <p>Parcours en situation de cécité</p>
+        <div class="triangle-b">
+
+        </div>
+        <div class="triangle-b-1">
+
+        </div>
       </div>
       <div class="item-f">
         <p>Atelier d’initiation à la langue des signes française</p>
+        <div class="triangle-b">
+
+        </div>
+        <div class="triangle-b-1">
+
+        </div>
       </div>
       <div class="item-g">
         <p>Conclusion de la session avec un retour sur leur expériences – échanges avec les intervenants.</p>
+        <div class="triangle-a">
+
+        </div>
+        <div class="triangle-a-1">
+
+        </div>
       </div>
       <div class="flexslider carousel item-y">
         <ul class="slides ul-b">

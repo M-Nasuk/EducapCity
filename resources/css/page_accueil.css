@@ -234,7 +234,8 @@
     padding: 20px;
   }
   .div_cap:first-child img:nth-child(2) {
-    max-width: 65%;
+    max-width: 55%;
+    margin-bottom: 10%;
   }
   .div_cap img:nth-child(2) {
     margin: 30px auto;

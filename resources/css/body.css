@@ -8,9 +8,10 @@ body {
   margin: 0 auto;
   font-family: 'Roboto';
   color: #24292E;
-
 }
-
+.color-0_8 {
+  color: rgba(36, 41, 46, 0.8);
+}
 img {
   max-width: 100%;
 }
@@ -70,8 +71,17 @@ li {
   background-color: #1c96c5;
   color: #FFF;
 }
+.bg-blue-2 {
+  background-color: #275390;
+  color: #FFF;
+}
+
 .bg-red {
   background-color: #e30d14;
+  color: #FFF;
+}
+.bg-grey {
+  background-color: rgba(36, 41, 46, 0.8);
   color: #FFF;
 }
 .round-border {

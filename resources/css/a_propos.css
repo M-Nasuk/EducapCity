@@ -1,0 +1,155 @@
+#a_propos > section:not(#sec_embarquez) {
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+#sec_de_capsaaa > h2, #sec_du_pacte > h2 {
+  font-weight: normal;
+  display: inline-block;
+  background-color: #f2f2f2;
+  margin-bottom: 25px;
+  padding-right: 20px;
+}
+#sec_de_capsaaa > p, #sec_du_pacte > p {
+  text-align: center;
+  margin-bottom: 25px;
+}
+#div_capsaaa, #div_impact {
+  position: relative;
+  text-align: center;
+}
+#div_capsaaa:before, #div_impact:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  display: inline-block;
+  height: 96%;
+  border-right: 1px solid #1c96c5;
+  /* top: 1%; */
+}
+#div_capsaaa > *, #div_impact > *{
+  position: relative;
+}
+#div_capsaaa > img {
+  max-width: 40%;
+  margin: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+#div_capsaaa div, #div_impact div{
+  padding: 10px;
+  border: 1px solid #f2f2f2;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+#div_capsaaa div:not(:nth-child(2)) p:not(:last-child) {
+  margin-bottom: 15px;
+}
+#div_capsaaa div:not(:nth-child(2)) p:not(:first-child) {
+  font-weight: 600;
+}
+
+#sec_pole_activites {
+  text-align: center;
+}
+#sec_pole_activites > * {
+  margin-bottom: 25px;
+}
+#sec_pole_activites > h3 {
+  font-size: 2em;
+}
+
+.div_cap_activite {
+
+  margin-bottom: 25px;
+}
+.div_cap_activite div {
+  font-size: 1.5em;
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.div_cap_activite h4 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.div_cap_activite p {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+.div_cap_activite li {
+  list-style-type: circle;
+}
+
+.div_infos_capsaaa {
+  text-align: center;
+  max-width: 50%;
+  margin: auto;
+}
+.div_infos_capsaaa > a {
+  text-decoration: underline;
+}
+.div_infos_capsaaa > p:last-child {
+  font-weight: 600;
+}
+
+#sec_du_pacte > p:nth-child(4) {
+  margin: 0 -20px 20px;
+  padding: 10px;
+}
+
+@media SCREEN and (min-width: 768px) {
+  #sec_de_capsaaa {
+    margin-top: 30px;
+  }
+  #sec_de_capsaaa > p, #sec_pole_activites > p {
+    white-space: pre-line;
+  }
+
+  #div_capsaaa > img {
+    max-width: 20%;
+  }
+  #div_capsaaa div {
+    display: inline-block;
+    padding: 15px;
+  }
+
+  .div_act {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .div_cap_activite {
+    max-width: 40%;
+    margin: 0 auto 25px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .div_cap_activite > div {
+    min-height: 155px;
+  }
+  .div_cap_activite > div > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80px;
+  }
+  .div_act > div:last-child > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .div_cap_activite > p {
+    min-height: 240px;
+  }
+
+  .div_infos_capsaaa {
+    max-width: 30%;
+  }
+
+  #div_impact {
+    margin: 30px;
+    padding: 0 30px;
+  }
+
+}

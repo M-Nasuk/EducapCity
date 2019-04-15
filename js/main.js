@@ -51,6 +51,17 @@ document.addEventListener('DOMContentLoaded', ()=> {
     });
   }
 
+  // LOAD PAGE A PROPOS
+  if ($('#body_a_propos')) {
+    $.get('resources/src/a_propos.php')
+    .done(function(response) {
+      $('#body_a_propos').append(response);
+      // $('#sec_accueil').addClass('jah_font');
+      // $('#sec_info_nbres div').addClass('jah_font');
+      // $('.div_cap h4').addClass('jah_font');
+    });
+  }
+
 
 
   // LOAD PAGE PROGRAMME
@@ -80,7 +91,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
         $('.flexslider').flexslider({
           animation: "slide",
           animationLoop: false,
-          itemWidth: 130,
+          itemWidth: 140,
           maxItems: 5,
           itemMargin: 5
         })

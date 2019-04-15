@@ -134,7 +134,7 @@
     justify-content: space-evenly;
     height: 80px;
   }
-  .div_act > div:last-child > div {
+  .div_act > div > div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -149,7 +149,83 @@
 
   #div_impact {
     margin: 30px;
-    padding: 0 30px;
+    padding: 0
+  }
+}
+
+@media SCREEN and (min-width: 1024px) {
+  #a_propos {
+    font-size: 1.1em;
+  }
+  #div_capsaaa > img {
+    max-width: 15%;
   }
 
+  .div_act {
+    justify-content: space-evenly;
+  }
+  .div_cap_activite {
+    position: relative;
+    width: 50%;
+    display: flex;
+  }
+  .div_act .item-a {
+    justify-content: flex-end;
+  }
+  .div_act .item-a p {
+    top: 20px;
+    left: -10px;
+  }
+  .div_act .item-b {
+    justify-content: flex-start;
+  }
+  .div_act .item-b p {
+    top: -20px;
+    right: 0;
+  }
+  .div_act .item-c {
+    justify-content: flex-start;
+  }
+  .div_act .item-c p {
+    top: 20px;
+    right: -70px;
+  }
+  .div_act .item-d {
+    justify-content: flex-end;
+  }
+  .div_act .item-d p {
+    top: 20px;
+    left: -60px;
+  }
+  .div_act .item-e {
+    justify-content: center;
+  }
+  .div_act .item-e p {}
+  .div_cap_activite > div, .div_cap_activite > p {
+    border-radius: 30px;
+  }
+  .div_cap_activite > div {
+    width: 340px;
+    height: 240px;
+    padding: 50px;
+    z-index: 1;
+  }
+
+  .div_cap_activite > p {
+    position: absolute;
+    z-index: -1;
+    width: 380px;
+  }
+  .div_cap_activite > div:hover {
+    z-index: -1;
+  }
+  .div_cap_activite > div:hover + p, .div_cap_activite > div:hover + p:hover {
+    z-index: 2;
+  }
+  .div_cap_activite > p:hover {
+    z-index: 2;
+  }
+  .div_cap_activite > div > ul {
+    height: auto;
+  }
 }

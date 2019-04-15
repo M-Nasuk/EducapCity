@@ -106,12 +106,6 @@
         </div>
 
       </section>
-      <div class="div_infos_capsaaa">
-        <p>Plus d'informations</p>
-        <a href="http://www.capsaaa.net">www.capsaaa.net</a>
-        <a href="http://contact@capsaaa.net">contact@capsaaa.net</a>
-        <p>01 40 43 14 90</p>
-      </div>
   </section>
   <section id="sec_du_pacte">
     <h2>Du Pacte de Fraternité</h2>
@@ -145,4 +139,11 @@
       </div>
     </div>
   </section>
+
+  <div class="div_infos_capsaaa">
+    <p>Plus d'informations</p>
+    <a href="http://www.capsaaa.net">www.capsaaa.net</a>
+    <a href="http://contact@capsaaa.net">contact@capsaaa.net</a>
+    <p>01 40 43 14 90</p>
+  </div>
 </main>

@@ -220,10 +220,16 @@ header img {
     display: block;
     max-width: 240px;
     padding-top: 45px;
+
+
+  }
+
+  #embarquez p {
+    transition: 0.5s;
   }
   #embarquez p:hover {
     background-color: #fff;
-    color:#ffcf01;
+    color: #ffcf01;
     transition: 0.5s;
   }
 

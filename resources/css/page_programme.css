@@ -914,3 +914,42 @@
     max-width: 70%;
   }
 }
+
+@media SCREEN and (min-width: 1024px) {
+  #sec_journee_cap_rallye .div_fil .p-item-b {
+    grid-row: 5 / 7;
+  }
+  #sec_journee_cap_rallye .div_fil .p-item-c {
+    grid-row: 14 / 16;
+  }
+  #sec_journee_cap_rallye .div_fil .p-item-d {
+    grid-row: 16 / 18;
+  }
+
+  #sec_journee_cap_classe .div_fil .p-item-b {
+    grid-row: 9 / 10;
+  }
+  #sec_journee_cap_classe .div_fil .p-item-c {
+    grid-row: 12 / 13;
+  }
+  #sec_journee_cap_classe .div_fil .p-item-d {
+    grid-row: 14 / 16;
+  }
+
+  #sec_journee_cap_classe .item-f .triangle-b {
+    top: 5px;
+    left: -20px;
+  }
+  #sec_journee_cap_classe .item-f .triangle-b-1 {
+    top: 20px;
+    left: -20px;
+  }
+  #sec_journee_cap_classe .item-g .triangle-a {
+    top: 10px;
+    right: -20px;
+  }
+  #sec_journee_cap_classe .item-g .triangle-a-1 {
+    top: 25px;
+    right: -20px;
+  }
+}

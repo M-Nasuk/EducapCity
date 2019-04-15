@@ -218,9 +218,6 @@
     z-index: -1;
     width: 380px;
   }
-  /* .div_cap_activite > div:hover {
-    z-index: -1;
-  } */
   .div_cap_activite > div:hover + p, .div_cap_activite > div:hover + p:hover {
     z-index: 2;
   }

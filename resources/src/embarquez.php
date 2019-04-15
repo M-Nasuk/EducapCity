@@ -4,30 +4,30 @@
 </h4>
 <section id="sec_embarquez">
   <a href="">
-    <div class="">
-      <p class="pre">ORGANISEZ EDUCAP CITY
+    <div>
+      <p class="pre hover-off">ORGANISEZ EDUCAP CITY
 DANS MA VILLE OU MON ECOLE</p>
-      <img src="resources/images/Photos/embarquez_organisez.jpg" alt="embarquez_organisez">
+      <img src="resources/images/Photos/embarquez_organisez.jpg" alt="embarquez_organisez" class="hover-off">
     </div>
 
   </a>
   <a href="">
-    <div class="">
-      <p>DEVENIR PARTENAIRE</p>
-      <img src="resources/images/Photos/embarquez_partenaire.png" alt="embarquez_partenaire">
+    <div>
+      <p class="hover-off">DEVENIR PARTENAIRE</p>
+      <img src="resources/images/Photos/embarquez_partenaire.png" alt="embarquez_partenaire" class="hover-off">
     </div>
 
   </a>
   <a href="">
-    <div class="">
-      <p>FAIRE UN DON</p>
-      <img src="resources/images/Photos/embarquez_don.png" alt="embarquez_don">
+    <div>
+      <p class="hover-off">FAIRE UN DON</p>
+      <img src="resources/images/Photos/embarquez_don.png" alt="embarquez_don" class="hover-off">
     </div>
   </a>
   <a href="">
-    <div class="">
-      <p>DEVENIR BENEVOLE</p>
-      <img src="resources/images/Photos/embarquez_benevoles.png" alt="embarquez_benevoles">
+    <div>
+      <p class="hover-off">DEVENIR BENEVOLE</p>
+      <img src="resources/images/Photos/embarquez_benevoles.png" alt="embarquez_benevoles" class="hover-off">
     </div>
   </a>
 </section>

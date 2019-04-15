@@ -10,11 +10,11 @@
     âgés de 9 à 14 ans :</p>
     <div id="div_caps">
       <div>
-        <a href=""><h3 class="bg-green round-border">CAP RALLYE</h3></a>
+        <a href=""><h3 class="bg-green round-border hover-off">CAP RALLYE</h3></a>
         <p>Un parcours d'éducation civique grandeur nature dans la ville</p>
       </div>
       <div>
-        <a href=""><h3 class="bg-yellow round-border">CAP CLASSE</h3></a>
+        <a href=""><h3 class="bg-yellow round-border hover-off">CAP CLASSE</h3></a>
         <p>Des interventions en milieu scolaire où le sport est au service de l'éducation</p>
       </div>
     </div>
@@ -175,62 +175,53 @@
             <div class="li-a">
 
             </div>
-            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye1.jpg" alt="Equipe gagnante soulevant une coupe." /> -->
           </li>
           <li >
             <div class="li-b">
 
             </div>
-            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye2.jpg" alt="Arrivée des équipes au village." /> -->
           </li>
           <li>
             <div class="li-c">
 
             </div>
-            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye3.jpg" alt="Homme présentant le parcours aux enfants." /> -->
           </li>
           <li>
             <div class="li-d">
 
             </div>
-            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye4.jpg" alt="Enfants lors d'un parcours dans une institution." /> -->
           </li>
           <li>
             <div class="li-e">
 
             </div>
-            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye5.jpg" alt="Enfants sous une tente apprenant les gestes de sauveteur." /> -->
           </li>
           <li>
             <div class="li-f">
 
             </div>
-            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye6.jpg" alt="Un enfant sur une moto d'un agent des CRS." /> -->
           </li>
           <li>
             <div class="li-g">
 
             </div>
-            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye7.jpg" alt="Enfants à l'écoute lors d'une explication." /> -->
           </li>
           <li>
             <div class="li-h">
 
             </div>
-            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye8.jpg" alt="Une équipe préparant son parcours pour la journée." /> -->
           </li>
           <li>
             <div class="li-i">
 
             </div>
-            <!-- <img src="resources/images/PageProgramme/Photos/caprallye/caprallye9.jpg" alt="Une équipe sur un stand de la CAF." /> -->
           </li>
         </ul>
       </div>
     </section>
     <div class="div_dl cr-f">
       <a href="resources/images/PageProgramme/compass.png" download>
-        <button class="but_plaquette bg-green round-border" type="button" name="plaquette_1">
+        <button class="but_plaquette bg-green round-border hover-off" type="button" name="plaquette_1">
           La plaquette
           <i class="fas fa-download"></i>
         </button>
@@ -412,7 +403,7 @@
     </section>
     <div class="div_dl cc-f">
       <a href="resources/images/PageProgramme/compass.png" download>
-        <button class="but_plaquette bg-yellow round-border" type="button" name="plaquette_2">
+        <button class="but_plaquette bg-yellow round-border hover-off" type="button" name="plaquette_2">
           La plaquette
           <i class="fas fa-download"></i>
         </button>
@@ -455,7 +446,7 @@
       </div>
     </div>
     <div class="div_dl">
-      <button class="but_plaquette bg-red round-border" type="button" name="participer">Participer à l'étape Capitale</button>
+      <button class="but_plaquette bg-red round-border hover-off" type="button" name="participer">Participer à l'étape Capitale</button>
     </div>
   </section>
 </main>

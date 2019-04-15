@@ -17,7 +17,7 @@
     </div>
     <div id="embarquez">
       <a href="">
-        <p class="round-border">Embarquez-vous dans la citoyenneté!</p>
+        <p class="round-border hover-off">Embarquez-vous dans la citoyenneté!</p>
       </a>
     </div>
     <div id="partenaires">

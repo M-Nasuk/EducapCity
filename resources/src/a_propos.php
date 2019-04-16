@@ -3,7 +3,7 @@
       <h2>De CAP SAAA</h2>
       <p>Reconnue d’intérêt général, CAP Sport Art Aventure Amitié (CAP SAAA) est une association Loi
         1901 fondée en 1995, à l’initiative de Ryadh Sallem, athlète paralympique et militant associatif.
-      </p>
+        </p>
       <div id="div_capsaaa">
         <img src="resources/images/Logos/logo_capsaaa_date.jpg" alt="Logo de l'association CAP SAAA.">
         <div>
@@ -93,10 +93,6 @@
           <div class="div_cap_activite item-e">
             <div class="jah_font bg-grey">
               <h4>CAP Résilience</h4>
-              <!-- <ul>
-                <li>CAP Entreprises</li>
-                <li>CAP Etudiants</li>
-              </ul> -->
             </div>
             <p class="color-0_8">Le programme CAP Résilience a pour objectif de remobiliser le corps et l’esprit des personnes handicapées en les amenant à découvrir de nouvelles sensations à travers le sport
               et à en tirer tous les bénéfices dans leur quotidien (amélioration de la santé, resociabilisation, autonomisation…).
@@ -104,8 +100,13 @@
               </p>
           </div>
         </div>
-
       </section>
+      <div class="div_infos_capsaaa">
+        <p>Plus d'informations</p>
+        <a href="http://www.capsaaa.net">www.capsaaa.net</a>
+        <a href="http://contact@capsaaa.net">contact@capsaaa.net</a>
+        <p>01 40 43 14 90</p>
+      </div>
   </section>
   <section id="sec_du_pacte">
     <h2>Du Pacte de Fraternité</h2>
@@ -140,10 +141,5 @@
     </div>
   </section>
 
-  <div class="div_infos_capsaaa">
-    <p>Plus d'informations</p>
-    <a href="http://www.capsaaa.net">www.capsaaa.net</a>
-    <a href="http://contact@capsaaa.net">contact@capsaaa.net</a>
-    <p>01 40 43 14 90</p>
-  </div>
+
 </main>

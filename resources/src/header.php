@@ -65,10 +65,10 @@
         <a href="A Propos"><h3>A PROPOS</h3> </a>
         <ul>
           <li>
-            <a href="#">De Capsaaa</a>
+            <a href="A Propos#De CAP SAAA">De Capsaaa</a>
           </li>
           <li>
-            <a href="#">Du pacte de fraternité</a>
+            <a href="A Propos#Du Pacte de Fraternité">Du pacte de fraternité</a>
           </li>
         </ul>
       </li>
@@ -76,10 +76,10 @@
         <a href="Programme"><h3>LE PROGRAMME</h3> </a>
         <ul>
           <li>
-            <a href="Programme#sec_cap_rallye">Cap Rallye</a>
+            <a href="Programme#Cap Rallye">Cap Rallye</a>
           </li>
           <li>
-            <a href="Programme#sec_cap_classe">Cap Classe</a>
+            <a href="Programme#Cap Classe">Cap Classe</a>
           </li>
         </ul>
       </li>

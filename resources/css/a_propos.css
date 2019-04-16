@@ -100,8 +100,8 @@
 }
 
 @media SCREEN and (min-width: 768px) {
-  #sec_de_capsaaa {
-    margin-top: 30px;
+  #a_propos {
+    padding-top: 30px;
   }
   #sec_de_capsaaa > p, #sec_pole_activites > p {
     white-space: pre-line;
@@ -231,5 +231,10 @@
   #div_impact div {
     max-width: 70%;
     margin: 0 auto 30px;
+  }
+
+  #a_propos > section:not(#sec_embarquez) {
+    padding: 25px 20px 50px;
+    margin-bottom: 50px;
   }
 }

@@ -16,7 +16,9 @@ if (empty($_GET)){
     case 'a_propos':
       include 'resources/templates/a_propos.phtml';
       break;
-
+    case 'nos_editions':
+      include 'resources/templates/nos_editions.phtml';
+      break;
     default:
       // code...
       break;

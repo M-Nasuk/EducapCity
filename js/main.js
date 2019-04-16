@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
   // LOAD PAGE A PROPOS
   if ($('#body_a_propos').length) {
-    $.get('resources/src/a_propos.php')
+    $.get('resources/src/page_a_propos.php')
     .done(function(response) {
       $('#body_a_propos').append(response);
 
@@ -137,6 +137,13 @@ document.addEventListener('DOMContentLoaded', ()=> {
     });
   }
 
+  // LOAD PAGE NOS EDITIONS
+  if ($('#body_nos_editions').length) {
+    $.get('resources/src/page_nos_editions.php')
+    .done(function(response) {
+      $('#body_nos_editions').append(response);
+    });
+  }
 
   // LOAD EMBARQUEZ SCRIPT
   $.get('resources/src/embarquez.php')

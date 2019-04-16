@@ -101,7 +101,7 @@
         </ul>
       </li>
       <li>
-        <a href="#"><h3>NOS EDITIONS</h3> </a>
+        <a href="Nos Editions"><h3>NOS EDITIONS</h3> </a>
         <ul>
           <li>
             <a href="#">L'édition 2018</a>

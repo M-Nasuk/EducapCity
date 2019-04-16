@@ -4,3 +4,5 @@ RewriteEngine on
 RewriteRule ^Programme$ index.php?page=programme [L]
 
 RewriteRule ^A(\s+)Propos$ index.php?page=a_propos [L]
+
+RewriteRule ^Nos(\s+)Editions$ index.php?page=nos_editions [L]

@@ -14,7 +14,13 @@
   </url>
   <url>
     <loc>http://educapcity.org/a_propos</loc>
-    <lastmod>2019-03-05</lastmod>
+    <lastmod>2019-04-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://educapcity.org/nos_editions</loc>
+    <lastmod>2019-04-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>

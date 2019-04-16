@@ -26,7 +26,7 @@
       </a>
       <div>
         <a href="www.stmichel.fr">
-          <img src="resources/images/Logos/logo_stmichel.jpg" alt="logo_stmichel">
+          <img src="resources/images/Logos/logo_st_michel.jpg" alt="logo_stmichel">
         </a>
         <a href="https://www.sncf.com/fr">
           <img src="resources/images/Logos/logo_sncf.png" alt="logo_sncf">

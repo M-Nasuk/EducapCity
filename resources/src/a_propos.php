@@ -33,7 +33,8 @@
           Depuis sa création, CAP SAAA intervient sur différents pôles d’activités, touchant
           directement entre <span class="red">10 et 15 000 bénéficiaires par an sur tout le territoire</span>.
         </p>
-        <h3 class="color-0_8">5 pôles d’activité</h3>
+        <h3 class="color-0_8">5 pôles
+          d’activité</h3>
         <div class="div_act">
           <div class="div_cap_activite item-a">
             <div class="jah_font bg-blue-2">

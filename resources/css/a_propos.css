@@ -237,4 +237,19 @@
     padding: 25px 20px 50px;
     margin-bottom: 50px;
   }
+
+  #sec_pole_activites {
+    position: relative;
+  }
+
+  #sec_pole_activites h3 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 445px;
+    white-space: pre-line;
+  }
+  #sec_pole_activites > * {
+    margin-bottom: 60px;
+  }
 }

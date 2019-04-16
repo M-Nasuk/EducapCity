@@ -105,6 +105,7 @@ header img {
 #menu > ul > li a + ul {
   display: none;
   visibility: inherit;
+  z-index: 3;
 }
 #menu a {
   color: #24292E;

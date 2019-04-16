@@ -142,6 +142,18 @@ document.addEventListener('DOMContentLoaded', ()=> {
     $.get('resources/src/page_nos_editions.php')
     .done(function(response) {
       $('#body_nos_editions').append(response);
+      var map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          })
+        ],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([2.618787, 47.824905]),
+          zoom: 3
+        })
+      });
     });
   }
 

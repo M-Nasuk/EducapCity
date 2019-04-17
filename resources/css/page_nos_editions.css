@@ -1,13 +1,35 @@
 #map {
   max-height: 100%;
+  display: inline-block;
 }
-
 .map {
-  width: 620px;
-  height: 570px;
+  width: 320px;
+  height: 300px;
   margin: auto;
 }
+.map_button {
+  display: inline-block;
+  width: 300px;
+}
 
-svg path:last-child {
+.toggle {
+  display: none;
+}
+
+.map > div:first-child > div:first-child > div:first-child > div > svg > path:last-child{
+  transition: 0.5s;
   fill: red;
+}
+
+.map > div:first-child > div:first-child > div:first-child > div > svg > path:last-child:hover {
+  fill-opacity: 0.5;
+  transition: 0.5s;
+}
+
+@media SCREEN and (min-width: 768px) {
+  .map {
+    width: 620px;
+    height: 570px;
+    margin: auto;
+  }
 }

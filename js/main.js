@@ -144,6 +144,11 @@ document.addEventListener('DOMContentLoaded', ()=> {
       // HERE MAP
       hMap();
 
+      $('.b_cr').click(function() {
+        $(".div_icon").toggle();
+        $(".map > div:first-child > div:first-child > div:first-child > div > svg").toggle();
+      });
+
     });
   }
 

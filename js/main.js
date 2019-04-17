@@ -68,8 +68,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
     });
   }
 
-
-
   // LOAD PAGE PROGRAMME
   if ($('#body_programme').length) {
     $.get('resources/src/page_programme.php')
@@ -144,34 +142,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
       $('#body_nos_editions').append(response);
 
       // HERE MAP
-      var platform = new H.service.Platform({
-        'app_id': '{hLBtSVPLqp03fWYQp6qo}',
-        'app_code': '{HUOWVrd4xXA1322kRD7jNQ}'
-      });
-
-      var defaultLayers = platform.createDefaultLayers();
-
-      // Instantiate (and display) a map object:
-      var map = new H.Map(
-        document.getElementById('mapContainer'),
-        defaultLayers.normal.map,
-        {
-          zoom: 10,
-          center: { lat: 52.5, lng: 13.4 }
-        });
-
-      // var map = new ol.Map({
-      //   target: 'map',
-      //   layers: [
-      //     new ol.layer.Tile({
-      //       source: new ol.source.OSM()
-      //     })
-      //   ],
-      //   view: new ol.View({
-      //     center: ol.proj.fromLonLat([2.618787, 47.824905]),
-      //     zoom: 3
-      //   })
-      // });
+      hMap();
 
     });
   }
@@ -223,12 +194,12 @@ document.addEventListener('DOMContentLoaded', ()=> {
   });
 
   // LOAD ASIDE
-  if ($(document).width() > 1100) {
-    $.get('resources/src/aside.php')
-    .done(function(response) {
-      $('body').append(response);
-      alterAside();
-    });
-  }
+  // if ($(document).width() > 1100) {
+  //   $.get('resources/src/aside.php')
+  //   .done(function(response) {
+  //     $('body').append(response);
+  //     alterAside();
+  //   });
+  // }
 
 })

@@ -140,15 +140,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
     $.get('resources/src/page_nos_editions.php')
     .done(function(response) {
       $('#body_nos_editions').append(response);
-
-      // HERE MAP
-      hMap();
-
-      $('.b_cr').click(function() {
-        $(".div_icon").toggle();
-        $(".map > div:last-child > div:first-child > div:first-child > div > svg").toggle();
-      });
-
     });
   }
 

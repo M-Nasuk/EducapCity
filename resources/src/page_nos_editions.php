@@ -1,7 +1,3 @@
 <main id="nos_editions">
-  <div id="map" class="map"></div>
-  <div class="map_button">
-    <button class="b_cr" type="button" name="button">Cap Rallye</button>
-  </div>
-
+  <iframe src="https://www.google.com/maps/d/embed?mid=13097Ul8cRmvzdmu0o7ozDoHMFZ8Viyip&hl=fr"></iframe>
 </main>

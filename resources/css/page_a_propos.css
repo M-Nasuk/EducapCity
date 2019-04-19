@@ -24,7 +24,6 @@
   display: inline-block;
   height: 96%;
   border-right: 1px solid #1c96c5;
-  /* top: 1%; */
 }
 #div_capsaaa > *, #div_impact > *{
   position: relative;
@@ -217,12 +216,19 @@
     position: absolute;
     z-index: -1;
     width: 380px;
+    transition: 1s;
+    display: flex;
+    align-items: center;
   }
   .div_cap_activite > div:hover + p, .div_cap_activite > div:hover + p:hover {
     z-index: 2;
+    transition: transform 1s;
+    transform: rotate(1 turn) scale(1.5);
   }
   .div_cap_activite > p:hover {
     z-index: 2;
+    transition: transform 1s;
+    transform: rotate(1turn) scale(1.5);
   }
   .div_cap_activite > div > ul {
     height: auto;

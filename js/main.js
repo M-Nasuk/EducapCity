@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
       $('.b_cr').click(function() {
         $(".div_icon").toggle();
-        $(".map > div:first-child > div:first-child > div:first-child > div > svg").toggle();
+        $(".map > div:last-child > div:first-child > div:first-child > div > svg").toggle();
       });
 
     });

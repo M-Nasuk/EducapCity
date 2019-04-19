@@ -8,20 +8,22 @@
   margin: auto;
 }
 .map_button {
-  display: inline-block;
-  width: 300px;
+  display: inline;
+  max-width: 100%;
+  vertical-align: top;
+  flex-direction: column;
 }
 
 .toggle {
   display: none;
 }
 
-.map > div:first-child > div:first-child > div:first-child > div > svg > path:last-child{
+.map > div:last-child > div:first-child > div:first-child > div > svg > path:last-child{
   transition: 0.5s;
   fill: red;
 }
 
-.map > div:first-child > div:first-child > div:first-child > div > svg > path:last-child:hover {
+.map > div:last-child > div:first-child > div:first-child > div > svg > path:last-child:hover {
   fill-opacity: 0.5;
   transition: 0.5s;
 }

@@ -155,13 +155,5 @@ function changeOpacityBack(evt) {
   evt.target.style.opacity = 1;
 };
 
-var domIcon = new H.map.DomIcon(domElement, {
-  onAttach: function(clonedElement, domIcon, domMarker) {
-  clonedElement.addEventListener('mouseover', changeOpacity);
-  clonedElement.addEventListener('mouseout', changeOpacityBack);
-  },
-  onDetach: function(clonedElement, domIcon, domMarker) {
-  clonedElement.removeEventListener('mouseover', changeOpacity);
-  clonedElement.removeEventListener('mouseout', changeOpacityBack);
-  }
-});
+
+var domIcon = new H.map.Icon(domElement);

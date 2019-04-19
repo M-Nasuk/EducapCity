@@ -25,32 +25,32 @@
         <h3>Partenaires</h3>
       </a>
       <div>
-        <a href="www.stmichel.fr">
+        <a href="https://www.stmichel.fr" target="_blank">
           <img src="resources/images/Logos/logo_st_michel.jpg" alt="logo_stmichel">
         </a>
-        <a href="https://www.sncf.com/fr">
+        <a href="https://www.sncf.com/fr" target="_blank">
           <img src="resources/images/Logos/logo_sncf.png" alt="logo_sncf">
         </a>
-        <a href="http://www.sports.gouv.fr/">
+        <a href="http://www.sports.gouv.fr/" target="_blank">
           <img src="resources/images/Logos/logo_mariannesports_bleu.jpg" alt="logo_ministere_des_sports">
         </a>
       </div>
 
     </div>
     <div id="reseaux_sociaux">
-      <a href="https://www.instagram.com/educap_city/">
+      <a href="https://www.instagram.com/educap_city/" target="_blank">
         <img src="resources/images/reseaux/logo_instagram.jpg" alt="logo_instagram">
       </a>
-      <a href="https://www.facebook.com/EducapCity/">
+      <a href="https://www.facebook.com/EducapCity/" target="_blank">
         <img src="resources/images/reseaux/logo_facebook.png" alt="logo_facebook">
       </a>
-      <a href="https://twitter.com/educapcity">
+      <a href="https://twitter.com/educapcity" target="_blank">
         <img src="resources/images/reseaux/logo_twitter.png" alt="logo_twitter">
       </a>
-      <a href="https://www.linkedin.com/company/capsaaa/about/">
+      <a href="https://www.linkedin.com/company/capsaaa/about/" target="_blank">
         <img src="resources/images/reseaux/logo_linkedin.png" alt="logo_linkedin">
       </a>
-      <a href="https://www.youtube.com/channel/UCtqYoS3cgXXkyvAw2uA9qCQ">
+      <a href="https://www.youtube.com/channel/UCtqYoS3cgXXkyvAw2uA9qCQ" target="_blank">
         <img src="resources/images/reseaux/logo_youtube.png" alt="logo_youtube">
       </a>
     </div>

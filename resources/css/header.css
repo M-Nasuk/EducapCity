@@ -59,6 +59,9 @@ header img {
   width: 90%;
   margin: auto;
 }
+#partenaires div a:first-child img {
+  width: 55px;
+}
 #partenaires div a:last-child img {
   width: 50px;
 }

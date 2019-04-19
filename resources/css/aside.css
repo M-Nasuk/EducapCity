@@ -22,7 +22,15 @@ aside {
     color: #1c96c5;
     font-weight: normal !important;
   }
-
+  .fb-page {
+    margin-bottom: 20px;
+  }
+  .div_insta a {
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    padding: 20px 20px 10px;
+  }
   .d_kill {
     position: relative;
   }

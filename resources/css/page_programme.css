@@ -608,7 +608,7 @@
     align-content: end;
   }
   #sec_journee_cap_rallye, #sec_journee_cap_classe {
-    padding-top: 20px;
+    padding-top: 40px;
   }
   #sec_journee_cap_rallye > div:not(.div_fil):not(.item-y), #sec_journee_cap_classe > div:not(.div_fil):not(.item-y) {
     margin: 15px;

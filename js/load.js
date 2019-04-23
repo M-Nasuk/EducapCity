@@ -49,11 +49,11 @@ $(document).ready(function() {
 
 
   // LOAD ASIDE
-  // if ($(document).width() > 1100) {
-  //   $.get('resources/src/aside.php')
-  //   .done(function(response) {
-  //     $('body').append(response);
-  //     alterAside();
-  //   });
-  // }
+  if ($(document).width() > 1100) {
+    $.get('resources/src/aside.php')
+    .done(function(response) {
+      $('body').append(response);
+      alterAside();
+    });
+  }
 })

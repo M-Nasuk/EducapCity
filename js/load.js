@@ -48,7 +48,11 @@ $(document).ready(function() {
   });
 
 
+<<<<<<< HEAD
   // LOAD ASIDE
+=======
+  LOAD ASIDE
+>>>>>>> 8ab3661ffe1162f47884c9ae5ea7a995aa4a69e6
   if ($(document).width() > 1100) {
     $.get('resources/src/aside.php')
     .done(function(response) {

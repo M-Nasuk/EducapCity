@@ -84,7 +84,7 @@
   <section id="sec_citoyen" class="pad_mob mar_bot_mob">
     <div class="div_cap">
       <h4 class="yellow">CAP Classe</h4>
-      <img src="resources/images/PageAccueil/Graph/groupe_cap_classe.png" alt="groupe_cap_classe">
+      <img src="resources/images/PageAccueil/Graph/equipe_fond_ville.png" alt="groupe_cap_classe">
       <img src="resources/images/PageAccueil/Graph/triangle_jaune.png" alt="triangle_jaune">
       <h5 class="yellow">Du CM1 à la 3e</h5>
       <p>
@@ -95,7 +95,7 @@
     </div>
     <div class="div_cap">
       <h4 class="green">CAP Rallye</h4>
-      <img src="resources/images/PageAccueil/Graph/tribenfants_min.jpg" alt="tribenfants_min">
+      <img src="resources/images/PageAccueil/Graph/groupe_institution.png" alt="tribenfants_min">
       <img src="resources/images/PageAccueil/Graph/triangle_vert.png" alt="triangle_vert">
       <h5 class="green">Du CM1 à la 5e</h5>
       <p>

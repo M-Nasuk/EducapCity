@@ -153,6 +153,7 @@ header img {
     margin: 0;
     width: 250px;
     padding-top: 25px;
+    margin-top: 45px;
   }
   #partenaires div {
     justify-content: space-between;
@@ -220,17 +221,18 @@ header img {
   header {
     position: relative;
   }
-  header section > div:first-child, header section > div:first-child a {
-    display: flex;
+  #educapcity, #educapcity a {
+    display: inline-flex;
     flex-direction: row;
   }
 
   #embarquez {
-    display: block;
+    display: flex;
     max-width: 240px;
-    padding-top: 45px;
   }
-
+  #embarquez a {
+    align-self: center;
+  }
   #embarquez p:hover {
     background-color: #fff;
     color: #ffcf01;
@@ -255,7 +257,7 @@ header img {
   }
   #menu {
     padding: 10px;
-    margin-left: calc(-100vw / 2 + 1400px / 2);
-    margin-right: calc(-100vw / 2 + 1400px / 2);
+    margin-left: calc(-100vw / 2 + 1100px / 2 + 7.5px);
+    margin-right: calc(-100vw / 2 + 1100px / 2 + 7.5px);
   }
 }

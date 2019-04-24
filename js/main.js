@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', ()=> {
   $.get('resources/src/header.php')
   .done(function(response) {
     $('body').prepend(response);
-    $('#menu > ul > li a h3').addClass('jah_font');
-    $('#menu > ul > li ul li').addClass('jah_font');
+    // $('#menu > ul > li a h3').addClass('jah_font');
+    // $('#menu > ul > li ul li').addClass('jah_font');
 
     // BUTTON DISPLAY MENU MOBILE
     $('#b_menu').click(function() {

@@ -4,12 +4,11 @@
   outline: none;
 }
 body {
-  max-width: 1400px;
+  max-width: 1100px;
   margin: 0 auto;
   font-family: 'Roboto';
   color: #24292E;
-  font-size: 1.3em;
-  line-height: 1.5;
+
 }
 .color-0_8 {
   color: rgba(36, 41, 46, 0.8);
@@ -117,13 +116,12 @@ main > h4 .fas {
 
 @media SCREEN and (min-width: 1025px) {
  body {
-   position: relative;
+   /* position: relative; */
+   font-size: 1.3em;
+   line-height: 1.5;
  }
 }
 
 @media SCREEN and (min-width: 1100px) {
-  main {
-    display: inline-block;
-    max-width: 1100px;
-  }
+
 }

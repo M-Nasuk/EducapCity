@@ -56,7 +56,7 @@
     </div>
   </section>
   <button type="button" id="b_menu"><i class="fas fa-bars"></i></button>
-  <nav id="menu">
+  <nav id="menu" class="jah_font">
     <ul>
       <li>
         <a href="/EducapCity/"><h3>ACCUEIL</h3> </a>

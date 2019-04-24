@@ -2,8 +2,11 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.2"></script>
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+<script type="text/javascript">function showpics(){var a=$("#box").val();$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script>
 
+<h2 class="actu jah_font">ACTUALITÉS</h2>
 <aside>
+
   <!-- FACEBOOK FEED -->
   <div class="fb">
     <div id="fb-root"></div>
@@ -58,12 +61,12 @@
   <div class="flickr">
     <a href="https://www.flickr.com/search/?text=educap%20city" target="_blank" class="jah_font bg-green">Educap City Flickr</a>
     <iframe style="position: relative; top: 0; left: 0; width: 100%; height: 100%;" src="https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=educap%20city&sort=2&by=keywords&theme=tilesgrid&scale=fill&speed=3000&limit=30&skin=default&autoplay=true" scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true">
-      <p>
+      <!-- <p>
         <a rel="nofollow" href="https://themesort.com">theme sort</a>
       </p>
       <small>Powered by
         <a href="https://flickrembed.com">flickr embed</a>.
-      </small></iframe>
-      <script type="text/javascript">function showpics(){var a=$("#box").val();$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script>
+      </small> -->
+    </iframe>
   </div>
 </aside>

@@ -15,6 +15,10 @@ aside {
     right: 5%;
     float: right;
   } */
+  .actu {
+    text-align: center;
+    padding: 40px
+  }
   aside {
     display: flex;
     width: 1500px;

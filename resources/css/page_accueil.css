@@ -184,9 +184,10 @@
 
 /* Tablet */
 @media SCREEN and (min-width: 768px) {
-  #sec_accueil p, #sec_accueil h2 {
+  /* #sec_accueil p, #sec_accueil h2 {
     font-size: 2em;
-  }
+  } */
+
   #sec_accueil p {
     white-space: pre-line;
   }
@@ -283,10 +284,12 @@
   }
 }
 
-@media SCREEN and (min-width: 1025px) {
+@media SCREEN and (min-width: 1025px) and (max-width: 1399px) {
   #sec_accueil {
-    width: 1400px;
+    max-width: 1400px;
   }
+}
+@media SCREEN and (min-width: 1025px) {
   .circle_pilier {
     padding: 6% 0 4%;
     white-space: pre-line;
@@ -301,10 +304,7 @@
 
 }
 @media SCREEN and (min-width: 1100px) {
-  #sec_accueil {
-    font-size: 1.5em;
-    clear: both;
-  }
+
   .div_cap img:nth-child(2) {
     margin: 40px auto;
   }
@@ -317,4 +317,12 @@
   .rec_pilier > p {
     align-self: center;
   }
+}
+@media SCREEN and (min-width: 1400px) {
+ #sec_accueil {
+   padding: 85px 54px;
+   font-size: 1.5em;
+   margin-left: calc(-100vw / 2 + 1400px / 2);
+   margin-right: calc(-100vw / 2 + 1400px / 2);
+ }
 }

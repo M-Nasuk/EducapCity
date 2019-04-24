@@ -247,3 +247,15 @@ header img {
     right: 20px;
   }
 }
+
+@media SCREEN and (min-width: 1400px) {
+  #menu > ul {
+    width: 1400px;
+    margin: auto;
+  }
+  #menu {
+    padding: 10px;
+    margin-left: calc(-100vw / 2 + 1400px / 2);
+    margin-right: calc(-100vw / 2 + 1400px / 2);
+  }
+}

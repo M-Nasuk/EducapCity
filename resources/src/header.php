@@ -17,12 +17,12 @@
     </div>
     <div id="embarquez">
       <a href="">
-        <p class="round-border hover-off">Embarquez-vous dans la citoyenneté!</p>
+        <p class="round-border hover-off">Faire un don</p>
       </a>
     </div>
     <div id="partenaires">
       <a href="#">
-        <h3>Partenaires</h3>
+        <!-- <h3>Partenaires</h3> -->
       </a>
       <div>
         <a href="https://www.stmichel.fr" target="_blank">

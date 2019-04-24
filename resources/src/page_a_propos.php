@@ -1,8 +1,8 @@
 <main id="a_propos">
   <section id="sec_de_capsaaa">
       <h2>De CAP SAAA</h2>
-      <p>Reconnue d’intérêt général, CAP Sport Art Aventure Amitié (CAP SAAA) est une association Loi
-        1901 fondée en 1995, à l’initiative de Ryadh Sallem, athlète paralympique et militant associatif.
+      <p>CAP SAAA, CAP Sport Art Aventure Amitié - est une association Loi 1901 reconnue d'intérêt général,
+        fondée en 1995 à l’initiative de Ryadh Sallem, athlète paralympique et militant associatif.
         </p>
       <div id="div_capsaaa">
         <img src="resources/images/Logos/logo_capsaaa_date.jpg" alt="Logo de l'association CAP SAAA.">
@@ -12,9 +12,9 @@
         <div>
           <p>Notre objet</p>
           <p>Valoriser les personnes handicapées comme autant d’acteurs du changement et
-            de modèles de positivité pour contribuer à faire évoluer le regard sur le handicap.
+            de modèles de positivité pour contribuer à faire évoluer les comportements sur la différence en général.
           </p>
-          <p>Lutter contre toute forme de discrimination</p>
+          <p>Lutter contre toutes formes de discrimination</p>
           <p>Promouvoir le vivre ensemble en paix</p>
         </div>
         <div>

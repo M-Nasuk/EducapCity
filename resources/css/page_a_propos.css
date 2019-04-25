@@ -2,11 +2,14 @@
   padding: 0 20px;
   margin-bottom: 50px;
 }
-
+#sec_de_capsaaa > div:first-child {
+  background: url() no-repeat center center fixed;
+  background-size: cover;
+}
 #sec_de_capsaaa > h2, #sec_pole_activites > h2, #sec_du_pacte > h2 {
   font-weight: normal;
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   font-size: 2em;
 }
 #a_propos h2 > svg, #sec_du_pacte > h2 > svg {
@@ -96,8 +99,38 @@ h3.vertical_bg_line span {
 #sec_pole_activites > h3 {
   font-size: 2em;
 }
+.div_act {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.div_act > div {
+  margin-bottom: 20px;
+}
+.div_act img {
+  margin-bottom: 20px;
+  border-width: 20px;
+  border-style: solid;
+  border-radius: 10px;
+}
+.p1 {
+  border-color: #0070c0;
+}
+.p2 {
+  border-color: #ffc000;
+}
+.p3 {
+  border-color: #ff0000;
+}
+.p4 {
+  border-color: #595959;
+}
+.p5 {
+  border-color: #00b050;
+}
 
-.div_cap_activite {
+
+
+/* .div_cap_activite {
 
   margin-bottom: 25px;
 }
@@ -130,6 +163,11 @@ h3.vertical_bg_line span {
 }
 .div_infos_capsaaa > p:last-child {
   font-weight: 600;
+} */
+
+#sec_du_pacte > div:first-child {
+  background: url() no-repeat center center fixed;
+  background-size: cover;
 }
 #sec_du_pacte > h2 {
  margin-bottom: 40px;
@@ -138,8 +176,13 @@ h3.vertical_bg_line span {
   margin: 0 -20px 20px;
   padding: 10px;
 }
+#div_impact > div {
+  display: flex;
+  flex-direction: column;
+}
 #div_impact svg {
   margin-bottom: 20px;
+  align-self: center;
 }
 /* #div_impact div {
   display: flex;
@@ -171,10 +214,45 @@ h3.vertical_bg_line span {
   }
 
   .div_act {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .div_act:nth-child(3), .div_act:nth-child(5) {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .div_act > div {
+    width: 40%;
+  }
+  .div_act > img {
+    width: 50%;
+  }
+
+  #div_impact > div {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #div_impact > div:nth-child(2), #div_impact > div:nth-child(4) {
+    flex-direction: row-reverse;
+    justify-content: space-eveny;
+  }
+  #div_impact > div > svg {
+    width: 10%;
+  }
+  #div_impact > div > p {
+    width: 80%;
+  }
+  /* .div_act, #div_impact > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .div_act {
     display: flex;
     flex-wrap: wrap;
-  }
-  .div_cap_activite {
+  } */
+  /* .div_cap_activite {
     max-width: 40%;
     margin: 0 auto 25px;
     display: inline-block;
@@ -205,7 +283,7 @@ h3.vertical_bg_line span {
   #div_impact {
     margin: 30px;
     padding: 0
-  }
+  } */
 }
 
 @media SCREEN and (min-width: 1024px) {

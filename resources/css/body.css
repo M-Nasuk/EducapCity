@@ -48,6 +48,8 @@ li {
 .pre {
   white-space: pre-line;
 }
+
+// COLOR
 .yellow {
   color: #ffcf01;
 }
@@ -59,6 +61,9 @@ li {
 }
 .red {
   color: #e30d14;
+}
+.white {
+  color: #fff;
 }
 .bg-yellow {
   background-color: #ffcf01;

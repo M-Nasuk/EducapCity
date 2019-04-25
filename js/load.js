@@ -10,10 +10,18 @@ $(document).ready(function() {
   }
 
   // LOAD EMBARQUEZ SCRIPT
-  $.get('resources/src/embarquez.php')
-  .done(function(response) {
-    $('aside').after(response);
-  });
+  if ($(document).width() > 1100) {
+    $.get('resources/src/embarquez.php')
+    .done(function(response) {
+      $('aside').after(response);
+    });
+  } else {
+    $.get('resources/src/embarquez.php')
+    .done(function(response) {
+      $('main').append(response);
+    });
+  }
+
 
 
   // SEND MAIL FORM

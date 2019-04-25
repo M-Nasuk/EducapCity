@@ -5,19 +5,20 @@
 #sec_de_capsaaa > h2, #sec_du_pacte > h2 {
   font-weight: normal;
   display: inline-block;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
   margin-bottom: 25px;
-  padding-right: 20px;
+  /* padding-right: 20px; */
+}
+#sec_de_capsaaa, #sec_du_pacte {
+  text-align: center;
 }
 #sec_de_capsaaa > p, #sec_du_pacte > p {
-  text-align: center;
   margin-bottom: 25px;
 }
 #div_capsaaa, #div_impact {
   position: relative;
-  text-align: center;
 }
-#div_capsaaa:before, #div_impact:before {
+/* #div_capsaaa:before, #div_impact:before {
   content: "";
   position: absolute;
   left: 50%;
@@ -27,7 +28,7 @@
 }
 #div_capsaaa > *, #div_impact > *{
   position: relative;
-}
+} */
 #div_capsaaa > img {
   max-width: 40%;
   margin: auto;
@@ -35,16 +36,36 @@
   margin-bottom: 30px;
 }
 #div_capsaaa div, #div_impact div{
-  padding: 10px;
-  border: 1px solid #f2f2f2;
-  background-color: #fff;
+  /* padding: 10px; */
+  /* border: 1px solid #f2f2f2;
+  background-color: #fff; */
   margin-bottom: 30px;
 }
-
-#div_capsaaa div:not(:nth-child(2)) p:not(:last-child) {
-  margin-bottom: 15px;
+h3.vertical_bg_line {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 10px;
 }
-#div_capsaaa div:not(:nth-child(2)) p:not(:first-child) {
+h3.vertical_bg_line:before {
+  border-top: 1px solid #000;
+  content:"";
+  margin: 0 auto;
+  position: absolute;
+  top: 47%; left: 0; right: 0; bottom: 0;
+  width: 39%;
+  z-index: -1;
+}
+h3.vertical_bg_line span {
+  background: #fff;
+  padding: 0 7px;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+/* #div_capsaaa div:not(:nth-child(2)) p:not(:last-child) {
+  margin-bottom: 15px;
+} */
+#div_capsaaa div p {
   font-weight: 600;
 }
 

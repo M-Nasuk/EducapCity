@@ -1,16 +1,16 @@
 <main id="a_propos">
   <section id="sec_de_capsaaa">
-      <h2>De CAP SAAA</h2>
+      <h2><i class="fas fa-caret-right blue"></i>A propos</h2>
       <p>CAP SAAA, CAP Sport Art Aventure Amitié - est une association Loi 1901 reconnue d'intérêt général,
         fondée en 1995 à l’initiative de Ryadh Sallem, athlète paralympique et militant associatif.
         </p>
       <div id="div_capsaaa">
         <img src="resources/images/Logos/logo_capsaaa_date.jpg" alt="Logo de l'association CAP SAAA.">
-        <div>
+        <!-- <div>
           <p class="color-0_8">Les origines... Communiquer une vision positive du handicap</p>
-        </div>
+        </div> -->
         <div>
-          <p>Notre objet</p>
+          <h3 class="vertical_bg_line jah_font"><span>Notre objet</span></h3>
           <p>Valoriser les personnes handicapées comme autant d’acteurs du changement et
             de modèles de positivité pour contribuer à faire évoluer les comportements sur la différence en général.
           </p>
@@ -18,13 +18,13 @@
           <p>Promouvoir le vivre ensemble en paix</p>
         </div>
         <div>
-          <p>Notre crédo</p>
+          <h3 class="vertical_bg_line jah_font"><span>Notre crédo</span></h3>
           <p>« Ne vous demandez pas ce que vous pouvez faire pour les personnes handicapées,
             mais ce que les personnes handicapées peuvent faire pour vous »
           </p>
         </div>
         <div>
-          <p>Notre devise</p>
+          <h3 class="vertical_bg_line jah_font"><span>Notre devise</span></h3>
           <p>« Pour le droit à la différence contre l’indifférence »</p>
         </div>
       </div>
@@ -110,7 +110,7 @@
       </div>
   </section>
   <section id="sec_du_pacte">
-    <h2>Du Pacte de Fraternité</h2>
+    <!-- <h2>Du Pacte de Fraternité</h2> -->
     <p>EDUCAP CITY est un programme d’éducation populaire, véritable <span class="strong">pacte de fraternité unissant les institutions,
       la société civile et les acteurs économiques</span> et ayant pour ambition <span class="strong">la transmission et
       le partage des valeurs universelles et républicaines</span> auprès de notre jeunesse.

@@ -1,22 +1,36 @@
-#a_propos > section:not(#sec_embarquez) {
+#a_propos > section:not(#embarquez) {
   padding: 0 20px;
   margin-bottom: 50px;
 }
-#sec_de_capsaaa > h2, #sec_du_pacte > h2 {
+
+#sec_de_capsaaa > h2, #sec_pole_activites > h2, #sec_du_pacte > h2 {
   font-weight: normal;
   display: inline-block;
-  /* background-color: #f2f2f2; */
-  margin-bottom: 25px;
-  /* padding-right: 20px; */
+  margin-bottom: 10px;
+  font-size: 2em;
 }
+#a_propos h2 > svg, #sec_du_pacte > h2 > svg {
+  margin-left: -26px;
+  font-size: 1.4em;
+  float: left;
+  margin-top: -10px;
+}
+
 #sec_de_capsaaa, #sec_du_pacte {
   text-align: center;
 }
 #sec_de_capsaaa > p, #sec_du_pacte > p {
   margin-bottom: 25px;
 }
+#div_capsaaa {
+  margin-bottom: 60px;
+}
 #div_capsaaa, #div_impact {
   position: relative;
+}
+#div_capsaaa > div > h3, .div_act > div > h3 {
+  margin-bottom: 10px;
+  font-size: 1.3em;
 }
 /* #div_capsaaa:before, #div_impact:before {
   content: "";
@@ -39,9 +53,13 @@
   /* padding: 10px; */
   /* border: 1px solid #f2f2f2;
   background-color: #fff; */
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
-h3.vertical_bg_line {
+
+#div_capsaaa div h3 {
+  text-transform: uppercase;
+}
+/* h3.vertical_bg_line {
   position: relative;
   z-index: 1;
   margin-bottom: 10px;
@@ -60,7 +78,7 @@ h3.vertical_bg_line span {
   padding: 0 7px;
   font-size: 1.5em;
   font-weight: normal;
-}
+} */
 
 /* #div_capsaaa div:not(:nth-child(2)) p:not(:last-child) {
   margin-bottom: 15px;
@@ -113,12 +131,29 @@ h3.vertical_bg_line span {
 .div_infos_capsaaa > p:last-child {
   font-weight: 600;
 }
-
+#sec_du_pacte > h2 {
+ margin-bottom: 40px;
+}
 #sec_du_pacte > p:nth-child(4) {
   margin: 0 -20px 20px;
   padding: 10px;
 }
-
+#div_impact svg {
+  margin-bottom: 20px;
+}
+/* #div_impact div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#div_impact div p {
+  width: 85%;
+} */
+@media SCREEN and (max-width: 767px) {
+  #sec_du_pacte > h2 {
+    white-space: pre;
+  }
+}
 @media SCREEN and (min-width: 768px) {
   #a_propos {
     padding-top: 30px;

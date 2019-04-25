@@ -104,11 +104,11 @@ main > h4 {
   padding-left: 10px;
   font-size: 1.4em;
 }
-main > h4 .fas {
+/* main > h4 .fas, main > h4 svg {
   font-size: 2em;
   float: left;
-  margin: -11px 15px 0;
-}
+  margin: -12px 15px 0;
+} */
 
 #accueil > section:not(:last-child) {
   margin-bottom: 60px;

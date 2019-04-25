@@ -15,7 +15,7 @@
         <img src="resources/images/Logos/logo_capsaaa_date.jpg" alt="logo_capsaaa"/>
       </div>
     </div>
-    <div id="embarquez">
+    <div id="don">
       <a href="">
         <p class="round-border hover-off">Faire un don</p>
       </a>

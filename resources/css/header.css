@@ -18,13 +18,16 @@ header img {
   flex-direction: row;
   margin: auto;
 }
+#educapcity {
+  margin-bottom: 20px;
+}
 #educapcity a img {
   width: 120px;
   height: 167px;
 }
 #educapcity a div {
-  padding-top: 45px;
-  padding-left: 5px;
+  padding-top: 25px;
+  padding-left: 7px;
 }
 #educapcity a div h2 {
   color: #1c96c5;
@@ -113,7 +116,7 @@ header img {
 #menu a {
   color: #24292E;
 }
-#embarquez {
+#don {
   display: none;
 }
 
@@ -160,7 +163,7 @@ header img {
     width: 95%;
   }
 
-  #embarquez a p {
+  #don a p {
     padding: 10px;
     text-align: center;
     font-size: 1.5em;
@@ -226,14 +229,14 @@ header img {
     flex-direction: row;
   }
 
-  #embarquez {
+  #don {
     display: flex;
     max-width: 240px;
   }
-  #embarquez a {
+  #don a {
     align-self: center;
   }
-  #embarquez p:hover {
+  #don p:hover {
     background-color: #fff;
     color: #ffcf01;
     transition: 0.5s;

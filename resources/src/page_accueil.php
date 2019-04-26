@@ -107,27 +107,29 @@
     <div id="a_savoir" ><a href="#" class="round-border">En savoir plus sur le programme</a></div>
   </section>
   <section id="sec_phrase" class="mar_bot_mob">
-    <img src="resources/images/PageAccueil/RyadhSallemBlanc.jpg" alt="ryad_sallem_blanc">
-    <div id="div_phrase">
-      <div class="phrase">
-        <img src="resources/images/PageAccueil/quote-icon-up.jpg" alt="quote_up" class="float_left">
-        <p>
-          Quand on créé la rencontre, on dissout les préjugés, on dissout les peurs
-          et on peut être de plus en plus citoyen. On peut devenir un consom'acteur et
-          s'engager!
+    <div>
+      <img src="resources/images/PageAccueil/RyadhSallemBlanc.jpg" alt="ryad_sallem_blanc">
+      <div id="div_phrase">
+        <div class="phrase">
+          <img src="resources/images/PageAccueil/quote-icon-up.jpg" alt="quote_up" class="float_left">
+          <p>
+            Quand on créé la rencontre, on dissout les préjugés, on dissout les peurs
+            et on peut être de plus en plus citoyen. On peut devenir un consom'acteur et
+            s'engager!
+          </p>
+        </div>
+        <div class="phrase">
+          <img src="resources/images/PageAccueil/quote-icon-down.jpg" alt="quote_down" class="float_right" />
+          <p>
+            Quand on créé la rencontre, on ouvre les esprits, on ouvre les coeurs et on comprend.
+            Et comprendre, c'est offrir une intelligence à ces enfants.
+          </p>
+        </div>
+        <p class="clear pre">
+          Ryadh SALLEM
+          Fondateur de l'association CAP SAAA
         </p>
       </div>
-      <div class="phrase">
-        <img src="resources/images/PageAccueil/quote-icon-down.jpg" alt="quote_down" class="float_right" />
-        <p>
-          Quand on créé la rencontre, on ouvre les esprits, on ouvre les coeurs et on comprend.
-          Et comprendre, c'est offrir une intelligence à ces enfants.
-        </p>
-      </div>
-      <p class="clear pre">
-        Ryadh SALLEM
-        Fondateur de l'association CAP SAAA
-      </p>
     </div>
   </section>
 </main>

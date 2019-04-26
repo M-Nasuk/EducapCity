@@ -32,7 +32,7 @@ aside {
     border-top-right-radius: 10px;
     transition: .5s;
   }
-  .flickr > a:hover {
+  /* .flickr > a:hover {
     background-color: #fff;
     color: #308f36;
     transition: 0.5s;
@@ -41,7 +41,7 @@ aside {
     background-color: #fff;
     color: #1c96c5;
     transition: 0.5s;
-  }
+  } */
 
   aside > .div_insta, aside > div.yt, aside > div.flickr {
     width: 285px;
@@ -55,12 +55,12 @@ aside {
   .fb-page {
     margin-bottom: 20px;
   }
-  .div_insta a, .flickr a {
+  /* .div_insta a, .flickr a {
     font-size: 2em;
     display: block;
     text-align: center;
     padding: 10px;
-  }
+  } */
   .d_kill {
     position: relative;
   }
@@ -82,4 +82,19 @@ aside {
     font-size: 1.5em !important;
     color: #e30d14 !important;
   }
+
+  .div_insta, .flickr {
+    text-align: center;
+  }
+  .div_insta a, .flickr a {
+    display: inline-block;
+  }
+  .div_insta a img, .flickr a img {
+    width: 25%;
+    margin-bottom: 5px;
+  }
+  .flickr a img {
+    padding-top: 5px;
+  }
+
 }

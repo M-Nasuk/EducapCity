@@ -1,11 +1,27 @@
 $(document).ready(function() {
 
+  // LOAD ASIDE
+  if ($(document).width() > 1100) {
+    $.get('resources/src/aside.php')
+    .done(function(response) {
+      $('main').append(response);
+      alterAside();
+    });
+  }
 
   // LOAD EMBARQUEZ SCRIPT
-  $.get('resources/src/embarquez.php')
-  .done(function(response) {
-    $('main').append(response);
-  });
+  if ($(document).width() > 1100) {
+    $.get('resources/src/embarquez.php')
+    .done(function(response) {
+      $('aside').after(response);
+    });
+  } else {
+    $.get('resources/src/embarquez.php')
+    .done(function(response) {
+      $('main').append(response);
+    });
+  }
+
 
 
   // SEND MAIL FORM
@@ -48,12 +64,5 @@ $(document).ready(function() {
   });
 
 
-  // LOAD ASIDE
-  // if ($(document).width() > 1100) {
-  //   $.get('resources/src/aside.php')
-  //   .done(function(response) {
-  //     $('body').append(response);
-  //     alterAside();
-  //   });
-  // }
+
 })

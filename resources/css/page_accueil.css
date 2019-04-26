@@ -4,7 +4,7 @@
   background-size: cover;
   text-align: center;
   color: #FFF;
-  padding: 50px 54px;
+  padding: 50px 40px;
   margin-bottom: 15px;
 }
 
@@ -122,11 +122,7 @@
 .div_cap h5 {
   font-size: 1.3em;
 }
-.div_cap:first-child img:nth-child(2) {
-  max-width: 70%;
-  display: block;
-  margin: auto;
-}
+
 .div_cap img:nth-child(2){
   max-width: 100%;
   display: block;
@@ -184,9 +180,6 @@
 
 /* Tablet */
 @media SCREEN and (min-width: 768px) {
-  /* #sec_accueil p, #sec_accueil h2 {
-    font-size: 2em;
-  } */
 
   #sec_accueil p {
     white-space: pre-line;
@@ -213,16 +206,17 @@
     display: none;
   }
   .circle_pilier {
-    display: block;
+    display: grid;
     margin: 0;
     border-radius: 50%;
-    width: 30%;
-    height: auto;
-    padding: 5% 0 3%;
+    width: 220px;
+    height: 220px;
     white-space: pre-line;
   }
   #div_piliers div p {
     padding: 0;
+    align-self: center;
+    font-size: 1.4em;
   }
 
   #sec_citoyen {
@@ -233,24 +227,27 @@
     max-width: 50%;
     padding: 20px;
   }
-  .div_cap:first-child img:nth-child(2) {
-    max-width: 55%;
-    margin-bottom: 10%;
-  }
+
   .div_cap img:nth-child(2) {
-    margin: 30px auto;
+    margin: 40px auto;
   }
   #a_savoir {
     width: 100%;
   }
 
-  #sec_phrase {
+  /* #sec_phrase {
+    display: flex;
+    flex-direction: row;
+  } */
+  #sec_phrase > div {
     display: flex;
     flex-direction: row;
   }
+
   #div_phrase {
     margin: auto;
-  padding-bottom: 15px;
+    padding-bottom: 15px;
+    width: 100%;
   }
   .phrase img {
     max-width: 6%;
@@ -260,27 +257,33 @@
   }
 }
 @media SCREEN and (min-width: 800px) {
-  .div_cap img:nth-child(2) {
+  /* .div_cap img:nth-child(2) {
     margin: 32px auto;
+  } */
+  .circle_pilier {
+    width: 230px;
+    height: 230px;
   }
   #div_piliers div p {
-    font-size: 1.7em;
+    font-size: 1.4em;
   }
 }
-@media SCREEN and (min-width: 866px) {
+/* @media SCREEN and (min-width: 866px) {
   .div_cap img:nth-child(2) {
     margin: 35px auto;
   }
   #div_piliers div p {
     font-size: 1.8em;
   }
-}
+} */
 @media SCREEN and (min-width: 980px) {
-  .div_cap img:nth-child(2) {
-    margin: 37px auto;
+  .circle_pilier {
+    width: 250px;
+    height: 250px;
   }
+
   #div_piliers div p {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
@@ -290,39 +293,54 @@
   }
 }
 @media SCREEN and (min-width: 1025px) {
-  .circle_pilier {
+  /* .circle_pilier {
     padding: 6% 0 4%;
     white-space: pre-line;
-  }
-  #div_piliers div p {
-    font-size: 2em;
-  }
+  } */
+  /* #div_piliers div p {
+    font-size: 1.5em;
+  } */
 
   #sec_info_nbres #div_info_ecoles {
     display: flex;
+  }
+  .phrase img {
+    max-width: 4%;
   }
 
 }
 @media SCREEN and (min-width: 1100px) {
 
-  .div_cap img:nth-child(2) {
+  /* .div_cap img:nth-child(2) {
     margin: 40px auto;
-  }
+  } */
   .rec_pilier {
-    display: grid;
     width: 280px;
     height: 280px;
     padding: 0;
   }
-  .rec_pilier > p {
+  /* .rec_pilier > p {
     align-self: center;
+  } */
+  #sec_phrase {
+    margin-left: calc(-100vw / 2 + 1100px / 2 + 7.5px);
+    margin-right: calc(-100vw / 2 + 1100px / 2 + 7.5px);
+    padding: 50px 80px;
+  }
+  #sec_phrase > div {
+    width: 1100px;
+    margin: auto;
+  }
+  #sec_phrase > div img {
+    margin-top: -30px;
+    margin-bottom: -30px;
   }
 }
 @media SCREEN and (min-width: 1400px) {
  #sec_accueil {
    padding: 85px 54px;
    font-size: 1.5em;
-   margin-left: calc(-100vw / 2 + 1400px / 2);
-   margin-right: calc(-100vw / 2 + 1400px / 2);
+   margin-left: calc(-100vw / 2 + 1100px / 2 + 7.5px);
+   margin-right: calc(-100vw / 2 + 1100px / 2 + 7.5px);
  }
 }

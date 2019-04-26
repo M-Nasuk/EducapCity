@@ -235,7 +235,7 @@
     <h2 class="yellow jah_font cc-a">
       <span class="fa-stack fa-1x">
         <i class="fa fa-circle fa-stack-2x yellow"></i>
-        <span class="fa fa-stack-1x jah_font" style="color: #fff;">2</span>
+        <span class="fa fa-stack-1x jah_font white">2</span>
       </span>
       CAP CLASSE
     </h2>
@@ -310,7 +310,7 @@
         <p class="p-item-e">20 - 30 minutes</p>
       </div>
       <!-- <img src="resources/images/PageProgramme/graph/graph_elevesRallye.png" alt="Equipe de 6 enfants prêt à débuter l'évenement." class="item-b"> -->
-      <img src="resources/images/PageAccueil/Graph/tribenfants_min.jpg" alt="tribenfants_min" class="item-b">
+      <img src="resources/images/PageAccueil/Graph/groupe_institution.png" alt="tribenfants_min" class="item-b">
       <div class="item-c">
         <p>Intervention / Echanges avec l’ensemble du groupe.</p>
         <p>Projection d’une vidéo sur les Jeux Paralympiques pour susciter une prise de conscience
@@ -325,13 +325,21 @@
         </div>
       </div>
       <div class="item-d">
-        <p>Atelier d’initiation au basket en fauteuil avec des sportifs handicapés</p>
-        <div class="triangle-b">
+        <div>
+          <p>Atelier d’initiation au basket en fauteuil avec des sportifs handicapés</p>
+          <div class="triangle-b">
+
+          </div>
+          <div class="triangle-b-1">
+
+          </div>
+        </div>
+        <!-- <div class="triangle-b">
 
         </div>
         <div class="triangle-b-1">
 
-        </div>
+        </div> -->
       </div>
       <div class="item-e">
         <p>Parcours en situation de cécité</p>

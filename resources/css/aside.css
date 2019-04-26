@@ -7,15 +7,45 @@ aside {
 }
 
 @media SCREEN and (min-width: 1025px) {
-  aside {
-    display: inline-block;
+  /* aside {
+    display: block;
     width: 300px;
     position: absolute;
-    top: 614px;
-    right: 0;
+    top: 741px;
+    right: 5%;
     float: right;
+  } */
+  .actu {
+    text-align: center;
+    padding: 40px
   }
+  aside {
+    display: flex;
+    width: 1500px;
+    justify-content: space-between;
+    height: 800px;
+    margin-left: calc(-100vw / 4 + 1100px / 4);
+    margin-right: calc(-100vw / 4 + 1100px / 4);
+  }
+  aside > div > a {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: .5s;
+  }
+  /* .flickr > a:hover {
+    background-color: #fff;
+    color: #308f36;
+    transition: 0.5s;
+  }
+  .div_insta > a:hover {
+    background-color: #fff;
+    color: #1c96c5;
+    transition: 0.5s;
+  } */
 
+  aside > .div_insta, aside > div.yt, aside > div.flickr {
+    width: 285px;
+  }
   .eui-widget-title {
     font-family: "Just another hand";
     font-size: 3em !important;
@@ -25,12 +55,12 @@ aside {
   .fb-page {
     margin-bottom: 20px;
   }
-  .div_insta a {
+  /* .div_insta a, .flickr a {
     font-size: 2em;
     display: block;
     text-align: center;
-    padding: 20px 20px 10px;
-  }
+    padding: 10px;
+  } */
   .d_kill {
     position: relative;
   }
@@ -52,4 +82,19 @@ aside {
     font-size: 1.5em !important;
     color: #e30d14 !important;
   }
+
+  .div_insta, .flickr {
+    text-align: center;
+  }
+  .div_insta a, .flickr a {
+    display: inline-block;
+  }
+  .div_insta a img, .flickr a img {
+    width: 25%;
+    margin-bottom: 5px;
+  }
+  .flickr a img {
+    padding-top: 5px;
+  }
+
 }

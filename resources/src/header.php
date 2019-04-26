@@ -15,7 +15,7 @@
         <img src="resources/images/Logos/logo_capsaaa_date.jpg" alt="logo_capsaaa"/>
       </div>
     </div>
-    <div id="embarquez">
+    <div id="don">
       <a href="">
         <p class="round-border hover-off">Faire un don</p>
       </a>
@@ -56,7 +56,7 @@
     </div>
   </section>
   <button type="button" id="b_menu"><i class="fas fa-bars"></i></button>
-  <nav id="menu">
+  <nav id="menu" class="jah_font">
     <ul>
       <li>
         <a href="/EducapCity/"><h3>ACCUEIL</h3> </a>

@@ -18,13 +18,16 @@ header img {
   flex-direction: row;
   margin: auto;
 }
+#educapcity {
+  margin-bottom: 20px;
+}
 #educapcity a img {
   width: 120px;
   height: 167px;
 }
 #educapcity a div {
-  padding-top: 45px;
-  padding-left: 5px;
+  padding-top: 25px;
+  padding-left: 7px;
 }
 #educapcity a div h2 {
   color: #1c96c5;
@@ -113,7 +116,7 @@ header img {
 #menu a {
   color: #24292E;
 }
-#embarquez {
+#don {
   display: none;
 }
 
@@ -153,13 +156,14 @@ header img {
     margin: 0;
     width: 250px;
     padding-top: 25px;
+    margin-top: 45px;
   }
   #partenaires div {
     justify-content: space-between;
     width: 95%;
   }
 
-  #embarquez a p {
+  #don a p {
     padding: 10px;
     text-align: center;
     font-size: 1.5em;
@@ -220,18 +224,19 @@ header img {
   header {
     position: relative;
   }
-  header section > div:first-child, header section > div:first-child a {
-    display: flex;
+  #educapcity, #educapcity a {
+    display: inline-flex;
     flex-direction: row;
   }
 
-  #embarquez {
-    display: block;
+  #don {
+    display: flex;
     max-width: 240px;
-    padding-top: 45px;
   }
-
-  #embarquez p:hover {
+  #don a {
+    align-self: center;
+  }
+  #don p:hover {
     background-color: #fff;
     color: #ffcf01;
     transition: 0.5s;
@@ -255,7 +260,7 @@ header img {
   }
   #menu {
     padding: 10px;
-    margin-left: calc(-100vw / 2 + 1400px / 2);
-    margin-right: calc(-100vw / 2 + 1400px / 2);
+    margin-left: calc(-100vw / 2 + 1100px / 2 + 7.5px);
+    margin-right: calc(-100vw / 2 + 1100px / 2 + 7.5px);
   }
 }

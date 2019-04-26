@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
 }
 #sec_embarquez a {
   color: #FFF;
@@ -21,6 +22,18 @@
   width: 100%;
 }
 
+#embarquez > h4 {
+  font-weight: normal;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  font-size: 1.4em;
+}
+#embarquez > h4 .fas, #embarquez > h4 svg {
+  font-size: 2em;
+  float: left;
+  margin: -12px 15px 0;
+}
+
 .form {
   padding: 10px;
   background-color: #f3f3f3;
@@ -30,10 +43,10 @@
   font-size: 1.4em;
   font-weight: normal;
 }
-.form h4 .fas {
+.form h4 .fas, .form h4 svg, #embarquez h4 svg {
   font-size: 2em;
   float: left;
-  margin: -11px 15px 0;
+  margin: -12px 15px 0;
 }
 .form form {
   padding: 10px;

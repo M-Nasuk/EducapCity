@@ -112,6 +112,7 @@ header img {
   display: none;
   visibility: inherit;
   z-index: 3;
+  margin-top: 10px;
 }
 #menu a {
   color: #24292E;

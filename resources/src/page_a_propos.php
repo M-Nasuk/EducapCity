@@ -187,20 +187,20 @@
     <!-- <p class="bg-blue strong">L’impact d’EDUCAP CITY pour le territoire</p> -->
     <div id="div_impact">
       <div>
-        <i class="fas fa-american-sign-language-interpreting" style="color: #88d2dd;" data-fa-transform="grow-30"></i>
+        <i class="fas fa-american-sign-language-interpreting blue" data-fa-transform="grow-30"></i>
         <p class="strong color-0_8">Renforcer la cohésion territoriale grâce à l’implication et la coopération de l’ensemble des acteurs de la ville</p>
       </div>
       <div>
-        <i class="fas fa-city" style="color: #fc6a6a;" data-fa-transform="grow-30"></i>
+        <i class="fas fa-city red" data-fa-transform="grow-30"></i>
         <p class="strong color-0_8">Désenclaver certains territoires en favorisant la mobilité urbaine,
           notamment au sein des quartiers prioritaires de la politique de la ville</p>
       </div>
       <div>
-        <i class="fas fa-hand-holding-heart" style="color: #fff26b;" data-fa-transform="grow-30"></i>
+        <i class="fas fa-hand-holding-heart yellow" data-fa-transform="grow-30"></i>
         <p class="strong color-0_8">Promouvoir le « vivre ensemble », la mixité et lutter contre toutes les formes de discriminations (genre – sociale – handicap – générationnelle)</p>
       </div>
       <div>
-        <i class="fas fa-dove" style="color: #c1ffa6;" data-fa-transform="grow-30"></i>
+        <i class="fas fa-dove green" data-fa-transform="grow-30"></i>
         <p class="strong color-0_8">Pacifier les rapports entre la jeunesse et les institutions et faire connaitre le territoire aux administrés lors du rallye</p>
       </div>
       <div>

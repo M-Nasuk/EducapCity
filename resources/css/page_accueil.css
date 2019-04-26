@@ -4,7 +4,7 @@
   background-size: cover;
   text-align: center;
   color: #FFF;
-  padding: 50px 48px;
+  padding: 50px 40px;
   margin-bottom: 15px;
 }
 
@@ -206,16 +206,17 @@
     display: none;
   }
   .circle_pilier {
-    display: block;
+    display: grid;
     margin: 0;
     border-radius: 50%;
-    width: 30%;
-    height: auto;
-    padding: 5% 0 3%;
+    width: 220px;
+    height: 220px;
     white-space: pre-line;
   }
   #div_piliers div p {
     padding: 0;
+    align-self: center;
+    font-size: 1.4em;
   }
 
   #sec_citoyen {
@@ -228,7 +229,7 @@
   }
 
   .div_cap img:nth-child(2) {
-    margin: 30px auto;
+    margin: 40px auto;
   }
   #a_savoir {
     width: 100%;
@@ -250,27 +251,33 @@
   }
 }
 @media SCREEN and (min-width: 800px) {
-  .div_cap img:nth-child(2) {
+  /* .div_cap img:nth-child(2) {
     margin: 32px auto;
+  } */
+  .circle_pilier {
+    width: 230px;
+    height: 230px;
   }
   #div_piliers div p {
-    font-size: 1.7em;
+    font-size: 1.4em;
   }
 }
-@media SCREEN and (min-width: 866px) {
+/* @media SCREEN and (min-width: 866px) {
   .div_cap img:nth-child(2) {
     margin: 35px auto;
   }
   #div_piliers div p {
     font-size: 1.8em;
   }
-}
+} */
 @media SCREEN and (min-width: 980px) {
-  .div_cap img:nth-child(2) {
-    margin: 37px auto;
+  .circle_pilier {
+    width: 250px;
+    height: 250px;
   }
+
   #div_piliers div p {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
@@ -280,13 +287,13 @@
   }
 }
 @media SCREEN and (min-width: 1025px) {
-  .circle_pilier {
+  /* .circle_pilier {
     padding: 6% 0 4%;
     white-space: pre-line;
-  }
-  #div_piliers div p {
+  } */
+  /* #div_piliers div p {
     font-size: 1.5em;
-  }
+  } */
 
   #sec_info_nbres #div_info_ecoles {
     display: flex;
@@ -298,18 +305,17 @@
 }
 @media SCREEN and (min-width: 1100px) {
 
-  .div_cap img:nth-child(2) {
+  /* .div_cap img:nth-child(2) {
     margin: 40px auto;
-  }
+  } */
   .rec_pilier {
-    display: grid;
     width: 280px;
     height: 280px;
     padding: 0;
   }
-  .rec_pilier > p {
+  /* .rec_pilier > p {
     align-self: center;
-  }
+  } */
   #sec_phrase {
     margin-left: calc(-100vw / 2 + 1100px / 2 + 7.5px);
     margin-right: calc(-100vw / 2 + 1100px / 2 + 7.5px);

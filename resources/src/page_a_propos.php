@@ -34,7 +34,7 @@
     <section id="sec_pole_activites">
       <h2 class="jah_font"><i class="fas fa-caret-right blue"></i>Nos actions</h2>
       <div class="div_act">
-        <img src="resources/images/PageProgramme/Photos/capclasse/capclasse2.jpg" alt="Des personnes handicapés jouant au basket-fauteuil." class="p1">
+        <img src="resources/images/PageAPropos/photo_cap_sport.jpg" alt="Des personnes handicapés jouant au basket-fauteuil." class="p1">
         <div>
           <h3 class="jah_font"><i class="fas fa-slash" data-fa-transform="rotate--39 shrink-10"></i>CAP SPORT<i class="fas fa-slash" data-fa-transform="rotate--39 shrink-10"></i></h3>
           <p>Depuis sa création, CAP SAAA utilise le sport comme vecteur d’émancipation, d’engagement et de dépassement de soi.
@@ -44,7 +44,7 @@
         </div>
       </div>
       <div class="div_act">
-        <img src="resources/images/PageProgramme/Photos/capclasse/capclasse2.jpg" alt="" class="p2">
+        <img src="resources/images/PageAPropos/photo_educapcity.png" alt="" class="p2">
         <div>
           <h3 class=" jah_font"><i class="fas fa-slash" data-fa-transform="rotate--39 shrink-10"></i>EDUCAP CITY<i class="fas fa-slash" data-fa-transform="rotate--39 shrink-10"></i></h3>
           <p>EDUCAP CITY est un programme d’éducation populaire qui s’adresse aux enfants de 9 à 15 ans sur tout le territoire.
@@ -55,7 +55,7 @@
 
       </div>
       <div class="div_act">
-        <img src="resources/images/PageProgramme/Photos/capclasse/capclasse2.jpg" alt="" class="p3">
+        <img src="resources/images/PageAPropos/photo_sensi.jpg" alt="" class="p3">
         <div>
           <h3 class=" jah_font"><i class="fas fa-slash" data-fa-transform="rotate--39 shrink-10"></i>CAP SENSI<i class="fas fa-slash" data-fa-transform="rotate--39 shrink-10"></i></h3>
           <p>La sensibilisation au handicap et l’acceptation des différences de chacun est au cœur du projet de l’association.
@@ -65,7 +65,7 @@
         </div>
       </div>
       <div class="div_act">
-        <img src="resources/images/PageProgramme/Photos/capclasse/capclasse2.jpg" alt="" class="p4">
+        <img src="resources/images/PageAPropos/photo_resil.jpg" alt="" class="p4">
         <div>
           <h3 class=" jah_font"><i class="fas fa-slash" data-fa-transform="rotate--39 shrink-10"></i>CAP RESILIENCE<i class="fas fa-slash" data-fa-transform="rotate--39 shrink-10"></i></h3>
           <p>Le programme CAP Résilience a pour objectif de remobiliser le corps et l’esprit des personnes handicapées en les amenant à découvrir de nouvelles sensations à travers le sport
@@ -75,7 +75,7 @@
         </div>
       </div>
       <div class="div_act">
-        <img src="resources/images/PageProgramme/Photos/capclasse/capclasse2.jpg" alt="" class="p5">
+        <img src="resources/images/PageAPropos/photo_ecocap.png" alt="" class="p5">
         <div>
           <h3 class=" jah_font"><i class="fas fa-slash" data-fa-transform="rotate--39 shrink-10"></i>ECO CAP<i class="fas fa-slash" data-fa-transform="rotate--39 shrink-10"></i></h3>
           <p>CAP SAAA s’engage dans l’éco-citoyenneté à travers la collecte de produits recyclables (Bouchons – bouteilles – canettes, pneus de roue de fauteuil…
@@ -209,6 +209,4 @@
       </div>
     </div>
   </section>
-
-
 </main>

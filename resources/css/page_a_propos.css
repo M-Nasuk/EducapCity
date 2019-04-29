@@ -2,9 +2,27 @@
   padding: 0 20px;
   margin-bottom: 50px;
 }
-#sec_de_capsaaa > div:first-child {
-  background: url() no-repeat center center fixed;
+#sec_de_capsaaa > div:first-child, #sec_du_pacte > div:first-child {
   background-size: cover;
+  height: 395.6px;
+  display: grid;
+  align-content: center;
+  margin-left: calc(-100vw / 2 + 1100px / 2 + 7.5px);
+  margin-right: calc(-100vw / 2 + 1100px / 2 + 7.5px);
+}
+#sec_de_capsaaa > div:first-child {
+  background: url("../../resources/images/PageAPropos/photo_head_capsaaa.png") no-repeat center center fixed;
+  background-size: cover;
+}
+#sec_du_pacte > div:first-child {
+  background: url("../../resources/images/PageAPropos/photo_head_pacte.png") no-repeat center center fixed;
+  background-size: cover;
+}
+#sec_de_capsaaa > div:first-child h1, #sec_du_pacte > div:first-child h1 {
+  margin: auto;
+  font-size: 5em;
+  letter-spacing: 1rem;
+  font-weight: normal;
 }
 #sec_de_capsaaa > h2, #sec_pole_activites > h2, #sec_du_pacte > h2 {
   font-weight: normal;
@@ -165,10 +183,10 @@ h3.vertical_bg_line span {
   font-weight: 600;
 } */
 
-#sec_du_pacte > div:first-child {
+/* #sec_du_pacte > div:first-child {
   background: url() no-repeat center center fixed;
   background-size: cover;
-}
+} */
 #sec_du_pacte > h2 {
  margin-bottom: 40px;
 }
@@ -226,7 +244,7 @@ h3.vertical_bg_line span {
   }
   .div_act > div {
     width: 50%;
-    padding: 0 40px;    
+    padding: 0 40px;
     display: grid;
     align-content: center;
   }

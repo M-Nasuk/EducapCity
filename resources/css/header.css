@@ -111,7 +111,7 @@ header img {
 #menu > ul > li a + ul {
   display: none;
   visibility: inherit;
-  z-index: 3;
+  z-index: 4;
   margin-top: 10px;
 }
 #menu a {
@@ -191,7 +191,7 @@ header img {
   #menu > ul > li {
     margin: 0;
     position: relative;
-
+    padding-bottom: 10px;
   }
   #menu a {
     color: #FFF;
@@ -260,7 +260,7 @@ header img {
     margin: auto;
   }
   #menu {
-    padding: 10px;
+    padding-top: 10px;
     margin-left: calc(-100vw / 2 + 1100px / 2 + 7.5px);
     margin-right: calc(-100vw / 2 + 1100px / 2 + 7.5px);
   }

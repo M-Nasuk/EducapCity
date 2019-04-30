@@ -313,6 +313,7 @@
     margin-bottom: 0;
     border-radius: 0;
     width: 50%;
+    height: 50%;
   }
 
   #div_impact > div > p {
@@ -332,7 +333,7 @@
 
   }
   #sec_de_capsaaa > div:first-child:before {
-    background-position-y: bottom;
+    background-position-y: bottom -3em;
   }
   #sec_de_capsaaa > div:first-child h1, #sec_du_pacte > div:first-child h1 {
     font-size: 6em;

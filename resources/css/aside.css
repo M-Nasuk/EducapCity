@@ -7,14 +7,7 @@ aside {
 }
 
 @media SCREEN and (min-width: 1025px) {
-  /* aside {
-    display: block;
-    width: 300px;
-    position: absolute;
-    top: 741px;
-    right: 5%;
-    float: right;
-  } */
+
   .actu {
     text-align: center;
     padding: 40px
@@ -32,16 +25,6 @@ aside {
     border-top-right-radius: 10px;
     transition: .5s;
   }
-  /* .flickr > a:hover {
-    background-color: #fff;
-    color: #308f36;
-    transition: 0.5s;
-  }
-  .div_insta > a:hover {
-    background-color: #fff;
-    color: #1c96c5;
-    transition: 0.5s;
-  } */
 
   aside > .div_insta, aside > div.yt, aside > div.flickr {
     width: 285px;
@@ -55,12 +38,7 @@ aside {
   .fb-page {
     margin-bottom: 20px;
   }
-  /* .div_insta a, .flickr a {
-    font-size: 2em;
-    display: block;
-    text-align: center;
-    padding: 10px;
-  } */
+
   .d_kill {
     position: relative;
   }

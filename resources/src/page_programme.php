@@ -101,7 +101,6 @@
         <p class="p-item-e">16h15</p>
       </div>
       <img src="resources/images/PageAccueil/Graph/groupe_cap_classe.png" alt="groupe_cap_classe" class="item-b">
-      <!-- <img src="resources/images/PageProgramme/graph/graph_elevesRallye.png" alt="Equipe de 6 enfants prêt à débuter l'évenement." class="item-b"> -->
       <div class="item-c">
         <p>Accueil des participants sur le « village EDUCAP CITY » situé sur une place centrale de la ville.
         (Remise d'une collation et un T-shirt).
@@ -309,7 +308,6 @@
         <p class="p-item-d">20 - 30 minutes</p>
         <p class="p-item-e">20 - 30 minutes</p>
       </div>
-      <!-- <img src="resources/images/PageProgramme/graph/graph_elevesRallye.png" alt="Equipe de 6 enfants prêt à débuter l'évenement." class="item-b"> -->
       <img src="resources/images/PageAccueil/Graph/groupe_institution.png" alt="tribenfants_min" class="item-b">
       <div class="item-c">
         <p>Intervention / Echanges avec l’ensemble du groupe.</p>
@@ -334,12 +332,6 @@
 
           </div>
         </div>
-        <!-- <div class="triangle-b">
-
-        </div>
-        <div class="triangle-b-1">
-
-        </div> -->
       </div>
       <div class="item-e">
         <p>Parcours en situation de cécité</p>

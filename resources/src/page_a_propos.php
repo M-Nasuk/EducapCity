@@ -9,9 +9,6 @@
       </p>
     <div id="div_capsaaa">
       <img src="resources/images/Logos/logo_capsaaa_date.jpg" alt="Logo de l'association CAP SAAA.">
-      <!-- <div>
-        <p class="color-0_8">Les origines... Communiquer une vision positive du handicap</p>
-      </div> -->
       <div>
         <h3 class="jah_font"><i class="fas fa-slash" data-fa-transform="rotate--39 shrink-10"></i>Notre objet<i class="fas fa-slash" data-fa-transform="rotate--39 shrink-10"></i></h3>
         <p>Valoriser les personnes handicapées comme autant d’acteurs du changement et
@@ -86,92 +83,11 @@
         </div>
       </div>
     </section>
-    <!-- <section id="sec_pole_activites">
-      <p class="color-0_8">
-        Depuis sa création, CAP SAAA intervient sur différents pôles d’activités, touchant
-        directement entre <span class="red">10 et 15 000 bénéficiaires par an sur tout le territoire</span>.
-      </p>
-      <h3 class="color-0_8">5 pôles
-        d’activité</h3>
-      <div class="div_act">
-        <div class="div_cap_activite item-a">
-          <div class="jah_font bg-blue-2">
-            <h4>SPORT</h4>
-            <ul>
-              <li>Basket fauteuil</li>
-              <li>Rugby fauteuil</li>
-              <li>Sport adapté</li>
-            </ul>
-          </div>
-          <p class="color-0_8">Depuis sa création, CAP SAAA utilise le sport comme vecteur d’émancipation, d’engagement et de dépassement de soi.
-            Elle promeut également l’inclusion inversée en accueillant des personnes sans handicap à pratiquer une activité sportive en fauteuil.
-            L’association réunit adapté aujourd’hui une centaine de licenciés pratiquant de la section loisir au plus haut niveau international.
-            </p>
-        </div>
-        <div class="div_cap_activite item-b">
-          <div class="jah_font bg-red">
-            <h4>EDUCAP CITY</h4>
-            <ul>
-              <li>CAP CLASSE</li>
-              <li>CAP RALLYE</li>
-              <li>Etape CAPITALE</li>
-            </ul>
-          </div>
-          <p class="color-0_8">EDUCAP CITY est un programme d’éducation populaire qui s’adresse aux enfants de 9 à 15 ans sur tout le territoire.
-            Il vise à sensibiliser et éduquer à la citoyenneté,
-            au civisme et au vivre ensemble en Paix à travers deux dispositifs complémentaires : CAP Classe et CAP Rallye.
-            </p>
-        </div>
-        <div class="div_cap_activite item-c">
-          <div class="jah_font bg-yellow">
-            <h4>SOLIDARITE</h4>
-            <ul>
-              <li>Défistival</li>
-              <li>Solidarité internationale</li>
-              <li>EcoCap</li>
-            </ul>
-          </div>
-          <p class="color-0_8">Depuis sa création, CAP SAAA utilise le sport comme vecteur d’émancipation, d’engagement et de dépassement de soi.
-            Elle promeut également l’inclusion inversée en accueillant des personnes sans handicap à pratiquer une activité sportive en fauteuil.
-            L’association réunit aujourd’hui une centaine de licenciés pratiquant de la section loisir au plus haut niveau international.
-            </p>
-        </div>
-        <div class="div_cap_activite item-d">
-          <div class="jah_font bg-green">
-            <h4>SENSIBILISATION</h4>
-            <ul>
-              <li>CAP Entreprises</li>
-              <li>CAP Etudiants</li>
-            </ul>
-          </div>
-          <p class="color-0_8">La sensibilisation au handicap et l’acceptation des différences de chacun est au cœur du projet de l’association.
-            Conçues et animées en partie par des sportifs handicapés, nos actions s’adressent aux salariés et étudiants afin de dissoudre les peurs et les préjugés
-            et offrir un autre regard non plus sous l’angle des difficultés mais des compétences et talents de chacun.
-            </p>
-        </div>
-        <div class="div_cap_activite item-e">
-          <div class="jah_font bg-grey">
-            <h4>CAP Résilience</h4>
-          </div>
-          <p class="color-0_8">Le programme CAP Résilience a pour objectif de remobiliser le corps et l’esprit des personnes handicapées en les amenant à découvrir de nouvelles sensations à travers le sport
-            et à en tirer tous les bénéfices dans leur quotidien (amélioration de la santé, resociabilisation, autonomisation…).
-            Les interventions sont menées dans des hôpitaux et centres de rééducation par des sportifs handicapés qui ont vécu un parcours de rééducation similaire.
-            </p>
-        </div>
-      </div>
-    </section> -->
-    <!-- <div class="div_infos_capsaaa">
-      <p>Plus d'informations</p>
-      <a href="http://www.capsaaa.net">www.capsaaa.net</a>
-      <a href="http://contact@capsaaa.net">contact@capsaaa.net</a>
-      <p>01 40 43 14 90</p>
-    </div> -->
   </section>
   <section id="sec_du_pacte">
     <div>
       <h1 class="jah_font white">Le pacte de fraternité</h1>
     </div>
-    <!-- <h2>Du Pacte de Fraternité</h2> -->
     <p>EDUCAP CITY est un programme d’éducation populaire, véritable <span class="strong">pacte de fraternité unissant les institutions,
       la société civile et les acteurs économiques</span> et ayant pour ambition <span class="strong">la transmission et
       le partage des valeurs universelles et républicaines</span> auprès de notre jeunesse.
@@ -184,7 +100,6 @@
     </p>
     <h2 class="jah_font"><i class="fas fa-caret-right blue"></i>Les objectifs d’EDUCAP CITY
       sur le territoire</h2>
-    <!-- <p class="bg-blue strong">L’impact d’EDUCAP CITY pour le territoire</p> -->
     <div id="div_impact">
       <div>
         <i class="fas fa-american-sign-language-interpreting blue" data-fa-transform="grow-30"></i>

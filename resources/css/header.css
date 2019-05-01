@@ -1,8 +1,3 @@
-/* header #menu {
-  width: 1400px;
-  position: fixed;
-  z-index: 5;
-} */
 header section {
   display: flex;
   flex-direction: column;
@@ -23,7 +18,7 @@ header img {
 }
 #educapcity a img {
   width: 120px;
-  height: 167px;
+  height: 170px;
 }
 #educapcity a div {
   padding-top: 25px;
@@ -140,12 +135,18 @@ header img {
     padding: 40px 20px 0;
   }
 
+
+
   #b_menu {
     display: none;
   }
 
   #educapcity {
     margin: 0;
+  }
+  #educapcity a img {
+    width: 160px;
+    height: 227px;
   }
   #educapcity a div {
     border-right: 1px solid #1c96c5;
@@ -255,6 +256,14 @@ header img {
 }
 
 @media SCREEN and (min-width: 1400px) {
+  #educapcity a img {
+    width: 160px;
+    height: 227px;
+    transition: 1s;
+  }
+  #educapcity a div {
+    margin: 25px 0 15px 10px;
+  }
   #menu > ul {
     width: 1400px;
     margin: auto;

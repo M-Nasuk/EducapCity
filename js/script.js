@@ -15,7 +15,7 @@ function resumeslider() {
 
 // Funtion that launch a counter on a specific DOM Element, when scrolled over on the screen.
 function startCounter() {
-  if ($(window).scrollTop() > 300) {
+  if ($(window).scrollTop() > 800) {
     $(window).off("scroll", startCounter);
     $('.count').each(function () {
     $(this).prop('Counter',0).animate({
@@ -27,6 +27,16 @@ function startCounter() {
             $(this).text(Math.ceil(now));
         }
       });
+    });
+  }
+}
+
+function reduceSizeImage() {
+  if ($(window).scrollTop() > 50) {
+    $(window).off("scroll", reduceSizeImage);
+    $('#logo_hdr_ec').css({
+      "width": "120px",
+      "height": "170px"
     });
   }
 }

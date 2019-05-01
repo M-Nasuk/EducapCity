@@ -2,7 +2,7 @@
   <section>
     <div id="educapcity">
       <a href="/EducapCity/">
-        <img src="resources/images/Logos/logo_educapcity.png" alt="logo_educapcity"/>
+        <img id="logo_hdr_ec" src="resources/images/Logos/logo_educapcity.png" alt="logo_educapcity"/>
         <div>
           <h2>EDUCAP CITY</h2>
           <h4>UN PACTE DE</h4>

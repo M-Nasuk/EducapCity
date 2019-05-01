@@ -15,6 +15,8 @@ document.addEventListener('DOMContentLoaded', ()=> {
         $('nav').css('display', 'none');
       };
     });
+
+    $(window).scroll(reduceSizeImage);
   });
 
 
@@ -140,5 +142,4 @@ document.addEventListener('DOMContentLoaded', ()=> {
       $('#body_nos_editions').append(response);
     });
   }
-
 })

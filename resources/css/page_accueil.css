@@ -18,7 +18,7 @@
   width: 100%; height: inherit;
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
-  background-position-y: bottom -5em;
+  background-position-y: 3em;
 }
 
 #sec_accueil h2 {
@@ -202,7 +202,7 @@
     padding: 0;
   }
   #sec_accueil:before {
-    background-position-y: bottom 16rem;
+    background-position-y: -12em;
   }
   #sec_accueil p {
     white-space: pre-line;
@@ -345,6 +345,8 @@
      margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
    }
    #sec_accueil:before {
-     background-position-y: bottom -20rem;
+     background-position-y: -20em;
    }
+
+
 }

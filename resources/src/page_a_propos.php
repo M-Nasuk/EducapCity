@@ -66,8 +66,8 @@
         <div>
           <h3 class=" jah_font"><i class="fas fa-slash" data-fa-transform="rotate--39 shrink-10"></i>CAP RESILIENCE<i class="fas fa-slash" data-fa-transform="rotate--39 shrink-10"></i></h3>
           <p>Le programme CAP Résilience a pour objectif de remobiliser le corps et l’esprit des personnes handicapées en les amenant à découvrir de nouvelles sensations à travers le sport
-            et à en tirer tous les bénéfices dans leur quotidien (amélioration de la santé, resociabilisation, autonomisation…).
-            Les interventions sont menées dans des hôpitaux et centres de rééducation par des sportifs handicapés qui ont vécu un parcours de rééducation similaire.
+            et à en tirer tous les bénéfices dans leur quotidien.
+            Les interventions sont menées dans des hôpitaux et centres de rééducation par des sportifs handicapés.
             </p>
         </div>
       </div>
@@ -75,8 +75,8 @@
         <img src="resources/images/PageAPropos/photo_ecocap.png" alt="" class="p5">
         <div>
           <h3 class=" jah_font"><i class="fas fa-slash" data-fa-transform="rotate--39 shrink-10"></i>ECO CAP<i class="fas fa-slash" data-fa-transform="rotate--39 shrink-10"></i></h3>
-          <p>CAP SAAA s’engage dans l’éco-citoyenneté à travers la collecte de produits recyclables (Bouchons – bouteilles – canettes, pneus de roue de fauteuil…
-            Ce sont ainsi plus de 13 000 kilogrammes de produits par an qui sont récoltés.
+          <p>CAP SAAA s’engage dans l’éco-citoyenneté à travers la collecte de produits recyclables (Bouchons, bouteilles, canettes, pneus).
+            Ce sont ainsi plus de 13 000 kg par an qui sont récoltés.
             CAP SAAA met en œuvre des actions de solidarité internationale en récoltant et livrant du matériel paramédical.
             Lors de ses opérations, nos équipes réalisent des actions de sensibilisation auprès de la population.
             </p>

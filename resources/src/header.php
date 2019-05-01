@@ -87,7 +87,7 @@
         <a href="#"><h3>PARTICIPER</h3> </a>
         <ul>
           <li>
-            <a href="#">Devenir ville organisatrice</a>
+            <a href="#">OrganiserEDUCAP CITYy</a>
           </li>
           <li>
             <a href="#">Devenir partenaire</a>

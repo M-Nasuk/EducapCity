@@ -3,6 +3,7 @@ iframe {
   margin: auto;
   width: 360px;
   height: 330px;
+  border: 1px;
 }
 
 

@@ -12,7 +12,8 @@
           <video src="resources/videos/video_issy.mp4" onplay=pauseslider() onpause=playslider() onended=resumeslider() controls></video>
         </li>
         <li>
-          <img src="resources/images/PageAccueil/sliders/slide1_tournee.png" alt="slide1_tournee" />
+          <a href="Nos Editions"><img src="resources/images/PageAccueil/sliders/slide1_tournee.png" alt="slide1_tournee" /></a>
+
         </li>
         <li>
           <img src="resources/images/PageAccueil/sliders/slide2_inscriptionCapitale.jpg" alt="slides1_inscriptionCapitale" />

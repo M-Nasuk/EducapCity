@@ -45,9 +45,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
     .done(function(response) {
       $('#body_a_propos').append(response);
 
-      // $(window).load(function () {
-      //
-      // });
       if (location.hash == "#De%20CAP%20SAAA") {
         location.href = "#sec_de_capsaaa";
         location.hash = "De CAP SAAA";

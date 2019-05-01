@@ -1,6 +1,6 @@
 #sec_accueil {
-  background: no-repeat url("../images/PageAccueil/photo_accueil.png");
-  background-position: center;
+  background: no-repeat url("../images/PageAccueil/photo_accueil.png") center center fixed;
+  /* background-position: center; */
   background-size: cover;
   text-align: center;
   color: #FFF;

@@ -3,7 +3,7 @@
   margin-bottom: 50px;
 }
 #sec_de_capsaaa > div:first-child, #sec_du_pacte > div:first-child {
-  height: 252.267px;
+  height: 252px;
   width: auto;
   display: grid;
   align-content: center;
@@ -17,8 +17,8 @@
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: inherit;
-  -webkit-filter: brightness(50%  );
-  filter: brightness(50%  );
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
   background-position-y: bottom -8rem;
 }
 
@@ -331,7 +331,7 @@
     padding: 0;
   }
   #sec_de_capsaaa > div:first-child, #sec_du_pacte > div:first-child {
-  height: 395.6px;
+    height: 400px;
     margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
     margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
 

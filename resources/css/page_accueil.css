@@ -1,18 +1,35 @@
 #sec_accueil {
-  background: no-repeat url("../images/PageAccueil/photo_accueil.png") center center fixed;
-  /* background-position: center; */
-  background-size: cover;
   text-align: center;
   color: #FFF;
-  padding: 50px 40px;
-  margin-bottom: 15px;
+  position: relative;
+  height: 252px;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 35px;
+}
+#sec_accueil:before {
+  background: no-repeat url("../images/PageAccueil/photo_head_accueil.jpg") center center fixed;
+  background-size: cover;
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: inherit;
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+  background-position-y: bottom -5em;
 }
 
 #sec_accueil h2 {
   margin-bottom: 15px;
+  z-index: 3;
+  position: relative;
 }
 #sec_accueil p {
   font-size: 1.5em;
+  z-index: 3;
+  position: relative;
 }
 
 .flexslider {
@@ -181,6 +198,12 @@
 /* Tablet */
 @media SCREEN and (min-width: 768px) {
 
+  #sec_accueil {
+    padding: 0;
+  }
+  #sec_accueil:before {
+    background-position-y: bottom 16rem;
+  }
   #sec_accueil p {
     white-space: pre-line;
   }
@@ -315,10 +338,13 @@
   }
 }
 @media SCREEN and (min-width: 1400px) {
- #sec_accueil {
-   padding: 85px 54px;
-   font-size: 1.5em;
-   margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
-   margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
- }
+   #sec_accueil {
+     height: 400px;
+     font-size: 1.5em;
+     margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+     margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+   }
+   #sec_accueil:before {
+     background-position-y: bottom -20rem;
+   }
 }

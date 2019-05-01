@@ -13,7 +13,7 @@ function resumeslider() {
   $('#slider').flexslider("next"); $('#slider').flexslider("play");
 }
 
-// Funtion that launch a counter on a specific DOM Element, when scrolled over on the screen.
+// Function that launch a counter on a specific DOM Element, when scrolled over on the screen.
 function startCounter() {
   if ($(window).scrollTop() > 800) {
     $(window).off("scroll", startCounter);
@@ -31,6 +31,7 @@ function startCounter() {
   }
 }
 
+// Function that change width & height css properties of an element
 function reduceSizeImage() {
   if ($(window).scrollTop() > 50) {
     $(window).off("scroll", reduceSizeImage);

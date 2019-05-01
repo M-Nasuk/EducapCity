@@ -17,8 +17,8 @@ aside {
     width: 1500px;
     justify-content: space-between;
     height: 800px;
-    margin-left: calc(-100vw / 4 + 1100px / 4);
-    margin-right: calc(-100vw / 4 + 1100px / 4);
+    margin-left: calc(-100vw / 4 + 1200px / 4);
+    margin-right: calc(-100vw / 4 + 1200px / 4);
   }
   aside > div > a {
     border-top-left-radius: 10px;

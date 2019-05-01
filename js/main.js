@@ -45,16 +45,16 @@ document.addEventListener('DOMContentLoaded', ()=> {
     .done(function(response) {
       $('#body_a_propos').append(response);
 
-      $(window).load(function () {
-        if (location.hash == "#De%20CAP%20SAAA") {
-          location.href = "#sec_de_capsaaa";
-          location.hash = "De CAP SAAA";
-        } else if (location.hash == "#Du%20Pacte%20de%20Fraternit%C3%A9") {
-          location.href = "#sec_du_pacte";
-          location.hash = "Du Pacte de Fraternité";
-        }
-      });
-
+      // $(window).load(function () {
+      //
+      // });
+      if (location.hash == "#De%20CAP%20SAAA") {
+        location.href = "#sec_de_capsaaa";
+        location.hash = "De CAP SAAA";
+      } else if (location.hash == "#Du%20Pacte%20de%20Fraternit%C3%A9") {
+        location.href = "#sec_du_pacte";
+        location.hash = "Du Pacte de Fraternité";
+      }
 
       $('#menu > ul > li:nth-child(2) > ul > li:first-child a').click(function(e) {
         scrollToAnchor('sec_de_capsaaa');

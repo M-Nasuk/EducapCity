@@ -826,27 +826,27 @@
     background: linear-gradient(to bottom left, #fff calc(50% - 1px), #f3f3f3, #fff calc(50% + 1px) );
   }
   #sec_journee_cap_rallye .item-d .triangle-b {
-    top: 80px;
-    left: -20px;
-  }
-  #sec_journee_cap_rallye .item-d .triangle-b-1 {
-    top: 95px;
-    left: -20px;
-  }
-  #sec_journee_cap_rallye .item-g .triangle-b {
     top: 60px;
     left: -20px;
   }
-  #sec_journee_cap_rallye .item-g .triangle-b-1 {
+  #sec_journee_cap_rallye .item-d .triangle-b-1 {
     top: 75px;
     left: -20px;
   }
+  #sec_journee_cap_rallye .item-g .triangle-b {
+    top: 30px;
+    left: -20px;
+  }
+  #sec_journee_cap_rallye .item-g .triangle-b-1 {
+    top: 45px;
+    left: -20px;
+  }
   #sec_journee_cap_rallye .item-i .triangle-b {
-    top: 5px;
+    top: 10px;
     left: -20px;
   }
   #sec_journee_cap_rallye .item-i .triangle-b-1 {
-    top: 20px;
+    top: 25px;
     left: -20px;
   }
 
@@ -863,7 +863,7 @@
     grid-row: 13 / 15;
   }
   #sec_journee_cap_classe .div_fil .p-item-e {
-    grid-row: 16 / 20;
+    grid-row: 17 / 20;
   }
 
   #sec_journee_cap_classe .item-g {
@@ -871,11 +871,11 @@
   }
 
   #sec_journee_cap_classe .item-c .triangle-a {
-    top: 75px;
+    top: 85px;
     right: -20px;
   }
   #sec_journee_cap_classe .item-c .triangle-a-1 {
-    top: 90px;
+    top: 100px;
     right: -20px;
   }
   #sec_journee_cap_classe .item-g .triangle-a {
@@ -896,11 +896,11 @@
     left: -20px;
   }
   #sec_journee_cap_classe .item-e .triangle-b {
-    top: 10px;
+    top: 0px;
     left: -20px;
   }
   #sec_journee_cap_classe .item-e .triangle-b-1 {
-    top: 25px;
+    top: 15px;
     left: -20px;
   }
   #sec_journee_cap_classe .item-f .triangle-b {
@@ -953,17 +953,17 @@
     grid-row: 12 / 13;
   }
   #sec_journee_cap_classe .div_fil .p-item-d {
-    grid-row: 14 / 16;
+    grid-row: 14 / 17;
   }
   #sec_journee_cap_classe .item-d > div {
     margin-bottom: 50px;
   }
   #sec_journee_cap_classe .item-f .triangle-b {
-    top: 30px;
+    top: 10px;
     left: -20px;
   }
   #sec_journee_cap_classe .item-f .triangle-b-1 {
-    top: 45px;
+    top: 25px;
     left: -20px;
   }
   #sec_journee_cap_classe .item-g .triangle-a {
@@ -975,7 +975,7 @@
     right: -20px;
   }
 }
-@media SCREEN and (min-width: 1100px) {
+@media SCREEN and (min-width: 1200px) {
   #sec_journee_cap_rallye .div_fil .p-item-b {
       grid-row: 4 / 7;
   }
@@ -983,7 +983,7 @@
     grid-row: 14 / 17;
   }
   #sec_journee_cap_rallye .div_fil .p-item-d {
-    grid-row: 17 / 18;
+    grid-row: 17 / 19;
   }
   #sec_journee_cap_classe .item-d > div {
     margin-bottom: 0px;

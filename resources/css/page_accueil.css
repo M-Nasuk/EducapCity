@@ -292,7 +292,7 @@
   }
 
 }
-@media SCREEN and (min-width: 1100px) {
+@media SCREEN and (min-width: 1200px) {
 
   .rec_pilier {
     width: 280px;
@@ -301,12 +301,12 @@
   }
 
   #sec_phrase {
-    margin-left: calc(-100vw / 2 + 1100px / 2 + 7.5px);
-    margin-right: calc(-100vw / 2 + 1100px / 2 + 7.5px);
+    margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+    margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
     padding: 50px 80px;
   }
   #sec_phrase > div {
-    width: 1100px;
+    width: 1200px;
     margin: auto;
   }
   #sec_phrase > div img {
@@ -318,7 +318,7 @@
  #sec_accueil {
    padding: 85px 54px;
    font-size: 1.5em;
-   margin-left: calc(-100vw / 2 + 1100px / 2 + 7.5px);
-   margin-right: calc(-100vw / 2 + 1100px / 2 + 7.5px);
+   margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+   margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
  }
 }

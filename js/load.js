@@ -60,7 +60,7 @@ $(document).ready(function() {
   $.get('resources/src/footer.php')
   .done(function(response) {
     $('main').after(response);
-    $('footer').addClass('container');
+    // $('footer').addClass('container');
   });
 
 

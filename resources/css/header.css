@@ -261,7 +261,7 @@ header img {
   }
   #menu {
     padding-top: 10px;
-    margin-left: calc(-100vw / 2 + 1100px / 2 + 7.5px);
-    margin-right: calc(-100vw / 2 + 1100px / 2 + 7.5px);
+    margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+    margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
   }
 }

@@ -81,7 +81,7 @@ button:hover {
   }
 }
 
-@media SCREEN and (min-width: 1400px) {
+@media SCREEN and (min-width: 1200px) {
   .div_org_prez {
     height: 400px;
     font-size: 1.1em;

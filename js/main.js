@@ -54,6 +54,23 @@ document.addEventListener('DOMContentLoaded', ()=> {
         location.href = "#sec_du_pacte";
         location.hash = "Du Pacte de Fraternité";
       }
+      if (location.hash == "#sec_de_capsaaa") {
+        location.hash = "De CAP SAAA";
+      } else if (location.hash == "#sec_du_pacte") {
+        location.hash = "Du Pacte de Fraternité";
+      }
+      var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+      if (location.hash == "#De%20CAP%20SAAA" && isChrome) {
+        location.href = "#sec_de_capsaaa";
+        setTimeout(function () {
+          window.location.hash = "De CAP SAAA";
+        }, 100);
+      } else if (location.hash == "#Du%20Pacte%20de%20Fraternit%C3%A9" && isChrome) {
+        location.href = "#sec_du_pacte";
+        setTimeout(function () {
+          location.hash = "Du Pacte de Fraternité";
+        }, 100);
+      }
 
       $('#menu > ul > li:nth-child(2) > ul > li:first-child a').click(function(e) {
         scrollToAnchor('sec_de_capsaaa');
@@ -80,6 +97,18 @@ document.addEventListener('DOMContentLoaded', ()=> {
       } else if (location.hash == "#Cap%20Classe") {
         location.href = "#sec_cap_classe";
         location.hash = "Cap Classe";
+      }
+      var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+      if (location.hash == "#Cap%20Rallye" && isChrome) {
+        location.href = "#sec_cap_rallye";
+        setTimeout(function () {
+          window.location.hash = "Cap Rallye";
+        }, 100);
+      } else if (location.hash == "#Cap%20Classe" && isChrome) {
+        location.href = "#sec_cap_classe";
+        setTimeout(function () {
+          location.hash = "Cap Classe";
+        }, 100);
       }
 
       if ($(document).width() < 768) {

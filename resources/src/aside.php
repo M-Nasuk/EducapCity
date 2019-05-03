@@ -28,6 +28,13 @@
     <a class="twitter-timeline" data-width="285" data-height="661" href="https://twitter.com/EducapCity?ref_src=twsrc%5Etfw">Tweets by EducapCity</a>
   </div>
 
+  <!-- FLICKR FEED -->
+  <div class="flickr">
+    <a href="https://www.flickr.com/search/?text=educap%20city" target="_blank"><img src="resources/images/reseaux/logo_flickr_3.png" alt="logo flickr"/></a></a>
+    <iframe style="position: relative; top: 0; left: 0; width: 100%; height: 100%;" src="https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=educap%20city&sort=2&by=keywords&theme=tilesgrid&scale=fill&speed=3000&limit=30&skin=default&autoplay=true" scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true">
+    </iframe>
+  </div>
+
   <!-- YOUTUBE FEED -->
   <div class="yt">
     <div class="elfsight-app-ca182df2-e466-4b81-af98-68cf132d65f4"></div>
@@ -37,12 +44,5 @@
 
       </div>
     </div>
-  </div>
-
-  <!-- TWITTER FEED -->
-  <div class="flickr">
-    <a href="https://www.flickr.com/search/?text=educap%20city" target="_blank"><img src="resources/images/reseaux/logo_flickr_3.png" alt="logo flickr"/></a></a>
-    <iframe style="position: relative; top: 0; left: 0; width: 100%; height: 100%;" src="https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=educap%20city&sort=2&by=keywords&theme=tilesgrid&scale=fill&speed=3000&limit=30&skin=default&autoplay=true" scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true">
-    </iframe>
   </div>
 </aside>

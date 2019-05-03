@@ -241,8 +241,6 @@ header img {
   }
   #menu {
     padding-top: 10px;
-    /* margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
-    margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px); */
   }
   #menu > ul > li a h3 {
     padding: 20px 0 10px;
@@ -278,22 +276,3 @@ header img {
     margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
   }
 }
-/* @media SCREEN and (min-width: 1400px) {
-  #educapcity a img {
-    width: 160px;
-    height: 227px;
-    transition: 1s;
-  }
-  #educapcity a div {
-    margin: 25px 0 15px 10px;
-  }
-  #menu > ul {
-    width: 1400px;
-    margin: auto;
-  }
-  #menu {
-    padding-top: 10px;
-    margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
-    margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
-  }
-} */

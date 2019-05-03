@@ -22,7 +22,6 @@
     </div>
     <div id="partenaires">
       <a href="#">
-        <!-- <h3>Partenaires</h3> -->
       </a>
       <div>
         <a href="https://www.stmichel.fr" target="_blank">

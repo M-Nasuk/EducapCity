@@ -85,8 +85,8 @@ button:hover {
   .div_org_prez {
     height: 400px;
     font-size: 1.1em;
-    margin-left: calc(-100vw / 2 + 1025px / 2 + 7.5px);
-    margin-right: calc(-100vw / 2 + 1025px / 2 + 7.5px);
+    margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+    margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
   }
   .div_org_prez h1 {
     font-size: 4em;
@@ -97,5 +97,11 @@ button:hover {
   #organiser > * {
     margin-bottom: 50px;
   }
-
+  .div_identite div .fas {
+    font-size: 5em;
+    margin-bottom: 30px;
+  }
+  .div_identite div p {
+    padding: 0 15%;
+  }
 }

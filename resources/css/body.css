@@ -103,6 +103,9 @@ li {
 .hover-off {
   transition: 0.5s;
 }
+.smaller {
+  font-size: 0.8em;
+}
 
 main > h4 {
   font-weight: normal;

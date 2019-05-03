@@ -22,6 +22,7 @@
     </div>
     <div id="partenaires">
       <a href="#">
+        <h3>Partenaires</h3>
       </a>
       <div>
         <a href="https://www.stmichel.fr" target="_blank">
@@ -102,6 +103,9 @@
       <li>
         <a href="Nos Editions"><h3>NOS EDITIONS</h3> </a>
         <ul>
+          <li>
+            <a href="#">L'édition 2019</a>
+          </li>
           <li>
             <a href="#">L'édition 2018</a>
           </li>

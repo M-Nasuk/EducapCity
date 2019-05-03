@@ -168,7 +168,18 @@
 
         </div>
       </div>
-      <div class="flexslider carousel item-y">
+      <div class="your-class item-y">
+        <div><div class="slide-h3">1</div></div>
+        <div><div class="slide-h3">2</div></div>
+        <div><div class="slide-h3">3</div></div>
+        <div><div class="slide-h3">4</div></div>
+        <div><div class="slide-h3">5</div></div>
+        <div><div class="slide-h3">6</div></div>
+        <div><div class="slide-h3">7</div></div>
+        <div><div class="slide-h3">8</div></div>
+        <div><div class="slide-h3">9</div></div>
+      </div>
+      <!-- <div class="flexslider carousel item-y">
         <ul class="slides ul-a">
           <li >
             <div class="li-a">
@@ -216,7 +227,7 @@
             </div>
           </li>
         </ul>
-      </div>
+      </div> -->
     </section>
     <div class="div_dl cr-f">
       <a href="resources/images/PageProgramme/compass.png" download>
@@ -360,7 +371,7 @@
 
         </div>
       </div>
-      <div class="flexslider carousel item-y">
+      <!-- <div class="flexslider carousel item-y">
         <ul class="slides ul-b">
           <li >
             <div class="li-a">
@@ -399,7 +410,7 @@
             </div>
           </li>
         </ul>
-      </div>
+      </div> -->
     </section>
     <div class="div_dl cc-f">
       <a href="resources/images/PageProgramme/compass.png" download>

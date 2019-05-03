@@ -281,7 +281,30 @@
   display: none;
 }
 
-.ul-a > li, .ul-b > li {
+.slick-center .slide-h3{
+  color: #FFF;
+}
+.your-class {
+  width: 100%;
+}
+.slide-h3{
+  margin: 10% 0 10% 0;
+  padding: 40% 20%;
+  background: #008ed6;
+}
+.slider div{
+  margin-right: 5px;
+}
+.slick-slide{
+  opacity: .6;
+}
+.slick-center{
+  display: block;
+  max-width: 10% !important;
+  max-height:20% !important;
+  opacity: 1;
+}
+/* .ul-a > li, .ul-b > li {
   height: 130px;
 }
 .ul-a > li div, .ul-b > li div {
@@ -350,7 +373,7 @@
   background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye9.jpg");
   background-size: cover;
   background-position: center center;
-}
+} */
 
 #sec_journee_cap_classe {
   text-align: center;
@@ -453,7 +476,7 @@
   margin-top: 15px;
 }
 
-.ul-b .li-a {
+/* .ul-b .li-a {
   background-color: rgba(0, 0, 0, 0);
   background-repeat: no-repeat;
   background-image: url("../../resources/images/PageProgramme/Photos/capclasse/capclasse1.jpg");
@@ -515,7 +538,7 @@
   background-image: url("../../resources/images/PageProgramme/Photos/capclasse/capclasse9.jpg");
   background-size: cover;
   background-position: center center;
-}
+} */
 
 #sec_etape_capitale h2 img {
   float: left;

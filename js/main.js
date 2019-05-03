@@ -111,32 +111,36 @@ document.addEventListener('DOMContentLoaded', ()=> {
         }, 100);
       }
 
-      if ($(document).width() < 768) {
-        $('.flexslider').flexslider({
-          animation: "slide",
-          animationLoop: false,
-          itemWidth: 130,
-          maxItems: 3,
-          itemMargin: 5
-        });
-      } else if ($(document).width() > 768 && ($(document).width() < 1024)) {
-        $('.flexslider').flexslider({
-          animation: "slide",
-          animationLoop: false,
-          itemWidth: 140,
-          maxItems: 5,
-          itemMargin: 5
-        })
-      } else if ($(document).width() >= 1024) {
-        $('.flexslider').flexslider({
-          animation: "slide",
-          animationLoop: false,
-          itemWidth: 130,
-          maxItems: 6,
-          itemMargin: 5
-        })
-      }
+      // if ($(document).width() < 768) {
+      //   $('.flexslider').flexslider({
+      //     animation: "slide",
+      //     animationLoop: false,
+      //     itemWidth: 130,
+      //     maxItems: 3,
+      //     itemMargin: 5
+      //   });
+      // } else if ($(document).width() > 768 && ($(document).width() < 1024)) {
+      //   $('.flexslider').flexslider({
+      //     animation: "slide",
+      //     animationLoop: false,
+      //     itemWidth: 140,
+      //     maxItems: 5,
+      //     itemMargin: 5
+      //   })
+      // } else if ($(document).width() >= 1024) {
+      //   $('.flexslider').flexslider({
+      //     animation: "slide",
+      //     animationLoop: false,
+      //     itemWidth: 130,
+      //     maxItems: 6,
+      //     itemMargin: 5
+      //   })
+      // }
 
+      $('.your-class').slick({
+        centerMode: true,
+        slidesToShow: 5
+      });
 
       $('#div_caps > div:first-child a, #menu > ul > li:nth-child(3) > ul > li:first-child a').click(function(e) {
         scrollToAnchor('sec_cap_rallye');

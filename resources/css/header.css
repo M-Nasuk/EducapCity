@@ -209,7 +209,7 @@ header img {
   }
 
   #menu > ul > li a h3 {
-    padding: 20px 0 10px;
+    padding-top: 20px;
   }
   #menu > ul > li ul li {
    text-align: left;
@@ -226,6 +226,9 @@ header img {
   #educapcity, #educapcity a {
     display: inline-flex;
     flex-direction: row;
+  }
+  #menu > ul > li a h3 {
+    padding: 20px 0 10px;
   }
 
   #don {

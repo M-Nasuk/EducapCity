@@ -1,0 +1,101 @@
+#organiser {
+  text-align: center;
+  padding: 10px;
+}
+#organiser > * {
+  margin-bottom: 20px;
+}
+.div_org_prez {
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  height: 252px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.div_org_prez:before {
+  background: no-repeat url("../images/PageParticiper/PageOrganiser/photo_institution.jpg") center center fixed;
+  background-size: cover;
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: inherit;
+  background-position-y: 5em;
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+.div_org_prez h1 {
+  z-index: 1;
+  font-weight: normal;
+}
+.div_identite {
+  display: flex;
+  flex-direction: column;
+}
+.div_identite div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.div_identite div .fas {
+  font-size: 4em;
+  margin-bottom: 10px;
+}
+button {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border: none;
+}
+button:hover {
+  background-color: #FFF;
+  color: #e30d14;
+}
+
+@media SCREEN and (min-width: 768px) {
+  .div_org_prez h1 {
+    font-size: 3em;
+  }
+  .div_org_prez:before {
+    background-position-y: -10em;
+  }
+  #organiser > * {
+    margin-bottom: 30px;
+  }
+  .div_identite {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .div_identite div {
+    padding: 10px;
+    width: 33%;
+  }
+  #organiser > img {
+    max-width: 70%
+  }
+  #organiser > p {
+    white-space: pre-line;
+  }
+}
+
+@media SCREEN and (min-width: 1400px) {
+  .div_org_prez {
+    height: 400px;
+    font-size: 1.1em;
+    margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+    margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+  }
+  .div_org_prez h1 {
+    font-size: 4em;
+  }
+  .div_org_prez:before {
+    background-position-y: -13em;
+  }
+  #organiser > * {
+    margin-bottom: 50px;
+  }
+
+}

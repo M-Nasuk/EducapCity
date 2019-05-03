@@ -6,3 +6,10 @@ RewriteRule ^Programme$ index.php?page=programme [L]
 RewriteRule ^A(\s+)Propos$ index.php?page=a_propos [L]
 
 RewriteRule ^Nos(\s+)Editions$ index.php?page=nos_editions [L]
+
+RewriteRule ^Participer$ index.php?page=participer [L]
+
+RewriteRule ^Organiser$ index.php?page=organiser [L]
+RewriteRule ^Partenaire$ index.php?page=partenaire [L]
+RewriteRule ^Benevole$ index.php?page=benevole [L]
+RewriteRule ^Don$ index.php?page=don [L]

@@ -142,4 +142,45 @@ document.addEventListener('DOMContentLoaded', ()=> {
       $('#body_nos_editions').append(response);
     });
   }
+
+  // LOAD PAGE PARTICIPER
+  if ($('#body_participer').length) {
+    $.get('resources/src/page_participer.php')
+    .done(function(response) {
+      $('#body_participer').append(response);
+    });
+  }
+
+  // LOAD PAGE ORGANISER
+  if ($('#body_organiser').length) {
+    $.get('resources/src/participer/page_organiser.php')
+    .done(function(response) {
+      $('#body_organiser').append(response);
+    });
+  }
+
+  // LOAD PAGE PARTENAIRE
+  if ($('#body_partenaire').length) {
+    $.get('resources/src/participer/page_partenaire.php')
+    .done(function(response) {
+      $('#body_partenaire').append(response);
+    });
+  }
+
+  // LOAD PAGE BENEVOLE
+  if ($('#body_benevole').length) {
+    $.get('resources/src/participer/page_benevole.php')
+    .done(function(response) {
+      $('#body_benevole').append(response);
+    });
+  }
+
+  // LOAD PAGE DON
+  if ($('#body_don').length) {
+    $.get('resources/src/participer/page_don.php')
+    .done(function(response) {
+      $('#body_don').append(response);
+    });
+  }
+
 })

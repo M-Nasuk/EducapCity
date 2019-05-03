@@ -116,7 +116,7 @@ main > h4 .fas, main > h4 svg {
   margin: -12px 15px 0;
 }
 
-#accueil > section:not(:last-child) {
+#accueil > section:not(:last-child):not(#sec_accueil) {
   margin-bottom: 60px;
 }
 

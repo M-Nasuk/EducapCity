@@ -84,19 +84,19 @@
         </ul>
       </li>
       <li>
-        <a href="#"><h3>PARTICIPER</h3> </a>
+        <a href="Participer"><h3>PARTICIPER</h3> </a>
         <ul>
           <li>
-            <a href="#">OrganiserEDUCAP CITYy</a>
+            <a href="Organiser">Organiser EDUCAP CITY</a>
           </li>
           <li>
-            <a href="#">Devenir partenaire</a>
+            <a href="Partenaire">Devenir partenaire</a>
           </li>
           <li>
-            <a href="#">Devenir bénévole</a>
+            <a href="Benevole">Devenir bénévole</a>
           </li>
           <li>
-            <a href="#">Faire un don</a>
+            <a href="Don">Faire un don</a>
           </li>
         </ul>
       </li>

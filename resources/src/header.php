@@ -26,13 +26,13 @@
       </a>
       <div>
         <a href="https://www.stmichel.fr" target="_blank">
-          <img src="resources/images/Logos/logo_st_michel.jpg" alt="logo_stmichel">
+          <img src="resources/images/Logos/partenaires_officiels/logo_st_michel.jpg" alt="logo_stmichel">
         </a>
         <a href="https://www.sncf.com/fr" target="_blank">
-          <img src="resources/images/Logos/logo_sncf.png" alt="logo_sncf">
+          <img src="resources/images/Logos/partenaires_officiels/logo_sncf.png" alt="logo_sncf">
         </a>
         <a href="http://www.sports.gouv.fr/" target="_blank">
-          <img src="resources/images/Logos/logo_mariannesports_bleu.jpg" alt="logo_ministere_des_sports">
+          <img src="resources/images/Logos/partenaires_institutionnels/logo_mariannesports_bleu.jpg" alt="logo_ministere_des_sports">
         </a>
       </div>
 

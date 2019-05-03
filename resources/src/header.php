@@ -87,7 +87,7 @@
         <a href="Participer"><h3>PARTICIPER</h3> </a>
         <ul>
           <li>
-            <a href="Organiser">Organiser EDUCAP CITY</a>
+            <a href="Organiser">Organiser Educap City</a>
           </li>
           <li>
             <a href="Partenaire">Devenir partenaire</a>

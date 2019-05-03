@@ -303,22 +303,7 @@
   }
 }
 
-@media SCREEN and (min-width: 1025px) and (max-width: 1399px) {
-  #sec_accueil {
-    max-width: 1400px;
-  }
-}
 @media SCREEN and (min-width: 1025px) {
-
-  #sec_info_nbres #div_info_ecoles {
-    display: flex;
-  }
-  .phrase img {
-    max-width: 4%;
-  }
-
-}
-@media SCREEN and (min-width: 1200px) {
   #sec_accueil {
     height: 400px;
     font-size: 1.1em;
@@ -336,8 +321,12 @@
   #sec_accueil p {
     font-size: 2.5em;
   }
-
-
+  #sec_info_nbres #div_info_ecoles {
+    display: flex;
+  }
+  .phrase img {
+    max-width: 4%;
+  }
   .rec_pilier {
     width: 280px;
     height: 280px;
@@ -357,7 +346,50 @@
     margin-top: -30px;
     margin-bottom: -30px;
   }
+
+  #sec_accueil:before {
+    background-position-y: -27em;
+  }
+  #sec_accueil h1 {
+    font-size: 4em;
+    margin-bottom: 0;
+    font-weight: normal;
+  }
+  #sec_accueil p {
+    font-size: 2.5em;
+  }
 }
+/* @media SCREEN and (min-width: 1025px) {
+
+  #sec_info_nbres #div_info_ecoles {
+    display: flex;
+  }
+  .phrase img {
+    max-width: 4%;
+  }
+
+} */
+/* @media SCREEN and (min-width: 1200px) {
+  .rec_pilier {
+    width: 280px;
+    height: 280px;
+    padding: 0;
+  }
+
+  #sec_phrase {
+    margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+    margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+    padding: 50px 80px;
+  }
+  #sec_phrase > div {
+    width: 1200px;
+    margin: auto;
+  }
+  #sec_phrase > div img {
+    margin-top: -30px;
+    margin-bottom: -30px;
+  }
+} */
 /* @media SCREEN and (min-width: 1400px) {
    #sec_accueil {
      height: 400px;

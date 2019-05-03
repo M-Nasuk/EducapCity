@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   // LOAD ASIDE
-  if ($(document).width() > 1200) {
+  if ($(document).width() > 1025) {
     $.get('resources/src/aside.php')
     .done(function(response) {
       $('main').append(response);
@@ -10,7 +10,7 @@ $(document).ready(function() {
   }
 
   // LOAD EMBARQUEZ SCRIPT
-  if ($(document).width() > 1200) {
+  if ($(document).width() > 1025) {
     $.get('resources/src/embarquez.php')
     .done(function(response) {
       $('aside').after(response);

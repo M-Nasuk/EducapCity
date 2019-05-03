@@ -12,8 +12,8 @@ aside {
     display: flex;
     height: 800px;
     justify-content: space-between;
-    margin-left: calc(-100vw / 4 + 1200px / 4);
-    margin-right: calc(-100vw / 4 + 1200px / 4);
+    margin-left: calc(-100vw / 4 + 1025px / 4);
+    margin-right: calc(-100vw / 4 + 1025px / 4);
     width: 1500px;
   }
 

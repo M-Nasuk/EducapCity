@@ -60,7 +60,7 @@ button:hover {
     font-size: 3em;
   }
   .div_org_prez:before {
-    background-position-y: -10em;
+    background-position-y: -8em;
   }
   #organiser > * {
     margin-bottom: 30px;
@@ -81,18 +81,18 @@ button:hover {
   }
 }
 
-@media SCREEN and (min-width: 1200px) {
+@media SCREEN and (min-width: 1025px) {
   .div_org_prez {
     height: 400px;
     font-size: 1.1em;
-    margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
-    margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+    margin-left: calc(-100vw / 2 + 1025px / 2 + 7.5px);
+    margin-right: calc(-100vw / 2 + 1025px / 2 + 7.5px);
   }
   .div_org_prez h1 {
     font-size: 4em;
   }
   .div_org_prez:before {
-    background-position-y: -13em;
+    background-position-y: -6em;
   }
   #organiser > * {
     margin-bottom: 50px;

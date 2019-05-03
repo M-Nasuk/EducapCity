@@ -126,7 +126,7 @@ main > h4 .fas, main > h4 svg {
  }
 }
 
-@media SCREEN and (min-width: 1200px) {
+@media SCREEN and (min-width: 1025px) {
   body {
     font-size: 1.3em;
   }

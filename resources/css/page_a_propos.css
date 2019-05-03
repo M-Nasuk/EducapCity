@@ -327,15 +327,14 @@
 
 }
 
-@media SCREEN and (min-width: 1200px) {
+@media SCREEN and (min-width: 1025px) {
   #a_propos > section:not(#sec_embarquez) {
     padding: 0;
   }
   #sec_de_capsaaa > div:first-child, #sec_du_pacte > div:first-child {
     height: 400px;
-    margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
-    margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
-
+    margin-left: calc(-100vw / 2 + 1025px / 2 + 7.5px);
+    margin-right: calc(-100vw / 2 + 1025px / 2 + 7.5px);
   }
   #sec_de_capsaaa > div:first-child:before {
     background-position-y: 2em;

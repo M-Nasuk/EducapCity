@@ -311,7 +311,7 @@
     margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
   }
   #sec_accueil:before {
-    background-position-y: -27em;
+    background-position-y: 65%;
   }
   #sec_accueil h1 {
     font-size: 4em;
@@ -347,9 +347,6 @@
     margin-bottom: -30px;
   }
 
-  #sec_accueil:before {
-    background-position-y: -27em;
-  }
   #sec_accueil h1 {
     font-size: 4em;
     margin-bottom: 0;

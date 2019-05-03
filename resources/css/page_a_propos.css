@@ -223,9 +223,7 @@
   #a_propos {
     font-size: 1.1em;
   }
-  #sec_de_capsaaa > div:first-child:before {
-    background-position-y: bottom 2em;
-  }
+
   #div_capsaaa > img {
     max-width: 15%;
   }
@@ -337,7 +335,7 @@
     margin-right: calc(-100vw / 2 + 1025px / 2 + 7.5px);
   }
   #sec_de_capsaaa > div:first-child:before {
-    background-position-y: 2em;
+    background-position-y: 6em;
     background-position-x: 0;
   }
   #sec_de_capsaaa > div:first-child h1, #sec_du_pacte > div:first-child h1 {

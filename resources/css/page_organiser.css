@@ -92,7 +92,7 @@ button:hover {
     font-size: 4em;
   }
   .div_org_prez:before {
-    background-position-y: -6em;
+    background-position-y: 20%;
   }
   #organiser > * {
     margin-bottom: 50px;

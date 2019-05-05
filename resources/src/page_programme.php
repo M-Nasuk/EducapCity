@@ -152,46 +152,37 @@
 
         </div>
       </div>
-      <!-- <div class="flexslider carousel item-y">
-        <ul class="slides ul-b">
-          <li >
-            <div class="li-a">
-            </div>
-          </li>
-          <li >
-            <div class="li-b">
-            </div>
-          </li>
-          <li>
-            <div class="li-c">
-            </div>
-          </li>
-          <li>
-            <div class="li-d">
-            </div>
-          </li>
-          <li>
-            <div class="li-e">
-            </div>
-          </li>
-          <li>
-            <div class="li-f">
-            </div>
-          </li>
-          <li>
-            <div class="li-g">
-            </div>
-          </li>
-          <li>
-            <div class="li-h">
-            </div>
-          </li>
-          <li>
-            <div class="li-i">
-            </div>
-          </li>
-        </ul>
-      </div> -->
+      <div class="item-y">
+        <div class="slicker">
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/capclasse/capclasse1.jpg') center center;"></div>
+          </div>
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/capclasse/capclasse2.jpg') center center;"></div>
+          </div>
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/capclasse/capclasse3.jpg') center center;"></div>
+          </div>
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/capclasse/capclasse4.jpg') center center;"></div>
+          </div>
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/capclasse/capclasse5.jpg') center center;"></div>
+          </div>
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/capclasse/capclasse6.jpg') center center;"></div>
+          </div>
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/capclasse/capclasse7.jpg') center center;"></div>
+          </div>
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/capclasse/capclasse8.jpg') center center;"></div>
+          </div>
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/capclasse/capclasse9.jpg') center center;"></div>
+          </div>
+        </div>
+      </div>
     </section>
     <div class="div_dl cc-f">
       <a href="resources/images/PageProgramme/compass.png" download>
@@ -351,84 +342,37 @@
 
         </div>
       </div>
-      <div class="your-class item-y">
-        <div><div class="slide-h3">
-          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye1.jpg" alt="">
-        </div></div>
-        <div><div class="slide-h3">
-          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye2.jpg" alt="">
-        </div></div>
-        <div><div class="slide-h3">
-          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye3.jpg" alt="">
-        </div></div>
-        <div><div class="slide-h3">
-          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye4.jpg" alt="">
-        </div></div>
-        <div><div class="slide-h3">
-          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye5.jpg" alt="">
-        </div></div>
-        <div><div class="slide-h3">
-          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye6.jpg" alt="">
-        </div></div>
-        <div><div class="slide-h3">
-          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye7.jpg" alt="">
-        </div></div>
-        <div><div class="slide-h3">
-          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye8.jpg" alt="">
-        </div></div>
-        <div><div class="slide-h3">
-          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye9.jpg" alt="">
-        </div></div>
+      <div class="item-y">
+        <div class="slicker">
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/caprallye/caprallye1.jpg') center center;"></div>
+          </div>
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/caprallye/caprallye2.jpg') center center;"></div>
+          </div>
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/caprallye/caprallye3.jpg') center center;"></div>
+          </div>
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/caprallye/caprallye4.jpg') center center;"></div>
+          </div>
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/caprallye/caprallye5.jpg') center center;"></div>
+          </div>
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/caprallye/caprallye6.jpg') center center;"></div>
+          </div>
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/caprallye/caprallye7.jpg') center center;"></div>
+          </div>
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/caprallye/caprallye8.jpg') center center;"></div>
+          </div>
+          <div>
+            <div style="background: no-repeat url('resources/images/PageProgramme/Photos/caprallye/caprallye9.jpg') center center;"></div>
+          </div>
+        </div>
       </div>
-      <!-- <div class="flexslider carousel item-y">
-        <ul class="slides ul-a">
-          <li >
-            <div class="li-a">
-
-            </div>
-          </li>
-          <li >
-            <div class="li-b">
-
-            </div>
-          </li>
-          <li>
-            <div class="li-c">
-
-            </div>
-          </li>
-          <li>
-            <div class="li-d">
-
-            </div>
-          </li>
-          <li>
-            <div class="li-e">
-
-            </div>
-          </li>
-          <li>
-            <div class="li-f">
-
-            </div>
-          </li>
-          <li>
-            <div class="li-g">
-
-            </div>
-          </li>
-          <li>
-            <div class="li-h">
-
-            </div>
-          </li>
-          <li>
-            <div class="li-i">
-
-            </div>
-          </li>
-        </ul>
-      </div> -->
     </section>
     <div class="div_dl cr-f">
       <a href="resources/images/PageProgramme/compass.png" download>
@@ -438,7 +382,6 @@
         </button>
       </a>
     </div>
-
   </section>
 
 

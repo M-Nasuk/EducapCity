@@ -281,131 +281,6 @@
   display: none;
 }
 
-.slick-center .slide-h3{
-  color: #FFF;
-}
-.your-class {
-  width: 100%;
-}
-.slide-h3{
-  margin: 10% 0 10% 0;
-  /* padding: 40% 20%; */
-  /* background: #008ed6; */
-}
-.your-class > div{
-  margin-right: 5px;
-}
-.slick-slide {
-  opacity: .6;
-  display: flex !important;
-  margin-right: 2%;
-  width: 200px !important;
-}
-.slick-active {
-  margin-right: 3%;
-}
-.slick-slide > div {
-  align-self: center;
-}
-.slick-slide div img {
-  /* align-self: center; */
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-}
-.slick-center {
-  opacity: 1;
-  transform: scale(3);
-}
-/* .slick-center div img {
-  display: block !important;
-  -webkit-transform: scale(3);
-  -moz-transform: scale(3);
-  transform: scale(3);
-} */
-.slick-list {
-  padding:45px 60px !important;
-  margin-left:30px !important;
-  height: 700px;
-}
-.slick-track {
-  height: inherit;
-  /* padding-top: 15%; */
-}
-/* .slick-active > div {
-  align-self: center;
-} */
-/* .ul-a > li, .ul-b > li {
-  height: 130px;
-}
-.ul-a > li div, .ul-b > li div {
-  height: inherit;
-  border-radius: 50%;
-}
-.ul-a .li-a {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye1.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.ul-a .li-b {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye2.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.ul-a .li-c {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye3.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.ul-a .li-d {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye4.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.ul-a .li-e {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye5.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.ul-a .li-f {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye6.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.ul-a .li-g {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye7.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.ul-a .li-h {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye8.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.ul-a .li-i {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/caprallye/caprallye9.jpg");
-  background-size: cover;
-  background-position: center center;
-} */
-
 #sec_journee_cap_classe {
   text-align: center;
   display: grid;
@@ -506,70 +381,6 @@
   grid-row-end: 20;
   margin-top: 15px;
 }
-
-/* .ul-b .li-a {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/capclasse/capclasse1.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.ul-b .li-b {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/capclasse/capclasse2.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.ul-b .li-c {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/capclasse/capclasse3.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.ul-b .li-d {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/capclasse/capclasse4.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.ul-b .li-e {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/capclasse/capclasse5.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.ul-b .li-f {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/capclasse/capclasse6.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.ul-b .li-g {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/capclasse/capclasse7.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.ul-b .li-h {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/capclasse/capclasse8.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-.ul-b .li-i {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: no-repeat;
-  background-image: url("../../resources/images/PageProgramme/Photos/capclasse/capclasse9.jpg");
-  background-size: cover;
-  background-position: center center;
-} */
 
 #sec_etape_capitale h2 img {
   float: left;
@@ -1027,6 +838,41 @@
   #sec_journee_cap_classe .item-g .triangle-a-1 {
     top: 55px;
     right: -20px;
+  }
+  .slicker {
+    width: 1200px;
+    height: 500px;
+  }
+  .slick-list {
+    margin-left: calc(-100vw / 4 + 1200px / 4 + 7.5px);
+    margin-right: calc(-100vw / 4 + 1200px / 4 + 7.5px);
+    height: inherit;
+  }
+  .slick-track {
+    height: inherit;
+    margin-left: -3%;
+  }
+  .slick-slide {
+    display: flex !important;
+    justify-content: center;
+  }
+  .slick-slide > div {
+    height: 150px;
+    width: 150px !important;
+    opacity: .6;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-self: center;
+    border-radius: 50%;
+    align-self: center;
+  }
+  .slick-center {
+    width: 370px !important;
+  }
+  .slick-center > div {
+    opacity: 1;
+    width: 370px !important;
+    height: 370px;
   }
 }
 @media SCREEN and (min-width: 1200px) {

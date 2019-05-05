@@ -88,16 +88,19 @@
         <a href="Participer"><h3>PARTICIPER</h3> </a>
         <ul>
           <li>
-            <a href="Organiser">Organiser Educap City</a>
+            <a href="Participer#Organiser">Organiser Educap City</a>
           </li>
           <li>
-            <a href="Partenaire">Devenir partenaire</a>
+            <a href="Participer#Accueillir">Accueillir</a>
           </li>
           <li>
-            <a href="Benevole">Devenir bénévole</a>
+            <a href="Participer#Partenaire">Devenir partenaire</a>
           </li>
           <li>
-            <a href="Don">Faire un don</a>
+            <a href="Participer#Benevole">Devenir bénévole</a>
+          </li>
+          <li>
+            <a href="Participer#Don">Faire un don</a>
           </li>
         </ul>
       </li>

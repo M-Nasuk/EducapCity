@@ -1,9 +1,9 @@
-<main>
+<section>
   <div class="div_org_prez">
     <h1 class="jah_font pre">Organiser EDUCAP CITY
     dans ma ville ou mon école</h1>
   </div>
-  <section id="organiser">
+  <div id="organiser">
 
     <h3>Vous representez :</h3>
     <div class="div_identite">
@@ -33,5 +33,5 @@
       (dispositif CAP Classe) ou dans votre ville (dispositif CAP Rallye) ?</p>
     <button type="button" name="contactez-nous" class="bg-red round-border hover-off">Contactez-nous</button>
     <img src="resources/images/PageParticiper/PageOrganiser/trois_echanges.png" alt="Dessein d'enfants sur un parcours d'Educap City.">
-  </section>
-</main>
+  </div>
+</section>

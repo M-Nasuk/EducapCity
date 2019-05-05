@@ -111,37 +111,17 @@ document.addEventListener('DOMContentLoaded', ()=> {
         }, 100);
       }
 
-      // if ($(document).width() < 768) {
-      //   $('.flexslider').flexslider({
-      //     animation: "slide",
-      //     animationLoop: false,
-      //     itemWidth: 130,
-      //     maxItems: 3,
-      //     itemMargin: 5
-      //   });
-      // } else if ($(document).width() > 768 && ($(document).width() < 1024)) {
-      //   $('.flexslider').flexslider({
-      //     animation: "slide",
-      //     animationLoop: false,
-      //     itemWidth: 140,
-      //     maxItems: 5,
-      //     itemMargin: 5
-      //   })
-      // } else if ($(document).width() >= 1024) {
-      //   $('.flexslider').flexslider({
-      //     animation: "slide",
-      //     animationLoop: false,
-      //     itemWidth: 130,
-      //     maxItems: 6,
-      //     itemMargin: 5
-      //   })
-      // }
-
-      $('.your-class').slick({
-        arrows: false,
+      $('.slider-for').slick({
+       slidesToShow: 9,
+       infinite: true,
+       arrows: false,
+       fade: true,
+       asNavFor: '.slicker'
+      });
+      $('.slicker').slick({
         centerMode: true,
         centerPadding: '60px',
-        slidesToShow: 3,
+        slidesToShow: 5,
         autoplay: false,
         autoplaySpeed: 1500,
         responsive: [
@@ -210,38 +190,42 @@ document.addEventListener('DOMContentLoaded', ()=> {
     .done(function(response) {
       $('#body_participer').append(response);
     });
-  }
-
-  // LOAD PAGE ORGANISER
-  if ($('#body_organiser').length) {
     $.get('resources/src/participer/page_organiser.php')
     .done(function(response) {
-      $('#body_organiser').append(response);
+      $('#body_participer').append(response);
     });
   }
 
-  // LOAD PAGE PARTENAIRE
-  if ($('#body_partenaire').length) {
-    $.get('resources/src/participer/page_partenaire.php')
-    .done(function(response) {
-      $('#body_partenaire').append(response);
-    });
-  }
-
-  // LOAD PAGE BENEVOLE
-  if ($('#body_benevole').length) {
-    $.get('resources/src/participer/page_benevole.php')
-    .done(function(response) {
-      $('#body_benevole').append(response);
-    });
-  }
-
-  // LOAD PAGE DON
-  if ($('#body_don').length) {
-    $.get('resources/src/participer/page_don.php')
-    .done(function(response) {
-      $('#body_don').append(response);
-    });
-  }
+  // // LOAD PAGE ORGANISER
+  // if ($('#body_organiser').length) {
+  //   $.get('resources/src/participer/page_organiser.php')
+  //   .done(function(response) {
+  //     $('#body_organiser').append(response);
+  //   });
+  // }
+  //
+  // // LOAD PAGE PARTENAIRE
+  // if ($('#body_partenaire').length) {
+  //   $.get('resources/src/participer/page_partenaire.php')
+  //   .done(function(response) {
+  //     $('#body_partenaire').append(response);
+  //   });
+  // }
+  //
+  // // LOAD PAGE BENEVOLE
+  // if ($('#body_benevole').length) {
+  //   $.get('resources/src/participer/page_benevole.php')
+  //   .done(function(response) {
+  //     $('#body_benevole').append(response);
+  //   });
+  // }
+  //
+  // // LOAD PAGE DON
+  // if ($('#body_don').length) {
+  //   $.get('resources/src/participer/page_don.php')
+  //   .done(function(response) {
+  //     $('#body_don').append(response);
+  //   });
+  // }
 
 })

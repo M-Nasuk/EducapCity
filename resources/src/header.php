@@ -76,11 +76,12 @@
         <a href="Programme"><h3>LE PROGRAMME</h3> </a>
         <ul>
           <li>
-            <a href="Programme#Cap Rallye">Cap Rallye</a>
-          </li>
-          <li>
             <a href="Programme#Cap Classe">Cap Classe</a>
           </li>
+          <li>
+            <a href="Programme#Cap Rallye">Cap Rallye</a>
+          </li>
+
         </ul>
       </li>
       <li>

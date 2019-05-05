@@ -10,234 +10,15 @@
     âgés de 9 à 14 ans :</p>
     <div id="div_caps">
       <div>
-        <a href=""><h3 class="bg-green round-border hover-off">CAP RALLYE</h3></a>
-        <p>Un parcours d'éducation civique grandeur nature dans la ville</p>
-      </div>
-      <div>
         <a href=""><h3 class="bg-yellow round-border hover-off">CAP CLASSE</h3></a>
         <p>Des interventions en milieu scolaire où le sport est au service de l'éducation</p>
       </div>
-    </div>
-  </section>
-
-  <!-- SECTION CAP RALLYE -->
-  <section id="sec_cap_rallye">
-    <h2 class="green jah_font cr-a">
-      <span class="fa-stack fa-1x">
-        <i class="fa fa-circle fa-stack-2x green"></i>
-        <span class="fa fa-stack-1x jah_font" style="color: #fff;">1</span>
-      </span>
-      CAP RALLYE
-    </h2>
-    <div class="div_objectifs cr-b">
-      <h3 class="blue">Les objectifs</h3>
-      <button type="button" name="button_objectif" class="bg-blue round-border">Les objectifs
-        <i class="fas fa-caret-right fa-rotate-90"></i>
-      </button>
-      <ul>
-        <li>
-          <p>
-            <i class="fas fa-caret-right blue"></i>
-            <span class="blue">Découvrir sa ville</span> à travers ses sites, ses monuments, son histoire, ses institutions, entreprises...
-          </p>
-        </li>
-        <li>
-          <p>
-            <i class="fas fa-caret-right blue"></i>
-            <span class="blue">Développer l'esprit critique</span> et donner le <span class="blue">goût de l'engagement</span>
-          </p>
-        </li>
-        <li>
-          <p>
-            <i class="fas fa-caret-right blue"></i>
-            <span class="blue">Susciter les bonnes attitudes de civisme</span> et de respect, l'ouverture aux autres et la solidarité
-          </p>
-        </li>
-        <li>
-          <p>
-            <i class="fas fa-caret-right blue"></i>
-            <span class="blue">Stimuler l'intelligence collective</span> par la coopération, le travail et l'esprit
-          </p>
-        </li>
-      </ul>
-    </div>
-    <p class="cr-c">Le CAP Rallye est un parcours d'orientation lors duquel
-      les enfants partent à la découverte des acteurs
-      instituinnels, associatifs, économiques de la ville où
-      ils grandissent et se construisent.
-    </p>
-    <div class="div_cap_infos cr-d">
       <div>
-        <i class="fas fa-child green"></i>
-        <p class="green">Qui est concerné ?</p>
-        <p class="pre">Les enfants de 9
-          à 13 ans</p>
+        <a href=""><h3 class="bg-green round-border hover-off">CAP RALLYE</h3></a>
+        <p>Un parcours d'éducation civique grandeur nature dans la ville</p>
       </div>
-      <div>
-        <i class="fas fa-users green"></i>
-        <p class="green">Combien d'enfants ?</p>
-        <p>Entre 100 à plus de 1000 participants par ville</p>
-      </div>
-      <div>
-        <i class="far fa-clock green"></i>
-        <p class="green">Quand ?</p>
-        <p class="pre">Sur une journée
-        Entre septembre et juin</p>
-      </div>
-      <div>
-        <i class="far fa-compass green"></i>
-        <p class="green">Où ?</p>
-        <p>Organisé dans plus de 20 villes en France</p>
-      </div>
+
     </div>
-    <section id="sec_journee_cap_rallye" class="cr-e">
-      <h3 class="item-z green jah_font">Le déroulé type d'une journée</h3>
-      <div class="div_fil item-a jah_font">
-        <i class="fa fa-circle green"></i>
-        <p class="p-item-a">A partir de 8h</p>
-        <p class="p-item-b">9H30 / 10H</p>
-        <p class="p-item-c">15h</p>
-        <p class="p-item-d">15h45</p>
-        <p class="p-item-e">16h15</p>
-      </div>
-      <img src="resources/images/PageAccueil/Graph/groupe_cap_classe.png" alt="groupe_cap_classe" class="item-b">
-      <div class="item-c">
-        <p>Accueil des participants sur le « village EDUCAP CITY » situé sur une place centrale de la ville.
-        (Remise d'une collation et un T-shirt).
-        </p>
-        <p>Les équipes préalablement constituées reçoivent leur carnet de route pour la journée.</p>
-        <p>Les équipes sont composées de 6 jeunes et d'un accompagnant et sont, dans la mesure du possible, mixtes (filles - garçons - handicap).</p>
-        <div class="triangle-a">
-
-        </div>
-        <div class="triangle-a-1">
-
-        </div>
-      </div>
-      <div class="item-d">
-        <p>Départ du rallye ! Les équipes ont un premier point de passage imposé puis elles déterminent en équipe leur parcours
-        afin de rejoindre le plus grand nombre de sites.</p>
-        <p>Les équipes se déplacent à pied ou en transports en commun.</p>
-        <div class="triangle-b">
-
-        </div>
-        <div class="triangle-b-1">
-
-        </div>
-      </div>
-      <div class="item-e">
-        <p>Les équipes sont acceuillies par les institutions, associations, entreprises de la ville pendant 10 à 15 minutes.
-        Les représentants de ces établissements font une intervention sur le fonction, le rôle, l'utilité, les valeurs portées par valeurs
-        de leur structure afin que les équipes puissent répondre aux questions figurant sur leur feuille de route.</p>
-        <p>Des défis sportifs sont également proposés.</p>
-        <p>Chaque point de passage évalue le comportement des équipes (civisme, respect / intérêt porté / fair-play...).</p>
-        <p>Une pause-déjeuner de 45 minutes est prévue sur un point central du parcours.</p>
-        <div class="triangle-a">
-
-        </div>
-        <div class="triangle-a-1">
-
-        </div>
-      </div>
-      <img src="resources/images/PageProgramme/graph/carnetRoute.png" alt="Carnet de Route" class="item-f">
-      <div class="item-g">
-        <p>Retour des équipes sur le village et remise des carnets de route.
-          Pendant la correction, des activités sont proposées sur le village et un goûter est distribué.</p>
-          <div class="triangle-b">
-
-          </div>
-          <div class="triangle-b-1">
-
-          </div>
-      </div>
-      <div class="item-h">
-        <p>Annonce des équipes gagnantes et remises des prix. 3 à 5 équipes finaliste sont séléctionnées pour participer à l'étape Capitale en juin à Paris.</p>
-        <div class="triangle-a">
-
-        </div>
-        <div class="triangle-a-1">
-
-        </div>
-      </div>
-      <div class="item-i">
-        <p>Départ des équipes.</p>
-        <div class="triangle-b">
-
-        </div>
-        <div class="triangle-b-1">
-
-        </div>
-      </div>
-      <div class="your-class item-y">
-        <div><div class="slide-h3">1</div></div>
-        <div><div class="slide-h3">2</div></div>
-        <div><div class="slide-h3">3</div></div>
-        <div><div class="slide-h3">4</div></div>
-        <div><div class="slide-h3">5</div></div>
-        <div><div class="slide-h3">6</div></div>
-        <div><div class="slide-h3">7</div></div>
-        <div><div class="slide-h3">8</div></div>
-        <div><div class="slide-h3">9</div></div>
-      </div>
-      <!-- <div class="flexslider carousel item-y">
-        <ul class="slides ul-a">
-          <li >
-            <div class="li-a">
-
-            </div>
-          </li>
-          <li >
-            <div class="li-b">
-
-            </div>
-          </li>
-          <li>
-            <div class="li-c">
-
-            </div>
-          </li>
-          <li>
-            <div class="li-d">
-
-            </div>
-          </li>
-          <li>
-            <div class="li-e">
-
-            </div>
-          </li>
-          <li>
-            <div class="li-f">
-
-            </div>
-          </li>
-          <li>
-            <div class="li-g">
-
-            </div>
-          </li>
-          <li>
-            <div class="li-h">
-
-            </div>
-          </li>
-          <li>
-            <div class="li-i">
-
-            </div>
-          </li>
-        </ul>
-      </div> -->
-    </section>
-    <div class="div_dl cr-f">
-      <a href="resources/images/PageProgramme/compass.png" download>
-        <button class="but_plaquette bg-green round-border hover-off" type="button" name="plaquette_1">
-          La plaquette
-          <i class="fas fa-download"></i>
-        </button>
-      </a>
-    </div>
-
   </section>
 
   <!-- SECTION CAP CLASSE -->
@@ -245,7 +26,7 @@
     <h2 class="yellow jah_font cc-a">
       <span class="fa-stack fa-1x">
         <i class="fa fa-circle fa-stack-2x yellow"></i>
-        <span class="fa fa-stack-1x jah_font white">2</span>
+        <span class="fa fa-stack-1x jah_font white">1</span>
       </span>
       CAP CLASSE
     </h2>
@@ -421,6 +202,246 @@
       </a>
     </div>
   </section>
+
+  <!-- SECTION CAP RALLYE -->
+  <section id="sec_cap_rallye">
+    <h2 class="green jah_font cr-a">
+      <span class="fa-stack fa-1x">
+        <i class="fa fa-circle fa-stack-2x green"></i>
+        <span class="fa fa-stack-1x jah_font" style="color: #fff;">2</span>
+      </span>
+      CAP RALLYE
+    </h2>
+    <div class="div_objectifs cr-b">
+      <h3 class="blue">Les objectifs</h3>
+      <button type="button" name="button_objectif" class="bg-blue round-border">Les objectifs
+        <i class="fas fa-caret-right fa-rotate-90"></i>
+      </button>
+      <ul>
+        <li>
+          <p>
+            <i class="fas fa-caret-right blue"></i>
+            <span class="blue">Découvrir sa ville</span> à travers ses sites, ses monuments, son histoire, ses institutions, entreprises...
+          </p>
+        </li>
+        <li>
+          <p>
+            <i class="fas fa-caret-right blue"></i>
+            <span class="blue">Développer l'esprit critique</span> et donner le <span class="blue">goût de l'engagement</span>
+          </p>
+        </li>
+        <li>
+          <p>
+            <i class="fas fa-caret-right blue"></i>
+            <span class="blue">Susciter les bonnes attitudes de civisme</span> et de respect, l'ouverture aux autres et la solidarité
+          </p>
+        </li>
+        <li>
+          <p>
+            <i class="fas fa-caret-right blue"></i>
+            <span class="blue">Stimuler l'intelligence collective</span> par la coopération, le travail et l'esprit
+          </p>
+        </li>
+      </ul>
+    </div>
+    <p class="cr-c">Le CAP Rallye est un parcours d'orientation lors duquel
+      les enfants partent à la découverte des acteurs
+      instituinnels, associatifs, économiques de la ville où
+      ils grandissent et se construisent.
+    </p>
+    <div class="div_cap_infos cr-d">
+      <div>
+        <i class="fas fa-child green"></i>
+        <p class="green">Qui est concerné ?</p>
+        <p class="pre">Les enfants de 9
+          à 13 ans</p>
+      </div>
+      <div>
+        <i class="fas fa-users green"></i>
+        <p class="green">Combien d'enfants ?</p>
+        <p>Entre 100 à plus de 1000 participants par ville</p>
+      </div>
+      <div>
+        <i class="far fa-clock green"></i>
+        <p class="green">Quand ?</p>
+        <p class="pre">Sur une journée
+        Entre septembre et juin</p>
+      </div>
+      <div>
+        <i class="far fa-compass green"></i>
+        <p class="green">Où ?</p>
+        <p>Organisé dans plus de 20 villes en France</p>
+      </div>
+    </div>
+    <section id="sec_journee_cap_rallye" class="cr-e">
+      <h3 class="item-z green jah_font">Le déroulé type d'une journée</h3>
+      <div class="div_fil item-a jah_font">
+        <i class="fa fa-circle green"></i>
+        <p class="p-item-a">A partir de 8h</p>
+        <p class="p-item-b">9H30 / 10H</p>
+        <p class="p-item-c">15h</p>
+        <p class="p-item-d">15h45</p>
+        <p class="p-item-e">16h15</p>
+      </div>
+      <img src="resources/images/PageAccueil/Graph/groupe_cap_classe.png" alt="groupe_cap_classe" class="item-b">
+      <div class="item-c">
+        <p>Accueil des participants sur le « village EDUCAP CITY » situé sur une place centrale de la ville.
+        (Remise d'une collation et un T-shirt).
+        </p>
+        <p>Les équipes préalablement constituées reçoivent leur carnet de route pour la journée.</p>
+        <p>Les équipes sont composées de 6 jeunes et d'un accompagnant et sont, dans la mesure du possible, mixtes (filles - garçons - handicap).</p>
+        <div class="triangle-a">
+
+        </div>
+        <div class="triangle-a-1">
+
+        </div>
+      </div>
+      <div class="item-d">
+        <p>Départ du rallye ! Les équipes ont un premier point de passage imposé puis elles déterminent en équipe leur parcours
+        afin de rejoindre le plus grand nombre de sites.</p>
+        <p>Les équipes se déplacent à pied ou en transports en commun.</p>
+        <div class="triangle-b">
+
+        </div>
+        <div class="triangle-b-1">
+
+        </div>
+      </div>
+      <div class="item-e">
+        <p>Les équipes sont acceuillies par les institutions, associations, entreprises de la ville pendant 10 à 15 minutes.
+        Les représentants de ces établissements font une intervention sur le fonction, le rôle, l'utilité, les valeurs portées par valeurs
+        de leur structure afin que les équipes puissent répondre aux questions figurant sur leur feuille de route.</p>
+        <p>Des défis sportifs sont également proposés.</p>
+        <p>Chaque point de passage évalue le comportement des équipes (civisme, respect / intérêt porté / fair-play...).</p>
+        <p>Une pause-déjeuner de 45 minutes est prévue sur un point central du parcours.</p>
+        <div class="triangle-a">
+
+        </div>
+        <div class="triangle-a-1">
+
+        </div>
+      </div>
+      <img src="resources/images/PageProgramme/graph/carnetRoute.png" alt="Carnet de Route" class="item-f">
+      <div class="item-g">
+        <p>Retour des équipes sur le village et remise des carnets de route.
+          Pendant la correction, des activités sont proposées sur le village et un goûter est distribué.</p>
+          <div class="triangle-b">
+
+          </div>
+          <div class="triangle-b-1">
+
+          </div>
+      </div>
+      <div class="item-h">
+        <p>Annonce des équipes gagnantes et remises des prix. 3 à 5 équipes finaliste sont séléctionnées pour participer à l'étape Capitale en juin à Paris.</p>
+        <div class="triangle-a">
+
+        </div>
+        <div class="triangle-a-1">
+
+        </div>
+      </div>
+      <div class="item-i">
+        <p>Départ des équipes.</p>
+        <div class="triangle-b">
+
+        </div>
+        <div class="triangle-b-1">
+
+        </div>
+      </div>
+      <div class="your-class item-y">
+        <div><div class="slide-h3">
+          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye1.jpg" alt="">
+        </div></div>
+        <div><div class="slide-h3">
+          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye2.jpg" alt="">
+        </div></div>
+        <div><div class="slide-h3">
+          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye3.jpg" alt="">
+        </div></div>
+        <div><div class="slide-h3">
+          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye4.jpg" alt="">
+        </div></div>
+        <div><div class="slide-h3">
+          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye5.jpg" alt="">
+        </div></div>
+        <div><div class="slide-h3">
+          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye6.jpg" alt="">
+        </div></div>
+        <div><div class="slide-h3">
+          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye7.jpg" alt="">
+        </div></div>
+        <div><div class="slide-h3">
+          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye8.jpg" alt="">
+        </div></div>
+        <div><div class="slide-h3">
+          <img src="resources/images/PageProgramme/Photos/caprallye/caprallye9.jpg" alt="">
+        </div></div>
+      </div>
+      <!-- <div class="flexslider carousel item-y">
+        <ul class="slides ul-a">
+          <li >
+            <div class="li-a">
+
+            </div>
+          </li>
+          <li >
+            <div class="li-b">
+
+            </div>
+          </li>
+          <li>
+            <div class="li-c">
+
+            </div>
+          </li>
+          <li>
+            <div class="li-d">
+
+            </div>
+          </li>
+          <li>
+            <div class="li-e">
+
+            </div>
+          </li>
+          <li>
+            <div class="li-f">
+
+            </div>
+          </li>
+          <li>
+            <div class="li-g">
+
+            </div>
+          </li>
+          <li>
+            <div class="li-h">
+
+            </div>
+          </li>
+          <li>
+            <div class="li-i">
+
+            </div>
+          </li>
+        </ul>
+      </div> -->
+    </section>
+    <div class="div_dl cr-f">
+      <a href="resources/images/PageProgramme/compass.png" download>
+        <button class="but_plaquette bg-green round-border hover-off" type="button" name="plaquette_1">
+          La plaquette
+          <i class="fas fa-download"></i>
+        </button>
+      </a>
+    </div>
+
+  </section>
+
+
 
   <!-- SECTION ETAPE CAPITALE -->
   <section id="sec_etape_capitale">

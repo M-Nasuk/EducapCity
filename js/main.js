@@ -138,18 +138,46 @@ document.addEventListener('DOMContentLoaded', ()=> {
       // }
 
       $('.your-class').slick({
+        arrows: false,
         centerMode: true,
-        slidesToShow: 5
+        centerPadding: '60px',
+        slidesToShow: 3,
+        autoplay: false,
+        autoplaySpeed: 1500,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 3,
+              autoplay: true,
+              autoplaySpeed: 1500
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1,
+              autoplay: true,
+              autoplaySpeed: 1500
+            }
+          }
+        ]
       });
 
       $('#div_caps > div:first-child a, #menu > ul > li:nth-child(3) > ul > li:first-child a').click(function(e) {
-        scrollToAnchor('sec_cap_rallye');
-        window.location.hash = "Cap Rallye";
+        scrollToAnchor('sec_cap_classe');
+        window.location.hash = "Cap Classe";
         e.preventDefault();
       });
       $('#div_caps > div:nth-child(2) a, #menu > ul > li:nth-child(3) > ul > li:last-child a').click(function(e) {
-        scrollToAnchor('sec_cap_classe');
-        window.location.hash = "Cap Classe";
+        scrollToAnchor('sec_cap_rallye');
+        window.location.hash = "Cap Rallye";
         e.preventDefault();
       });
     });

@@ -231,16 +231,24 @@ header img {
     height: 227px;
     transition: 1s;
   }
+  html:not([data-scroll='0']) header #educapcity a img {
+    width: 120px;
+    height: 170px;
+  }
   #educapcity a div {
     margin: 25px 0 15px 10px;
+  }
+  #menu {
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 6;
   }
   #menu > ul {
     max-width: 1400px;
     margin: auto;
   }
-  #menu {
-    padding-top: 10px;
-  }
+
   #menu > ul > li a h3 {
     padding: 20px 0 10px;
   }

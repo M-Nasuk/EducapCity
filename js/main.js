@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', ()=> {
 
   let body = document.querySelector('body');
+  document.querySelector('html').dataset.scroll;
 
   // LOAD HEADER EVERY PAGE
   $.get('resources/src/header.php')
@@ -16,7 +17,58 @@ document.addEventListener('DOMContentLoaded', ()=> {
       };
     });
 
-    $(window).scroll(reduceSizeImage);
+    // if ($(window).scrollTop() > 243) {
+    //   // $(window).off("scroll", reduceSizeImage);
+    //   $('#menu').css({
+    //     "position": "fixed",
+    //     "width": "100%",
+    //     "z-index": "6",
+    //     "top": "0"
+    //   });
+    // }
+    // if ($(window).scrollTop() > 243) {
+    //   $(window).scroll(navUnFixed);
+    // } else {
+    //   $(window).scroll(navFixed);
+    // }
+
+
+    // The debounce function receives our function as a parameter
+    const debounce = (fn) => {
+
+      // This holds the requestAnimationFrame reference, so we can cancel it if we wish
+      let frame;
+
+      // The debounce function returns a new function that can receive a variable number of arguments
+      return (...params) => {
+
+        // If the frame variable has been defined, clear it now, and queue for next frame
+        if (frame) {
+          cancelAnimationFrame(frame);
+        }
+
+        // Queue our function call for the next frame
+        frame = requestAnimationFrame(() => {
+
+          // Call our function and pass any params we received
+          fn(...params);
+        });
+
+      }
+    };
+
+
+    // Reads out the scroll position and stores it in the data attribute
+    // so we can use it in our stylesheets
+    const storeScroll = () => {
+      document.documentElement.dataset.scroll = window.scrollY;
+    }
+
+    // Listen for new scroll events, here we debounce our `storeScroll` function
+    document.addEventListener('scroll', debounce(storeScroll), { passive: true });
+
+    // Update scroll position for first time
+    storeScroll();
   });
 
 

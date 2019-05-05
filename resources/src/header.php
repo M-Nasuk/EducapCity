@@ -56,74 +56,75 @@
     </div>
   </section>
   <button type="button" id="b_menu"><i class="fas fa-bars"></i></button>
-  <nav id="menu" class="jah_font">
-    <ul>
-      <li>
-        <a href="/EducapCity/"><h3>ACCUEIL</h3> </a>
-      </li>
-      <li>
-        <a href="A Propos"><h3>A PROPOS</h3> </a>
-        <ul>
-          <li>
-            <a href="A Propos#De CAP SAAA">De Capsaaa</a>
-          </li>
-          <li>
-            <a href="A Propos#Du Pacte de Fraternité">Du pacte de fraternité</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="Programme"><h3>LE PROGRAMME</h3> </a>
-        <ul>
-          <li>
-            <a href="Programme#Cap Classe">Cap Classe</a>
-          </li>
-          <li>
-            <a href="Programme#Cap Rallye">Cap Rallye</a>
-          </li>
 
-        </ul>
-      </li>
-      <li>
-        <a href="Participer"><h3>PARTICIPER</h3> </a>
-        <ul>
-          <li>
-            <a href="Participer#Organiser">Organiser Educap City</a>
-          </li>
-          <li>
-            <a href="Participer#Accueillir">Accueillir</a>
-          </li>
-          <li>
-            <a href="Participer#Partenaire">Devenir partenaire</a>
-          </li>
-          <li>
-            <a href="Participer#Benevole">Devenir bénévole</a>
-          </li>
-          <li>
-            <a href="Participer#Don">Faire un don</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="Nos Editions"><h3>NOS EDITIONS</h3> </a>
-        <ul>
-          <li>
-            <a href="#">L'édition 2019</a>
-          </li>
-          <li>
-            <a href="#">L'édition 2018</a>
-          </li>
-          <li>
-            <a href="#">L'édition 2017</a>
-          </li>
-          <li>
-            <a href="#">L'édition 2016</a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="#"><h3>CONTACT</h3> </a>
-      </li>
-    </ul>
-  </nav>
 </header>
+<nav id="menu" class="jah_font">
+  <ul>
+    <li>
+      <a href="/EducapCity/"><h3>ACCUEIL</h3> </a>
+    </li>
+    <li>
+      <a href="A Propos"><h3>A PROPOS</h3> </a>
+      <ul>
+        <li>
+          <a href="A Propos#De CAP SAAA">De Capsaaa</a>
+        </li>
+        <li>
+          <a href="A Propos#Du Pacte de Fraternité">Du pacte de fraternité</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Programme"><h3>LE PROGRAMME</h3> </a>
+      <ul>
+        <li>
+          <a href="Programme#Cap Classe">Cap Classe</a>
+        </li>
+        <li>
+          <a href="Programme#Cap Rallye">Cap Rallye</a>
+        </li>
+
+      </ul>
+    </li>
+    <li>
+      <a href="Participer"><h3>PARTICIPER</h3> </a>
+      <ul>
+        <li>
+          <a href="Participer#Organiser">Organiser Educap City</a>
+        </li>
+        <li>
+          <a href="Participer#Accueillir">Accueillir</a>
+        </li>
+        <li>
+          <a href="Participer#Partenaire">Devenir partenaire</a>
+        </li>
+        <li>
+          <a href="Participer#Benevole">Devenir bénévole</a>
+        </li>
+        <li>
+          <a href="Participer#Don">Faire un don</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="Nos Editions"><h3>NOS EDITIONS</h3> </a>
+      <ul>
+        <li>
+          <a href="#">L'édition 2019</a>
+        </li>
+        <li>
+          <a href="#">L'édition 2018</a>
+        </li>
+        <li>
+          <a href="#">L'édition 2017</a>
+        </li>
+        <li>
+          <a href="#">L'édition 2016</a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <a href="#"><h3>CONTACT</h3> </a>
+    </li>
+  </ul>
+</nav>

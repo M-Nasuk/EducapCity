@@ -37,7 +37,7 @@
         </li>
       </ul>
     </div>
-    <div>
+    <div class="div_decouverte">
       <p>Educap City est mis en oeuvre par un réseau de plusieurs centaines d'acteurs privés et publics qui contribuent directement à la réalisation du programme sur tout le territoire.</p>
       <button class="bg-blue round-border">Découvrez-les</button>
       <img src="resources/images/PageParticiper/groupe_cap_classe.png" alt="Enfants se regroupant en cercle.">

@@ -1,0 +1,44 @@
+.div_part_prez {
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  height: 252px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.div_part_prez:before {
+  background: no-repeat url("../../images/PageParticiper/Partenaire/photo_elysee.jpg") center center fixed;
+  background-size: cover;
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: inherit;
+  background-position-y: 5em;
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+.partenaire, .partenaire ~ div {
+  padding: 15px;
+  text-align: center;
+}
+.partenaire > *, .partenaire ~ div > * {
+  margin-bottom: 20px;
+}
+.div_part_prez h1 {
+  z-index: 1;
+  font-weight: normal;
+}
+.partenaire + div h2 {
+  font-weight: normal;
+  font-size: 2em;
+}
+#div_stmichel, #div_sncf {
+  display: flex;
+  flex-direction: column;
+}
+#div_stmichel div img, #div_sncf div img {
+  max-width: 40%
+}

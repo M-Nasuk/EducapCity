@@ -31,42 +31,17 @@ function startCounter() {
   }
 }
 
-// Function that change width & height css properties of an element
-function reduceSizeImage() {
-  if ($(window).scrollTop() > 50) {
-    $(window).off("scroll", reduceSizeImage);
-    $('#logo_hdr_ec').css({
-      "width": "120px",
-      "height": "170px"
-    });
-  }
-}
+// // Function that change width & height css properties of an element
+// function reduceSizeImage() {
+//   if ($(window).scrollTop() > 50) {
+//     $(window).off("scroll", reduceSizeImage);
+//     $('#logo_hdr_ec').css({
+//       "width": "120px",
+//       "height": "170px"
+//     });
+//   }
+// }
 
-// Function that change width & height css properties of an element
-function navFixed() {
-  if ($(window).scrollTop() > 243) {
-    $(window).off("scroll", navFixed);
-    $('#menu').css({
-      "position": "fixed",
-      "width": "100%",
-      "z-index": "6",
-      "top": "0"
-    });
-  }
-}
-
-// Function that change width & height css properties of an element
-function navUnFixed() {
-  if ($(window).scrollTop() < 243) {
-    $(window).off("scroll", navUnFixed);
-    $('#menu').css({
-      "position": "",
-      "width": "%",
-      "z-index": "6",
-      "top": ""
-    });
-  }
-}
 
 // Function that scroll to a specific anchor on the page.
 function scrollToAnchor(sid){

@@ -1,6 +1,6 @@
 #organiser {
   text-align: center;
-  padding: 10px;
+  padding: 15px;
 }
 #organiser > * {
   margin-bottom: 20px;
@@ -17,7 +17,7 @@
   margin-bottom: 30px;
 }
 .div_org_prez:before {
-  background: no-repeat url("../../images/PageParticiper/PageOrganiser/photo_institution.jpg") center center fixed;
+  background: no-repeat url("../../images/PageParticiper/Organiser/photo_institution.jpg") center center fixed;
   background-size: cover;
   content: "";
   position: absolute;

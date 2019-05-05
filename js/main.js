@@ -17,22 +17,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
       };
     });
 
-    // if ($(window).scrollTop() > 243) {
-    //   // $(window).off("scroll", reduceSizeImage);
-    //   $('#menu').css({
-    //     "position": "fixed",
-    //     "width": "100%",
-    //     "z-index": "6",
-    //     "top": "0"
-    //   });
-    // }
-    // if ($(window).scrollTop() > 243) {
-    //   $(window).scroll(navUnFixed);
-    // } else {
-    //   $(window).scroll(navFixed);
-    // }
-
-
     // The debounce function receives our function as a parameter
     const debounce = (fn) => {
 
@@ -56,8 +40,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
       }
     };
-
-
     // Reads out the scroll position and stores it in the data attribute
     // so we can use it in our stylesheets
     const storeScroll = () => {
@@ -246,10 +228,10 @@ document.addEventListener('DOMContentLoaded', ()=> {
     .done(function(response) {
       $('#sec_intro_participer').after(response);
     });
-    //  $.get('resources/src/participer/page_partenaire.php')
-    //   .done(function(response) {
-    //     $('#sec_organiser').after(response);
-    //   });
+    $.get('resources/src/participer/page_partenaire.php')
+    .done(function(response) {
+      $('#sec_organiser').after(response);
+    });
     //  $.get('resources/src/participer/page_benevole.php')
     //   .done(function(response) {
     //     $('#sec_partenaire').after(response);

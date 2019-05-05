@@ -121,7 +121,7 @@ main > h4 .fas, main > h4 svg {
 button {
   display: block;
   margin: auto;
-  padding: 10px;
+  padding: 10px 15px;
   border: none;
 }
 

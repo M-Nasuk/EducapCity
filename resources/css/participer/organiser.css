@@ -50,7 +50,7 @@ button {
   padding: 10px;
   border: none;
 }
-button:hover {
+[name="contactez-nous"]:hover {
   background-color: #FFF;
   color: #e30d14;
 }

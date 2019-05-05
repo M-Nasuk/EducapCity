@@ -1,0 +1,25 @@
+#sec_intro_participer {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.div_action > * {
+  margin-bottom: 15px;
+}
+.div_action h2 {
+  font-weight: normal;
+  font-size: 2em;
+}
+.div_action ul {
+  text-align: left;
+}
+.div_action ul li {
+  margin-bottom: 5px;
+}
+.div_action ul .fas {
+  font-size: 2em;
+  float: left;
+  margin: -8px 5px 0 0;
+
+}

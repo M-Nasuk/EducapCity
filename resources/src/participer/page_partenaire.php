@@ -1,3 +1,3 @@
-<main>
-  test
-</main>
+<section id="sec_partenaire">
+  
+</section>

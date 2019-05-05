@@ -1,4 +1,4 @@
-<section>
+<section id="sec_organiser">
   <div class="div_org_prez">
     <h1 class="jah_font pre">Organiser EDUCAP CITY
     dans ma ville ou mon école</h1>
@@ -35,3 +35,4 @@
     <img src="resources/images/PageParticiper/PageOrganiser/trois_echanges.png" alt="Dessein d'enfants sur un parcours d'Educap City.">
   </div>
 </section>
+</main>

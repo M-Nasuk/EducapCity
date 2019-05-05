@@ -192,8 +192,20 @@ document.addEventListener('DOMContentLoaded', ()=> {
     });
     $.get('resources/src/participer/page_organiser.php')
     .done(function(response) {
-      $('#body_participer').append(response);
+      $('#sec_intro_participer').after(response);
     });
+    //  $.get('resources/src/participer/page_partenaire.php')
+    //   .done(function(response) {
+    //     $('#sec_organiser').after(response);
+    //   });
+    //  $.get('resources/src/participer/page_benevole.php')
+    //   .done(function(response) {
+    //     $('#sec_partenaire').after(response);
+    //   });
+    //  $.get('resources/src/participer/page_don.php')
+    //   .done(function(response) {
+    //     $('#sec_benevole').after(response);
+    //   });
   }
 
   // // LOAD PAGE ORGANISER

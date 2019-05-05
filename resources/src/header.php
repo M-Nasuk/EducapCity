@@ -17,7 +17,7 @@
     </div>
     <div id="don">
       <a href="">
-        <p class="round-border hover-off">Faire un don</p>
+        <p class="round-border hover-off padding">Faire un don</p>
       </a>
     </div>
     <div id="partenaires">

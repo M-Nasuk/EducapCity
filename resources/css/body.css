@@ -118,10 +118,13 @@ main > h4 .fas, main > h4 svg {
   float: left;
   margin: -12px 15px 0;
 }
+.padding {
+  padding: 10px 25px;
+}
 button {
   display: block;
   margin: auto;
-  padding: 10px 15px;
+  padding: 10px 25px;
   border: none;
 }
 

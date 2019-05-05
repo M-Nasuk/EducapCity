@@ -186,7 +186,7 @@
     </section>
     <div class="div_dl cc-f">
       <a href="resources/images/PageProgramme/compass.png" download>
-        <button class="but_plaquette bg-yellow round-border hover-off" type="button" name="plaquette_2">
+        <button class="but_plaquette bg-yellow round-border hover-off padding" type="button" name="plaquette_2">
           La plaquette
           <i class="fas fa-download"></i>
         </button>
@@ -376,7 +376,7 @@
     </section>
     <div class="div_dl cr-f">
       <a href="resources/images/PageProgramme/compass.png" download>
-        <button class="but_plaquette bg-green round-border hover-off" type="button" name="plaquette_1">
+        <button class="but_plaquette bg-green round-border hover-off padding" type="button" name="plaquette_1">
           La plaquette
           <i class="fas fa-download"></i>
         </button>
@@ -421,7 +421,7 @@
       </div>
     </div>
     <div class="div_dl">
-      <button class="but_plaquette bg-red round-border hover-off" type="button" name="participer">Participer à l'étape Capitale</button>
+      <button class="but_plaquette bg-red round-border hover-off padding" type="button" name="participer">Participer à l'étape Capitale</button>
     </div>
   </section>
 </main>

@@ -204,7 +204,6 @@
 }
 .but_plaquette {
   border: none;
-  padding: 10px;
 }
 .but_plaquette .fas {
   margin-left: 5px;
@@ -220,7 +219,7 @@
   transition: 0.5s;
 }
 [name="participer"] {
-  margin: 10px 0;
+  margin: 10px auto;
 }
 [name="participer"]:hover {
   background-color: #fff;

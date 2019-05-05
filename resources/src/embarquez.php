@@ -56,7 +56,7 @@
           <textarea name="contact_message" rows="8" cols="80"></textarea>
         </li>
         <li class="item-e">
-          <button id="form_button" class="round-border" type="button" name="contact_button">Envoyer</button>
+          <button id="form_button" class="round-border padding" type="button" name="contact_button">Envoyer</button>
         </li>
       </ul>
     </form>

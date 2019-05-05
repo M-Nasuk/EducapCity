@@ -47,7 +47,6 @@
 button {
   display: block;
   margin: auto;
-  padding: 10px;
   border: none;
 }
 [name="contactez-nous"]:hover {

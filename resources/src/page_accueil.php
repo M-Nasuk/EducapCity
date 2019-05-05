@@ -104,7 +104,7 @@
         associations, entreprises...
       </p>
     </div>
-    <div id="a_savoir" ><a href="Programme" class="round-border padding">En savoir plus sur le programme</a></div>
+    <div id="a_savoir" ><a href="Programme" class="round-border padding">En savoir +</a></div>
   </section>
   <section id="sec_phrase" class="mar_bot_mob">
     <div>

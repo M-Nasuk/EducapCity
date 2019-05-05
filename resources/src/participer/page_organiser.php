@@ -5,7 +5,7 @@
   </div>
   <div id="organiser">
 
-    <h3>Vous representez :</h3>
+    <h3>Vous représentez :</h3>
     <div class="div_identite">
       <div>
         <i class="fas fa-school blue"></i>

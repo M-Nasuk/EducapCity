@@ -31,9 +31,13 @@ $(document).ready(function() {
     let form_subject = document.querySelector('[name=contact_sujet]');
     let form_content = document.querySelector('[name=contact_message]');
 
+    let form_file = document.querySelector('[name=contact_fichier]');
+    const formData = new FormData();
+    formData.append('file', form_file.files[0]);
+
     e.preventDefault();
 
-    fetch("resources/src/send_form.php", {
+    fetch("resources/src/send_form_example_file.php", {
       method: "POST",
       mode: "same-origin",
       credentials: "same-origin",
@@ -44,7 +48,8 @@ $(document).ready(function() {
         name: form_name.value,
         email: form_email.value,
         subject: form_subject.value,
-        content: form_content.value
+        content: form_content.value,
+        formData
       })
     })
     .then(res => res.json())
@@ -60,7 +65,6 @@ $(document).ready(function() {
   $.get('resources/src/footer.php')
   .done(function(response) {
     $('main').after(response);
-    // $('footer').addClass('container');
   });
 
 

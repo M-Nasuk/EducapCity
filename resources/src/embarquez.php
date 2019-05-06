@@ -55,7 +55,11 @@
           <label>Message</label>
           <textarea name="contact_message" rows="8" cols="80"></textarea>
         </li>
-        <li class="item-e">
+        <li class="item-e grid-li">
+          <label>Fichier</label>
+          <input type="file" name="contact_fichier">
+        </li>
+        <li class="item-f">
           <button id="form_button" class="round-border padding" type="button" name="contact_button">Envoyer</button>
         </li>
       </ul>

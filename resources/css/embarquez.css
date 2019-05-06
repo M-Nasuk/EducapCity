@@ -54,37 +54,43 @@
 ul.grid {
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  grid-template-rows: repeat(5, calc(100% / 5));
+  grid-template-rows: repeat(6, calc(100% / 5));
 }
 li.item-a {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
-  grid-row-end: 1;
+  grid-row-end: 2;
 }
 li.item-b {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 2;
-  grid-row-end: 2;
+  grid-row-end: 3;
 }
 li.item-c {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 3;
-  grid-row-end: 3;
+  grid-row-end: 4;
 }
 li.item-d {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 4;
-  grid-row-end: 4;
+  grid-row-end: 5;
 }
 li.item-e {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+li.item-f {
   grid-column-start: 2;
   grid-column-end: 4;
-  grid-row-start: 5;
-  grid-row-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 7;
   justify-self: center;
 }
 

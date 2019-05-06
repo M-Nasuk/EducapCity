@@ -41,10 +41,17 @@ try {
   $mail->Username = 'educapcity@capsaaa.net';
 
   /* SMTP authentication password. */
-  $mail->Password = 'password';
+  $mail->Password = '';
 
   /* Set the SMTP port. */
   $mail->Port = 587;
+
+  if (isset($_FILES['file']) &&
+    $_FILES['file']['error'] == UPLOAD_ERR_OK) {
+    $mail->AddAttachment($_FILES['file']['tmp_name'],
+                         $_FILES['file']['name']);
+                       };
+
 
   /* Set the mail message body. */
   $mail->isHTML(TRUE);

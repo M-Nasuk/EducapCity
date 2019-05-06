@@ -31,10 +31,6 @@ $(document).ready(function() {
     let form_subject = document.querySelector('[name=contact_sujet]');
     let form_content = document.querySelector('[name=contact_message]');
 
-    let form_file = document.querySelector('[name=contact_fichier]');
-    const formData = new FormData();
-    formData.append('file', form_file.files[0]);
-
     e.preventDefault();
 
     fetch("resources/src/send_form_example_file.php", {
@@ -48,8 +44,7 @@ $(document).ready(function() {
         name: form_name.value,
         email: form_email.value,
         subject: form_subject.value,
-        content: form_content.value,
-        formData
+        content: form_content.value
       })
     })
     .then(res => res.json())

@@ -15,12 +15,12 @@ $fetch = json_decode(file_get_contents('php://input'), true);
 
 try {
   /* Set the mail sender. */
-  $mail->setFrom('korthes@legiste.net', 'EducapCity');
+  $mail->setFrom('educapcity@capsaaa.net', 'EducapCity');
 
   /* Add a recipient. */
-  $mail->addAddress('korthes@legiste.net', 'EducapCity');
+  $mail->addAddress('educapcity@capsaaa.net', 'EducapCity');
 
-  $mail->addReplyTo('korthes@legiste.net', 'EducapCity');
+  $mail->addReplyTo('educapcity@capsaaa.net', 'EducapCity');
 
   /* Set the subject. */
   $mail->Subject = $fetch['subject'];
@@ -38,7 +38,7 @@ try {
   $mail->SMTPSecure = 'tls';
 
   /* SMTP authentication username. */
-  $mail->Username = 'korthes@legiste.net';
+  $mail->Username = 'educapcity@capsaaa.net';
 
   /* SMTP authentication password. */
   $mail->Password = '';

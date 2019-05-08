@@ -37,27 +37,27 @@
       <i class="fas fa-caret-right green"></i>
       Contactez-nous
     </h4>
-    <form action="" method="post">
+    <form>
       <ul class="grid">
         <li class="item-a grid-li">
           <label>Nom</label>
-          <input type="text" name="contact_nom">
+          <input type="text" name="contact_nom" required>
         </li>
         <li class="item-b grid-li">
           <label>Email</label>
-          <input type="text" name="contact_email">
+          <input type="text" name="contact_email" required>
         </li>
         <li class="item-c grid-li">
           <label>Sujet</label>
-          <input type="text" name="contact_sujet">
+          <input type="text" name="contact_sujet" required>
         </li>
-        <li class="item-d grid-ta">
+        <li class="item-d grid-ta" required>
           <label>Message</label>
-          <textarea name="contact_message" rows="8" cols="80"></textarea>
+          <textarea name="contact_message" rows="8" cols="80" required></textarea>
         </li>
         <li class="item-e grid-li">
-          <label>Fichier</label>
-          <input type="file" name="contact_fichier">
+          <label>Fichiers (maintenez la touche ctrl pour selectionner plusieurs fichiers)</label>
+          <input type="file" name="files[]" multiple="multiple">
         </li>
         <li class="item-f">
           <button id="form_button" class="round-border padding" type="button" name="contact_button">Envoyer</button>

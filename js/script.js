@@ -55,3 +55,19 @@ function alterAside() {
     "top": "300px"
   })
 }
+
+// Function validate email format
+function validateEmail(email) {
+  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(email);
+}
+
+// Function return true or false if email if valid or not
+function validate(a) {
+  var email = a.value;
+  var email_invalid = false;
+  if (!validateEmail(email)) {
+    return true;
+  }
+  return false;
+}

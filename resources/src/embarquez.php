@@ -56,7 +56,7 @@
           <textarea name="contact_message" rows="8" cols="80" required></textarea>
         </li>
         <li class="item-e grid-li">
-          <label>Fichiers (maintenez la touche ctrl pour selectionner plusieurs fichiers)</label>
+          <label>Fichiers (format acceptés : pdf, jpg)(maintenez la touche ctrl pour selectionner plusieurs fichiers)</label>
           <input type="file" name="files[]" multiple="multiple">
         </li>
         <li class="item-f">

@@ -1,4 +1,4 @@
-<section id="sec_partenaire">
+<section id="sec_partenaire" class="ptop_nav">
   <div class="div_part_prez">
     <h1 class="jah_font pre">Devenir partenaire</h1>
   </div>

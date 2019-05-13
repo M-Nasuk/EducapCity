@@ -106,6 +106,9 @@ li {
 .smaller {
   font-size: 0.8em;
 }
+.ptop_nav {
+  padding-top: 90px;
+}
 
 main > h4 {
   font-weight: normal;

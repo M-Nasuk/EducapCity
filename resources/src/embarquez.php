@@ -4,7 +4,7 @@
     Embarquez-vous dans la citoyenneté
   </h4>
   <section id="sec_embarquez">
-    <a href="">
+    <a href="Participer#Organiser">
       <div>
         <p class="pre hover-off">ORGANISEZ EDUCAP CITY
   DANS MA VILLE OU MON ECOLE</p>
@@ -12,20 +12,20 @@
       </div>
 
     </a>
-    <a href="">
+    <a href="Participer#Partenaire">
       <div>
         <p class="hover-off">DEVENIR PARTENAIRE</p>
         <img src="resources/images/Photos/embarquez_partenaire.png" alt="embarquez_partenaire" class="hover-off">
       </div>
 
     </a>
-    <a href="">
+    <a href="Participer#Don">
       <div>
         <p class="hover-off">FAIRE UN DON</p>
         <img src="resources/images/Photos/embarquez_don.png" alt="embarquez_don" class="hover-off">
       </div>
     </a>
-    <a href="">
+    <a href="Participer#Benevole">
       <div>
         <p class="hover-off">DEVENIR BENEVOLE</p>
         <img src="resources/images/Photos/embarquez_benevoles.png" alt="embarquez_benevoles" class="hover-off">

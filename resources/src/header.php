@@ -124,7 +124,7 @@
       </ul>
     </li>
     <li>
-      <a href="#"><h3>CONTACT</h3> </a>
+      <a href="Contact"><h3>CONTACT</h3> </a>
     </li>
   </ul>
 </nav>

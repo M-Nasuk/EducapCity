@@ -1,28 +1,46 @@
 $(document).ready(function() {
 
   // LOAD ASIDE
-  if ($(document).width() > 1025) {
+  if ($(document).width() > 1025 && !$('#body_contact').length) {
     $.get('resources/src/aside.php')
     .done(function(response) {
       $('main').append(response);
-      alterAside();
+      // alterAside();
     });
   }
 
   // LOAD EMBARQUEZ SCRIPT
   if ($(document).width() > 1025) {
     setTimeout(function() {
-      $.get('resources/src/embarquez.php')
-      .done(function(response) {
-        $('aside').after(response);
-        $('[name="files[]"]').change(function() {
-          if ($('[name="files[]"]')[0].files.length == 1) {
-            $(".item-e > p").text($('[name="files[]"]')[0].files.length + ' fichier sélectionné.');
-          } else {
-            $(".item-e > p").text($('[name="files[]"]')[0].files.length + ' fichiers sélectionnés.');
-          }
+      if($('#body_contact').length) {
+        $.get('resources/src/embarquez.php')
+        .done(function(response) {
+          $('main').append(response);
+          $('[name="files[]"]').change(function() {
+            if ($('[name="files[]"]')[0].files.length == 1) {
+              $(".item-e > p").text($('[name="files[]"]')[0].files.length + ' fichier sélectionné.');
+            } else {
+              $(".item-e > p").text($('[name="files[]"]')[0].files.length + ' fichiers sélectionnés.');
+            }
+          });
         });
-      });
+        $.get('resources/src/aside.php')
+        .done(function(response) {
+          $('#embarquez').after(response);
+        });
+      } else {
+        $.get('resources/src/embarquez.php')
+        .done(function(response) {
+          $('aside').after(response);
+          $('[name="files[]"]').change(function() {
+            if ($('[name="files[]"]')[0].files.length == 1) {
+              $(".item-e > p").text($('[name="files[]"]')[0].files.length + ' fichier sélectionné.');
+            } else {
+              $(".item-e > p").text($('[name="files[]"]')[0].files.length + ' fichiers sélectionnés.');
+            }
+          });
+        });
+      }
     }, 200);
 
   } else {

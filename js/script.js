@@ -50,11 +50,11 @@ function scrollToAnchor(sid){
 }
 
 // Function that put the aside block at a certain position on every page except home page, on desktop view
-function alterAside() {
-  $('aside:not(#body_accueil aside)').css({
-    "top": "300px"
-  })
-}
+// function alterAside() {
+//   $('aside:not(#body_accueil aside)').css({
+//     "top": "300px"
+//   })
+// }
 
 // Function validate email format
 function validateEmail(email) {

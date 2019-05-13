@@ -274,4 +274,12 @@ document.addEventListener('DOMContentLoaded', ()=> {
   //   });
   // }
 
+  // LOAD PAGE CONTACT
+  if ($('#body_contact').length) {
+    $.get('resources/src/page_contact.php')
+    .done(function(response) {
+      $('#body_contact').append(response);
+    });
+  }
+
 })

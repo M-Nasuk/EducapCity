@@ -1,0 +1,6 @@
+#embarquez {
+  display: grid;
+}
+.div_form {
+  grid-row: 1 / 2;
+}

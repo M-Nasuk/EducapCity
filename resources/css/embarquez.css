@@ -121,6 +121,24 @@ li.item-f {
   color: #FFF;
   border: none;
 }
+#upload-file {
+  display: none;
+}
+.custom-upload {
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  cursor: pointer;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+.show_formats {
+  text-align: center;
+}
+.item-e > p {
+  width: 100%;
+  text-align: center;
+}
 
 
 @media SCREEN and (min-width: 768px) {
@@ -154,5 +172,24 @@ li.item-f {
     font-size: 2em;
     float: left;
     margin: -17px 15px 0;
+  }
+  .item-e {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .custom-upload {
+    width: 12%;
+    margin: 0;
+  }
+  .show_formats {
+    display: none;
+    padding: 6px 12px;
+  }
+  .custom-upload:hover + .show_formats {
+    display: block;
+  }
+  .item-e > p {
+    text-align: left;
   }
 }

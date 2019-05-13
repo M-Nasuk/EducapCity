@@ -15,17 +15,32 @@ $(document).ready(function() {
       $.get('resources/src/embarquez.php')
       .done(function(response) {
         $('aside').after(response);
+        $('[name="files[]"]').change(function() {
+          if ($('[name="files[]"]')[0].files.length == 1) {
+            $(".item-e > p").text($('[name="files[]"]')[0].files.length + ' fichier sélectionné.');
+          } else {
+            $(".item-e > p").text($('[name="files[]"]')[0].files.length + ' fichiers sélectionnés.');
+          }
+        });
       });
-    }, 100);
+    }, 200);
 
   } else {
     setTimeout(function() {
       $.get('resources/src/embarquez.php')
       .done(function(response) {
         $('main').append(response);
+        $('[name="files[]"]').change(function() {
+          if ($('[name="files[]"]')[0].files.length == 1) {
+            $(".item-e > p").text($('[name="files[]"]')[0].files.length + ' fichier sélectionné.');
+          } else {
+            $(".item-e > p").text($('[name="files[]"]')[0].files.length + ' fichiers sélectionnés.');
+          }
+        });
       });
-    }, 100);
+    }, 200);
   }
+
 
 
 
@@ -34,29 +49,33 @@ $(document).ready(function() {
     e.preventDefault();
     let post_data = [];
     let form_name = document.querySelector('[name=contact_nom]');
-    post_data.push(form_name.value);
     let form_email = document.querySelector('[name=contact_email]');
-    post_data.push(form_email.value);
     let form_subject = document.querySelector('[name=contact_sujet]');
-    post_data.push(form_subject.value);
     let form_content = document.querySelector('[name=contact_message]');
-    post_data.push(form_content.value);
     let form_file = document.querySelector('[name="files[]"]');
+    post_data.push(form_name.value);
+    post_data.push(form_email.value);
+    post_data.push(form_subject.value);
+    post_data.push(form_content.value);
     let file_big = false;
+    let file_ext = false;
     let no_content = false;
     let email_invalid = false;
 
-    console.log(post_data);
+    // console.log(post_data);
     $.each(post_data, function(i, str) {
       if ($.trim(str) == "") {
         no_content = true;
       }
     });
-
-    ;
+    if (form_file.files.length > 0) {
+      $(".item-e > p").text(form_file.files.length + 'fichiers sélectionnés.');
+    }
     $.each(form_file.files, function(i, file) {
       if (file.size > 3145728) {
         file_big = true;
+      } else if (file.name.split('.').pop() != 'pdf' && 'jpg' && 'jpeg' && 'png') {
+        file_ext = true;
       }
     });
 
@@ -64,8 +83,10 @@ $(document).ready(function() {
       alert("Vos fichiers sont trop volumineux, veuillez choisir des fichiers de moins de 3mo !");
     } else if (no_content) {
       alert("Il manque des informations dans le formulaire.");
-    }  else if (validate(form_email)) {
+    } else if (validate(form_email)) {
       alert("Veuillez entre une adresse mail valide.");
+    } else if (file_ext) {
+      alert("Choisissez un bon format de fichier.")
     }
     else {
       let data = new FormData();
@@ -88,7 +109,22 @@ $(document).ready(function() {
       })
       .then(res => res.json())
       .then(response => {
-        console.log(response);
+        if (response == 'Message has been sent') {
+          $('.div_form').css('position', 'relative');
+          $('.form').css({
+            'filter': 'blur(15px)'
+          });
+          $('.sent').text("Votre message a bien été envoyé, Merci.").css({
+            'position': 'absolute',
+            'font-size': '3em',
+            'top': '0',
+            'text-align': 'center',
+            'padding-top': '25%',
+            'width': $('.form').width(),
+            'height': $('.form').height()
+          });
+        }
+        // console.log(response);
       })
       .catch(error => console.error(error));
     }

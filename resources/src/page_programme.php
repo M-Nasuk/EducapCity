@@ -274,7 +274,7 @@
         <p class="p-item-d">15h45</p>
         <p class="p-item-e">16h15</p>
       </div>
-      <img src="resources/images/PageAccueil/Graph/esprit_equipe.jpg" alt="groupe_cap_classe" class="item-b">
+      <img src="resources/images/PageProgramme/graph/esprit_equipe.jpg" alt="groupe_cap_classe" class="item-b">
       <div class="item-c">
         <p>Accueil des participants sur le « village EDUCAP CITY » situé sur une place centrale de la ville.
         (Remise d'une collation et un T-shirt).

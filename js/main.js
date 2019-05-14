@@ -232,18 +232,35 @@ document.addEventListener('DOMContentLoaded', ()=> {
     .done(function(response) {
       $('#body_participer').append(response);
     });
-    $.get('resources/src/participer/page_organiser.php')
-    .done(function(response) {
-      $('#sec_intro_participer').after(response);
-    });
-    $.get('resources/src/participer/page_partenaire.php')
-    .done(function(response) {
-      $('#sec_organiser').after(response);
-    });
-    $.get('resources/src/participer/page_accueillir.php')
-    .done(function(response) {
-      $('#sec_partenaire').after(response);
-    });
+      setTimeout(function () {
+      $.get('resources/src/participer/page_organiser.php')
+      .done(function(response) {
+        $('#sec_intro_participer').after(response);
+      });
+    }, 100);
+    setTimeout(function () {
+      $.get('resources/src/participer/page_accueillir.php')
+      .done(function(response) {
+        $('#sec_organiser').after(response);
+      });
+    }, 200);
+    setTimeout(function () {
+      $.get('resources/src/participer/page_partenaire.php')
+      .done(function(response) {
+        $('#sec_accueillir').after(response);
+        $('.partenaire_slider').slick({
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 3
+        });
+      });
+    }, 300);
+    // setTimeout(function () {
+    //   window.location.hash = "De CAP SAAA";
+    // }, 100);
+    // setTimeout(function () {
+    //   window.location.hash = "De CAP SAAA";
+    // }, 100);
     //  $.get('resources/src/participer/page_benevole.php')
     //   .done(function(response) {
     //     $('#sec_partenaire').after(response);
@@ -256,6 +273,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     if ($(document).width() > 1025) {
       $('#sec_organiser').addClass('ptop_nav');
       $('#sec_partenaire').addClass('ptop_nav');
+      $('#sec_accueillir').addClass('ptop_nav');
       // $('#sec_benevole').addClass('ptop_nav');
       // $('#sec_don').addClass('ptop_nav');
     }
@@ -269,17 +287,5 @@ document.addEventListener('DOMContentLoaded', ()=> {
     });
   }
 
-  if ($(document).width() > 1025) {
-    $('#sec_de_capsaaa').addClass('ptop_nav');
-    $('#sec_du_pacte').addClass('ptop_nav');
-
-    $('#sec_cap_classe').addClass('ptop_nav');
-    $('#sec_cap_rallye').addClass('ptop_nav');
-
-    $('#sec_benevole').addClass('ptop_nav');
-    $('#sec_don').addClass('ptop_nav');
-    $('#sec_organiser').addClass('ptop_nav');
-    $('#sec_partenaire').addClass('ptop_nav');
-  }
 
 })

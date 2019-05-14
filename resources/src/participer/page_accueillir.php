@@ -14,30 +14,34 @@
       </button>
     </a>
   </div>
-  <div class="">
+  <div class="div_acc">
     <h2 class="jah_font">Leurs missions ?</h2>
     <ul>
       <li>
+        <i class="fas fa-caret-right red"></i>
         <p>
-          <i class="fas fa-caret-right red"></i>
+
           Sensibiliser et informer sur l’établissement visité et les professions exercées (rôle, vocation, utilité, valeurs)
         </p>
       </li>
       <li>
+        <i class="fas fa-caret-right red"></i>
         <p>
-          <i class="fas fa-caret-right red"></i>
+
           Créer la rencontre et des échanges positifs avec certaines institutions pour pacifier les rapports et dissoudre les préjugées de part et d’autre.
         </p>
       </li>
       <li>
+        <i class="fas fa-caret-right red"></i>
         <p>
-          <i class="fas fa-caret-right red"></i>
+
           Eveiller les jeunes à être curieux, à s’interroger sur des questions sociétales et leur donner le goût de l’engagement
         </p>
       </li>
     </ul>
-    <h2 class="jah_font pre">Vous souhaitez accueillir un point de
-      passage sur un des CAP Rallyes ?</h2>
+    <h2 class="jah_font pre">Vous souhaitez accueillir
+      un point de passage sur un des
+      CAP Rallyes ?</h2>
     <button class="bg-yellow round-border">Contactez-nous</button>
   </div>
 </section>

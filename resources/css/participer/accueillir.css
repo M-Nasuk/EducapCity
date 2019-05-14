@@ -1,0 +1,54 @@
+#sec_accueillir > *, .accueillir > *, .accueillir + div > * {
+  margin-bottom: 20px;
+}
+
+.div_acc_prez {
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  height: 252px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.div_acc_prez:before {
+  background: no-repeat url("../../images/PageParticiper/Organiser/photo_institution.jpg") center center fixed;
+  background-size: cover;
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: inherit;
+  background-position-y: 5em;
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+.div_acc_prez h1 {
+  z-index: 1;
+  font-weight: normal;
+}
+
+.accueillir {
+  text-align: center;
+  padding: 15px;
+}
+.div_acc {
+  padding: 15px;
+}
+.div_acc > h2 {
+  font-weight: normal;
+  font-size: 2em;
+  text-align: center;
+}
+.div_acc > ul li {
+  margin-bottom: 10px;
+}
+.div_acc ul li .fas {
+  font-size: 2em;
+  float: left;
+  margin-top: -8px;
+}
+.div_acc ul li p {
+  margin-left: 20px;
+}

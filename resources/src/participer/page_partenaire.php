@@ -1,4 +1,4 @@
-<section id="sec_partenaire" class="ptop_nav">
+<section id="sec_partenaire">
   <div class="div_part_prez">
     <h1 class="jah_font pre">Devenir partenaire</h1>
   </div>
@@ -62,4 +62,3 @@
     <img src="resources/images/PageParticiper/Partenaire/photo_partenaire_sncf_tweet.jpg" alt="Tweet de la fondation sncf a propos d'Educap City.">
   </div>
 </section>
-</main>

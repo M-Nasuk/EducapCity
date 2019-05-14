@@ -86,14 +86,41 @@ $(document).ready(function() {
         no_content = true;
       }
     });
-    if (form_file.files.length > 0) {
-      $(".item-e > p").text(form_file.files.length + 'fichiers sélectionnés.');
-    }
+    // if (form_file.files.length > 1) {
+    //   $(".item-e > p").text(form_file.files.length + 'fichiers sélectionnés.');
+    // }
     $.each(form_file.files, function(i, file) {
-      if (file.size > 3145728) {
+      if (file.size > 52428800) {
         file_big = true;
-      } else if (file.name.split('.').pop() != 'pdf' && 'jpg' && 'jpeg' && 'png') {
-        file_ext = true;
+      } else if (file.name.split('.').pop()) {
+        switch (file.name.split('.').pop()) {
+          case 'pdf':
+            file_ext = false;
+            break;
+          case 'doc':
+            file_ext = false;
+            break;
+          case 'docx':
+            file_ext = false;
+            break;
+          case 'odt':
+            file_ext = false;
+            break;
+          case 'jpg':
+            file_ext = false;
+            break;
+          case 'jpeg':
+            file_ext = false;
+            break;
+          case 'png':
+            file_ext = false;
+            break;
+          // case 'zip':
+          //   file_ext = false;
+          //   break;
+            default:
+            file_ext = true;
+        }
       }
     });
 
@@ -142,7 +169,7 @@ $(document).ready(function() {
             'height': $('.form').height()
           });
         }
-        // console.log(response);
+        console.log(response);
       })
       .catch(error => console.error(error));
     }

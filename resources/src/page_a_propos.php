@@ -1,5 +1,5 @@
 <main id="a_propos">
-  <section id="sec_de_capsaaa" class="ptop_nav">
+  <section id="sec_de_capsaaa">
     <div>
       <h1 class="jah_font white">CAP SAAA</h1>
     </div>
@@ -84,7 +84,7 @@
       </div>
     </section>
   </section>
-  <section id="sec_du_pacte" class="ptop_nav">
+  <section id="sec_du_pacte">
     <div>
       <h1 class="jah_font white">Le pacte de fraternité</h1>
     </div>

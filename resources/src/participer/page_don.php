@@ -1,3 +1,3 @@
-<section id="sec_don" class="ptop_nav">
+<section id="sec_don">
 
 </section>

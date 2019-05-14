@@ -61,7 +61,7 @@
               <i class="fas fa-upload"></i>
               Fichiers
             </label>
-            <span class="show_formats">Formats acceptés : pdf, jpg, jpeg, png (maintenez la touche ctrl pour selectionner plusieurs fichiers)</span>
+            <span class="show_formats">Formats acceptés : pdf, doc, docx, odt, jpg, png</span>
             <p></p>
             <input id="upload-file" type="file" name="files[]" multiple="multiple">
           </li>

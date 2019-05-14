@@ -22,7 +22,7 @@
   </section>
 
   <!-- SECTION CAP CLASSE -->
-  <section id="sec_cap_classe" class="ptop_nav">
+  <section id="sec_cap_classe">
     <h2 class="yellow jah_font cc-a">
       <span class="fa-stack fa-1x">
         <i class="fa fa-circle fa-stack-2x yellow"></i>
@@ -195,7 +195,7 @@
   </section>
 
   <!-- SECTION CAP RALLYE -->
-  <section id="sec_cap_rallye" class="ptop_nav">
+  <section id="sec_cap_rallye">
     <h2 class="green jah_font cr-a">
       <span class="fa-stack fa-1x">
         <i class="fa fa-circle fa-stack-2x green"></i>

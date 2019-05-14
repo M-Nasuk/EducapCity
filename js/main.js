@@ -80,6 +80,10 @@ document.addEventListener('DOMContentLoaded', ()=> {
     $.get('resources/src/page_a_propos.php')
     .done(function(response) {
       $('#body_a_propos').append(response);
+      if ($(document).width() > 1025) {
+        $('#sec_de_capsaaa').addClass('ptop_nav');
+        $('#sec_du_pacte').addClass('ptop_nav');
+      }
 
       if (location.hash == "#De%20CAP%20SAAA") {
         location.href = "#sec_de_capsaaa";
@@ -124,6 +128,10 @@ document.addEventListener('DOMContentLoaded', ()=> {
     $.get('resources/src/page_programme.php')
     .done(function(response) {
       $('#body_programme').append(response);
+      if ($(document).width() > 1025) {
+        $('#sec_cap_classe').addClass('ptop_nav');
+        $('#sec_cap_rallye').addClass('ptop_nav');
+      }
 
       if (location.hash == "#Cap%20Rallye") {
         location.href = "#sec_cap_rallye";
@@ -232,6 +240,10 @@ document.addEventListener('DOMContentLoaded', ()=> {
     .done(function(response) {
       $('#sec_organiser').after(response);
     });
+    $.get('resources/src/participer/page_accueillir.php')
+    .done(function(response) {
+      $('#sec_partenaire').after(response);
+    });
     //  $.get('resources/src/participer/page_benevole.php')
     //   .done(function(response) {
     //     $('#sec_partenaire').after(response);
@@ -240,39 +252,14 @@ document.addEventListener('DOMContentLoaded', ()=> {
     //   .done(function(response) {
     //     $('#sec_benevole').after(response);
     //   });
-  }
 
-  // // LOAD PAGE ORGANISER
-  // if ($('#body_organiser').length) {
-  //   $.get('resources/src/participer/page_organiser.php')
-  //   .done(function(response) {
-  //     $('#body_organiser').append(response);
-  //   });
-  // }
-  //
-  // // LOAD PAGE PARTENAIRE
-  // if ($('#body_partenaire').length) {
-  //   $.get('resources/src/participer/page_partenaire.php')
-  //   .done(function(response) {
-  //     $('#body_partenaire').append(response);
-  //   });
-  // }
-  //
-  // // LOAD PAGE BENEVOLE
-  // if ($('#body_benevole').length) {
-  //   $.get('resources/src/participer/page_benevole.php')
-  //   .done(function(response) {
-  //     $('#body_benevole').append(response);
-  //   });
-  // }
-  //
-  // // LOAD PAGE DON
-  // if ($('#body_don').length) {
-  //   $.get('resources/src/participer/page_don.php')
-  //   .done(function(response) {
-  //     $('#body_don').append(response);
-  //   });
-  // }
+    if ($(document).width() > 1025) {
+      $('#sec_organiser').addClass('ptop_nav');
+      $('#sec_partenaire').addClass('ptop_nav');
+      // $('#sec_benevole').addClass('ptop_nav');
+      // $('#sec_don').addClass('ptop_nav');
+    }
+  }
 
   // LOAD PAGE CONTACT
   if ($('#body_contact').length) {
@@ -280,6 +267,19 @@ document.addEventListener('DOMContentLoaded', ()=> {
     .done(function(response) {
       $('#body_contact').append(response);
     });
+  }
+
+  if ($(document).width() > 1025) {
+    $('#sec_de_capsaaa').addClass('ptop_nav');
+    $('#sec_du_pacte').addClass('ptop_nav');
+
+    $('#sec_cap_classe').addClass('ptop_nav');
+    $('#sec_cap_rallye').addClass('ptop_nav');
+
+    $('#sec_benevole').addClass('ptop_nav');
+    $('#sec_don').addClass('ptop_nav');
+    $('#sec_organiser').addClass('ptop_nav');
+    $('#sec_partenaire').addClass('ptop_nav');
   }
 
 })

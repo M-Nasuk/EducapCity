@@ -182,6 +182,7 @@
   grid-row-start: 10;
   grid-row-end: 10;
   margin-top: 30px;
+  width: 100%;
 }
 
 #sec_journee_cap_rallye > div:not(.div_fil):not(.item-y), #sec_journee_cap_classe > div:not(.div_fil):not(.item-y) {
@@ -354,6 +355,7 @@
   grid-row-start: 8;
   grid-row-end: 8;
   margin-top: 30px;
+  width: 100%;
 }
 
 #sec_journee_cap_classe .div_fil {
@@ -389,6 +391,42 @@
 }
 #sec_etape_capitale .div_cap_infos {
   margin-bottom: 0;
+}
+
+.slicker {
+  width: 100%;
+  height: 300px;
+}
+.slick-list {
+  height: inherit;
+}
+.slick-track {
+  height: inherit;
+  margin-left: -3%;
+}
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+}
+.slick-slide > div {
+  height: 75px;
+  width: 75px !important;
+  opacity: .6;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-self: center;
+  border-radius: 50%;
+  align-self: center;
+  border: 2px solid black;
+}
+.slick-center {
+  width: 185px !important;
+}
+.slick-center > div {
+  opacity: 1;
+  width: 185px !important;
+  height: 185px;
+  border: 2px solid grey;
 }
 
 @media SCREEN and (min-width: 768px) {
@@ -782,6 +820,18 @@
   .slides > li {
     height: 142px;
   }
+
+  .slick-track {
+    margin-left: -6%;
+  }
+  .slick-center {
+    width: 200px !important;
+  }
+  .slick-center > div {
+    width: 200px !important;
+    height: 200px;
+  }
+
 }
 
 @media SCREEN and (min-width: 834px) {
@@ -841,35 +891,43 @@
   .slicker {
     width: 1200px;
     height: 500px;
+    position: relative;
+  }
+  .slicker .fa-arrow-circle-left {
+    position: absolute;
+    left: -22%;
+    top: 45%;
+    font-size: 3em;
+  }
+  .slicker .fa-arrow-circle-right {
+    position: absolute;
+    right: -22%;
+    top: 45%;
+    font-size: 3em;
+  }
+  #sec_journee_cap_classe .cc {
+    color: #ffcf01;
+  }
+  #sec_journee_cap_rallye .cr {
+    color: #308f36;
   }
   .slick-list {
-    margin-left: calc(-100vw / 4 + 1200px / 4 + 7.5px);
-    margin-right: calc(-100vw / 4 + 1200px / 4 + 7.5px);
+    margin-left: calc(-100vw / 6 + 1200px / 6 + 7.5px);
+    margin-right: calc(-100vw / 6 + 1200px / 6 + 7.5px);
     height: inherit;
   }
   .slick-track {
     height: inherit;
     margin-left: -3%;
   }
-  .slick-slide {
-    display: flex !important;
-    justify-content: center;
-  }
   .slick-slide > div {
     height: 150px;
     width: 150px !important;
-    opacity: .6;
-    background-position: center;
-    background-repeat: no-repeat;
-    align-self: center;
-    border-radius: 50%;
-    align-self: center;
   }
   .slick-center {
     width: 370px !important;
   }
   .slick-center > div {
-    opacity: 1;
     width: 370px !important;
     height: 370px;
   }

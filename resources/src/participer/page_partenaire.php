@@ -30,8 +30,11 @@
     <img src="resources/images/PageParticiper/Partenaire/photo_partenaire_sncf_tweet.jpg" alt="Tweet de la fondation sncf a propos d'Educap City.">
   </div>
   <div class="partenaire_slider">
-    <div>your content</div>
-    <div>your content</div>
-    <div>your content</div>
+    <div><div><img src="resources/images/Logos/partenaires_officiels/next_steps.png" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_officiels/next_steps.png" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_officiels/next_steps.png" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_officiels/next_steps.png" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_officiels/next_steps.png" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_officiels/next_steps.png" alt=""></div></div>
   </div>
 </section>

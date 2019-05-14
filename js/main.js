@@ -153,37 +153,32 @@ document.addEventListener('DOMContentLoaded', ()=> {
         }, 100);
       }
 
-      $('.slider-for').slick({
-       slidesToShow: 9,
-       infinite: true,
-       arrows: false,
-       fade: true,
-       asNavFor: '.slicker'
-      });
       $('.slicker').slick({
         centerMode: true,
         centerPadding: '60px',
         slidesToShow: 5,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 1500,
+        prevArrow: '<i class="fas fa-arrow-circle-left cr cc"></i>',
+        nextArrow: '<i class="fas fa-arrow-circle-right cr cc"></i>',
         responsive: [
           {
-            breakpoint: 768,
+            breakpoint: 1024,
             settings: {
               arrows: false,
               centerMode: true,
-              centerPadding: '40px',
+              centerPadding: '22%',
               slidesToShow: 3,
               autoplay: true,
               autoplaySpeed: 1500
             }
           },
           {
-            breakpoint: 480,
+            breakpoint: 767,
             settings: {
               arrows: false,
               centerMode: true,
-              centerPadding: '40px',
+              centerPadding: '25%',
               slidesToShow: 1,
               autoplay: true,
               autoplaySpeed: 1500
@@ -251,24 +246,25 @@ document.addEventListener('DOMContentLoaded', ()=> {
         $('.partenaire_slider').slick({
           infinite: true,
           slidesToShow: 3,
-          slidesToScroll: 3
+          slidesToScroll: 3,
+          autoplay: true,
+          arrows: false
         });
       });
     }, 300);
     // setTimeout(function () {
-    //   window.location.hash = "De CAP SAAA";
-    // }, 100);
-    // setTimeout(function () {
-    //   window.location.hash = "De CAP SAAA";
-    // }, 100);
-    //  $.get('resources/src/participer/page_benevole.php')
+    //   $.get('resources/src/participer/page_benevole.php')
     //   .done(function(response) {
     //     $('#sec_partenaire').after(response);
     //   });
-    //  $.get('resources/src/participer/page_don.php')
+    // }, 100);
+    // setTimeout(function () {
+    //   $.get('resources/src/participer/page_don.php')
     //   .done(function(response) {
     //     $('#sec_benevole').after(response);
     //   });
+    // }, 100);
+
 
     if ($(document).width() > 1025) {
       $('#sec_organiser').addClass('ptop_nav');

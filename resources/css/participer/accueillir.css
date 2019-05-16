@@ -63,25 +63,26 @@
   .accueillir {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
   }
   .accueillir > div {
-    width: 50%;
+    width: 48%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
   .div_acc {
-    padding: 0 ;
-    padding-left: 15px;
+    padding: 0;
   }
   .div_acc ul li .fas {
     font-size: 3em;
     margin-top: 1px;
     margin-right: 5px;
   }
-
-  .accueillir > div:first-child > p {
-    margin-bottom: 5px;
+  .div_acc ul li p {
+    margin-left: 30px;
+  }
+  .accueillir > div:first-child > p, .div_acc ul li p {
     text-align: left;
   }
   .div_acc > h2:first-child {

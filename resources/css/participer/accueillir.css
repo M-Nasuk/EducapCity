@@ -29,7 +29,7 @@
   font-weight: normal;
 }
 
-.accueillir {
+.accueillir, .accueillir ~ div {
   text-align: center;
   padding: 15px;
 }

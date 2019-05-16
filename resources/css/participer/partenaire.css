@@ -39,6 +39,12 @@
   display: flex;
   flex-direction: column;
 }
+#div_stmichel div p, #div_sncf div p {
+  margin-bottom: 10px;
+}
 #div_stmichel div img, #div_sncf div img {
   max-width: 40%
+}
+#sec_partenaire > p {
+  text-align: center;
 }

@@ -25,3 +25,17 @@
 .div_decouverte img {
   max-width: 70%;
 }
+
+.partenaire_slider div div {
+  width: inherit;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+}
+.partenaire_slider div div img {
+  max-height: 110px;
+  margin: auto;
+}
+#body_participer main > section:not(#sec_intro_participer):not(#embarquez) > p {
+  text-align: center;
+}

@@ -30,11 +30,24 @@
     <img src="resources/images/PageParticiper/Partenaire/photo_partenaire_sncf_tweet.jpg" alt="Tweet de la fondation sncf a propos d'Educap City.">
   </div>
   <div class="partenaire_slider">
+    <div><div><img src="resources/images/Logos/partenaires_officiels/korian.jpg" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_officiels/sequence_cle.png" alt=""></div></div>
     <div><div><img src="resources/images/Logos/partenaires_officiels/next_steps.png" alt=""></div></div>
-    <div><div><img src="resources/images/Logos/partenaires_officiels/next_steps.png" alt=""></div></div>
-    <div><div><img src="resources/images/Logos/partenaires_officiels/next_steps.png" alt=""></div></div>
-    <div><div><img src="resources/images/Logos/partenaires_officiels/next_steps.png" alt=""></div></div>
-    <div><div><img src="resources/images/Logos/partenaires_officiels/next_steps.png" alt=""></div></div>
-    <div><div><img src="resources/images/Logos/partenaires_officiels/next_steps.png" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_officiels/andros.png" alt=""></div></div>
+    <!-- <div><div><img src="resources/images/Logos/partenaires_officiels/next_steps.png" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_officiels/next_steps.png" alt=""></div></div> -->
+  </div>
+  <p><strong>Partenaires institutionnels</strong></p>
+  <div class="partenaire_slider">
+    <div><div><img src="resources/images/Logos/partenaires_institutionnels/logo_mariannesports_bleu.jpg" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_institutionnels/service_civique.png" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_institutionnels/ile_de_france.jpg" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_institutionnels/paris.png" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_institutionnels/ministere_interieur.jpg" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_institutionnels/ministere_territoire.png" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_institutionnels/defenseur_droits.jpg" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_institutionnels/academie_paris_logo.png" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_institutionnels/academie_creteil.jpg" alt=""></div></div>
+    <div><div><img src="resources/images/Logos/partenaires_institutionnels/academie_versaille.png" alt=""></div></div>
   </div>
 </section>

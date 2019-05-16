@@ -243,13 +243,25 @@ document.addEventListener('DOMContentLoaded', ()=> {
       $.get('resources/src/participer/page_partenaire.php')
       .done(function(response) {
         $('#sec_accueillir').after(response);
-        if ($(document).width() < 768) {
+        if ($(document).width() < 1024) {
           $('.partenaire_slider').slick({
             infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 5,
+            slidesToScroll: 5,
             autoplay: true,
-            arrows: false
+            arrows: false,
+            responsive: [
+              {
+                breakpoint: 767,
+                settings: {
+                  infinite: true,
+                  slidesToShow: 3,
+                  slidesToScroll: 3,
+                  autoplay: true,
+                  arrows: false,
+                }
+              }
+            ]
           });
         }
       });

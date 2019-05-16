@@ -39,3 +39,15 @@
 #body_participer main > section:not(#sec_intro_participer):not(#embarquez) > p {
   text-align: center;
 }
+
+@media SCREEN and (min-width: 768px) {
+  #sec_intro_participer {
+    flex-direction: row;
+  }
+  #sec_intro_participer > div {
+    width: 50%;
+  }
+  .div_action ul .fas {
+    margin: -6px 5px 0 0;
+  }
+}

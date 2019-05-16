@@ -74,6 +74,9 @@
   .div_acc {
     padding: 0;
   }
+  .div_acc > * {
+    margin-bottom: 10px;
+  }
   .div_acc ul li .fas {
     font-size: 3em;
     margin-top: 1px;
@@ -88,4 +91,20 @@
   .div_acc > h2:first-child {
     text-align: left;
   }
+}
+
+@media SCREEN and (min-width: 1025px) {
+  .div_acc_prez {
+    height: 400px;
+    font-size: 1.1em;
+    margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+    margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+  }
+  .div_acc_prez h1 {
+    font-size: 4em;
+  }
+
+  /* .div_part_prez:before {
+    background-position-y: 25%;
+  } */
 }

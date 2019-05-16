@@ -39,7 +39,11 @@
 #body_participer main > section:not(#sec_intro_participer):not(#embarquez) > p {
   text-align: center;
 }
-
+button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
 @media SCREEN and (min-width: 768px) {
   #sec_intro_participer {
     flex-direction: row;
@@ -49,5 +53,16 @@
   }
   .div_action ul .fas {
     margin: -6px 5px 0 0;
+  }
+}
+
+@media SCREEN and (min-width: 1024px) {
+  .partenaire_slider {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .partenaire_slider > div {
+    flex: 1 10%;
+    margin: 10px;
   }
 }

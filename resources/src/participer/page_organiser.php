@@ -32,6 +32,6 @@
     <p>Vous souhaitez mettre en place le programme EDUCAP CITY dans votre structure
       (dispositif CAP Classe) ou dans votre ville (dispositif CAP Rallye) ?</p>
     <button type="button" name="contactez-nous" class="bg-red round-border hover-off">Contactez-nous</button>
-    <img src="resources/images/PageParticiper/Organiser/trois_echanges.png" alt="Dessein d'enfants sur un parcours d'Educap City.">
+    <img src="resources/images/PageParticiper/Organiser/trois_echanges_1.png" alt="Dessein d'enfants sur un parcours d'Educap City.">
   </div>
 </section>

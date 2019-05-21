@@ -5,6 +5,9 @@
 #organiser > * {
   margin-bottom: 20px;
 }
+#organiser > img {
+  margin-bottom: 0;
+}
 .div_org_prez {
   text-align: center;
   color: #FFF;

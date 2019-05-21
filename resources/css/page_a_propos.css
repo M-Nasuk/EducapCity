@@ -19,7 +19,7 @@
   width: 100%; height: inherit;
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
-  background-position-y: 11em;
+  background-position-y: -4em;
   background-position-x: -9em;
 }
 

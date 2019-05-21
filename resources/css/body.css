@@ -70,6 +70,7 @@ li {
   background-color: #ffcf01;
   color: #FFF;
 }
+
 .bg-green {
   background-color: #308f36;
   color: #FFF;
@@ -83,10 +84,12 @@ li {
   color: #FFF;
 }
 
+
 .bg-red {
   background-color: #e30d14;
   color: #FFF;
 }
+
 .bg-grey {
   background-color: #4f5357;
   color: #FFF;
@@ -108,6 +111,15 @@ li {
 }
 .ptop_nav {
   padding-top: 90px;
+}
+a[download=""] {
+  display: inline-block;
+}
+.but_plaquette {
+  cursor: pointer;
+}
+.but_plaquette .fas {
+  margin-left: 5px;
 }
 
 main > h4 {
@@ -144,5 +156,25 @@ button {
 @media SCREEN and (min-width: 1025px) {
   body {
     font-size: 1.3em;
+  }
+  .bgyellow-hover:hover {
+    background-color: #FFF;
+    color: #ffcf01;
+    transition: 0.5s;
+  }
+  .bggreen-hover:hover {
+    background-color: #FFF;
+    color: #308f36;
+    transition: 0.5s;
+  }
+  .bgblue-hover:hover {
+    background-color: #FFF;
+    color: #1c96c5;
+    transition: 0.5s;
+  }
+  .bgred-hover:hover {
+    background-color: #FFF;
+    color: #e30d14;
+    transition: 0.5s;
   }
 }

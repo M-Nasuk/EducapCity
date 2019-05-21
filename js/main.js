@@ -10,11 +10,22 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
     // BUTTON DISPLAY MENU MOBILE
     $('#b_menu').click(function() {
-      if($('nav').css('display') == 'none') {
-        $('nav').css('display', 'flex');
+      if ($('nav').is(':hidden')) {
+        $('nav').slideDown('slow');
       } else {
-        $('nav').css('display', 'none');
-      };
+        $('nav').slideUp('slow');
+      }
+    });
+
+    // BUTTON DISPLAY SUB-MENU MOBILE
+    $('.b-arrow').click(function() {
+      if ($(this).next().is(':hidden')) {
+        $(this).next().slideDown('slow');
+        $(this).children().removeClass('fa-arrow-circle-down').addClass('fa-arrow-circle-right');
+      } else {
+        $(this).next().slideUp('slow');
+        $(this).children().removeClass('fa-arrow-circle-right').addClass('fa-arrow-circle-down');
+      }
     });
 
     // The debounce function receives our function as a parameter
@@ -110,12 +121,12 @@ document.addEventListener('DOMContentLoaded', ()=> {
         }, 100);
       }
 
-      $('#menu > ul > li:nth-child(2) > ul > li:first-child a').click(function(e) {
+      $('.nav-ul-apropos > li:first-child a').click(function(e) {
         scrollToAnchor('sec_de_capsaaa');
         window.location.hash = "De CAP SAAA";
         e.preventDefault();
       });
-      $('#menu > ul > li:nth-child(2) > ul > li:last-child a').click(function(e) {
+      $('.nav-ul-apropos > li:last-child a').click(function(e) {
         scrollToAnchor('sec_du_pacte');
         window.location.hash = "Du Pacte de Fraternité";
         e.preventDefault();
@@ -187,12 +198,12 @@ document.addEventListener('DOMContentLoaded', ()=> {
         ]
       });
 
-      $('#div_caps > div:first-child a, #menu > ul > li:nth-child(3) > ul > li:first-child a').click(function(e) {
+      $('#div_caps > div:first-child a, .nav-ul-programme > li:first-child a').click(function(e) {
         scrollToAnchor('sec_cap_classe');
         window.location.hash = "Cap Classe";
         e.preventDefault();
       });
-      $('#div_caps > div:nth-child(2) a, #menu > ul > li:nth-child(3) > ul > li:last-child a').click(function(e) {
+      $('#div_caps > div:nth-child(2) a, .nav-ul-programme > li:last-child a').click(function(e) {
         scrollToAnchor('sec_cap_rallye');
         window.location.hash = "Cap Rallye";
         e.preventDefault();
@@ -227,22 +238,50 @@ document.addEventListener('DOMContentLoaded', ()=> {
     .done(function(response) {
       $('#body_participer').append(response);
     });
-      setTimeout(function () {
+    setTimeout(function () {
       $.get('resources/src/participer/page_organiser.php')
       .done(function(response) {
         $('#sec_intro_participer').after(response);
+        if (location.hash == "#Organiser") {
+          location.href = "#sec_organiser";
+          location.hash = "Organiser";
+        }
+        if ($(document).width() > 1025) {
+          $('#sec_organiser').addClass('ptop_nav');
+        }
+        $('.nav-ul-participer > li:first-child a').click(function(e) {
+          scrollToAnchor('sec_organiser');
+          window.location.hash = "Organiser";
+          e.preventDefault();
+        });
       });
     }, 100);
     setTimeout(function () {
       $.get('resources/src/participer/page_accueillir.php')
       .done(function(response) {
         $('#sec_organiser').after(response);
+        if (location.hash == "#Accueillir") {
+          location.href = "#sec_accueillir";
+          location.hash = "Accueillir";
+        }
+        if ($(document).width() > 1025) {
+          $('#sec_accueillir').addClass('ptop_nav');
+        }
+        $('.nav-ul-participer > li:nth-child(2) a').click(function(e) {
+          scrollToAnchor('sec_accueillir');
+          window.location.hash = "Accueillir";
+          e.preventDefault();
+        });
       });
     }, 200);
     setTimeout(function () {
       $.get('resources/src/participer/page_partenaire.php')
       .done(function(response) {
         $('#sec_accueillir').after(response);
+        if (location.hash == "#Partenaire") {
+          location.href = "#sec_partenaire";
+          location.hash = "Partenaire";
+        }
         if ($(document).width() < 1024) {
           $('.partenaire_slider').slick({
             infinite: true,
@@ -264,29 +303,52 @@ document.addEventListener('DOMContentLoaded', ()=> {
             ]
           });
         }
+        if ($(document).width() > 1025) {
+          $('#sec_partenaire').addClass('ptop_nav');
+        }
+        $('.nav-ul-participer > li:nth-child(3) a').click(function(e) {
+          scrollToAnchor('sec_partenaire');
+          window.location.hash = "Partenaire";
+          e.preventDefault();
+        });
       });
     }, 300);
     // setTimeout(function () {
     //   $.get('resources/src/participer/page_benevole.php')
     //   .done(function(response) {
     //     $('#sec_partenaire').after(response);
+    //     if (location.hash == "#Benevole") {
+    //       location.href = "#sec_benevole";
+    //       location.hash = "Benevole";
+    //     }
+    //     if ($(document).width() > 1025) {
+    //       $('#sec_benevole').addClass('ptop_nav');
+    //     }
+    //     $('.nav-ul-participer > li:nth-child(4) a').click(function(e) {
+    //       scrollToAnchor('sec_benevole');
+    //       window.location.hash = "Benevole";
+    //       e.preventDefault();
+    //     });
     //   });
     // }, 100);
     // setTimeout(function () {
     //   $.get('resources/src/participer/page_don.php')
     //   .done(function(response) {
     //     $('#sec_benevole').after(response);
+    //     if (location.hash == "#Don") {
+    //       location.href = "#sec_don";
+    //       location.hash = "Don";
+    //     }
+    //     if ($(document).width() > 1025) {
+    //       $('#sec_don').addClass('ptop_nav');
+    //     }
+    //     $('.nav-ul-participer > li:nth-child(5) a').click(function(e) {
+    //       scrollToAnchor('sec_don');
+    //       window.location.hash = "Don";
+    //       e.preventDefault();
+    //     });
     //   });
     // }, 100);
-
-
-    if ($(document).width() > 1025) {
-      $('#sec_organiser').addClass('ptop_nav');
-      $('#sec_partenaire').addClass('ptop_nav');
-      $('#sec_accueillir').addClass('ptop_nav');
-      // $('#sec_benevole').addClass('ptop_nav');
-      // $('#sec_don').addClass('ptop_nav');
-    }
   }
 
   // LOAD PAGE CONTACT

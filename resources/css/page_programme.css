@@ -24,7 +24,7 @@
 #div_caps div h3 {
   padding: 10px;
 }
-#div_caps div:first-child h3:hover {
+/* #div_caps div:first-child h3:hover {
   background-color: #fff;
   color: #ffcf01;
   transition: 0.5s;
@@ -33,7 +33,7 @@
   background-color: #fff;
   color: #308f36;
   transition: 0.5s;
-}
+} */
 #div_caps div p {
   padding: 10px 0;
 }
@@ -203,13 +203,8 @@
 .div_dl {
   text-align: center;
 }
-.but_plaquette {
-  border: none;
-}
-.but_plaquette .fas {
-  margin-left: 5px;
-}
-[name="plaquette_1"]:hover {
+
+/* [name="plaquette_1"]:hover {
   background-color: #fff;
   color: #308f36;
   transition: 0.5s;
@@ -218,15 +213,15 @@
   background-color: #fff;
   color: #ffcf01;
   transition: 0.5s;
-}
+} */
 [name="participer"] {
   margin: 10px auto;
 }
-[name="participer"]:hover {
+/* [name="participer"]:hover {
   background-color: #fff;
   color: #e30d14;
   transition: 0.5s;
-}
+} */
 
 .div_fil {
   position: relative;
@@ -464,6 +459,7 @@
   }
   #sec_cap_rallye h2, #sec_cap_classe h2 {
     padding: 0 0 25px 80px;
+    margin-bottom: 25px;
   }
   .cr-a, .cc-a {
     grid-column-start: 1;
@@ -512,6 +508,7 @@
   }
   #sec_journee_cap_rallye, #sec_journee_cap_classe {
     padding-top: 40px;
+    margin-top: 30px;
   }
   #sec_journee_cap_rallye > div:not(.div_fil):not(.item-y), #sec_journee_cap_classe > div:not(.div_fil):not(.item-y) {
     margin: 15px;
@@ -602,8 +599,9 @@
     padding: 10px;
   }
 
-  #sec_journee_cap_classe .item-e {
+  #sec_cap_classe #sec_journee_cap_classe > div.item-e {
     grid-row: 4 / 5;
+    margin: -30px 15px 65px;
   }
 
   #sec_journee_cap_rallye .div_fil .p-item-a {
@@ -638,7 +636,7 @@
   }
 
   .cc-d {
-    padding-top: 10px;
+    padding-top: 40px;
   }
   #sec_journee_cap_classe > h3 {
     padding-top: 15px;
@@ -728,19 +726,19 @@
     background: linear-gradient(to bottom left, #fff calc(50% - 1px), #f3f3f3, #fff calc(50% + 1px) );
   }
   #sec_journee_cap_rallye .item-d .triangle-b {
-    top: 60px;
+    top: 85px;
     left: -20px;
   }
   #sec_journee_cap_rallye .item-d .triangle-b-1 {
-    top: 75px;
+    top: 100px;
     left: -20px;
   }
   #sec_journee_cap_rallye .item-g .triangle-b {
-    top: 30px;
+    top: 60px;
     left: -20px;
   }
   #sec_journee_cap_rallye .item-g .triangle-b-1 {
-    top: 45px;
+    top: 75px;
     left: -20px;
   }
   #sec_journee_cap_rallye .item-i .triangle-b {
@@ -798,11 +796,11 @@
     left: -20px;
   }
   #sec_journee_cap_classe .item-e .triangle-b {
-    top: 0px;
+    top: 10px;
     left: -20px;
   }
   #sec_journee_cap_classe .item-e .triangle-b-1 {
-    top: 15px;
+    top: 25px;
     left: -20px;
   }
   #sec_journee_cap_classe .item-f .triangle-b {
@@ -856,7 +854,21 @@
   #sec_journee_cap_rallye .div_fil .p-item-d {
     grid-row: 17 / 19;
   }
-
+  #sec_journee_cap_rallye .item-d .triangle-b {
+    top: 50px;
+  }
+  #sec_journee_cap_rallye .item-d .triangle-b-1 {
+    top: 65px;
+  }
+  #sec_journee_cap_rallye .item-g .triangle-b {
+    top: 30px;
+  }
+  #sec_journee_cap_rallye .item-g .triangle-b-1 {
+    top: 45px;
+  }
+  #sec_cap_classe #sec_journee_cap_classe > div.item-e {
+    margin: 0px 15px 30px;
+  }
   #sec_journee_cap_classe .div_fil .p-item-a {
     grid-row: 4 / 6;
   }
@@ -917,7 +929,6 @@
     height: inherit;
   }
   .slick-track {
-    height: inherit;
     margin-left: -3%;
   }
   .slick-slide > div {

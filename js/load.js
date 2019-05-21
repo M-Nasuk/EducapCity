@@ -1,13 +1,13 @@
 $(document).ready(function() {
 
   // LOAD ASIDE
-  if ($(document).width() > 1025 && !$('#body_contact').length) {
-    $.get('resources/src/aside.php')
-    .done(function(response) {
-      $('main').append(response);
-      // alterAside();
-    });
-  }
+  // if ($(document).width() > 1025 && !$('#body_contact').length) {
+  //   $.get('resources/src/aside.php')
+  //   .done(function(response) {
+  //     $('main').append(response);
+  //     // alterAside();
+  //   });
+  // }
 
   // LOAD EMBARQUEZ SCRIPT
   if ($(document).width() > 1025) {
@@ -31,7 +31,8 @@ $(document).ready(function() {
       } else {
         $.get('resources/src/embarquez.php')
         .done(function(response) {
-          $('aside').after(response);
+          $('main').append(response);
+          // $('aside').after(response);
           $('[name="files[]"]').change(function() {
             if ($('[name="files[]"]')[0].files.length == 1) {
               $(".item-e > p").text($('[name="files[]"]')[0].files.length + ' fichier sélectionné.');
@@ -177,10 +178,12 @@ $(document).ready(function() {
 
 
   // LOAD FOOTER
-  $.get('resources/src/footer.php')
-  .done(function(response) {
-    $('main').after(response);
-  });
+  setTimeout(function() {
+    $.get('resources/src/footer.php')
+    .done(function(response) {
+      $('main').after(response);
+    });
+  }, 300);
 
 
 

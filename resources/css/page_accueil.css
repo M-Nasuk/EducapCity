@@ -151,9 +151,10 @@
 #a_savoir {
   text-align: center;
 }
-#a_savoir a {
-  background: #1c96c5;
-  color: #fff;
+#a_savoir a button .fas {
+  margin-left: 10px;
+  font-size: 1.5em;
+  vertical-align: middle;
 }
 
 /* Section Phrase */

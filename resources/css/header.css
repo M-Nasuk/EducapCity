@@ -97,13 +97,28 @@ header img {
 
 #menu {
   display: none;
-  flex-direction: column;
   text-align: center;
 }
+
 #menu > ul > li {
   margin-bottom: 15px;
+  position: relative;
 }
-#menu > ul > li a + ul {
+#menu > ul > li > a, .b-arrow svg, .b-arrow .fas {
+  display: inline-block;
+  font-size: 1.3em;
+}
+#menu > ul > li > ul > li > a {
+  font-size: 1.5em;
+}
+.b-arrow {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  padding: 0;
+  background-color: #fff;
+}
+#menu > ul > li > ul {
   display: none;
   visibility: inherit;
   z-index: 4;
@@ -134,8 +149,13 @@ header img {
     justify-content: space-between;
     padding: 40px 20px 0;
   }
+  #menu > ul > li > a {
+    font-size: 1em;
+  }
 
-
+  .b-arrow {
+    display: none;
+  }
 
   #b_menu {
     display: none;
@@ -162,10 +182,7 @@ header img {
   }
 
   #don a p {
-    text-align: center;
     font-size: 1.5em;
-    background-color: #ffcf01;
-    color: #FFF;
   }
 
   #reseaux_sociaux {
@@ -259,11 +276,11 @@ header img {
   #don a {
     align-self: center;
   }
-  #don p:hover {
+  /* #don p:hover {
     background-color: #fff;
     color: #ffcf01;
     transition: 0.5s;
-  }
+  } */
 
   #menu li:hover a + ul {
     display: block;

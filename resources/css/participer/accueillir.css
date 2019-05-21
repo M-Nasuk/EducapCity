@@ -1,7 +1,9 @@
 #sec_accueillir > *, .accueillir > *, .accueillir + div > * {
   margin-bottom: 20px;
 }
-
+.accueillir > div > * {
+  margin-bottom: 10px;
+}
 .div_acc_prez {
   text-align: center;
   color: #FFF;
@@ -33,15 +35,23 @@
   text-align: center;
   padding: 15px;
 }
+/* .accueillir div:first-child div a {
+  display: inline-block;
+} */
+/* .bgblue-hover:hover {
+  background-color: #FFF;
+  color: #1c96c5;
+  transition: 0.5s;
+} */
 .div_acc {
   padding: 15px;
 }
-.div_acc > h2 {
+.div_acc > h2, .partenaire > div:last-child > h2 {
   font-weight: normal;
   font-size: 2em;
   text-align: center;
 }
-.div_acc > ul li {
+.div_acc > ul li, .partenaire > div:last-child > * {
   margin-bottom: 10px;
 }
 .div_acc ul li .fas {

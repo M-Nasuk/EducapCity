@@ -135,7 +135,7 @@ li.item-f {
 .show_formats {
   text-align: center;
 }
-.item-e > p {
+.div_form .item-e > p {
   width: 100%;
   text-align: center;
 }
@@ -153,6 +153,9 @@ li.item-f {
 }
 
 @media SCREEN and (min-width: 1025px) {
+  body #embarquez {
+    margin-bottom: 0;
+  }
   #sec_embarquez a div p {
     z-index: 1;
   }
@@ -173,7 +176,7 @@ li.item-f {
     float: left;
     margin: -17px 15px 0;
   }
-  .item-e {
+  .div_form .item-e {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -189,7 +192,7 @@ li.item-f {
   .custom-upload:hover + .show_formats {
     display: block;
   }
-  .item-e > p {
+  .div_form .item-e > p {
     text-align: left;
   }
 }

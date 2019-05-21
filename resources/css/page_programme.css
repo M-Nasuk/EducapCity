@@ -845,6 +845,9 @@
 }
 
 @media SCREEN and (min-width: 1024px) {
+  main {
+    padding-top: 50px;
+  }
   #sec_journee_cap_rallye .div_fil .p-item-b {
     grid-row: 5 / 7;
   }

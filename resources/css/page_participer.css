@@ -41,18 +41,32 @@
 }
 
 @media SCREEN and (min-width: 768px) {
+  main {
+    padding-top: 50px;
+  }
   #sec_intro_participer {
     flex-direction: row;
+    justify-content: space-evenly;
   }
   #sec_intro_participer > div {
-    width: 50%;
+    width: 45%;
   }
+  .div_action > *, .div_decouverte > * {
+    margin-bottom: 50px;
+  }
+
   .div_action ul .fas {
     margin: -6px 5px 0 0;
   }
 }
 
 @media SCREEN and (min-width: 1024px) {
+  .div_action h2 {
+    font-size: 2.5em;
+  }
+  .div_decouverte img {
+    max-width: 40%;
+  }
   .partenaire_slider {
     display: flex;
     flex-flow: row wrap;

@@ -93,6 +93,9 @@
   #organiser > * {
     margin-bottom: 50px;
   }
+  #organiser > button {
+    margin: 0 auto;
+  }
   .div_identite div .fas {
     font-size: 5em;
     margin-bottom: 30px;

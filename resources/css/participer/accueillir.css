@@ -104,6 +104,12 @@
 }
 
 @media SCREEN and (min-width: 1025px) {
+  .accueillir > div > * {
+    margin-bottom: 30px;
+  }
+  .partenaire > div:last-child > * {
+    margin-bottom: auto;
+  }
   .div_acc_prez {
     height: 400px;
     font-size: 1.1em;

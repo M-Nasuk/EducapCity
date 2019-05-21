@@ -78,7 +78,7 @@
       <div><div><img src="resources/images/Logos/partenaires_associatifs_et_privés/france_tv.jpg" alt=""></div></div>
       <div><div><img src="resources/images/Logos/partenaires_associatifs_et_privés/ratp.jpg" alt=""></div></div>
       <div><div><img src="resources/images/Logos/partenaires_associatifs_et_privés/lemon_tri.jpg" alt=""></div></div>
-      <div><div><img src="resources/images/Logos/partenaires_officiels/federation_bancaire_fr.png" alt=""></div></div>
+      <!-- <div><div><img src="resources/images/Logos/partenaires_officiels/federation_bancaire_fr.png" alt=""></div></div> -->
     </div>
     <p><strong>Les points de passage sur le territoire</strong></p>
     <div class="partenaire_slider">

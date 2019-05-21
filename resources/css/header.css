@@ -276,13 +276,8 @@ header img {
   #don a {
     align-self: center;
   }
-  /* #don p:hover {
-    background-color: #fff;
-    color: #ffcf01;
-    transition: 0.5s;
-  } */
 
-  #menu li:hover a + ul {
+  #menu li:hover ul {
     display: block;
   }
 

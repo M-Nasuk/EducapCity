@@ -101,6 +101,9 @@
   .div_acc > h2:first-child {
     text-align: left;
   }
+  .div_acc > h2:nth-child(3) {
+    line-height: 1.3;
+  }
 }
 
 @media SCREEN and (min-width: 1025px) {
@@ -110,11 +113,12 @@
   .partenaire > div:last-child > * {
     margin-bottom: auto;
   }
-  .div_acc_prez {
+   #sec_accueillir .div_acc_prez {
     height: 400px;
     font-size: 1.1em;
     margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
     margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+    margin-bottom: 120px;
   }
   .div_acc_prez h1 {
     font-size: 4em;

@@ -16,7 +16,7 @@
       </div>
     </div>
     <div id="don">
-      <a href="">
+      <a href="https://www.helloasso.com/associations/capsaaa/formulaires/1">
         <p class="round-border bg-yellow bgyellow-hover hover-off padding">Faire un don</p>
       </a>
     </div>
@@ -89,6 +89,9 @@
         <li>
           <a href="Programme#Cap Rallye">Cap Rallye</a>
         </li>
+        <li>
+          <a href="Programme#Etape Capitale">Etape Capitale</a>
+        </li>
       </ul>
     </li>
     <li>
@@ -101,7 +104,7 @@
           <a href="Participer#Organiser">Organiser Educap City</a>
         </li>
         <li>
-          <a href="Participer#Accueillir">Accueillir</a>
+          <a href="Participer#Accueillir">Accueillir un point de passage</a>
         </li>
         <li>
           <a href="Participer#Partenaire">Devenir partenaire</a>

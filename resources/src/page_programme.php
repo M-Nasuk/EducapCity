@@ -185,7 +185,7 @@
       </div>
     </section>
     <div class="div_dl cc-f">
-      <a href="resources/images/PageProgramme/compass.png" download>
+      <a href="resources/docs/FplaquetteCAPCLASSES_sanstarif.pdf" download>
         <button class="but_plaquette bg-yellow bgyellow-hover round-border hover-off padding" type="button" name="plaquette_2">
           La plaquette
           <i class="fas fa-download"></i>
@@ -375,7 +375,7 @@
       </div>
     </section>
     <div class="div_dl cr-f">
-      <a href="resources/images/PageProgramme/compass.png" download>
+      <a href="resources/docs/plaquette educap city.pdf" download>
         <button class="but_plaquette bg-green bggreen-hover round-border hover-off padding" type="button" name="plaquette_1">
           La plaquette
           <i class="fas fa-download"></i>

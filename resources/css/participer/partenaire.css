@@ -60,6 +60,9 @@
     flex: 1 100%;
     text-align: left;
   }
+  .partenaire > div:nth-child(2) {
+    text-align: left;
+  }
   .partenaire > div {
     width: 45%;
     display: flex;
@@ -97,6 +100,7 @@
     font-size: 1.1em;
     margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
     margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+    margin-bottom: 120px;
   }
   .div_part_prez h1 {
     font-size: 4em;

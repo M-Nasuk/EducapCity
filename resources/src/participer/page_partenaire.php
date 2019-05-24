@@ -39,7 +39,7 @@
       <div><div><img src="resources/images/Logos/partenaires_officiels/andros.png" alt=""></div></div>
     </div>
     <p><strong>Partenaires institutionnels</strong></p>
-    <div class="partenaire_slider">
+    <div class="partenaire_slider part_insti">
       <div><div><img src="resources/images/Logos/partenaires_institutionnels/logo_mariannesports_bleu.jpg" alt=""></div></div>
       <div><div><img src="resources/images/Logos/partenaires_institutionnels/service_civique.png" alt=""></div></div>
       <div><div><img src="resources/images/Logos/partenaires_institutionnels/ile_de_france.jpg" alt=""></div></div>

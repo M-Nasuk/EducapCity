@@ -24,16 +24,7 @@
 #div_caps div h3 {
   padding: 10px;
 }
-/* #div_caps div:first-child h3:hover {
-  background-color: #fff;
-  color: #ffcf01;
-  transition: 0.5s;
-}
-#div_caps div:nth-child(2) h3:hover {
-  background-color: #fff;
-  color: #308f36;
-  transition: 0.5s;
-} */
+
 #div_caps div p {
   padding: 10px 0;
 }
@@ -848,6 +839,9 @@
 }
 
 @media SCREEN and (min-width: 1024px) {
+  #programme > section {
+    margin-bottom: 50px;
+  }
 
   main {
     padding-top: 90px;
@@ -948,6 +942,12 @@
   .slick-center > div {
     width: 370px !important;
     height: 370px;
+  }
+  #sec_etape_capitale > div, #sec_etape_capitale p {
+    margin-bottom: 40px;
+  }
+  #sec_etape_capitale h2 img {
+    margin-top: -5px;
   }
 }
 @media SCREEN and (min-width: 1200px) {

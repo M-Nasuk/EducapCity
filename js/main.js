@@ -141,6 +141,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
       if ($(document).width() > 1025) {
         $('#sec_cap_classe').addClass('ptop_nav');
         $('#sec_cap_rallye').addClass('ptop_nav');
+        $('#sec_etape_capitale').addClass('ptop_nav');
       }
 
       if (location.hash == "#Cap%20Rallye") {
@@ -149,7 +150,11 @@ document.addEventListener('DOMContentLoaded', ()=> {
       } else if (location.hash == "#Cap%20Classe") {
         location.href = "#sec_cap_classe";
         location.hash = "Cap Classe";
+      } else if (location.hash == "#Etape%20Capitale") {
+        location.href = "#sec_etape_capitale";
+        location.hash = "Etape Capitale";
       }
+
       var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
       if (location.hash == "#Cap%20Rallye" && isChrome) {
         location.href = "#sec_cap_rallye";
@@ -160,6 +165,11 @@ document.addEventListener('DOMContentLoaded', ()=> {
         location.href = "#sec_cap_classe";
         setTimeout(function () {
           location.hash = "Cap Classe";
+        }, 100);
+      } else if (location.hash == "#Etape%20Capitale" && isChrome) {
+        location.href = "#sec_etape_capitale";
+        setTimeout(function () {
+          location.hash = "Etape Capitale";
         }, 100);
       }
 
@@ -202,9 +212,14 @@ document.addEventListener('DOMContentLoaded', ()=> {
         window.location.hash = "Cap Classe";
         e.preventDefault();
       });
-      $('#div_caps > div:nth-child(2) a, .nav-ul-programme > li:last-child a').click(function(e) {
+      $('#div_caps > div:nth-child(2) a, .nav-ul-programme > li:nth-child(2)').click(function(e) {
         scrollToAnchor('sec_cap_rallye');
         window.location.hash = "Cap Rallye";
+        e.preventDefault();
+      });
+      $('.nav-ul-programme > li:last-child a').click(function(e) {
+        scrollToAnchor('sec_etape_capitale');
+        window.location.hash = "Etape Capitale";
         e.preventDefault();
       });
     });

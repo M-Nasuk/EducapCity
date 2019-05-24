@@ -1,5 +1,5 @@
 <main id="nos_editions">
-  <h1 class="jah_font">Empty for the moment...</h1>
+  <h1 class="jah_font">Soon...</h1>
   <div class="sublinks_editions_tablet">
     <h3 class="jah_font">Voir nos editions</h3>
     <ul>

@@ -4,6 +4,9 @@
   flex-direction: column;
   text-align: center;
 }
+#sec_intro_participer .div_decouverte button {
+  display: none;
+}
 .div_action > *, .div_decouverte > * {
   margin-bottom: 20px;
 }
@@ -61,6 +64,9 @@
 }
 
 @media SCREEN and (min-width: 1024px) {
+  .div_action > *, .div_decouverte > * {
+    margin-bottom: 0;
+  }
   main {
     padding-top: 90px;
   }
@@ -79,5 +85,8 @@
     margin: 10px;
     display: flex;
     justify-content: center;
+  }
+  .part_insti > div {
+    flex: 15%;
   }
 }

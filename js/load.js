@@ -1,13 +1,13 @@
 $(document).ready(function() {
 
   // LOAD ASIDE
-  // if ($(document).width() > 1025 && !$('#body_contact').length) {
-  //   $.get('resources/src/aside.php')
-  //   .done(function(response) {
-  //     $('main').append(response);
-  //     // alterAside();
-  //   });
-  // }
+  if ($(document).width() > 1025 && !$('#body_contact').length) {
+    $.get('resources/src/aside.php')
+    .done(function(response) {
+      $('main').append(response);
+      // alterAside();
+    });
+  }
 
   // LOAD EMBARQUEZ SCRIPT
   if ($(document).width() > 1025) {
@@ -66,6 +66,7 @@ $(document).ready(function() {
   // SEND MAIL FORM
   $(document).on('click', '#form_button', function(e) {
     e.preventDefault();
+
     let post_data = [];
     let form_name = document.querySelector('[name=contact_nom]');
     let form_email = document.querySelector('[name=contact_email]');
@@ -135,6 +136,7 @@ $(document).ready(function() {
       alert("Choisissez un bon format de fichier.")
     }
     else {
+      $('#form_button').css('display', 'none');
       let data = new FormData();
       data.append('name', form_name.value);
       data.append('email', form_email.value);

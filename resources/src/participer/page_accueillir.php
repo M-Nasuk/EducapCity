@@ -8,7 +8,7 @@
       <p>Les points de passage représentent le cœur du dispositif Educap City lors des CAP Rallyes. Ces partenaires opérationnels sont des acteurs publics, privés et associatifs qui contribuent à la réalisation du programme en amont et le jour de l’événement pour accueillir les jeunes au sein de leur établissement.</p>
       <p>Il s’agit de haut-lieux de la République, d’institutions publiques, privés, de monuments historiques et culturels emblématiques, sans oublier l’esprit « Paris 2024 » avec une multitude de sports olympiques et paralympiques.</p>
       <div class="">
-        <a href="resources/images/PageProgramme/compass.png" download>
+        <a href="resources/docs/PageProgramme/Fiche point de passage.pdf" download>
           <button class="but_plaquette bg-blue bgblue-hover round-border hover-off padding" type="button" name="">
             La plaquette
             <i class="fas fa-download"></i>

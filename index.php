@@ -25,18 +25,6 @@ if (empty($_GET)){
     case 'contact':
       include 'resources/templates/contact.html';
       break;
-    // case 'organiser':
-    //   include 'resources/templates/participer/organiser.html';
-    //   break;
-    // case 'partenaire':
-    //   include 'resources/templates/participer/partenaire.html';
-    //   break;
-    // case 'benevole':
-    //   include 'resources/templates/participer/benevole.html';
-    //   break;
-    // case 'don':
-    //   include 'resources/templates/participer/don.html';
-    //   break;
     default:
       // code...
       break;

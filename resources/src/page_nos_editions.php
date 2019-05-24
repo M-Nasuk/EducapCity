@@ -1,6 +1,20 @@
 <main id="nos_editions">
-
-  <!-- Pour ajouter une ville(étape) sur la map, allez sur https://www.google.com/maps/d/?hl=fr avec le compte d'educapcity, choisir Carte Tournee 2019,
-  ensuite ajoutez la ville de votre choix sur le calque de votre choix (Cap Classe, Cap Rallye, etc...). -->
-  <iframe src="https://www.google.com/maps/d/embed?mid=13097Ul8cRmvzdmu0o7ozDoHMFZ8Viyip&hl=fr"></iframe>
+  <h1 class="jah_font">Empty for the moment...</h1>
+  <div class="sublinks_editions_tablet">
+    <h3 class="jah_font">Voir nos editions</h3>
+    <ul>
+      <li>
+        <a href="L'Edition 2019">L'édition 2019</a>
+      </li>
+      <li>
+        <a href="L'Edition 2018">L'édition 2018</a>
+      </li>
+      <li>
+        <a href="L'Edition 2017">L'édition 2017</a>
+      </li>
+      <li>
+        <a href="L'Edition 2016">L'édition 2016</a>
+      </li>
+    </ul>
+  </div>
 </main>

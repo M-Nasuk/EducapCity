@@ -64,7 +64,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
     storeScroll();
   });
 
-
   // LOAD PAGE ACCUEIL
   if ($('#body_accueil').length) {
     $.get('resources/src/page_accueil.php')
@@ -226,10 +225,43 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
   // LOAD PAGE NOS EDITIONS
   if ($('#body_nos_editions').length) {
-    $.get('resources/src/page_nos_editions.php')
-    .done(function(response) {
-      $('#body_nos_editions').append(response);
-    });
+    switch (location.href.split('/').pop()) {
+      case "Nos%20Editions":
+        $.get('resources/src/page_nos_editions.php')
+        .done(function(response) {
+          $('#body_nos_editions').append(response);
+        });
+        break;
+      case "Edition%202019":
+        $.get('resources/src/editions/page_edition_2019.php')
+        .done(function(response) {
+          $('#body_nos_editions').append(response);
+          document.title = "L'Edition 2019";
+        });
+        break;
+      case "Edition%202018":
+        $.get('resources/src/editions/page_edition_2018.php')
+        .done(function(response) {
+          $('#body_nos_editions').append(response);
+          document.title = "L'Edition 2018";
+        });
+        break;
+      case "Edition%202017":
+        $.get('resources/src/editions/page_edition_2017.php')
+        .done(function(response) {
+          $('#body_nos_editions').append(response);
+          document.title = "L'Edition 2017";
+        });
+        break;
+      case "Edition%202016":
+        $.get('resources/src/editions/page_edition_2016.php')
+        .done(function(response) {
+          $('#body_nos_editions').append(response);
+          document.title = "L'Edition 2016";
+        });
+        break;
+      default:
+    }
   }
 
   // LOAD PAGE PARTICIPER

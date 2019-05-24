@@ -1,12 +1,16 @@
 Options +FollowSymLinks
 RewriteEngine on
 
-RewriteRule ^Programme$ index.php?page=programme [L]
-
 RewriteRule ^A(\s+)Propos$ index.php?page=a_propos [L]
 
-RewriteRule ^Nos(\s+)Editions$ index.php?page=nos_editions [L]
+RewriteRule ^Programme$ index.php?page=programme [L]
 
 RewriteRule ^Participer$ index.php?page=participer [L]
+
+RewriteRule ^Nos(\s+)Editions$ index.php?page=nos_editions [L]
+RewriteRule ^Edition(\s+)2019$ index.php?page=nos_editions [L]
+RewriteRule ^Edition(\s+)2018$ index.php?page=nos_editions [L]
+RewriteRule ^Edition(\s+)2017$ index.php?page=nos_editions [L]
+RewriteRule ^Edition(\s+)2016$ index.php?page=nos_editions [L]
 
 RewriteRule ^Contact$ index.php?page=contact [L]

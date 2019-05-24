@@ -1,3 +1,10 @@
+main > h1 {
+  text-align: center;
+  font-weight: normal;
+}
+.sublinks_editions_tablet {
+  display: none;
+}
 iframe {
   display: block;
   margin: auto;
@@ -6,12 +13,29 @@ iframe {
   border: 1px;
 }
 
-
 @media SCREEN and (min-width: 768px) {
+  .sublinks_editions_tablet {
+    display: inline-block;
+    text-align: center;
+  }
+  .sublinks_editions_tablet h3 {
+    font-weight: normal;
+    font-size: 1.5em;
+  }
+  .sublinks_editions_tablet ul li a {
+    color: #000;
+  }
 
   iframe {
     width: 700px;
     height: 675px;
+  }
+
+}
+
+@media SCREEN and (min-width: 1024px) {
+  .sublinks_editions_tablet {
+    display: none;
   }
 
 }

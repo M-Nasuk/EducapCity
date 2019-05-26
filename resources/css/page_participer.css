@@ -30,7 +30,7 @@
 }
 
 .partenaire_slider div div {
-  width: 100px;
+  width: auto;
   height: 100px;
   display: flex !important;
   justify-content: center;
@@ -64,8 +64,14 @@
 }
 
 @media SCREEN and (min-width: 1024px) {
+  #sec_intro_participer {
+    padding: 10px;
+  }
   .div_action > *, .div_decouverte > * {
-    margin-bottom: 0;
+    margin-bottom: 20px;;
+  }
+  .div_decouverte > p {
+    margin-bottom: 30px;
   }
 
   .div_action h2 {

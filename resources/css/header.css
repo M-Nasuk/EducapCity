@@ -5,8 +5,12 @@ header section {
 }
 
 header img {
-  width: 75px;
+  width: auto;
+  height: 75px;
 }
+/* #partenaires > div a img {
+  width: 80px;
+} */
 
 #educapcity, #educapcity a {
   display: flex;
@@ -57,12 +61,12 @@ header img {
   width: 90%;
   margin: auto;
 }
-#partenaires div a:first-child img {
+/* #partenaires div a:first-child img {
   width: 55px;
 }
 #partenaires div a:last-child img {
   width: 50px;
-}
+} */
 [alt="logo_sncf"] {
   padding-top: 5px;
 }
@@ -149,6 +153,12 @@ header img {
     justify-content: space-between;
     padding: 40px 20px 0;
   }
+  #partenaires a h3 {
+    margin-bottom: 10px;
+  }
+  #educapcity > div {
+    padding-top: 35px;
+  }
   #menu > ul > li > a {
     font-size: 1em;
   }
@@ -173,7 +183,7 @@ header img {
 
   #partenaires {
     margin: 0;
-    width: 250px;
+    width: 265px;
     margin-top: 25px;
   }
   #partenaires div {
@@ -289,6 +299,12 @@ header img {
 }
 
 @media SCREEN and (min-width: 1200px) {
+  #educapcity > div {
+    padding-top: 35px;
+  }
+  /* #partenaires > div a img {
+    width: 80px;
+  } */
   #menu {
     margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
     margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);

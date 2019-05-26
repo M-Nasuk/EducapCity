@@ -16,7 +16,7 @@
       </div>
     </div>
     <div id="don">
-      <a href="https://www.helloasso.com/associations/capsaaa/formulaires/1">
+      <a href="https://www.helloasso.com/associations/capsaaa/formulaires/1" target="_blank">
         <p class="round-border bg-yellow bgyellow-hover hover-off padding">Faire un don</p>
       </a>
     </div>

@@ -42,6 +42,14 @@
 .flexslider video {
   max-width: 100%;
 }
+.link_edi19, .link_inscri {
+  position: relative;
+}
+.link_edi19 a, .link_inscri a {
+  position: absolute;
+  left: 10px; top: 10px;
+  padding: 5px;
+}
 #i_educap {
   color: #ffcf01;
 }

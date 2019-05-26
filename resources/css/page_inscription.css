@@ -33,7 +33,7 @@
   padding: 5px 10px;
 }
 
-.div_description p, .info_mail {
+.div_description p, .dl_docs {
   font-weight: bolder;
 }
 .div_description p:first-child {
@@ -42,16 +42,20 @@
 .div_description p:not(:first-child):not(:last-child) {
   margin-bottom: 5px;
 }
-.div_description p:last-child, .info_mail {
+.div_description p:last-child, .dl_docs {
   margin-top: 15px;
 }
-.info_mail {
-  font-size: 1.2em;
-  padding: 5px;
-  text-decoration: underline;
+.dl_docs {
+  font-size: 1.1em;
+  padding: 10px;
+  max-width: 95%;
+}
+.dl_docs .fas {
+  margin-left: 25px;
 }
 #info_mail {
-  font-size: 1.2em;
+  font-size: 1.1em;
+  margin-top: 5px;
 }
 #info_mail a {
   color: inherit;

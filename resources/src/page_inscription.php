@@ -1,13 +1,15 @@
 <main id="inscription">
   <section id="sec_inscri_prez">
     <div>
-      <img id="logo_hdr_ec" src="resources/images/Logos/logo_educapcity.png" alt="logo_educapcity" />
-      <div class="">
-        <p class="bg-purple">Participez au plus grand rallye civique, citoyen, culturel et sportif d'Europe pour les 9 - 14 ans !</p>
-        <p class="bg-red-op pre">Etape CAPITALE - PARIS
-          Jeudi 20 juin 2019</p>
-        <p class="bg-yellow-bk">Inscription gratuite
-          jusqu'au 10 juin</p>
+      <div>
+        <img id="logo_hdr_ec" src="resources/images/Logos/logo_educapcity.png" alt="logo_educapcity" />
+        <div class="">
+          <p class="bg-purple">Participez au plus grand rallye civique, citoyen, culturel et sportif d'Europe pour les 9 - 14 ans !</p>
+          <p class="bg-red-op pre">Etape CAPITALE - PARIS
+            Jeudi 20 juin 2019</p>
+          <p class="bg-yellow-bk">Inscription gratuite
+            jusqu'au 10 juin</p>
+        </div>
       </div>
     </div>
     <div class="div_description">

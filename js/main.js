@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     $.get('resources/src/page_programme.php')
     .done(function(response) {
       $('#body_programme').append(response);
-      if ($(document).width() > 1025) {
+      if ($(document).width() > 1200) {
         $('#sec_cap_classe').addClass('ptop_nav');
         $('#sec_cap_rallye').addClass('ptop_nav');
         $('#sec_etape_capitale').addClass('ptop_nav');
@@ -183,7 +183,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
         nextArrow: '<i class="fas fa-arrow-circle-right cr cc"></i>',
         responsive: [
           {
-            breakpoint: 1024,
+            breakpoint: 1025,
             settings: {
               arrows: false,
               centerMode: true,

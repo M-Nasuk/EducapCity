@@ -19,13 +19,13 @@
       </div>
 
     </a>
-    <a href="Participer#Don">
+    <a href="#">
       <div>
         <p class="hover-off">FAIRE UN DON</p>
         <img src="resources/images/Photos/embarquez_don.png" alt="embarquez_don" class="hover-off">
       </div>
     </a>
-    <a href="Participer#Benevole">
+    <a href="#">
       <div>
         <p class="hover-off">DEVENIR BENEVOLE</p>
         <img src="resources/images/Photos/embarquez_benevoles.png" alt="embarquez_benevoles" class="hover-off">

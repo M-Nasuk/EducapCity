@@ -67,9 +67,7 @@
   .div_action > *, .div_decouverte > * {
     margin-bottom: 0;
   }
-  main {
-    padding-top: 90px;
-  }
+
   .div_action h2 {
     font-size: 2.5em;
   }
@@ -88,5 +86,10 @@
   }
   .part_insti > div {
     flex: 15%;
+  }
+}
+@media SCREEN and (min-width: 1200px) {
+  main {
+    padding-top: 90px;
   }
 }

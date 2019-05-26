@@ -195,24 +195,9 @@
   text-align: center;
 }
 
-/* [name="plaquette_1"]:hover {
-  background-color: #fff;
-  color: #308f36;
-  transition: 0.5s;
-}
-[name="plaquette_2"]:hover {
-  background-color: #fff;
-  color: #ffcf01;
-  transition: 0.5s;
-} */
 [name="participer"] {
   margin: 10px auto;
 }
-/* [name="participer"]:hover {
-  background-color: #fff;
-  color: #e30d14;
-  transition: 0.5s;
-} */
 
 .div_fil {
   position: relative;
@@ -814,7 +799,7 @@
   }
 
   .slick-track {
-    margin-left: -6%;
+    margin-left: -4%;
   }
   .slick-center {
     width: 200px !important;
@@ -843,9 +828,7 @@
     margin-bottom: 50px;
   }
 
-  main {
-    padding-top: 90px;
-  }
+
   #sec_journee_cap_rallye .div_fil .p-item-b {
     grid-row: 5 / 7;
   }
@@ -901,6 +884,47 @@
     top: 55px;
     right: -20px;
   }
+
+  #sec_journee_cap_classe .cc {
+    color: #ffcf01;
+  }
+  #sec_journee_cap_rallye .cr {
+    color: #308f36;
+  }
+
+  #sec_etape_capitale > div, #sec_etape_capitale p {
+    margin-bottom: 40px;
+  }
+  #sec_etape_capitale h2 img {
+    margin-top: -5px;
+  }
+  .slick-track {
+    margin-left: 0%;
+  }
+}
+@media SCREEN and (min-width: 1200px) {
+  main {
+    padding-top: 90px;
+  }
+  #sec_journee_cap_rallye .div_fil .p-item-b {
+      grid-row: 4 / 7;
+  }
+  #sec_journee_cap_rallye .div_fil .p-item-c {
+    grid-row: 14 / 17;
+  }
+  #sec_journee_cap_rallye .div_fil .p-item-d {
+    grid-row: 17 / 19;
+  }
+  #sec_journee_cap_classe .item-d > div {
+    margin-bottom: 0px;
+  }
+  #sec_journee_cap_classe .item-e {
+    grid-row: 4 / 5;
+  }
+  #sec_journee_cap_classe .div_fil .p-item-d {
+    margin-bottom: 20px;
+  }
+
   .slicker {
     width: 1200px;
     height: 500px;
@@ -917,12 +941,6 @@
     right: -22%;
     top: 45%;
     font-size: 3em;
-  }
-  #sec_journee_cap_classe .cc {
-    color: #ffcf01;
-  }
-  #sec_journee_cap_rallye .cr {
-    color: #308f36;
   }
   .slick-list {
     margin-left: calc(-100vw / 6 + 1200px / 6 + 7.5px);
@@ -942,31 +960,5 @@
   .slick-center > div {
     width: 370px !important;
     height: 370px;
-  }
-  #sec_etape_capitale > div, #sec_etape_capitale p {
-    margin-bottom: 40px;
-  }
-  #sec_etape_capitale h2 img {
-    margin-top: -5px;
-  }
-}
-@media SCREEN and (min-width: 1200px) {
-  #sec_journee_cap_rallye .div_fil .p-item-b {
-      grid-row: 4 / 7;
-  }
-  #sec_journee_cap_rallye .div_fil .p-item-c {
-    grid-row: 14 / 17;
-  }
-  #sec_journee_cap_rallye .div_fil .p-item-d {
-    grid-row: 17 / 19;
-  }
-  #sec_journee_cap_classe .item-d > div {
-    margin-bottom: 0px;
-  }
-  #sec_journee_cap_classe .item-e {
-    grid-row: 4 / 5;
-  }
-  #sec_journee_cap_classe .div_fil .p-item-d {
-    margin-bottom: 20px;
   }
 }

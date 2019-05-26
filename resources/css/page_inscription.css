@@ -5,9 +5,7 @@
 #sec_inscri_prez {
   text-align: center;
 }
-#sec_inscri_prez > img {
-  display: none;
-}
+
 #sec_inscri_prez > div:first-child {
   height: 252px;
   width: auto;
@@ -24,7 +22,14 @@
   background-position-y: -2em;
   background-position-x: -35em;
 }
-#sec_inscri_prez > div:first-child > div {
+#sec_inscri_prez > div:first-child div {
+  position: relative;
+  height: inherit;
+}
+#sec_inscri_prez div:first-child div > img {
+  display: none;
+}
+#sec_inscri_prez > div:first-child div > div {
   position: absolute;
   padding: 20px;
   height: inherit;
@@ -32,7 +37,7 @@
   flex-flow: column;
   justify-content: space-evenly;
 }
-#sec_inscri_prez > div:first-child > div > p {
+#sec_inscri_prez > div:first-child div > div > p {
   padding: 5px 10px;
 }
 
@@ -51,7 +56,6 @@
 .dl_docs {
   font-size: 1.1em;
   padding: 10px;
-  /* max-width: 95%; */
 }
 .dl_docs .fas {
   margin-left: 25px;
@@ -98,23 +102,28 @@
 }
 
 @media SCREEN and (min-width: 768px) {
-  #sec_inscri_prez > div:first-of-type > img {
-    display: block;
-    position: absolute;
-    left: 14%;
-    width: 20%;
-    top: 3%;
-  }
+
+
   #sec_inscri_prez > div:first-child {
     height: 252px;
   }
   #sec_inscri_prez > div:first-child:before {
-    background-position-y: -24em;
+    background-position-y: -21em;
   }
   #sec_inscri_prez > div:first-child div {
+    height: inherit;
+    display: flex;
+  }
+  #sec_inscri_prez > div:first-of-type div > img {
+    display: block;
+    margin-left: 13%;
+    width: 20%;
+    align-self: center;
+  }
+  #sec_inscri_prez > div:first-child div > div {
     flex-flow: row wrap;
     height: initial;
-    width: 46%;
+    width: 50%;
     justify-content: space-between;
     position: absolute;
     top: 0;
@@ -122,13 +131,13 @@
     padding: 0;
     padding-top: 15px;
   }
-  #sec_inscri_prez > div:first-child div p:first-of-type {
+  #sec_inscri_prez > div:first-child div > div p:first-of-type {
     flex: 100%;
   }
-  #sec_inscri_prez > div:first-child div p:not(:first-of-type) {
+  #sec_inscri_prez > div:first-child div > div p:not(:first-of-type) {
     margin-top: 5px;
   }
-  #sec_inscri_prez > div:first-child div p:last-of-type {
+  #sec_inscri_prez > div:first-child div > div p:last-of-type {
     white-space: pre-line;
   }
   .dl_docs .fas {
@@ -145,5 +154,46 @@
   }
   .div_objectifs {
     margin-top: -90px;
+  }
+  .div_infos_pratique div {
+    flex-flow: row wrap;
+  }
+}
+
+@media SCREEN and (min-width: 1024px) {
+  #sec_inscri_prez > div:first-child::before {
+    background-position-y: -31em;
+    background-position-x: -40em;
+  }
+  #sec_inscri_prez > div:first-of-type div > img {
+    width: 16%;
+  }
+  #sec_inscri_prez > div:first-child div > div {
+    width: 40%;
+  }
+}
+@media SCREEN and (min-width: 1200px) {
+  #inscription > section#sec_inscri_prez {
+    padding: 0;
+  }
+  #sec_inscri_prez > div:first-child {
+    height: 400px;
+    margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+    margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
+  }
+  #sec_inscri_prez > div:first-child:before {
+    background-position-y: -16em;
+    background-position-x: 0em;
+  }
+  #sec_inscri_prez > div:first-child div {
+    width: 1200px;
+    margin: auto;
+  }
+  #sec_inscri_prez > div:first-of-type div > img {
+    width: 21%;
+    margin-left: 7%;
+  }
+  .title {
+    width: 225px;
   }
 }

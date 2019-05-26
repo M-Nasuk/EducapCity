@@ -66,9 +66,14 @@ li {
 .white {
   color: #fff;
 }
+
 .bg-yellow {
   background-color: #ffcf01;
   color: #FFF;
+}
+.bg-yellow-bk {
+  background-color: rgba(255,207,1, 0.6);
+  color: #000;
 }
 
 .bg-green {
@@ -93,6 +98,10 @@ li {
 .bg-grey {
   background-color: #4f5357;
   color: #FFF;
+}
+.bg-purple {
+  background-color: #7030a0;
+  color: #fff;
 }
 .round-border {
   border-radius: 50px;

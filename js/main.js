@@ -406,5 +406,11 @@ document.addEventListener('DOMContentLoaded', ()=> {
     });
   }
 
-
+  // LOAD PAGE INSCRIPTION
+  if ($('#body_inscription').length) {
+    $.get('resources/src/page_inscription.php')
+    .done(function(response) {
+      $('#body_inscription').append(response);
+    });
+  }
 })

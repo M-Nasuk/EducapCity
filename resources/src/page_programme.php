@@ -421,7 +421,9 @@
       </div>
     </div>
     <div class="div_dl">
-      <button class="but_plaquette bg-red bgred-hover round-border hover-off padding" type="button" name="participer">Participer à l'étape Capitale</button>
+      <a href="Inscription">
+        <button class="but_plaquette bg-red bgred-hover round-border hover-off padding" type="button" name="participer">Participer à l'étape Capitale</button>
+      </a>
     </div>
   </section>
 </main>

@@ -25,6 +25,9 @@ if (empty($_GET)){
     case 'contact':
       include 'resources/templates/contact.html';
       break;
+    case 'inscription':
+      include 'resources/templates/inscription.html';
+      break;
     default:
       // code...
       break;

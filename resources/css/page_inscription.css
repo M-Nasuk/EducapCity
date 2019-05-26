@@ -1,0 +1,80 @@
+#inscription > section:not(#embarquez) {
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+#sec_inscri_prez {
+  text-align: center;
+}
+#sec_inscri_prez > div:first-child {
+  height: 252px;
+  width: auto;
+  position: relative;
+  margin: 0 -20px 30px;
+}
+#sec_inscri_prez > div:first-child:before {
+  background: url("../../resources/images/PageInscription/fond_ecc.jpg") no-repeat center center fixed;
+  background-size: cover;
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: inherit;
+  background-position-y: -2em;
+  background-position-x: -35em;
+}
+#sec_inscri_prez > div:first-child > div {
+  position: absolute;
+  padding: 20px;
+  height: inherit;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+#sec_inscri_prez > div:first-child > div > p {
+  padding: 5px 10px;
+}
+
+.div_description p, #info_mail {
+  font-weight: bolder;
+}
+.div_description p:first-child {
+  margin-bottom: 15px;
+}
+.div_description p:not(:first-child):not(:last-child) {
+  margin-bottom: 5px;
+}
+.div_description p:last-child, #info_mail {
+  margin-top: 15px;
+}
+#info_mail {
+  font-size: 1.2em;
+}
+#info_mail a {
+  color: inherit;
+  text-decoration: underline;
+  margin-left: -4px;
+}
+#sec_inscri_infos > div {
+  margin-bottom: 30px;
+}
+.title {
+  padding: 5px;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  transform: rotate(-5deg);
+  font-weight: bold;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0,0,0,0.4);
+}
+.div_objectifs ul {
+  padding: 0 20px;
+}
+.div_objectifs ul li {
+  list-style-type: disc;
+}
+.div_infos_pratique div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 15px;
+}

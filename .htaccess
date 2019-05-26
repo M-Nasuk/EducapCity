@@ -14,3 +14,5 @@ RewriteRule ^Edition(\s+)2017$ index.php?page=nos_editions [L]
 RewriteRule ^Edition(\s+)2016$ index.php?page=nos_editions [L]
 
 RewriteRule ^Contact$ index.php?page=contact [L]
+
+RewriteRule ^Inscription$ index.php?page=inscription [L]

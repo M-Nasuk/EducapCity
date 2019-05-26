@@ -72,7 +72,7 @@ li {
   color: #FFF;
 }
 .bg-yellow-bk {
-  background-color: rgba(255,207,1, 0.6);
+  background-color: rgba(255,207,1, 0.8);
   color: #000;
 }
 
@@ -94,13 +94,17 @@ li {
   background-color: #e30d14;
   color: #FFF;
 }
+.bg-red-op {
+  background-color: rgba(227,13,20,0.8);
+  color: #FFF;
+}
 
 .bg-grey {
   background-color: #4f5357;
   color: #FFF;
 }
 .bg-purple {
-  background-color: #7030a0;
+  background-color: rgba(112,48,160,0.8);
   color: #fff;
 }
 .round-border {

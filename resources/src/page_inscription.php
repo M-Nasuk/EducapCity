@@ -3,7 +3,7 @@
     <div>
       <div class="">
         <p class="bg-purple">Participez au plus grand rallye civique, citoyen, culturel et sportif d'Europe pour les 9 - 14 ans !</p>
-        <p class="bg-red">Etape CAPITALE - PARIS
+        <p class="bg-red-op">Etape CAPITALE - PARIS
           Jeudi 20 juin 2019</p>
         <p class="bg-yellow-bk">Inscription gratuite
           jusqu'au 10 juin</p>
@@ -16,9 +16,10 @@
       <p>Sans oublier l'esprit « Paris 2024 » avec une multitude de sports olympiques et paralympiques !</p>
       <p>Votre mission : relever le défi face à d'autres équipes venues de toute la France</p>
     </div>
-    <p id="info_mail" class="red">Retirez et renvoyez votre dossier d'inscription à
+    <!-- <p id="info_mail" class="red">Téléchargez votre dossier d'inscription à
       <a href="mailto:admin.educapcity@capsaaa.net">admin.educapcity@capsaaa.net</a>
-    </p>
+    </p> -->
+    <a href="resources/docs/Documents_Etape_Capitale.zip" class="info_mail red" download>Téléchargez votre dossier d'inscription</a>
   </section>
   <!-- <p id="info_mail">Retirez et renvoyez votre dossier d'inscription à <span>admin.educapcity@capsaaa.net</span></p> -->
   <section id="sec_inscri_infos">

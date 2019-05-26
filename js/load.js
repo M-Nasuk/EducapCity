@@ -136,7 +136,7 @@ $(document).ready(function() {
       alert("Choisissez un bon format de fichier.")
     }
     else {
-      $('#form_button').css('display', 'none');
+      $('#form_button').css('visibilty', 'hidden');
       let data = new FormData();
       data.append('name', form_name.value);
       data.append('email', form_email.value);

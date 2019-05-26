@@ -51,7 +51,7 @@
 .dl_docs {
   font-size: 1.1em;
   padding: 10px;
-  max-width: 95%;
+  /* max-width: 95%; */
 }
 .dl_docs .fas {
   margin-left: 25px;
@@ -130,6 +130,9 @@
   }
   #sec_inscri_prez > div:first-child div p:last-of-type {
     white-space: pre-line;
+  }
+  .dl_docs .fas {
+    margin-left: 10px;
   }
   #sec_inscri_infos {
     display: flex;

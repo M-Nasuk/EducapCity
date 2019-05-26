@@ -168,9 +168,9 @@
   #sec_inscri_prez > div:first-of-type div > img {
     width: 16%;
   }
-  #sec_inscri_prez > div:first-child div > div {
+  /* #sec_inscri_prez > div:first-child div > div {
     width: 40%;
-  }
+  } */
 }
 @media SCREEN and (min-width: 1200px) {
   #inscription > section#sec_inscri_prez {

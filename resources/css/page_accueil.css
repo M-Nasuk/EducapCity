@@ -204,7 +204,14 @@
 
 /* Tablet */
 @media SCREEN and (min-width: 768px) {
-
+  .link_edi19 a, .link_inscri a {
+    left: 20px; top: 20px;
+    padding: 5px 10px;
+    font-size: 1.3em;
+  }
+  .link_inscri a {
+    text-align: center;
+  }
   #sec_accueil {
     padding: 0;
   }

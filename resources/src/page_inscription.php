@@ -1,6 +1,7 @@
 <main id="inscription">
   <section id="sec_inscri_prez">
     <div>
+      <img id="logo_hdr_ec" src="resources/images/Logos/logo_educapcity.png" alt="logo_educapcity" />
       <div class="">
         <p class="bg-purple">Participez au plus grand rallye civique, citoyen, culturel et sportif d'Europe pour les 9 - 14 ans !</p>
         <p class="bg-red-op pre">Etape CAPITALE - PARIS
@@ -24,17 +25,6 @@
       <p class="title bg-green">Qui peut participer ?</p>
       <p><strong>Filles et garçons des classes du CM1 à la 3e</strong> : en équipe mixte de 6 participants accompagnés d'un adulte.</p>
     </div>
-    <div class="div_objectifs">
-      <p class="title bg-yellow">Les objectifs</p>
-      <ul>
-        <li><strong>Développer</strong> l'esprit critique</li>
-        <li><strong>Donner</strong> le goût de l'engagement</li>
-        <li><strong>Partager</strong> les valeurs universelles du sport</li>
-        <li><strong>Encourager</strong> le civisme et la solidarité</li>
-        <li><strong>Stimuler</strong> la coopération et l'émulation collective</li>
-        <li><strong>Favoriser</strong> le vivre-ensemble en paix</li>
-      </ul>
-    </div>
     <div class="div_infos_pratique">
       <p class="title bg-blue">Infos pratiques</p>
       <p>Rassemblement : <strong>Centre sportif Emile Anthoine</strong></p>
@@ -48,6 +38,18 @@
         <p class="red strong">50 points de passage</p>
       </div>
     </div>
+    <div class="div_objectifs">
+      <p class="title bg-yellow">Les objectifs</p>
+      <ul>
+        <li><strong>Développer</strong> l'esprit critique</li>
+        <li><strong>Donner</strong> le goût de l'engagement</li>
+        <li><strong>Partager</strong> les valeurs universelles du sport</li>
+        <li><strong>Encourager</strong> le civisme et la solidarité</li>
+        <li><strong>Stimuler</strong> la coopération et l'émulation collective</li>
+        <li><strong>Favoriser</strong> le vivre-ensemble en paix</li>
+      </ul>
+    </div>
+
     <div>
       <p class="title bg-red">Que faut-il apporter ?</p>
       <p><strong>Votre bonne humeur, une bonne paire de chaussures... et on s'occupe du reste!*</strong></p>

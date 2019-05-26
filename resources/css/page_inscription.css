@@ -5,6 +5,9 @@
 #sec_inscri_prez {
   text-align: center;
 }
+#sec_inscri_prez > img {
+  display: none;
+}
 #sec_inscri_prez > div:first-child {
   height: 252px;
   width: auto;
@@ -73,7 +76,6 @@
   transform: rotate(-5deg);
   font-weight: bold;
   margin-bottom: 20px;
-  /* border: 1px solid rgba(0,0,0,0.1); */
 }
 .div_objectifs p {
   color: rgba(0,0,0,0.8);
@@ -91,6 +93,54 @@
   justify-content: space-around;
   margin-top: 15px;
 }
-.div_infos_pratique + div p:last-of-type {
+.div_objectifs + div p:last-of-type {
   font-size: 0.8em;
+}
+
+@media SCREEN and (min-width: 768px) {
+  #sec_inscri_prez > div:first-of-type > img {
+    display: block;
+    position: absolute;
+    left: 14%;
+    width: 20%;
+    top: 3%;
+  }
+  #sec_inscri_prez > div:first-child {
+    height: 252px;
+  }
+  #sec_inscri_prez > div:first-child:before {
+    background-position-y: -24em;
+  }
+  #sec_inscri_prez > div:first-child div {
+    flex-flow: row wrap;
+    height: initial;
+    width: 46%;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    padding-top: 15px;
+  }
+  #sec_inscri_prez > div:first-child div p:first-of-type {
+    flex: 100%;
+  }
+  #sec_inscri_prez > div:first-child div p:not(:first-of-type) {
+    margin-top: 5px;
+  }
+  #sec_inscri_prez > div:first-child div p:last-of-type {
+    white-space: pre-line;
+  }
+  #sec_inscri_infos {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  #sec_inscri_infos > div {
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 0;
+  }
+  .div_objectifs {
+    margin-top: -90px;
+  }
 }

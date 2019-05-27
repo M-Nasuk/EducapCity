@@ -11,7 +11,7 @@
   margin: 0 -20px 30px;
 }
 #sec_de_capsaaa > div:first-child:before {
-  background: url("../../resources/images/PageAPropos/photo_head_v2.jpg") no-repeat center center fixed;
+  background: url("../../resources/images/PageAPropos/photo_head_v2.jpg") no-repeat center center;
   background-size: cover;
   content: "";
   position: absolute;
@@ -19,8 +19,8 @@
   width: 100%; height: inherit;
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
-  background-position-y: -4em;
-  background-position-x: -9em;
+  background-position-y: 0;
+  background-position-x: 0;
 }
 
 #sec_du_pacte > div:first-child:before {
@@ -335,6 +335,7 @@
     margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);
   }
   #sec_de_capsaaa > div:first-child:before {
+    background-attachment: fixed;
     background-position-y: 6em;
     background-position-x: 0;
   }

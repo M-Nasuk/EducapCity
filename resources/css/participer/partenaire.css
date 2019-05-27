@@ -10,7 +10,7 @@
   margin-bottom: 30px;
 }
 .div_part_prez:before {
-  background: no-repeat url("../../images/PageParticiper/Partenaire/photo_elysee.jpg") center center fixed;
+  background: no-repeat url("../../images/PageParticiper/Partenaire/photo_elysee.jpg") center center;
   background-size: cover;
   content: "";
   position: absolute;
@@ -107,6 +107,7 @@
   }
 
   .div_part_prez:before {
+    background-attachment: fixed;
     background-position-y: 25%;
   }
 }

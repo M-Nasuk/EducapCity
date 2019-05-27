@@ -94,6 +94,9 @@ li.item-f {
   justify-self: center;
 }
 
+.div_form {
+  position: relative;
+}
 .form textarea {
   max-width: 100%;
 }
@@ -139,7 +142,14 @@ li.item-f {
   width: 100%;
   text-align: center;
 }
-
+.sent {
+  position: absolute;
+  font-size: 3em;
+  top: 0;
+  text-align: center;
+  padding-top: 25%;
+  height: 0px;
+}
 
 @media SCREEN and (min-width: 768px) {
   #sec_embarquez a {

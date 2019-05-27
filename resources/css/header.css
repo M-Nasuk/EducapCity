@@ -8,9 +8,10 @@ header img {
   width: auto;
   height: 75px;
 }
-/* #partenaires > div a img {
-  width: 80px;
-} */
+
+a[href="Participer#Benevole"], a[href="Participer#Don"] {
+  display: none;
+}
 
 #educapcity, #educapcity a {
   display: flex;
@@ -306,9 +307,6 @@ header img {
   #educapcity > div {
     padding-top: 35px;
   }
-  /* #partenaires > div a img {
-    width: 80px;
-  } */
   #menu {
     margin-left: calc(-100vw / 2 + 1200px / 2 + 7.5px);
     margin-right: calc(-100vw / 2 + 1200px / 2 + 7.5px);

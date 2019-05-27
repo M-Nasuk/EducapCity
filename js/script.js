@@ -49,6 +49,12 @@ function scrollToAnchor(sid){
   $('html,body').animate({scrollTop: sTag.offset().top},'slow');
 }
 
+// Function that scroll to a specific class on the page.
+function scrollToClass(sid){
+  let sTag = $("."+ sid + "");
+  $('html,body').animate({scrollTop: sTag.offset().top},'slow');
+}
+
 // Function that put the aside block at a certain position on every page except home page, on desktop view
 // function alterAside() {
 //   $('aside:not(#body_accueil aside)').css({

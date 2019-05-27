@@ -358,6 +358,9 @@ document.addEventListener('DOMContentLoaded', ()=> {
           window.location.hash = "Partenaire";
           e.preventDefault();
         });
+        $('.contact-us').click(function() {
+          scrollToClass('div_form');
+        });
       });
     }, 300);
     // setTimeout(function () {
@@ -396,6 +399,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     //     });
     //   });
     // }, 100);
+
   }
 
   // LOAD PAGE CONTACT

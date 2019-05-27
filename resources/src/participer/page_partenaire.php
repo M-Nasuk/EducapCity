@@ -13,7 +13,7 @@
     <div class="">
       <p>Soutenir EDUCAP CITY, c’est aussi proposer des opportunités d’engagement pour les collaborateurs, bénéficier de retours positifs pour sa marque et valoriser ses actions auprès des plus jeunes.</p>
       <h2 class="jah_font">Vous souhaitez devenir partenaire ?</h2>
-      <button class="bg-yellow bgyellow-hover round-border">Contactez-nous</button>
+      <button class="bg-yellow bgyellow-hover round-border contact-us">Contactez-nous</button>
     </div>
   </div>
   <div id="div_stmichel">

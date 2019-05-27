@@ -1,11 +1,10 @@
 $(document).ready(function() {
 
   // LOAD ASIDE
-  if ($(document).width() > 1025 && !$('#body_contact').length) {
+  if ($(document).width() > 1200 && !$('#body_contact').length) {
     $.get('resources/src/aside.php')
     .done(function(response) {
       $('main').append(response);
-      // alterAside();
     });
   }
 
@@ -82,15 +81,13 @@ $(document).ready(function() {
     let no_content = false;
     let email_invalid = false;
 
-    // console.log(post_data);
+
     $.each(post_data, function(i, str) {
       if ($.trim(str) == "") {
         no_content = true;
       }
     });
-    // if (form_file.files.length > 1) {
-    //   $(".item-e > p").text(form_file.files.length + 'fichiers sélectionnés.');
-    // }
+
     $.each(form_file.files, function(i, file) {
       if (file.size > 52428800) {
         file_big = true;
@@ -136,7 +133,13 @@ $(document).ready(function() {
       alert("Choisissez un bon format de fichier.")
     }
     else {
-      $('#form_button').css('visibilty', 'hidden');
+      $('.form').css({
+        'filter': 'blur(15px)'
+      });
+      $('.sent').text("Envoi du message...").css({
+        'width': $('.form').width(),
+        'height': $('.form').height()
+      });
       let data = new FormData();
       data.append('name', form_name.value);
       data.append('email', form_email.value);
@@ -146,7 +149,7 @@ $(document).ready(function() {
         data.append('files[]', file);
       });
 
-      fetch("resources/src/send_mail.php", {
+      fetch("resources/src/send_form_example_file.php", {
         method: "POST",
         mode: "same-origin",
         credentials: "same-origin",
@@ -158,19 +161,18 @@ $(document).ready(function() {
       .then(res => res.json())
       .then(response => {
         if (response == 'Message has been sent') {
-          $('.div_form').css('position', 'relative');
           $('.form').css({
             'filter': 'blur(15px)'
           });
-          $('.sent').text("Votre message a bien été envoyé, Merci.").css({
-            'position': 'absolute',
-            'font-size': '3em',
-            'top': '0',
-            'text-align': 'center',
-            'padding-top': '25%',
-            'width': $('.form').width(),
-            'height': $('.form').height()
-          });
+          $('.sent').text("Votre message a bien été envoyé, Merci.");
+        } else {
+          $('.sent').text("Erreur lors de l'envoi, veuillez réessayer, merci.");
+          setTimeout(function() {
+            $('.sent').text('').css('height', '0px');
+            $('.form').css({
+              'filter': 'blur(0px)'
+            });
+          }, 2000);
         }
         console.log(response);
       })

@@ -160,6 +160,9 @@ li.item-f {
   #sec_embarquez a div p {
     font-size: 1.3em;
   }
+  .custom-upload {
+    width: 20%;
+  }
 }
 
 @media SCREEN and (min-width: 1025px) {
@@ -204,5 +207,8 @@ li.item-f {
   }
   .div_form .item-e > p {
     text-align: left;
+  }
+  .custom-upload {
+    align-self: center;
   }
 }

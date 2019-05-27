@@ -13,14 +13,12 @@
   margin: 0 -20px 30px;
 }
 #sec_inscri_prez > div:first-child:before {
-  background: url("../../resources/images/PageInscription/fond_ecc.jpg") no-repeat center center fixed;
+  background: url("../../resources/images/PageInscription/fond_ecc.jpg") no-repeat center center;
   background-size: cover;
   content: "";
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: inherit;
-  background-position-y: -2em;
-  background-position-x: -35em;
 }
 #sec_inscri_prez > div:first-child div {
   position: relative;
@@ -164,6 +162,7 @@
   #sec_inscri_prez > div:first-child::before {
     background-position-y: -31em;
     background-position-x: -40em;
+    background-attachment: fixed;
   }
   #sec_inscri_prez > div:first-of-type div > img {
     width: 16%;

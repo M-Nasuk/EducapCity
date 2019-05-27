@@ -61,7 +61,7 @@
 <nav id="menu" class="jah_font">
   <ul>
     <li>
-      <a href="/EducapCity/"><h3>ACCUEIL</h3> </a>
+      <a href="/"><h3>ACCUEIL</h3> </a>
     </li>
     <li>
       <a href="A Propos"><h3>A PROPOS</h3></a>

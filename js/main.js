@@ -107,6 +107,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
       } else if (location.hash == "#sec_du_pacte") {
         location.hash = "Du Pacte de Fraternité";
       }
+
       var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
       if (location.hash == "#De%20CAP%20SAAA" && isChrome) {
         location.href = "#sec_de_capsaaa";
@@ -252,6 +253,27 @@ document.addEventListener('DOMContentLoaded', ()=> {
         .done(function(response) {
           $('#body_nos_editions').append(response);
           document.title = "L'Edition 2019";
+          if ($(document).width() < 1024) {
+            $('.partenaire_slider').slick({
+              infinite: true,
+              slidesToShow: 5,
+              slidesToScroll: 5,
+              autoplay: true,
+              arrows: false,
+              responsive: [
+                {
+                  breakpoint: 767,
+                  settings: {
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    autoplay: true,
+                    arrows: false,
+                  }
+                }
+              ]
+            });
+          }
         });
         break;
       case "Edition%202018":
@@ -293,6 +315,13 @@ document.addEventListener('DOMContentLoaded', ()=> {
           location.href = "#sec_organiser";
           location.hash = "Organiser";
         }
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (location.hash == "#Organiser" && isChrome) {
+          location.href = "#sec_organiser";
+          setTimeout(function () {
+            window.location.hash = "Organiser";
+          }, 100);
+        }
         if ($(document).width() > 1025) {
           $('#sec_organiser').addClass('ptop_nav');
         }
@@ -311,6 +340,13 @@ document.addEventListener('DOMContentLoaded', ()=> {
           location.href = "#sec_accueillir";
           location.hash = "Accueillir";
         }
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (location.hash == "#Accueillir" && isChrome) {
+          location.href = "#sec_accueillir";
+          setTimeout(function () {
+            window.location.hash = "Accueillir";
+          }, 100);
+        }
         if ($(document).width() > 1025) {
           $('#sec_accueillir').addClass('ptop_nav');
         }
@@ -328,6 +364,13 @@ document.addEventListener('DOMContentLoaded', ()=> {
         if (location.hash == "#Partenaire") {
           location.href = "#sec_partenaire";
           location.hash = "Partenaire";
+        }
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (location.hash == "#Partenaire" && isChrome) {
+          location.href = "#sec_partenaire";
+          setTimeout(function () {
+            window.location.hash = "Partenaire";
+          }, 100);
         }
         if ($(document).width() < 1024) {
           $('.partenaire_slider').slick({
@@ -361,6 +404,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
         $('.contact-us').click(function() {
           scrollToClass('div_form');
         });
+
       });
     }, 300);
     // setTimeout(function () {

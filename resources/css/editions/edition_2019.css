@@ -1,0 +1,15 @@
+.partenaire_slider {
+  margin: 15px 10px;
+}
+
+@media SCREEN and (min-width: 768px) {
+  .partenaire_slider {
+    margin: 30px 15px;
+  }
+}
+
+@media SCREEN and (min-width: 1025px) {
+  .partenaire_slider {
+    margin: 50px 0;
+  }
+}

@@ -80,7 +80,7 @@
       <div><div><img src="resources/images/Logos/partenaires_associatifs_et_privés/lemon_tri.jpg" alt=""></div></div>
       <!-- <div><div><img src="resources/images/Logos/partenaires_officiels/federation_bancaire_fr.png" alt=""></div></div> -->
     </div>
-    <p><strong>Les points de passage sur le territoire</strong></p>
+    <!-- <p><strong>Les points de passage sur le territoire</strong></p>
     <div class="partenaire_slider">
       <div><div><img src="resources/images/Logos/villes/roubaix.png" alt=""></div></div>
       <div><div><img src="resources/images/Logos/villes/montpellier.jpg" alt=""></div></div>
@@ -103,7 +103,7 @@
       <div><div><img src="resources/images/Logos/villes/les_andelys.png" alt=""></div></div>
       <div><div><img src="resources/images/Logos/villes/strasbourg.png" alt=""></div></div>
       <div><div><img src="resources/images/Logos/villes/dammarie_les_lys.jpg" alt=""></div></div>
-    </div>
+    </div> -->
   </div>
 </section>
 </main>

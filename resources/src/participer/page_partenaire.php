@@ -20,7 +20,7 @@
     <div>
       <p class="strong pre">St Michel
       Partenaire Fondateur</p>
-      <img src="resources/images/Logos/partenaires_officiels/logo_st_michel.png" alt="Logo">
+      <img src="resources/images/Logos/partenaires_officiels/logo_st_michel.jpg" alt="Logo">
     </div>
     <img src="resources/images/PageParticiper/Partenaire/photo_partenaire_stmichel.jpg" alt="Groupe de personnes à coté d'un panneau st michel.">
   </div>

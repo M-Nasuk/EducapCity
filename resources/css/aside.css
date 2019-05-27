@@ -2,7 +2,7 @@ aside {
   display: none;
 }
 
-@media SCREEN and (min-width: 1025px) {
+@media SCREEN and (min-width: 1200px) {
 
   .actu {
     padding: 40px;
@@ -35,10 +35,10 @@ aside {
   .kill {
     background: #fff;
     display: block;
-    height: 45px;
+    height: 40px;
     position: absolute;
-    top: -50px;
-    width: 100%;
+    top: 0;
+    width: 94%;
     z-index: 99999 !important;
   }
 
@@ -63,6 +63,14 @@ aside {
   }
   .flickr a img {
     padding-top: 5px;
+  }
+  .yt iframe {
+    max-width: 100%;
+    max-height: 660px;
+  }
+  .yt .referral {
+    display: none !important;
+    visibility: hidden !important;
   }
 
 }

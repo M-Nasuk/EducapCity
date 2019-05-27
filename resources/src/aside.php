@@ -37,12 +37,13 @@
 
   <!-- YOUTUBE FEED -->
   <div class="yt">
-    <div class="elfsight-app-ca182df2-e466-4b81-af98-68cf132d65f4"></div>
+    <!-- <div class="elfsight-app-ca182df2-e466-4b81-af98-68cf132d65f4"></div> -->
 
-    <div class="d_kill">
+    <!-- <div class="d_kill">
       <div class="kill">
 
       </div>
-    </div>
+    </div> -->
+    <iframe src='https://www.juicer.io/api/feeds/uctqyos3cgxxkyvaw2ua9qcq/iframe' frameborder='0' width='1000' height='1000' style='display:block;margin:0 auto;'></iframe>
   </div>
 </aside>

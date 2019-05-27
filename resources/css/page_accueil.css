@@ -9,20 +9,15 @@
   padding: 0 35px;
 }
 #sec_accueil:before {
-  background: no-repeat url("../images/PageAccueil/photo_head_accueil.jpg") center center fixed;
+  background: no-repeat url("../images/PageAccueil/photo_head_accueil.jpg") center center;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  z-index: -10;
   content: "";
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: inherit;
   -webkit-filter: brightness(50%);
   filter: brightness(50%);
-  background-position-y: 3em;
+  background-position-y: -10em;
 }
 
 #sec_accueil h1 {
@@ -328,6 +323,7 @@
   }
   #sec_accueil:before {
     background-position-y: 65%;
+    background-attachment: fixed;
   }
   #sec_accueil h1 {
     font-size: 4em;

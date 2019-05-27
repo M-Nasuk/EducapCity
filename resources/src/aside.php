@@ -5,12 +5,19 @@
 <script type="text/javascript">function showpics(){var a=$("#box").val();$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script>
 
 <h2 class="actu jah_font">ACTUALITÉS</h2>
+<div class="actu_logos">
+  <a href="https://www.facebook.com/EducapCity/" target="_blank"><img src="resources/images/reseaux/logo_facebook.png" alt="logo flickr"/></a></a>
+  <a href="https://www.instagram.com/educap_city/" target="_blank"><img src="resources/images/reseaux/logo_instagram.jpg" alt="logo instagram"/></a>
+  <a href="https://twitter.com/EducapCity" target="_blank"><img src="resources/images/reseaux/logo_twitter.png" alt="logo flickr"/></a></a>
+  <a href="https://www.flickr.com/search/?text=educap%20city" target="_blank"><img src="resources/images/reseaux/logo_flickr_3.png" alt="logo flickr"/></a></a>
+  <a href="https://www.youtube.com/channel/UCtqYoS3cgXXkyvAw2uA9qCQ" target="_blank"><img src="resources/images/reseaux/logo_youtube.png" alt="logo flickr"/></a></a>
+</div>
 <aside>
 
   <!-- FACEBOOK FEED -->
   <div class="fb">
     <div id="fb-root"></div>
-    <div class="fb-page" data-href="https://www.facebook.com/EducapCity/" data-tabs="timeline" data-width="285" data-height="661" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
+    <div class="fb-page" data-href="https://www.facebook.com/EducapCity/" data-tabs="timeline" data-width="285" data-height="600" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
       <blockquote cite="https://www.facebook.com/EducapCity/" class="fb-xfbml-parse-ignore">
         <a href="https://www.facebook.com/EducapCity/">EducapCity</a>
       </blockquote>
@@ -19,18 +26,16 @@
 
   <!-- INSTAGRAM FEED -->
   <div class="div_insta">
-    <a href="https://www.instagram.com/educap_city/" target="_blank"><img src="resources/images/reseaux/logo_instagram.jpg" alt="logo instagram"/></a>
     <iframe src="//lightwidget.com/widgets/d39add6bfc8c54249fd34e3751e30ea8.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
   </div>
 
   <!-- TWITTER FEED -->
   <div class="tweeter">
-    <a class="twitter-timeline" data-width="285" data-height="661" href="https://twitter.com/EducapCity?ref_src=twsrc%5Etfw">Tweets by EducapCity</a>
+    <a class="twitter-timeline" data-width="285" data-height="600" href="https://twitter.com/EducapCity?ref_src=twsrc%5Etfw">Tweets by EducapCity</a>
   </div>
 
   <!-- FLICKR FEED -->
   <div class="flickr">
-    <a href="https://www.flickr.com/search/?text=educap%20city" target="_blank"><img src="resources/images/reseaux/logo_flickr_3.png" alt="logo flickr"/></a></a>
     <iframe style="position: relative; top: 0; left: 0; width: 100%; height: 100%;" src="https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=educap%20city&sort=2&by=keywords&theme=tilesgrid&scale=fill&speed=3000&limit=30&skin=default&autoplay=true" scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true">
     </iframe>
   </div>
@@ -44,6 +49,6 @@
 
       </div>
     </div> -->
-    <iframe src='https://www.juicer.io/api/feeds/uctqyos3cgxxkyvaw2ua9qcq/iframe' frameborder='0' width='1000' height='1000' style='display:block;margin:0 auto;'></iframe>
+    <iframe src='https://www.juicer.io/api/feeds/uctqyos3cgxxkyvaw2ua9qcq/iframe' frameborder='0' width='285' height='600' style='display:block;margin:0 auto;'></iframe>
   </div>
 </aside>

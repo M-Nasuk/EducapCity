@@ -8,6 +8,17 @@ aside {
     padding: 40px;
     text-align: center
   }
+  .actu_logos {
+    display: flex;
+    justify-content: space-around;
+    margin-left: calc(-100vw / 4 + 1200px / 4);
+    margin-right: calc(-100vw / 4 + 1200px / 4);
+  }
+  .actu_logos img {
+    max-height: 50px;
+    width: auto%;
+    border-radius: 5px;
+  }
   aside {
     display: flex;
     height: 800px;
@@ -15,7 +26,9 @@ aside {
     margin-left: calc(-100vw / 4 + 1200px / 4);
     margin-right: calc(-100vw / 4 + 1200px / 4);
   }
-
+  aside > div {
+    height: 600px;
+  }
   aside > .div_insta, aside > .yt, aside > div.flickr {
     width: 285px;
   }
@@ -66,7 +79,6 @@ aside {
   }
   .yt iframe {
     max-width: 100%;
-    max-height: 660px;
   }
   .yt .referral {
     display: none !important;

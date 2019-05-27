@@ -13,6 +13,11 @@
 #sec_de_capsaaa > div:first-child:before {
   background: url("../../resources/images/PageAPropos/photo_head_v2.jpg") no-repeat center center fixed;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -10;
   content: "";
   position: absolute;
   top: 0; left: 0;

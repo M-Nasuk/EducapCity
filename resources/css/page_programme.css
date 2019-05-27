@@ -399,6 +399,16 @@
   height: 185px;
   border: 2px solid grey;
 }
+@media SCREEN and (min-width: 400px) {
+  .slick-track {
+    margin-left: 7% !important;
+  }
+}
+@media SCREEN and (min-width: 500px) {
+  .slick-track {
+    margin-left: 15% !important;
+  }
+}
 
 @media SCREEN and (min-width: 768px) {
   main {

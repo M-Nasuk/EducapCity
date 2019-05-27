@@ -149,7 +149,7 @@ $(document).ready(function() {
         data.append('files[]', file);
       });
 
-      fetch("resources/src/send_form_example_file.php", {
+      fetch("resources/src/send_form.php", {
         method: "POST",
         mode: "same-origin",
         credentials: "same-origin",

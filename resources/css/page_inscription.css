@@ -18,6 +18,8 @@
   content: "";
   position: absolute;
   top: 0; left: 0;
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
   width: 100%; height: inherit;
 }
 #sec_inscri_prez > div:first-child div {

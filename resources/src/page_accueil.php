@@ -13,14 +13,14 @@
         <li>
           <div class="link_edi19">
             <img src="resources/images/PageAccueil/sliders/slide1_tournee.png" alt="slide1_tournee" />
-            <a href="Edition 2019" class="bg-red-op">Découvrez l'édition 2019<i class="fas fa-reply-all fa-rotate-180"></i></a>
+            <a href="Edition 2019" class="bg-red-op">Découvrez l'édition 2019<i class="fas fa-chevron-circle-right fa-rotate-180"></i></a>
           </div>
         </li>
         <li>
           <div class="link_inscri">
             <img src="resources/images/PageAccueil/sliders/slide2_inscriptionCapitale.jpg" alt="slides1_inscriptionCapitale" />
             <a href="Inscription" class="pre bg-red-op">Etape Capitale - Jeudi 20 juin 2019
-              Les inscriptions sont ouvertes<i class="fas fa-reply-all fa-rotate-180"></i></a>
+              Les inscriptions sont ouvertes<i class="fas fa-chevron-circle-right fa-rotate-180"></i></a>
           </div>
         </li>
       </ul>

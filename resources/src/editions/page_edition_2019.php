@@ -3,6 +3,10 @@
   <!-- Pour ajouter une ville(étape) sur la map, allez sur https://www.google.com/maps/d/?hl=fr avec le compte d'educapcity, choisir Carte Tournee 2019,
   ensuite ajoutez la ville de votre choix sur le calque de votre choix (Cap Classe, Cap Rallye, etc...). -->
   <iframe src="https://www.google.com/maps/d/embed?mid=13097Ul8cRmvzdmu0o7ozDoHMFZ8Viyip&hl=fr"></iframe>
+  <div class="div_legend_icon_loc">
+    <p><i class="fas fa-map-marker-alt yellow"></i>Cap Classe</p>
+    <p><i class="fas fa-map-marker-alt green"></i>Cap Rallye</p>
+  </div>
   <div class="partenaire_slider">
     <div><div><img src="resources/images/Logos/villes/roubaix.png" alt=""></div></div>
     <div><div><img src="resources/images/Logos/villes/montpellier.jpg" alt=""></div></div>

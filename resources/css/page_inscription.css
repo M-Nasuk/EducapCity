@@ -102,6 +102,9 @@
 }
 
 @media SCREEN and (min-width: 768px) {
+  #info_mail a {
+    margin-left: 0;
+  }
 
 
   #sec_inscri_prez > div:first-child {

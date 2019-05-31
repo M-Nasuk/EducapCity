@@ -12,9 +12,9 @@
       <li>
         <a href="L'Edition 2017">L'édition 2017</a>
       </li>
-      <li>
+      <!-- <li>
         <a href="L'Edition 2016">L'édition 2016</a>
-      </li>
+      </li> -->
     </ul>
   </div>
 </main>

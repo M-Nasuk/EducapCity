@@ -67,7 +67,7 @@
 #info_mail a {
   color: inherit;
   text-decoration: underline;
-  margin-left: -4px;
+  /* margin-left: -4px; */
 }
 #sec_inscri_infos > div {
   margin-bottom: 30px;
